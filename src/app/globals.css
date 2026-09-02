@@ -1,0 +1,237 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  /* Brand constants — same in both modes. Used by fixed dark "signature"
+     bands (hero, footer, feature CTAs) that anchor the olive+gold identity
+     regardless of light/dark reading mode. */
+  --color-noir: #262b19;
+  --color-noir-soft: #333a22;
+  --color-gold: #cdb787;
+  --color-gold-soft: #e6dab9;
+  --color-gold-deep: #a68f5f;
+  --color-cream: #f4efdf;
+
+  /* Theme-reactive tokens — redefined under .dark below. Light values here. */
+  --color-paper: #f8f7ee;
+  --color-panel: #ffffff;
+  --color-panel-alt: #eef0e2;
+  --color-heading: #232715;
+  --color-ink: #33361f;
+  --color-muted: #6f7259;
+  --color-line: #e2e5d2;
+  --color-accent: #5c6b34;
+
+  --font-display: var(--font-bellefair), "Iowan Old Style", "Palatino Linotype", serif;
+  --font-heading: var(--font-cormorant), var(--font-bellefair), serif;
+  --font-body: var(--font-jost), "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+:root.dark {
+  --color-paper: #1c1f13;
+  --color-panel: #262b1a;
+  --color-panel-alt: #2e341f;
+  --color-heading: #e6d9ad;
+  --color-ink: #ece6d2;
+  --color-muted: #a8a68a;
+  --color-line: rgba(205, 183, 135, 0.18);
+  --color-accent: #cdb787;
+}
+
+@theme inline {
+  --color-noir: var(--color-noir);
+  --color-noir-soft: var(--color-noir-soft);
+  --color-gold: var(--color-gold);
+  --color-gold-soft: var(--color-gold-soft);
+  --color-gold-deep: var(--color-gold-deep);
+  --color-cream: var(--color-cream);
+
+  --color-paper: var(--color-paper);
+  --color-panel: var(--color-panel);
+  --color-panel-alt: var(--color-panel-alt);
+  --color-heading: var(--color-heading);
+  --color-ink: var(--color-ink);
+  --color-muted: var(--color-muted);
+  --color-line: var(--color-line);
+  --color-accent: var(--color-accent);
+
+  --font-display: var(--font-display);
+  --font-heading: var(--font-heading);
+  --font-body: var(--font-body);
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+::selection {
+  background: var(--color-gold);
+  color: var(--color-noir);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .reveal {
+    opacity: 0;
+    transform: translateY(16px);
+    transition: opacity 0.7s ease, transform 0.7s ease;
+  }
+  .reveal.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Header glass — adapts to theme */
+.glass {
+  background: color-mix(in srgb, var(--color-paper) 75%, transparent);
+  backdrop-filter: blur(14px) saturate(140%);
+  -webkit-backdrop-filter: blur(14px) saturate(140%);
+}
+
+/* Fixed dark "signature" bands — always dark regardless of site theme */
+.glass-noir {
+  background: color-mix(in srgb, var(--color-noir) 70%, transparent);
+  backdrop-filter: blur(14px) saturate(140%);
+  -webkit-backdrop-filter: blur(14px) saturate(140%);
+}
+
+.prose-samnoor {
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  font-size: 1.0625rem;
+  line-height: 1.85;
+}
+.prose-samnoor h2 {
+  font-family: var(--font-heading);
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: var(--color-heading);
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+.prose-samnoor h3 {
+  font-family: var(--font-heading);
+  font-size: 1.35rem;
+  font-weight: 600;
+  color: var(--color-ink);
+  margin-top: 1.75rem;
+  margin-bottom: 0.75rem;
+}
+.prose-samnoor p {
+  margin-bottom: 1.25rem;
+}
+.prose-samnoor ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+  margin-bottom: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.prose-samnoor li strong {
+  color: var(--color-heading);
+}
+.prose-samnoor table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0 2rem;
+  font-size: 0.95rem;
+}
+.prose-samnoor th,
+.prose-samnoor td {
+  border: 1px solid var(--color-line);
+  padding: 0.6rem 0.9rem;
+  text-align: left;
+}
+.prose-samnoor th {
+  background: var(--color-panel-alt);
+  font-family: var(--font-heading);
+  color: var(--color-heading);
+}
+.prose-samnoor strong {
+  color: var(--color-ink);
+  font-weight: 600;
+}
+.prose-samnoor a {
+  color: var(--color-accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.container-samnoor {
+  width: 100%;
+  max-width: 84rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+@media (min-width: 640px) {
+  .container-samnoor {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+/* Metallic gold headline treatment, echoing the wordmark's gold gradient —
+   used only on dark/noir bands where contrast holds. */
+.text-gold-gradient {
+  background-image: linear-gradient(115deg, var(--color-gold-soft) 10%, var(--color-gold) 45%, var(--color-gold-deep) 70%, var(--color-gold) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Elevated card surface with a soft lift on hover — used across product,
+   testimonial, and article cards for a consistent premium feel. */
+.card-premium {
+  border: 1px solid var(--color-line);
+  border-radius: 3px;
+  background: var(--color-panel);
+  box-shadow: 0 1px 2px rgba(12, 12, 8, 0.05), 0 24px 48px -30px rgba(12, 12, 8, 0.4);
+  transition: transform 0.45s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.45s ease, border-color 0.45s ease;
+}
+.card-premium:hover {
+  transform: translateY(-5px);
+  border-color: var(--color-accent);
+  box-shadow: 0 1px 2px rgba(12, 12, 8, 0.06), 0 32px 64px -30px rgba(12, 12, 8, 0.5);
+}
+
+/* Ambient glow for noir sections — two soft radial washes of gold light so
+   dark bands read as lit, not flat. Apply with position: relative and a
+   z-10 wrapper around the section's content. */
+.noir-texture {
+  position: relative;
+  isolation: isolate;
+}
+.noir-texture::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background:
+    radial-gradient(52% 60% at 12% -10%, color-mix(in srgb, var(--color-gold) 16%, transparent), transparent 70%),
+    radial-gradient(45% 50% at 100% 110%, color-mix(in srgb, var(--color-gold) 9%, transparent), transparent 70%);
+  pointer-events: none;
+}
+
+/* Fine engraved hairline rule, used to flank kicker labels. */
+.hairline {
+  height: 1px;
+  flex: 1 1 auto;
+  background: currentColor;
+  opacity: 0.25;
+}
