@@ -2932,6 +2932,189 @@ export const categories: Category[] = [
       },
     ],
   },
+  {
+    slug: "kaftans",
+    name: "Kaftans",
+    shortName: "Kaftans",
+    description:
+      "Moroccan and Turkish-influenced kaftans in embroidered, beaded, satin, and silk finishes, cut for occasion and evening wear with full modest coverage.",
+    content: `
+      <p>A kaftan differs from our abaya range mainly in construction philosophy: where an abaya is drafted for daily wear first and occasion styling second, a kaftan is built around embellishment and drape from the outset, usually on a wider, more flowing body block that showcases beading, embroidery, or a printed pattern rather than a clean minimal line. It's a category we position for boutique, gifting, and occasion-adjacent retail rather than daily-wear volume racks.</p>
+      <p>Construction ranges from lightweight chiffon and satin bases for warm-climate occasion wear through to heavier embroidered and beaded pieces built for evening and bridal-adjacent events. Every style in this category maintains full coverage through the body and sleeve, styled with a hijab in our reference photography, consistent with the rest of our catalog.</p>
+    `,
+    heroImage: placeholder("cat-kaftans-hero", "Woman wearing an embellished blush kaftan with beaded embroidery and a hijab"),
+    cardImage: placeholder("cat-kaftans-card", "Woman wearing a beaded pink evening kaftan with a hijab"),
+    keywords: [
+      "kaftan manufacturer India",
+      "wholesale kaftan supplier",
+      "Moroccan kaftan manufacturer",
+      "embroidered kaftan wholesale",
+    ],
+    subcategories: [
+      {
+        slug: "moroccan",
+        name: "Moroccan Kaftans",
+        shortDescription: "Wide-sleeve, richly trimmed silhouette in the North African kaftan tradition.",
+        description:
+          "Moroccan kaftans follow the wide, dramatic sleeve and richly trimmed neckline of the North African tradition, usually finished with contrast piping or braided trim along every seam. It's the most recognizable kaftan silhouette in our range and the reference point most buyers mean when they order a kaftan without specifying further. Trim color and placement are customizable for private label buyers building a signature look. Produced from 100 pieces per design.",
+        images: [
+          placeholder("subcat-kaftans-moroccan-1", "Model wearing a blue Moroccan-style kaftan with black bow trim and a hijab"),
+          placeholder("subcat-kaftans-moroccan-2", "Model wearing a blush Moroccan-style kaftan with gold beaded trim"),
+        ],
+        colors: [
+          { name: "Royal Blue", hex: "#1f3a93" },
+          { name: "Blush", hex: "#f2c4c4" },
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Gold", hex: "#c9a635" },
+        ],
+      },
+      {
+        slug: "turkish",
+        name: "Turkish Kaftans",
+        shortDescription: "Straighter body block with panel embroidery down the front, a more tailored kaftan cut.",
+        description:
+          "Turkish kaftans use a straighter, less voluminous body block than our Moroccan styles, with embroidery or embellishment concentrated in a vertical front panel rather than spread across the full garment. This gives a more tailored, contemporary read while keeping the loose, unstructured comfort that defines the category. It's a strong option for buyers who find fully voluminous kaftans too costume-like for their market. Produced from 100 pieces per design.",
+        images: [
+          placeholder("subcat-kaftans-turkish-1", "Model wearing a black tailored kaftan with a straw hat and hijab"),
+          placeholder("subcat-kaftans-turkish-2", "Model wearing a navy kaftan with embroidered front panel detail"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Navy", hex: "#202a44" },
+          { name: "Charcoal", hex: "#3d3d3d" },
+        ],
+      },
+      {
+        slug: "embroidered",
+        name: "Embroidered Kaftans",
+        shortDescription: "Thread embroidery in custom motifs, developed in-house or to a buyer's own reference.",
+        description:
+          "Embroidered kaftans carry a thread-embroidered motif across the neckline, cuffs, or front panel, fully customizable to a buyer's own pattern or one we develop in-house from a reference image. Thread color, density, and placement are all specified per order. This is the finish most often ordered as a fully custom design for a specific retail season or event rather than a repeat catalog SKU. Produced from 100 pieces per design.",
+        images: [
+          placeholder("subcat-kaftans-embroidered-1", "Model wearing a white kaftan with metallic embroidered pattern and hijab"),
+          placeholder("subcat-kaftans-embroidered-2", "Close-up of glittering embroidered detail on a kaftan bodice"),
+        ],
+        colors: [
+          { name: "Ivory", hex: "#f0e9db" },
+          { name: "Champagne", hex: "#e8d9b5" },
+          { name: "Navy", hex: "#202a44" },
+        ],
+      },
+      {
+        slug: "beaded",
+        name: "Beaded Kaftans",
+        shortDescription: "Hand-set beadwork in geometric or floral patterns for a statement occasion piece.",
+        description:
+          "Beaded kaftans use hand-set beadwork in geometric or floral patterns rather than machine-embroidered thread, giving more dimension and sparkle at the cost of a longer production lead time. Bead density ranges from an accent trim to a fully beaded bodice, priced accordingly. This is our highest-embellishment-weight kaftan tier, built exclusively on structured satin and crepe bases that hold the added weight without drooping. Produced from 100 pieces per design.",
+        images: [
+          placeholder("subcat-kaftans-beaded-1", "Close-up of intricate pearl beadwork on a red and gold kaftan"),
+          placeholder("subcat-kaftans-beaded-2", "Close-up of green beaded calligraphic embroidery on a white kaftan"),
+        ],
+        colors: [
+          { name: "Red", hex: "#8e2130" },
+          { name: "Gold", hex: "#c9a635" },
+          { name: "Ivory", hex: "#f0e9db" },
+        ],
+      },
+      {
+        slug: "satin",
+        name: "Satin Kaftans",
+        shortDescription: "High-sheen satin base for a fluid, photograph-ready kaftan drape.",
+        description:
+          "Satin kaftans use our high-sheen satin weave as a base, giving a fluid, weighted drape that holds embellishment placement without shifting through a full event. The glossy finish reflects light well in both daylight and flash photography. It's offered plain or as a base for any of our embroidered or beaded finishes, and pairs naturally with our satin hijab and abaya lines for a coordinated occasion outfit. Produced from 100 pieces per design.",
+        images: [
+          placeholder("subcat-kaftans-satin-1", "Model wearing a blush satin kaftan with beaded embroidery and hijab"),
+          placeholder("subcat-kaftans-satin-2", "Model wearing a pink beaded satin evening kaftan"),
+        ],
+        colors: [
+          { name: "Blush", hex: "#f2c4c4" },
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Champagne", hex: "#e8d9b5" },
+        ],
+      },
+      {
+        slug: "silk",
+        name: "Silk Kaftans",
+        shortDescription: "Genuine mulberry silk base for our top kaftan tier, with a natural fiber sheen.",
+        description:
+          "Silk kaftans run on genuine mulberry silk rather than a satin substitute, positioned as our top kaftan tier for boutique and gifting buyers whose customers specifically ask for real silk. The natural fiber's sheen and weight give a drape that moves and photographs differently from satin. Every piece is individually inspected before packaging, consistent with our luxury hijab and bridal silk standards. Produced from 100 pieces per design.",
+        images: [
+          placeholder("subcat-kaftans-silk-1", "Model wearing a navy silk kaftan with embroidered cuff detail"),
+          placeholder("subcat-kaftans-silk-2", "Model wearing a blue silk kaftan with black embellishment and hijab"),
+        ],
+        colors: [
+          { name: "Navy", hex: "#202a44" },
+          { name: "Royal Blue", hex: "#1f3a93" },
+          { name: "Black", hex: "#1a1a1a" },
+        ],
+      },
+      {
+        slug: "printed",
+        name: "Printed Kaftans",
+        shortDescription: "Digitally printed pattern development for younger, fashion-forward kaftan ranges.",
+        description:
+          "Printed kaftans bring our in-house digital print studio to the kaftan silhouette, giving buyers pattern variety beyond the solid-and-embellished styles that dominate this category. Digital printing holds fine pattern detail well and colors stay sharp through repeated washing. It's aimed at younger, fashion-forward customer segments who reorder for new prints more than they reorder solids. Strike-off samples typically turn around in under two weeks. Produced from 100 pieces per design.",
+        images: [
+          placeholder("subcat-kaftans-printed-1", "Close-up of glittering embroidered pattern detail on a kaftan"),
+          placeholder("subcat-kaftans-printed-2", "Model wearing a black tailored kaftan with pattern detail and hijab"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Ivory", hex: "#f0e9db" },
+          { name: "Rust", hex: "#b5502c" },
+        ],
+      },
+      {
+        slug: "bridal",
+        name: "Bridal Kaftans",
+        shortDescription: "Heavily embellished kaftan silhouette positioned as a bridal party or nikah alternative to a gown.",
+        description:
+          "Bridal kaftans bring our heaviest embellishment tiers to the kaftan silhouette, positioned as an alternative to a bridal abaya or gown for nikah, engagement, and bridal party styling. The wider kaftan cut suits guests and bridal party members who want a coordinated but distinct silhouette from the bride's own piece. Custom color-matching to a wedding palette is available for bridal party orders. Produced from 50 pieces per design.",
+        images: [
+          placeholder("subcat-kaftans-bridal-1", "Model wearing a white kaftan with green beaded calligraphic embroidery and hijab"),
+          placeholder("subcat-kaftans-bridal-2", "Close-up of hand-set pearl beadwork on a red and gold bridal kaftan"),
+        ],
+        colors: [
+          { name: "Ivory", hex: "#f0e9db" },
+          { name: "White", hex: "#faf8f5" },
+          { name: "Champagne", hex: "#e8d9b5" },
+        ],
+      },
+      {
+        slug: "evening",
+        name: "Evening Kaftans",
+        shortDescription: "Fitted bodice with a fuller tulle or chiffon skirt for a gown-adjacent evening silhouette.",
+        description:
+          "Evening kaftans fit through the bodice before flaring into a fuller tulle or chiffon skirt, giving a gown-adjacent silhouette dressier than our other kaftan cuts. Beading and embroidery concentrate at the bodice where they catch the most light under evening venue lighting. It's the style buyers reorder most for formal, non-bridal event wear &mdash; galas, receptions, and formal dinners. Produced from 75 pieces per design.",
+        images: [
+          placeholder("subcat-kaftans-evening-1", "Model wearing a pink beaded evening kaftan with a fitted bodice and hijab"),
+          placeholder("subcat-kaftans-evening-2", "Close-up of hand-set beadwork on a red evening kaftan bodice"),
+        ],
+        colors: [
+          { name: "Blush", hex: "#f2c4c4" },
+          { name: "Red", hex: "#8e2130" },
+          { name: "Black", hex: "#1a1a1a" },
+        ],
+      },
+      {
+        slug: "casual",
+        name: "Casual Kaftans",
+        shortDescription: "Lighter, unembellished kaftan cut for warm-climate daily wear rather than occasion styling.",
+        description:
+          "Casual kaftans strip the category back to a simple, unembellished silhouette on a lightweight chiffon or cotton-blend base, positioned for warm-climate daily wear rather than occasion styling. It's the entry point for buyers who want the relaxed kaftan silhouette without the embellishment cost of our beaded or embroidered tiers. Offered from 200 pieces per color.",
+        images: [
+          placeholder("subcat-kaftans-casual-1", "Model wearing a simple blue kaftan with a hijab in a relaxed pose"),
+          placeholder("subcat-kaftans-casual-2", "Model wearing a navy kaftan styled casually with embroidered cuffs"),
+        ],
+        colors: [
+          { name: "Royal Blue", hex: "#1f3a93" },
+          { name: "Navy", hex: "#202a44" },
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Sand", hex: "#d9c7a3" },
+        ],
+      },
+    ],
+  },
 ];
 
 export function getCategoryBySlug(slug: string): Category | undefined {

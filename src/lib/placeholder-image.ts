@@ -199,6 +199,16 @@ const THEME_PHOTOS: Record<string, string> = {
   "photo-skirts-7401087": "/products/skirts/7401087.jpg",
   "photo-skirts-39221177": "/products/skirts/39221177.jpg",
   "photo-skirts-4074600": "/products/skirts/4074600.jpg",
+
+  "photo-kaftans-34201019": "/products/kaftans/34201019.jpg",
+  "photo-kaftans-39115968": "/products/kaftans/39115968.jpg",
+  "photo-kaftans-34800062": "/products/kaftans/34800062.jpg",
+  "photo-kaftans-20453561": "/products/kaftans/20453561.jpg",
+  "photo-kaftans-17879732": "/products/kaftans/17879732.jpg",
+  "photo-kaftans-35344028": "/products/kaftans/35344028.jpg",
+  "photo-kaftans-15751104": "/products/kaftans/15751104.jpg",
+  "photo-kaftans-32355507": "/products/kaftans/32355507.jpg",
+  "photo-kaftans-15751065": "/products/kaftans/15751065.jpg",
   "blog-fabric-rolls-shelf": "/blog/17329670.jpg",
 };
 
@@ -824,6 +834,33 @@ const SEED_THEME_MAP: Record<string, keyof typeof THEME_PHOTOS> = {
   "subcat-skirts-cotton-2": "photo-skirts-4074600",
   "subcat-skirts-tiered-1": "photo-skirts-39221177",
   "subcat-skirts-tiered-2": "photo-skirts-18239440",
+
+  // Kaftans — a new category with 9 freshly sourced, visually verified
+  // photos (all showing a hijab; several traditional Moroccan/Turkish
+  // kaftan candidates were rejected for showing uncovered hair, per this
+  // site's brand-consistency standard).
+  "cat-kaftans-hero": "photo-kaftans-17879732",
+  "cat-kaftans-card": "photo-kaftans-15751065",
+  "subcat-kaftans-moroccan-1": "photo-kaftans-34201019",
+  "subcat-kaftans-moroccan-2": "photo-kaftans-17879732",
+  "subcat-kaftans-turkish-1": "photo-kaftans-39115968",
+  "subcat-kaftans-turkish-2": "photo-kaftans-35344028",
+  "subcat-kaftans-embroidered-1": "photo-kaftans-34800062",
+  "subcat-kaftans-embroidered-2": "photo-kaftans-15751104",
+  "subcat-kaftans-beaded-1": "photo-kaftans-20453561",
+  "subcat-kaftans-beaded-2": "photo-kaftans-32355507",
+  "subcat-kaftans-satin-1": "photo-kaftans-17879732",
+  "subcat-kaftans-satin-2": "photo-kaftans-15751065",
+  "subcat-kaftans-silk-1": "photo-kaftans-35344028",
+  "subcat-kaftans-silk-2": "photo-kaftans-34201019",
+  "subcat-kaftans-printed-1": "photo-kaftans-15751104",
+  "subcat-kaftans-printed-2": "photo-kaftans-39115968",
+  "subcat-kaftans-bridal-1": "photo-kaftans-32355507",
+  "subcat-kaftans-bridal-2": "photo-kaftans-34800062",
+  "subcat-kaftans-evening-1": "photo-kaftans-15751065",
+  "subcat-kaftans-evening-2": "photo-kaftans-20453561",
+  "subcat-kaftans-casual-1": "photo-kaftans-34201019",
+  "subcat-kaftans-casual-2": "photo-kaftans-35344028",
 
   // About page
   "about-hero": "factory-exterior",
