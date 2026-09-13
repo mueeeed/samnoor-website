@@ -3826,6 +3826,354 @@ export const categories: Category[] = [
       },
     ],
   },
+  {
+    slug: "ramadan-collection",
+    name: "Ramadan Collection",
+    shortName: "Ramadan",
+    description:
+      "A seasonal cross-category collection pulling our strongest abaya, hijab, kaftan, and prayer wear styles into one Ramadan-timed range for distributors planning ahead of the month.",
+    content: `
+      <p>Ramadan is the single most concentrated ordering season across our entire catalog, and buyers who wait until the month itself to place orders consistently miss their own selling window given standard production lead times. This collection exists to give distributors one seasonal reference point that pulls together our strongest-performing styles across abayas, hijabs, kaftans, and prayer wear, rather than requiring separate orders across every category.</p>
+      <p>Colorways lean toward our softer, more devotional palette rather than the brighter tones we run for Eid, reflecting how our accounts report the month actually being shopped: daily wear and prayer-focused purchases build steadily through the month, with celebration-tier purchases concentrating at the very end ahead of Eid itself. We recommend placing Ramadan orders at least 10 to 12 weeks ahead of the month given seasonal production capacity constraints.</p>
+    `,
+    heroImage: placeholder("cat-ramadan-hero", "Folded two-piece prayer dress fabric styled for Ramadan"),
+    cardImage: placeholder("cat-ramadan-card", "Woman wearing a black abaya styled for Ramadan dressing"),
+    keywords: [
+      "Ramadan collection wholesale",
+      "Ramadan abaya manufacturer",
+      "Ramadan hijab supplier India",
+      "modest Ramadan wear wholesale",
+    ],
+    subcategories: [
+      {
+        slug: "abayas",
+        name: "Ramadan Abayas",
+        shortDescription: "Everyday-to-evening abaya styles pulled from our core range for Ramadan ordering cycles.",
+        description:
+          "Ramadan abayas draw from our closed and everyday abaya lines, styled and merchandised as a seasonal capsule rather than a new construction. These are consistently our highest-reorder abaya styles through the month, as daily-wear volume increases with more frequent mosque and family visits. Offered from 300 pieces per color.",
+        images: [
+          placeholder("subcat-ramadan-abayas-1", "Model wearing a black abaya styled for Ramadan dressing"),
+          placeholder("subcat-ramadan-abayas-2", "Model wearing an open-front abaya layered over an underdress"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Navy", hex: "#202a44" },
+          { name: "Charcoal", hex: "#3d3d3d" },
+        ],
+      },
+      {
+        slug: "hijabs",
+        name: "Ramadan Hijabs",
+        shortDescription: "Core chiffon and jersey hijab styles merchandised for Ramadan volume ordering.",
+        description:
+          "Ramadan hijabs pull from our chiffon and jersey hijab range rather than introducing new fabric, since hijab reorder volume through the month is driven by frequency of wear rather than new styling. Distributors report hijabs as their most consistent Ramadan reorder category, ahead of abayas and prayer wear. Offered from 300 pieces per color.",
+        images: [
+          placeholder("subcat-ramadan-hijabs-1", "Model wearing a chiffon hijab styled simply for daily Ramadan wear"),
+          placeholder("subcat-ramadan-hijabs-2", "Model wearing a soft modal hijab with a matte finish"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Ivory", hex: "#f0e9db" },
+          { name: "Sage", hex: "#9caf88" },
+        ],
+      },
+      {
+        slug: "kaftans",
+        name: "Ramadan Kaftans",
+        shortDescription: "Kaftan styles positioned for iftar gatherings and family Ramadan evenings.",
+        description:
+          "Ramadan kaftans pull our Moroccan and Turkish kaftan silhouettes into a Ramadan-specific merchandising set, positioned for iftar gatherings and family evenings where customers want a dressier option than daily abaya wear without full Eid-tier embellishment. Offered from 100 pieces per design.",
+        images: [
+          placeholder("subcat-ramadan-kaftans-1", "Model wearing a blue Moroccan-style kaftan with a hijab"),
+          placeholder("subcat-ramadan-kaftans-2", "Model wearing a blush kaftan with beaded embroidery and hijab"),
+        ],
+        colors: [
+          { name: "Royal Blue", hex: "#1f3a93" },
+          { name: "Blush", hex: "#f2c4c4" },
+        ],
+      },
+      {
+        slug: "prayer-sets",
+        name: "Ramadan Prayer Sets",
+        shortDescription: "Two and three-piece prayer sets, the highest-repeat purchase through the month.",
+        description:
+          "Ramadan prayer sets are pulled directly from our Prayer Wear category, unchanged in construction, since prayer set demand is driven by frequency of prayer through the month rather than needing Ramadan-specific styling. This is consistently our single highest-repeat-order line through Ramadan across our entire catalog. Sold as coordinated sets from 300 sets per color.",
+        images: [
+          placeholder("subcat-ramadan-prayer-sets-1", "Model wearing a two-piece prayer set styled for daily Ramadan use"),
+          placeholder("subcat-ramadan-prayer-sets-2", "Model wearing a one-piece prayer dress with elasticated cuffs"),
+        ],
+        colors: [
+          { name: "Ivory", hex: "#f0e9db" },
+          { name: "Sage", hex: "#9caf88" },
+        ],
+      },
+      {
+        slug: "embroidered",
+        name: "Embroidered Ramadan Wear",
+        shortDescription: "Light embroidery detail across abayas and hijabs for a step-up Ramadan SKU.",
+        description:
+          "Embroidered Ramadan wear adds a restrained embroidery detail to our core abaya and hijab bases, positioned as a step-up option for customers who want something more considered than a plain daily piece without moving to full Eid-tier embellishment. Offered from 200 pieces per color.",
+        images: [
+          placeholder("subcat-ramadan-embroidered-1", "Close-up of embellishment detail on abaya fabric"),
+          placeholder("subcat-ramadan-embroidered-2", "Close-up of hand embroidery detail on fabric"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Navy", hex: "#202a44" },
+        ],
+      },
+      {
+        slug: "family-matching",
+        name: "Family Matching Ramadan Sets",
+        shortDescription: "Coordinated adult sizing across abaya and hijab colorways for family gifting.",
+        description:
+          "Family matching Ramadan sets coordinate colorways across our abaya and hijab ranges so family members can dress in a matched palette for gatherings and mosque visits through the month. Sets are currently offered in our standard adult size range; a graded junior size run, similar to our Kids Prayer Set, is available on request but not yet a standing catalog SKU. Sold as coordinated sets from 200 sets per palette.",
+        images: [
+          placeholder("subcat-ramadan-family-matching-1", "Model wearing an abaya in a coordinating Ramadan family palette"),
+          placeholder("subcat-ramadan-family-matching-2", "Model wearing a hijab in a matching coordinated tone"),
+        ],
+        colors: [
+          { name: "Navy", hex: "#202a44" },
+          { name: "Sage", hex: "#9caf88" },
+          { name: "Camel", hex: "#c19a6b" },
+        ],
+      },
+      {
+        slug: "gift-sets",
+        name: "Ramadan Gift Sets",
+        shortDescription: "Pre-packaged gifting bundles across hijab, prayer, and accessory lines.",
+        description:
+          "Ramadan gift sets bundle a hijab, prayer accessory, and a small hijab accessory item into a single packaged gift, sized for the gifting occasions distributors report as common through the month. Packaging is available in branded private label finishes. Configured from 300 sets per bundle.",
+        images: [
+          placeholder("subcat-ramadan-gift-sets-1", "Warehouse cartons packed for a Ramadan gift set shipment"),
+          placeholder("subcat-ramadan-gift-sets-2", "Fabric swatch cards showing a Ramadan gift set color range"),
+        ],
+        colors: [
+          { name: "Ivory", hex: "#f0e9db" },
+          { name: "Gold", hex: "#c9a635" },
+        ],
+      },
+      {
+        slug: "iftar",
+        name: "Modest Iftar Wear",
+        shortDescription: "Comfortable, breathable prayer-adjacent wear suited to iftar gatherings at home.",
+        description:
+          "Modest iftar wear draws from our lightweight prayer wear fabrics, positioned for the more relaxed, at-home iftar gathering rather than mosque-focused prayer wear or celebration dressing. Breathability matters most here given the fasting-to-eating transition and extended time seated with family. Offered from 300 pieces per color.",
+        images: [
+          placeholder("subcat-ramadan-iftar-1", "Model wearing a two-piece prayer set in a relaxed home setting"),
+          placeholder("subcat-ramadan-iftar-2", "Model wearing a khimar-style prayer piece styled for iftar"),
+        ],
+        colors: [
+          { name: "Ivory", hex: "#f0e9db" },
+          { name: "Sky Blue", hex: "#a9cce3" },
+        ],
+      },
+      {
+        slug: "luxury",
+        name: "Luxury Ramadan Collection",
+        shortDescription: "Silk and premium fabric pieces for the final, celebration-adjacent days of the month.",
+        description:
+          "The luxury Ramadan collection pulls from our luxury hijab and modest occasion wear lines, positioned for the final week of the month when purchases shift from daily-wear to celebration-adjacent ahead of Eid. It's a bridging category between everyday Ramadan wear and our standalone Eid Collection. Offered from 100 pieces per design.",
+        images: [
+          placeholder("subcat-ramadan-luxury-1", "Model wearing a silk luxury hijab draped elegantly"),
+          placeholder("subcat-ramadan-luxury-2", "Woman wearing a navy beaded gown with a satin hijab at an event"),
+        ],
+        colors: [
+          { name: "Navy", hex: "#202a44" },
+          { name: "Champagne", hex: "#e8d9b5" },
+        ],
+      },
+      {
+        slug: "co-ord",
+        name: "Ramadan Co-Ord Sets",
+        shortDescription: "Mix-and-match hijab and abaya pairings merchandised as a styled bundle.",
+        description:
+          "Ramadan co-ord sets bundle a hijab and abaya in coordinating rather than identical colorways, merchandised as an intentionally styled Ramadan look rather than a single-SKU purchase. It mirrors the co-ord format from our Activewear category, applied here to daily Ramadan dressing. Sold as coordinated sets from 200 sets per color.",
+        images: [
+          placeholder("subcat-ramadan-co-ord-1", "Model wearing a chiffon hijab coordinated with an abaya colorway"),
+          placeholder("subcat-ramadan-co-ord-2", "Model wearing an abaya in a coordinating Ramadan tone"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Camel", hex: "#c19a6b" },
+        ],
+      },
+    ],
+  },
+  {
+    slug: "eid-collection",
+    name: "Eid Collection",
+    shortName: "Eid",
+    description:
+      "A seasonal cross-category collection in brighter, celebration-appropriate colorways across abayas, hijabs, kaftans, and formal dresses, timed for Eid ordering cycles.",
+    content: `
+      <p>Eid is the celebration our Ramadan Collection builds toward, and the styling shifts accordingly: brighter colorways, higher embellishment density, and a heavier weighting toward our kaftan and modest occasion wear lines rather than daily-wear abayas and hijabs. Where Ramadan ordering spreads fairly evenly through the month, Eid purchasing concentrates hard in the final one to two weeks before the celebration, which is the single biggest production capacity constraint we plan around each year.</p>
+      <p>This collection pulls from across our catalog &mdash; abayas, hijabs, kaftans, and modest occasion dresses &mdash; rather than introducing new constructions, merchandised together specifically for buyers building an Eid-season retail push. We strongly recommend ordering Eid stock at the same time as Ramadan stock rather than waiting, given how compressed the actual buying window is.</p>
+    `,
+    heroImage: placeholder("cat-eid-hero", "Woman wearing an umbrella-cut abaya styled for Eid celebration"),
+    cardImage: placeholder("cat-eid-card", "Woman wearing a sequined pale yellow gown with a hijab for Eid"),
+    keywords: [
+      "Eid collection wholesale",
+      "Eid abaya manufacturer",
+      "Eid dress supplier India",
+      "modest Eid wear wholesale",
+    ],
+    subcategories: [
+      {
+        slug: "abayas",
+        name: "Eid Abayas",
+        shortDescription: "Kloosh and embroidered abaya silhouettes for Eid's higher embellishment expectation.",
+        description:
+          "Eid abayas draw from our kloosh/umbrella-cut and embroidered abaya lines rather than our everyday closed styles, matching the higher embellishment and fuller silhouette expectation buyers report for Eid specifically. It's the abaya tier most often ordered alongside a matching hijab for a complete Eid look. Offered from 200 pieces per color.",
+        images: [
+          placeholder("subcat-eid-abayas-1", "Model wearing an umbrella-cut abaya with a full, flared hem for Eid"),
+          placeholder("subcat-eid-abayas-2", "Model wearing a beautifully embroidered black abaya"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Emerald", hex: "#175f4c" },
+          { name: "Gold", hex: "#c9a635" },
+        ],
+      },
+      {
+        slug: "hijabs",
+        name: "Eid Hijabs",
+        shortDescription: "Georgette and printed hijab styles for a step-up Eid finish above daily chiffon.",
+        description:
+          "Eid hijabs pull from our georgette and printed chiffon lines, giving more visible texture and pattern than the plain chiffon and jersey styles that dominate daily Ramadan reorders. It's positioned as the finishing piece for a complete Eid outfit rather than a standalone daily-wear SKU. Offered from 300 pieces per color.",
+        images: [
+          placeholder("subcat-eid-hijabs-1", "Model wearing a georgette hijab with visible crinkle texture for Eid"),
+          placeholder("subcat-eid-hijabs-2", "Model wearing a printed chiffon hijab with a fine floral pattern"),
+        ],
+        colors: [
+          { name: "Gold", hex: "#c9a635" },
+          { name: "Emerald", hex: "#175f4c" },
+          { name: "Ivory", hex: "#f0e9db" },
+        ],
+      },
+      {
+        slug: "kaftans",
+        name: "Eid Kaftans",
+        shortDescription: "Embroidered and beaded kaftan styles for Eid celebration dressing.",
+        description:
+          "Eid kaftans pull from our embroidered and beaded kaftan tiers, the highest-embellishment non-bridal styles in our kaftan range, matching Eid's celebration-dressing expectations. It's a strong alternative to an abaya for customers who want a dressier, more occasion-forward silhouette for Eid gatherings. Offered from 100 pieces per design.",
+        images: [
+          placeholder("subcat-eid-kaftans-1", "Model wearing a navy kaftan with embroidered cuff detail for Eid"),
+          placeholder("subcat-eid-kaftans-2", "Close-up of glittering embroidered detail on a kaftan bodice"),
+        ],
+        colors: [
+          { name: "Navy", hex: "#202a44" },
+          { name: "Gold", hex: "#c9a635" },
+        ],
+      },
+      {
+        slug: "dresses",
+        name: "Eid Dresses",
+        shortDescription: "Formal modest gowns pulled from our Eid-tier occasion wear for standalone dress orders.",
+        description:
+          "Eid dresses pull directly from the Eid tier of our Modest Occasion Wear category, offered here as a standalone SKU set for buyers who want formal gowns specifically merchandised within the Eid Collection rather than browsing the broader occasion wear range. Offered from 75 pieces per design.",
+        images: [
+          placeholder("subcat-eid-dresses-1", "Woman wearing a sequined pale yellow gown with a hijab"),
+          placeholder("subcat-eid-dresses-2", "Woman wearing a blue sequin gown with a peplum ruffle and hijab"),
+        ],
+        colors: [
+          { name: "Gold", hex: "#c9a635" },
+          { name: "Sky Blue", hex: "#4a90c2" },
+        ],
+      },
+      {
+        slug: "co-ord",
+        name: "Eid Co-Ord Sets",
+        shortDescription: "Coordinated abaya and hijab pairing merchandised as a complete Eid look.",
+        description:
+          "Eid co-ord sets bundle an Eid-tier abaya with a coordinating hijab in a matched or complementary colorway, merchandised as a single complete-look purchase rather than separates. It's the format we recommend for retail window and social media display, where a fully styled look converts better than separate hanging pieces. Sold as coordinated sets from 200 sets per color.",
+        images: [
+          placeholder("subcat-eid-co-ord-1", "Model wearing an abaya coordinated with an Eid hijab colorway"),
+          placeholder("subcat-eid-co-ord-2", "Model wearing a hijab in a color-coordinated Eid finish"),
+        ],
+        colors: [
+          { name: "Emerald", hex: "#175f4c" },
+          { name: "Gold", hex: "#c9a635" },
+        ],
+      },
+      {
+        slug: "embellished",
+        name: "Embellished Eid Wear",
+        shortDescription: "Stone, sequin, and thread embellishment across the Eid range for maximum celebration impact.",
+        description:
+          "Embellished Eid wear covers the heaviest embellishment tier across abayas and kaftans in this collection, combining stonework, sequins, and thread embroidery for maximum visual impact in Eid photography and gatherings. It's positioned above our standard Eid abaya and kaftan tiers as the premium celebration option. Produced from 100 pieces per design.",
+        images: [
+          placeholder("subcat-eid-embellished-1", "Close-up of embellishment detail on abaya fabric for Eid"),
+          placeholder("subcat-eid-embellished-2", "Close-up of hand-set faceted crystals on kaftan fabric"),
+        ],
+        colors: [
+          { name: "Gold", hex: "#c9a635" },
+          { name: "Black", hex: "#1a1a1a" },
+        ],
+      },
+      {
+        slug: "luxury",
+        name: "Luxury Eid Collection",
+        shortDescription: "Our highest fabric and embellishment tier, positioned for boutique Eid placement.",
+        description:
+          "The luxury Eid collection pulls from our luxury hijab and luxury modest occasion wear lines, using the same silk and hand-set stonework standards as our bridal categories. It's positioned for boutique and department-store-adjacent Eid placement rather than volume distribution. Produced from 50 pieces per design.",
+        images: [
+          placeholder("subcat-eid-luxury-1", "Woman wearing a luxury silk hijab draped elegantly"),
+          placeholder("subcat-eid-luxury-2", "Woman wearing a champagne glittered gown with a jeweled hijab pin"),
+        ],
+        colors: [
+          { name: "Champagne", hex: "#e8d9b5" },
+          { name: "Gold", hex: "#c9a635" },
+        ],
+      },
+      {
+        slug: "kids",
+        name: "Kids Eid Modest Wear",
+        shortDescription: "Graded junior sizing across our Eid abaya and hijab styles for family Eid dressing.",
+        description:
+          "Kids Eid modest wear scales our Eid abaya and hijab styles down to a junior size range for family Eid dressing, matching the same fabric and colorway range as the adult collection rather than a simplified junior-only design. As with our Kids Prayer Set, this is available on request against our adult pattern blocks rather than photographed separately at this time; the images here show the adult styling and fabric this range is graded down from. Offered from 200 pieces per color.",
+        images: [
+          placeholder("subcat-eid-kids-1", "Adult reference styling for the abaya fabric and cut used in kids Eid wear"),
+          placeholder("subcat-eid-kids-2", "Adult reference styling for the hijab fabric used in kids Eid wear"),
+        ],
+        colors: [
+          { name: "Gold", hex: "#c9a635" },
+          { name: "Sky Blue", hex: "#4a90c2" },
+          { name: "Blush", hex: "#f2c4c4" },
+        ],
+      },
+      {
+        slug: "gift-sets",
+        name: "Eid Gift Sets",
+        shortDescription: "Packaged gifting bundles combining a hijab or abaya with accessories for Eid gifting.",
+        description:
+          "Eid gift sets bundle a hijab or abaya with a coordinating accessory into a single branded package, sized for the gift-giving that distributors report peaking specifically around Eid rather than spread through Ramadan. Packaging is available in branded private label finishes. Configured from 300 sets per bundle.",
+        images: [
+          placeholder("subcat-eid-gift-sets-1", "Warehouse cartons packed for an Eid gift set shipment"),
+          placeholder("subcat-eid-gift-sets-2", "Stack of premium fabric blends showing an Eid gift set color range"),
+        ],
+        colors: [
+          { name: "Gold", hex: "#c9a635" },
+          { name: "Emerald", hex: "#175f4c" },
+        ],
+      },
+      {
+        slug: "matching",
+        name: "Matching Eid Sets",
+        shortDescription: "Coordinated adult colorways across abaya and hijab for family Eid photos.",
+        description:
+          "Matching Eid sets coordinate a single colorway across abaya and hijab styles for family members dressing together for Eid gatherings and photographs. As with our other family-coordination SKUs, this is currently offered across our standard adult size range. Sold as coordinated sets from 200 sets per palette.",
+        images: [
+          placeholder("subcat-eid-matching-1", "Model wearing an abaya in a coordinated Eid family palette"),
+          placeholder("subcat-eid-matching-2", "Model wearing a hijab in a matching coordinated Eid tone"),
+        ],
+        colors: [
+          { name: "Emerald", hex: "#175f4c" },
+          { name: "Gold", hex: "#c9a635" },
+        ],
+      },
+    ],
+  },
 ];
 
 export function getCategoryBySlug(slug: string): Category | undefined {
