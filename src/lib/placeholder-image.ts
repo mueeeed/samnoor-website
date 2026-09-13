@@ -462,6 +462,34 @@ const SEED_THEME_MAP: Record<string, keyof typeof THEME_PHOTOS> = {
   "subcat-hijabs-bamboo-1": "photo-hijabs-34870036",
   "subcat-hijabs-bamboo-2": "fabric-bamboo-soft",
 
+  // Abaya silhouette subcategories — each pairs a lifestyle photo (drawn
+  // from the abayas product photo pool) with a construction/finish detail
+  // close-up.
+  "subcat-abayas-closed-1": "photo-abayas-36919797",
+  "subcat-abayas-closed-2": "abaya-seam-detail",
+  "subcat-abayas-open-1": "photo-abayas-5616021",
+  "subcat-abayas-open-2": "abaya-fabric-drape",
+  "subcat-abayas-butterfly-1": "photo-abayas-9880858",
+  "subcat-abayas-butterfly-2": "embroidery-closeup",
+  "subcat-abayas-kimono-1": "photo-abayas-31049717",
+  "subcat-abayas-kimono-2": "abaya-embellished",
+  "subcat-abayas-kloosh-umbrella-1": "photo-abayas-32178223",
+  "subcat-abayas-kloosh-umbrella-2": "abaya-seam-detail",
+  "subcat-abayas-batwing-1": "photo-abayas-35150034",
+  "subcat-abayas-batwing-2": "abaya-fabric-drape",
+  "subcat-abayas-coat-blazer-1": "photo-abayas-34957209",
+  "subcat-abayas-coat-blazer-2": "embroidery-closeup",
+  "subcat-abayas-front-open-1": "photo-abayas-34721670",
+  "subcat-abayas-front-open-2": "abaya-embellished",
+  "subcat-abayas-two-piece-1": "photo-abayas-32279501",
+  "subcat-abayas-two-piece-2": "abaya-seam-detail",
+  "subcat-abayas-three-piece-1": "photo-abayas-29188546",
+  "subcat-abayas-three-piece-2": "abaya-fabric-drape",
+  "subcat-abayas-embroidered-1": "photo-abayas-36919797",
+  "subcat-abayas-embroidered-2": "embroidery-closeup",
+  "subcat-abayas-everyday-1": "photo-abayas-5616021",
+  "subcat-abayas-everyday-2": "abaya-embellished",
+
   // About page
   "about-hero": "factory-exterior",
   "about-story": "design-desk",

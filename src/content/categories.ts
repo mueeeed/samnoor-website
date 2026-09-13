@@ -301,6 +301,222 @@ export const categories: Category[] = [
       { name: "Premium Korean Nida", productSlug: "salma-korean-nida-abaya" },
       { name: "Layering & Resort", productSlug: "widad-kimono-abaya" },
     ],
+    subcategories: [
+      {
+        slug: "closed",
+        name: "Closed Abaya",
+        shortDescription: "Fully closed silhouette with a hidden zip or pull-over construction and no front opening.",
+        description:
+          "Closed abayas are cut as one continuous piece with no front seam to close, using either a concealed back zip or a pull-over head opening depending on the fabric weight. Removing the front closure removes the single most common failure point on an abaya &mdash; a snap or zip pull that fails after repeated use &mdash; which is why this silhouette shows the lowest return rate across our abaya range in distributor feedback. It's the volume style most GCC and South Asian accounts reorder season after season, usually run on matte Korean Nida for enough body to hold structure without stiffness. Offered from 300 pieces per color with reinforced side-seam pockets standard.",
+        images: [
+          placeholder("subcat-abayas-closed-1", "Model wearing a closed-silhouette abaya with no front opening"),
+          placeholder("subcat-abayas-closed-2", "Close-up of a closed abaya's concealed back-zip seam construction"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Charcoal", hex: "#3d3d3d" },
+          { name: "Chocolate", hex: "#4a3728" },
+          { name: "Taupe", hex: "#a08d78" },
+          { name: "Olive", hex: "#6b6f52" },
+          { name: "Navy", hex: "#202a44" },
+        ],
+      },
+      {
+        slug: "open",
+        name: "Open Abaya",
+        shortDescription: "Open-front layering abaya worn over an underdress rather than closed at the front.",
+        description:
+          "Open abayas are designed as a layering piece from the start, cut with a front opening and no closure so it's worn over an underdress, trousers, or a coordinating set rather than sealed shut. The wider armhole and looser body block give more visible movement than a closed abaya, which is why this silhouette photographs better for social and e-commerce listings than it does on a hanger. It's the style most buyers pair with a matching underdress SKU to sell as a two-piece look without manufacturing it as a literal two-piece set. Offered from 300 pieces per color.",
+        images: [
+          placeholder("subcat-abayas-open-1", "Model wearing an open-front abaya layered over an underdress"),
+          placeholder("subcat-abayas-open-2", "Close-up of open abaya fabric showing its fluid, layered drape"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Charcoal", hex: "#3d3d3d" },
+          { name: "Stone", hex: "#b8ada0" },
+          { name: "Ash Rose", hex: "#c9a9a6" },
+          { name: "Olive", hex: "#6b6f52" },
+          { name: "Navy", hex: "#202a44" },
+        ],
+      },
+      {
+        slug: "butterfly",
+        name: "Butterfly Abaya",
+        shortDescription: "Wide, winged sleeve construction that opens into a dramatic silhouette when arms are raised.",
+        description:
+          "Butterfly abayas use an exaggerated dolman sleeve pattern that joins the sleeve to the body in one continuous panel, so the garment reads relatively fitted at rest but opens into a wide, wing-like silhouette the moment the arms are raised. This is the style buyers pull for lookbook and runway-adjacent marketing because the movement photographs dramatically, even though it's cut from the same fabric base as our standard abayas. The wider panel does use more fabric per unit than a fitted sleeve, which shows up as a modest per-unit cost increase over our closed and everyday lines. Offered from 200 pieces per color.",
+        images: [
+          placeholder("subcat-abayas-butterfly-1", "Model wearing a butterfly abaya with wide, dramatic sleeve silhouette"),
+          placeholder("subcat-abayas-butterfly-2", "Close-up detail of butterfly abaya sleeve seam construction"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Navy", hex: "#202a44" },
+          { name: "Burgundy", hex: "#6d2130" },
+          { name: "Charcoal", hex: "#3d3d3d" },
+          { name: "Chocolate", hex: "#4a3728" },
+        ],
+      },
+      {
+        slug: "kimono",
+        name: "Kimono Abaya",
+        shortDescription: "Straight-cut, open-front layering abaya inspired by kimono tailoring, tied or left open.",
+        description:
+          "Kimono abayas borrow their straight-line body and wide, uncurved sleeve from kimono tailoring rather than traditional abaya pattern blocks, giving a relaxed, resort-adjacent silhouette that buyers stock alongside occasion pieces for a lighter layering option. It's usually finished with a self-fabric tie belt rather than a fitted seam, so one size range fits a wider variety of body shapes than our fitted styles. This is our strongest-reordering layering style for warm-climate and resort-market buyers who want abaya-adjacent coverage without full structure. Offered from 300 pieces per color; see our Widad Kimono Abaya for a full product example in this cut.",
+        images: [
+          placeholder("subcat-abayas-kimono-1", "Model wearing a kimono-style abaya with a relaxed, tied silhouette"),
+          placeholder("subcat-abayas-kimono-2", "Close-up of kimono abaya fabric and trim detail"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Stone", hex: "#b8ada0" },
+          { name: "Olive", hex: "#6b6f52" },
+          { name: "Taupe", hex: "#a08d78" },
+          { name: "Navy", hex: "#202a44" },
+        ],
+      },
+      {
+        slug: "kloosh-umbrella",
+        name: "Kloosh / Umbrella Abaya",
+        shortDescription: "Circular-cut hem that flares from the shoulder for maximum fullness and swing.",
+        description:
+          "Kloosh (umbrella-cut) abayas use a circular pattern block rather than straight panels, so the hem flares evenly from the shoulder seam the way an umbrella opens rather than gathering fullness at the waist. This cut uses noticeably more fabric per unit than a straight-panel abaya, which is the main reason it's positioned above our everyday styles, but it's also the cut GCC buyers most associate with a premium, traditional silhouette. The even flare holds its shape better through walking and movement than gathered or pleated fullness, which tends to collapse unevenly after washing. Offered from 200 pieces per color.",
+        images: [
+          placeholder("subcat-abayas-kloosh-umbrella-1", "Model wearing an umbrella-cut abaya with a full, circular flared hem"),
+          placeholder("subcat-abayas-kloosh-umbrella-2", "Close-up of kloosh abaya hem showing its circular-cut fullness"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Charcoal", hex: "#3d3d3d" },
+          { name: "Navy", hex: "#202a44" },
+          { name: "Chocolate", hex: "#4a3728" },
+        ],
+      },
+      {
+        slug: "batwing",
+        name: "Batwing Abaya",
+        shortDescription: "Dropped dolman sleeve for a relaxed, oversized upper body and tapered hem.",
+        description:
+          "Batwing abayas drop the sleeve seam low into the body panel, similar in construction to our butterfly cut but tapering back in toward a narrower hem rather than staying wide throughout, giving a more wearable, everyday-appropriate silhouette. The dropped shoulder line is more forgiving across a wider size range than a set-in sleeve, which is why buyers targeting a broad size run tend to prefer it over more fitted alternatives. It sits between our closed and butterfly styles on both fabric usage and price. Offered from 250 pieces per color.",
+        images: [
+          placeholder("subcat-abayas-batwing-1", "Model wearing a batwing-sleeve abaya with a relaxed, tapered silhouette"),
+          placeholder("subcat-abayas-batwing-2", "Close-up of batwing abaya sleeve drape and fabric movement"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Charcoal", hex: "#3d3d3d" },
+          { name: "Taupe", hex: "#a08d78" },
+          { name: "Olive", hex: "#6b6f52" },
+          { name: "Navy", hex: "#202a44" },
+        ],
+      },
+      {
+        slug: "coat-blazer",
+        name: "Coat / Blazer Style Abaya",
+        shortDescription: "Structured lapel and collar construction worn open, styled closer to outerwear than traditional abaya.",
+        description:
+          "Coat and blazer-style abayas bring a structured lapel, collar, and often a self-belt into the pattern block, positioning the piece closer to modest outerwear than a traditional abaya silhouette. It's cut on a heavier-body fabric than our fluid styles so the lapel holds its roll without interfacing, and it's usually worn fully open over daywear rather than closed. This is the fastest-growing style in our range among buyers targeting younger, fashion-forward customers who want abaya-adjacent coverage that reads as a going-out layer rather than traditional dress. Offered from 200 pieces per color.",
+        images: [
+          placeholder("subcat-abayas-coat-blazer-1", "Model wearing a structured blazer-style abaya with a tailored lapel"),
+          placeholder("subcat-abayas-coat-blazer-2", "Close-up of blazer-style abaya lapel and collar construction"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Charcoal", hex: "#3d3d3d" },
+          { name: "Camel", hex: "#c19a6b" },
+          { name: "Stone", hex: "#b8ada0" },
+        ],
+      },
+      {
+        slug: "front-open",
+        name: "Front Open Abaya",
+        shortDescription: "Functional button or snap-front closure the full length of the garment.",
+        description:
+          "Front open abayas differ from our general open-silhouette style by carrying a real, functional closure &mdash; a full-length row of snaps or buttons rather than an unclosed layering front &mdash; so the same garment can be worn fully closed, partially open, or as a layering piece depending on the customer's preference. This flexibility is the main reason distributors reorder it as a single SKU that serves multiple styling occasions instead of stocking separate closed and open styles. Closure hardware is available in tonal or contrast finishes for private label branding. Offered from 250 pieces per color.",
+        images: [
+          placeholder("subcat-abayas-front-open-1", "Model wearing a front-open abaya with a full-length snap closure"),
+          placeholder("subcat-abayas-front-open-2", "Close-up of front-open abaya snap closure hardware detail"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Navy", hex: "#202a44" },
+          { name: "Charcoal", hex: "#3d3d3d" },
+          { name: "Chocolate", hex: "#4a3728" },
+        ],
+      },
+      {
+        slug: "two-piece",
+        name: "Two-Piece Abaya",
+        shortDescription: "Coordinated top and skirt set styled and sold as a single abaya SKU.",
+        description:
+          "Two-piece abaya sets separate the garment into a coordinating top and skirt rather than one continuous dress, which gives customers independent sizing across the bust and waist that a one-piece cut can't offer. Buyers sell this as a single matched SKU rather than separates, with both pieces cut from the same fabric lot to guarantee an exact shade match. It's a strong fit for private label ranges targeting fit-conscious customers who've specifically asked for adjustable proportions. Sold as coordinated sets from 200 sets per color.",
+        images: [
+          placeholder("subcat-abayas-two-piece-1", "Model wearing a coordinated two-piece abaya top and skirt set"),
+          placeholder("subcat-abayas-two-piece-2", "Close-up of two-piece abaya set seam and fabric match"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Charcoal", hex: "#3d3d3d" },
+          { name: "Navy", hex: "#202a44" },
+          { name: "Taupe", hex: "#a08d78" },
+        ],
+      },
+      {
+        slug: "three-piece",
+        name: "Three-Piece Abaya",
+        shortDescription: "Top, skirt, and matching inner slip or hijab set sold as one coordinated SKU.",
+        description:
+          "Three-piece abaya sets add a matching inner slip or coordinating hijab to the two-piece top-and-skirt format, giving distributors a complete, ready-to-wear outfit to merchandise as a single gift-ready SKU rather than assembling separates at retail. This format sells strongest through our Eid and occasion-adjacent wholesale accounts, where a complete matched set justifies a higher basket value than separates. All three pieces are cut and dyed from the same fabric lot for guaranteed shade consistency. Sold as coordinated sets from 150 sets per color.",
+        images: [
+          placeholder("subcat-abayas-three-piece-1", "Model wearing a matching three-piece abaya, skirt, and hijab set"),
+          placeholder("subcat-abayas-three-piece-2", "Close-up of three-piece abaya set fabric and coordinated finish"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Navy", hex: "#202a44" },
+          { name: "Burgundy", hex: "#6d2130" },
+          { name: "Charcoal", hex: "#3d3d3d" },
+        ],
+      },
+      {
+        slug: "embroidered",
+        name: "Embroidered Abaya",
+        shortDescription: "Hand or machine-placed embroidery on a heavier crepe base for occasion positioning.",
+        description:
+          "Embroidered abayas run on heavier crepe bases specifically because they hold hand-placed stonework and thread embroidery without the drape distorting around the stitched area, which is the defect buyers most often report from lower-cost embroidered competitors. Placement, thread color, and motif density are all fully customizable for private label buyers building a signature occasion line, and small-batch runs are supported for boutique and bridal-adjacent accounts. This is our highest-margin, lowest-competition abaya tier. Produced in small-batch runs from 50 units per design.",
+        images: [
+          placeholder("subcat-abayas-embroidered-1", "Model wearing an embroidered abaya with hand-placed stonework detail"),
+          placeholder("subcat-abayas-embroidered-2", "Close-up of hand-placed embroidery and stonework on abaya fabric"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Navy", hex: "#202a44" },
+          { name: "Burgundy", hex: "#6d2130" },
+          { name: "Emerald", hex: "#175f4c" },
+          { name: "Charcoal", hex: "#3d3d3d" },
+        ],
+      },
+      {
+        slug: "everyday",
+        name: "Everyday Abaya",
+        shortDescription: "No-fuss daily-wear abaya on matte Nida, built for reorder volume over occasion styling.",
+        description:
+          "Everyday abayas strip the category back to what daily-wear customers actually reorder: matte Korean Nida with enough body to hold a clean line, concealed closures that won't snag under a handbag strap, and reinforced side-seam pockets that survive repeated use. There's no embellishment or dramatic silhouette here by design &mdash; this is the SKU distributors reorder every season without needing to refresh the design, which makes it the highest-volume, most predictable line in our abaya range. It's also the natural entry point for new private label accounts building their first abaya order. Offered from 300 pieces per color.",
+        images: [
+          placeholder("subcat-abayas-everyday-1", "Model wearing an everyday matte Nida abaya in a clean, simple silhouette"),
+          placeholder("subcat-abayas-everyday-2", "Close-up of everyday abaya fabric and reinforced pocket seam"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Charcoal", hex: "#3d3d3d" },
+          { name: "Navy", hex: "#202a44" },
+          { name: "Chocolate", hex: "#4a3728" },
+          { name: "Olive", hex: "#6b6f52" },
+          { name: "Stone", hex: "#b8ada0" },
+        ],
+      },
+    ],
   },
   {
     slug: "niqabs",
