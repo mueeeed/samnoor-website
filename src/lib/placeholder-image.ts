@@ -1051,6 +1051,30 @@ const SEED_THEME_MAP: Record<string, keyof typeof THEME_PHOTOS> = {
   "subcat-eid-matching-1": "photo-abayas-34721670",
   "subcat-eid-matching-2": "photo-hijabs-2693065",
 
+  // Kids Modest Wear — no photos of a child model are used anywhere in
+  // this category. Every image is the adult reference styling/fabric a
+  // graded junior size is produced from (the same honest disclosure
+  // pattern as Kids Prayer Set and Kids Eid Modest Wear), built entirely
+  // from existing photo pools.
+  "cat-kids-hero": "photo-hijabs-10145415",
+  "cat-kids-card": "photo-abayas-32279501",
+  "subcat-kids-girls-hijabs-1": "photo-hijabs-10145415",
+  "subcat-kids-girls-hijabs-2": "photo-hijabs-8063290",
+  "subcat-kids-girls-abayas-1": "photo-abayas-32279501",
+  "subcat-kids-girls-abayas-2": "photo-abayas-29188546",
+  "subcat-kids-instant-hijabs-1": "photo-instant-hijabs-5125189",
+  "subcat-kids-instant-hijabs-2": "photo-instant-hijabs-15628800",
+  "subcat-kids-prayer-dresses-1": "photo-prayer-dresses-36405519",
+  "subcat-kids-prayer-dresses-2": "photo-prayer-dresses-36537147",
+  "subcat-kids-khimars-1": "photo-khimars-3754156",
+  "subcat-kids-khimars-2": "photo-khimars-17907026",
+  "subcat-kids-girls-jilbabs-1": "photo-jilbabs-8422394",
+  "subcat-kids-girls-jilbabs-2": "photo-jilbabs-8002584",
+  "subcat-kids-kaftans-1": "photo-kaftans-32355507",
+  "subcat-kids-kaftans-2": "photo-kaftans-15751104",
+  "subcat-kids-mother-daughter-1": "photo-hijabs-34870036",
+  "subcat-kids-mother-daughter-2": "photo-abayas-31049717",
+
   // About page
   "about-hero": "factory-exterior",
   "about-story": "design-desk",

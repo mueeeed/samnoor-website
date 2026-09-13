@@ -4174,6 +4174,155 @@ export const categories: Category[] = [
       },
     ],
   },
+  {
+    slug: "kids-modest-wear",
+    name: "Kids Modest Wear",
+    shortName: "Kids Wear",
+    description:
+      "Junior-graded hijabs, abayas, and instant hijabs scaled from our adult pattern blocks and fabric library, offered for family and gifting ranges rather than as a separately designed line.",
+    content: `
+      <p>Kids modest wear is graded down from our existing adult pattern blocks and fabric library rather than designed as a separate junior collection, which keeps fabric and colorway consistent between a mother's and daughter's pieces for family and gifting orders. We don't currently maintain separate junior photography for this category &mdash; every image here shows the adult styling and fabric a junior size is produced from, disclosed plainly rather than implying a kids-specific photoshoot that doesn't exist.</p>
+      <p>Sizing runs in age-banded junior sizes rather than adult numeric sizing, and construction follows the same standards as our adult lines &mdash; reinforced seams, tested fabric, and the same fabric library buyers already know from our core catalog. This is a made-to-order category for most styles rather than a standing-stock line, given the lower relative volume compared to our adult ranges.</p>
+    `,
+    heroImage: placeholder("cat-kids-hero", "Adult reference styling for the hijab fabric used in kids modest wear"),
+    cardImage: placeholder("cat-kids-card", "Adult reference styling for the abaya fabric used in kids modest wear"),
+    keywords: [
+      "kids hijab manufacturer",
+      "girls abaya wholesale supplier",
+      "junior modest wear manufacturer India",
+      "kids Islamic clothing wholesale",
+    ],
+    subcategories: [
+      {
+        slug: "girls-hijabs",
+        name: "Girls' Hijabs",
+        shortDescription: "Junior-graded chiffon and jersey hijabs from our adult fabric library.",
+        description:
+          "Girls' hijabs are graded from our adult chiffon and jersey hijab patterns to a smaller junior size range, with a lighter overall fabric weight suited to smaller frames. Fabric and color range match our adult hijab library exactly, so a girls' hijab can be shade-matched to an adult family member's piece. Offered from 200 pieces per color. Images shown are the adult reference styling and fabric this range is graded from; we don't currently maintain separate junior photography for this category.",
+        images: [
+          placeholder("subcat-kids-girls-hijabs-1", "Adult reference styling for the hijab fabric used in girls' hijabs"),
+          placeholder("subcat-kids-girls-hijabs-2", "Adult reference styling for the chiffon fabric used in girls' hijabs"),
+        ],
+        colors: [
+          { name: "Sky Blue", hex: "#a9cce3" },
+          { name: "Blush", hex: "#f2c4c4" },
+          { name: "Sage", hex: "#9caf88" },
+          { name: "Ivory", hex: "#f0e9db" },
+        ],
+      },
+      {
+        slug: "girls-abayas",
+        name: "Girls' Abayas",
+        shortDescription: "Junior-graded everyday abaya cut from our matte Nida fabric base.",
+        description:
+          "Girls' abayas scale our everyday closed abaya pattern down to a junior size run, keeping the same matte Nida base and concealed closures as the adult line rather than simplifying construction. It's most often ordered alongside an adult abaya in a matching or coordinating color for family orders. Offered from 200 pieces per color. Images shown are the adult reference styling and fabric this range is graded from.",
+        images: [
+          placeholder("subcat-kids-girls-abayas-1", "Adult reference styling for the abaya fabric used in girls' abayas"),
+          placeholder("subcat-kids-girls-abayas-2", "Adult reference styling for the Nida abaya fabric used in girls' abayas"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Navy", hex: "#202a44" },
+          { name: "Dusty Rose", hex: "#c98f8f" },
+        ],
+      },
+      {
+        slug: "instant-hijabs",
+        name: "Kids Instant Hijabs",
+        shortDescription: "Pull-on instant hijab construction for children, no pinning or styling required.",
+        description:
+          "Kids instant hijabs use the same pull-on, attached-underscarf construction as our adult instant hijab line, which matters more here than in the adult category since young children can't be expected to style or re-pin a hijab through a school or activity day. It's the entry-point SKU we'd recommend for buyers new to this category. Offered from 200 pieces per color.",
+        images: [
+          placeholder("subcat-kids-instant-hijabs-1", "Adult reference styling for the instant hijab construction used in the kids range"),
+          placeholder("subcat-kids-instant-hijabs-2", "Adult reference styling for the instant hijab fabric used in the kids range"),
+        ],
+        colors: [
+          { name: "Sky Blue", hex: "#a9cce3" },
+          { name: "Blush", hex: "#f2c4c4" },
+          { name: "Ivory", hex: "#f0e9db" },
+        ],
+      },
+      {
+        slug: "prayer-dresses",
+        name: "Kids Prayer Dresses",
+        shortDescription: "Same construction as our Kids Prayer Set, listed here as part of the kids wear range.",
+        description:
+          "Kids prayer dresses are the same graded-down two-piece construction as the Kids Prayer Set in our Prayer Wear category, cross-listed here for buyers browsing kids modest wear specifically. Fabric, elastic placement, and finishing match our adult prayer wear line, scaled to a junior pattern. Offered from 200 sets per color.",
+        images: [
+          placeholder("subcat-kids-prayer-dresses-1", "Adult reference styling for the prayer set fabric used in the kids range"),
+          placeholder("subcat-kids-prayer-dresses-2", "Adult reference styling for the prayer dress construction used in the kids range"),
+        ],
+        colors: [
+          { name: "Ivory", hex: "#f0e9db" },
+          { name: "Sky Blue", hex: "#a9cce3" },
+          { name: "Dusty Rose", hex: "#c98f8f" },
+        ],
+      },
+      {
+        slug: "khimars",
+        name: "Kids Khimars",
+        shortDescription: "Junior-graded cape-style khimar, pulled on in one piece with no wrapping required.",
+        description:
+          "Kids khimars scale our one-tier khimar construction down to a junior size, keeping the pull-on, no-wrap simplicity that makes the khimar silhouette practical for children in the first place. It's a lower-maintenance alternative to a girls' hijab for buyers whose customers want a young child to manage their own head covering with less adjustment through the day. Offered from 200 pieces per color.",
+        images: [
+          placeholder("subcat-kids-khimars-1", "Adult reference styling for the khimar fabric used in the kids range"),
+          placeholder("subcat-kids-khimars-2", "Adult reference styling for the khimar construction used in the kids range"),
+        ],
+        colors: [
+          { name: "Sky Blue", hex: "#a9cce3" },
+          { name: "Sage", hex: "#9caf88" },
+          { name: "Blush", hex: "#f2c4c4" },
+        ],
+      },
+      {
+        slug: "girls-jilbabs",
+        name: "Girls' Jilbabs",
+        shortDescription: "Junior-graded two-piece jilbab set from our value-tier fabric base.",
+        description:
+          "Girls' jilbabs grade our two-piece top-and-skirt jilbab construction down to a junior size, using the same value-tier Nida and crepe bases as our adult jilbab range. It's positioned as a practical, lower-cost alternative to a girls' abaya for buyers whose customers prioritize value over structure. Sold as coordinated sets from 200 sets per color.",
+        images: [
+          placeholder("subcat-kids-girls-jilbabs-1", "Adult reference styling for the jilbab fabric used in girls' jilbabs"),
+          placeholder("subcat-kids-girls-jilbabs-2", "Adult reference styling for the jilbab construction used in girls' jilbabs"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Navy", hex: "#202a44" },
+          { name: "Olive", hex: "#6b6f52" },
+        ],
+      },
+      {
+        slug: "kaftans",
+        name: "Kids Kaftans",
+        shortDescription: "Junior-graded occasion kaftan for Eid and family celebration dressing.",
+        description:
+          "Kids kaftans scale our printed and lightly embellished kaftan styles down to a junior pattern, positioned for Eid and family celebration dressing rather than daily wear. It's most often ordered as part of a family matching set alongside an adult kaftan or abaya in a coordinating colorway. Offered from 100 pieces per design.",
+        images: [
+          placeholder("subcat-kids-kaftans-1", "Adult reference styling for the kaftan fabric used in kids kaftans"),
+          placeholder("subcat-kids-kaftans-2", "Adult reference styling for the kaftan embroidery used in kids kaftans"),
+        ],
+        colors: [
+          { name: "Gold", hex: "#c9a635" },
+          { name: "Sky Blue", hex: "#a9cce3" },
+        ],
+      },
+      {
+        slug: "mother-daughter",
+        name: "Matching Mother-Daughter Set",
+        shortDescription: "Adult and junior sizing paired in one coordinated colorway across hijab and abaya.",
+        description:
+          "Matching mother-daughter sets pair an adult hijab or abaya with the equivalent junior-graded piece in the same fabric lot and colorway, sold as a single coordinated order rather than two separate purchases. It's our most-requested kids-adjacent SKU, driven almost entirely by gifting occasions and family photography for Eid and other celebrations. Sold as coordinated sets from 150 sets per palette.",
+        images: [
+          placeholder("subcat-kids-mother-daughter-1", "Adult reference styling for the hijab fabric used in the matching set"),
+          placeholder("subcat-kids-mother-daughter-2", "Adult reference styling for the abaya fabric used in the matching set"),
+        ],
+        colors: [
+          { name: "Dusty Rose", hex: "#c98f8f" },
+          { name: "Sage", hex: "#9caf88" },
+          { name: "Navy", hex: "#202a44" },
+        ],
+      },
+    ],
+  },
 ];
 
 export function getCategoryBySlug(slug: string): Category | undefined {
