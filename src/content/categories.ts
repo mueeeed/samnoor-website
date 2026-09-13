@@ -543,6 +543,164 @@ export const categories: Category[] = [
           "No. A niqab covers the face below the eyes and is typically worn with a separate abaya or khimar. A burqa is a single full-body garment with the head covering and face veil built in as one piece, and often includes a mesh panel over the eyes rather than leaving them uncovered.",
       },
     ],
+    subcategories: [
+      {
+        slug: "single-layer",
+        name: "Single-Layer Niqab",
+        shortDescription: "Lightweight single-panel veil suited to warmer climates and everyday wear.",
+        description:
+          "Single-layer niqabs use one lightweight chiffon panel, chosen for warmer climates and daily wear where breathability matters more than maximum opacity. It's the style most customers reach for as an everyday default, worn with either an abaya or separately over a hijab. Reinforced double-stitching at the tie attachment point is standard across our full niqab range, since tie failure from repeated daily removal is the most common defect in lower-cost alternatives. Offered from 300 pieces per color.",
+        images: [
+          placeholder("subcat-niqabs-single-layer-1", "Model wearing a single-layer chiffon niqab"),
+          placeholder("subcat-niqabs-single-layer-2", "Close-up of single-layer niqab fabric and tie stitching"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Charcoal", hex: "#3d3d3d" },
+          { name: "Navy", hex: "#202a44" },
+        ],
+      },
+      {
+        slug: "two-layer",
+        name: "Two-Layer Niqab",
+        shortDescription: "Adds a second, less sheer panel for buyers whose markets expect fuller coverage.",
+        description:
+          "Two-layer niqabs add a second fabric panel behind the outer layer, reducing see-through visibility for markets and customers who expect fuller coverage than a single sheer layer provides. The second layer is cut slightly narrower than the outer so it doesn't add visible bulk at the tie point. This is our standard recommendation for buyers unsure which coverage level their market expects, since it satisfies stricter coverage expectations without the added weight of a third layer. Offered from 300 pieces per color.",
+        images: [
+          placeholder("subcat-niqabs-two-layer-1", "Model wearing a two-layer niqab with reduced sheerness"),
+          placeholder("subcat-niqabs-two-layer-2", "Close-up of two-layer niqab construction showing both fabric panels"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Charcoal", hex: "#3d3d3d" },
+          { name: "Navy", hex: "#202a44" },
+          { name: "Chocolate", hex: "#4a3728" },
+        ],
+      },
+      {
+        slug: "three-layer",
+        name: "Three-Layer Niqab",
+        shortDescription: "Maximum-opacity triple-panel construction for the fullest coverage in our range.",
+        description:
+          "Three-layer niqabs stack a third fabric panel behind the standard two-layer construction, giving the fullest opacity we produce for markets with the strictest coverage expectations. Each layer is graded slightly narrower than the one in front of it so the tie point doesn't bunch under the combined thickness. It's a lower-volume, made-to-order style compared to our single and two-layer lines, given the more specific market it serves. Offered from 200 pieces per color.",
+        images: [
+          placeholder("subcat-niqabs-three-layer-1", "Model wearing a three-layer niqab for maximum coverage"),
+          placeholder("subcat-niqabs-three-layer-2", "Close-up of three-layer niqab construction showing all fabric panels"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Charcoal", hex: "#3d3d3d" },
+        ],
+      },
+      {
+        slug: "tie-back",
+        name: "Tie-Back Niqab",
+        shortDescription: "Standard fabric tie closure at the back of the head, fully adjustable for fit.",
+        description:
+          "Tie-back niqabs close with a fabric tie at the back of the head rather than elastic, giving a fully adjustable fit and the option to tie looser or tighter depending on what's worn underneath. This is our most common closure type across the whole niqab range, and the one we recommend for buyers prioritizing fit flexibility over the quicker on/off of an elastic or pull-on style. Reinforced double-stitching at both tie attachment points is standard. Offered from 300 pieces per color.",
+        images: [
+          placeholder("subcat-niqabs-tie-back-1", "Close-up of tie-back niqab closure at the back of the head"),
+          placeholder("subcat-niqabs-tie-back-2", "Model wearing a tie-back niqab with adjustable fabric ties"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Charcoal", hex: "#3d3d3d" },
+          { name: "Navy", hex: "#202a44" },
+        ],
+      },
+      {
+        slug: "pull-on",
+        name: "Pull-On Niqab",
+        shortDescription: "Elastic-back construction for quick on/off without tying.",
+        description:
+          "Pull-on niqabs use an elastic back panel instead of fabric ties, letting the customer put it on and take it off in one motion without tying anything. It's the faster, more convenient option for customers who remove and replace their niqab frequently through the day, at the tradeoff of slightly less adjustability than a tie-back style. Elastic is fabric-covered rather than exposed to avoid skin irritation with extended wear. Offered from 300 pieces per color.",
+        images: [
+          placeholder("subcat-niqabs-pull-on-1", "Model wearing a pull-on niqab with an elastic back closure"),
+          placeholder("subcat-niqabs-pull-on-2", "Close-up of fabric-covered elastic on a pull-on niqab"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Charcoal", hex: "#3d3d3d" },
+        ],
+      },
+      {
+        slug: "jersey",
+        name: "Jersey Niqab",
+        shortDescription: "Stretch jersey construction for a softer fit than woven chiffon.",
+        description:
+          "Jersey niqabs use a stretch knit rather than woven chiffon, giving a softer fit against the skin and a closer, more secure hold without needing as tight a tie. It's a strong option for customers who find woven chiffon niqabs shift or slip during active days. The tradeoff is less opacity per layer than a woven fabric of similar weight, so most buyers pair it with our two-layer construction rather than ordering it single-layer. Offered from 300 pieces per color.",
+        images: [
+          placeholder("subcat-niqabs-jersey-1", "Model wearing a soft stretch jersey niqab"),
+          placeholder("subcat-niqabs-jersey-2", "Close-up of jersey niqab fabric texture"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Charcoal", hex: "#3d3d3d" },
+        ],
+      },
+      {
+        slug: "chiffon",
+        name: "Chiffon Niqab",
+        shortDescription: "Our standard woven fabric, cut from the same library as our chiffon hijabs.",
+        description:
+          "Chiffon niqabs are cut from the same fabric library as our chiffon hijabs, so buyers stocking both categories can match shades exactly across a single order rather than sourcing niqab fabric separately. The matte weave holds structure at the tie point better than a knit, keeping the veil sitting flat against the face rather than clinging. It's the default fabric across our single, two, and three-layer constructions unless a buyer specifies otherwise. Offered from 300 pieces per color.",
+        images: [
+          placeholder("subcat-niqabs-chiffon-1", "Model wearing a chiffon niqab with a structured, flat fit"),
+          placeholder("subcat-niqabs-chiffon-2", "Close-up of matte chiffon niqab fabric"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Charcoal", hex: "#3d3d3d" },
+          { name: "Navy", hex: "#202a44" },
+          { name: "Chocolate", hex: "#4a3728" },
+        ],
+      },
+      {
+        slug: "cotton",
+        name: "Cotton Niqab",
+        shortDescription: "Breathable cotton weave for hot-climate daily wear.",
+        description:
+          "Cotton niqabs trade chiffon's crisp structure for a more breathable natural-fiber weave, aimed at hot, humid climates where synthetic fabric against the face for extended periods becomes a genuine comfort complaint. It's a natural-fiber alternative for buyers whose customers specifically ask for cotton, matching the same positioning as our cotton voile hijab. Offered from 300 pieces per color.",
+        images: [
+          placeholder("subcat-niqabs-cotton-1", "Model wearing a breathable cotton niqab"),
+          placeholder("subcat-niqabs-cotton-2", "Close-up of cotton niqab fabric showing its breathable weave"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Charcoal", hex: "#3d3d3d" },
+        ],
+      },
+      {
+        slug: "long",
+        name: "Long Niqab",
+        shortDescription: "Extended length falling well past the chest for fuller upper-body coverage.",
+        description:
+          "Long niqabs extend well past the chest rather than ending at the collarbone, for customers who want the veil itself to provide additional upper-body coverage rather than relying entirely on a separate abaya or khimar underneath. The added length is graded into the pattern so it doesn't add bulk or pull at the tie point. It's most often ordered by buyers whose customers layer it under an open-front abaya. Offered from 250 pieces per color.",
+        images: [
+          placeholder("subcat-niqabs-long-1", "Model wearing a long niqab extending past the chest"),
+          placeholder("subcat-niqabs-long-2", "Close-up of long niqab fabric fall and length"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Charcoal", hex: "#3d3d3d" },
+        ],
+      },
+      {
+        slug: "half",
+        name: "Half Niqab",
+        shortDescription: "Shorter, minimal-coverage veil ending just below the nose.",
+        description:
+          "Half niqabs are cut shorter than our standard length, ending just below the nose rather than covering down to the chest, for customers who want minimal, lighter coverage or who primarily wear it for brief errands rather than extended wear. It's the lightest-weight, most breathable style in our niqab range, and the fastest to put on and remove given its smaller panel size. Offered from 300 pieces per color.",
+        images: [
+          placeholder("subcat-niqabs-half-1", "Model wearing a half niqab with minimal, shorter coverage"),
+          placeholder("subcat-niqabs-half-2", "Close-up of half niqab fabric and shorter panel length"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Charcoal", hex: "#3d3d3d" },
+        ],
+      },
+    ],
   },
   {
     slug: "prayer-dresses",

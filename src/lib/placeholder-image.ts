@@ -624,6 +624,30 @@ const SEED_THEME_MAP: Record<string, keyof typeof THEME_PHOTOS> = {
   "subcat-jilbabs-nursing-friendly-1": "photo-jilbabs-7816738",
   "subcat-jilbabs-nursing-friendly-2": "photo-jilbabs-32985706",
 
+  // Niqab subcategories — drawn from the existing 10-photo niqabs pool,
+  // offset by 5 (half the pool) so the two images per subcategory are
+  // always different.
+  "subcat-niqabs-single-layer-1": "photo-niqabs-19298225",
+  "subcat-niqabs-single-layer-2": "photo-niqabs-20459863",
+  "subcat-niqabs-two-layer-1": "photo-niqabs-31841228",
+  "subcat-niqabs-two-layer-2": "photo-niqabs-4427654",
+  "subcat-niqabs-three-layer-1": "photo-niqabs-19298224",
+  "subcat-niqabs-three-layer-2": "photo-niqabs-19589152",
+  "subcat-niqabs-tie-back-1": "photo-niqabs-15968343",
+  "subcat-niqabs-tie-back-2": "photo-niqabs-9896070",
+  "subcat-niqabs-pull-on-1": "photo-niqabs-36703100",
+  "subcat-niqabs-pull-on-2": "photo-niqabs-26600740",
+  "subcat-niqabs-jersey-1": "photo-niqabs-20459863",
+  "subcat-niqabs-jersey-2": "photo-niqabs-19298225",
+  "subcat-niqabs-chiffon-1": "photo-niqabs-4427654",
+  "subcat-niqabs-chiffon-2": "photo-niqabs-31841228",
+  "subcat-niqabs-cotton-1": "photo-niqabs-19589152",
+  "subcat-niqabs-cotton-2": "photo-niqabs-19298224",
+  "subcat-niqabs-long-1": "photo-niqabs-9896070",
+  "subcat-niqabs-long-2": "photo-niqabs-15968343",
+  "subcat-niqabs-half-1": "photo-niqabs-26600740",
+  "subcat-niqabs-half-2": "photo-niqabs-36703100",
+
   // About page
   "about-hero": "factory-exterior",
   "about-story": "design-desk",
