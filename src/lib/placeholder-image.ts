@@ -217,6 +217,9 @@ const THEME_PHOTOS: Record<string, string> = {
   "photo-hijab-accessories-13629635": "/products/hijab-accessories/13629635.jpg",
   "photo-hijab-accessories-31854724": "/products/hijab-accessories/31854724.jpg",
   "photo-hijab-accessories-4515450": "/products/hijab-accessories/4515450.jpg",
+
+  "photo-bridal-accessories-36501667": "/products/bridal-accessories/36501667.jpg",
+  "photo-bridal-accessories-10364972": "/products/bridal-accessories/10364972.jpg",
   "blog-fabric-rolls-shelf": "/blog/17329670.jpg",
 };
 
@@ -899,6 +902,33 @@ const SEED_THEME_MAP: Record<string, keyof typeof THEME_PHOTOS> = {
   "subcat-hijab-acc-decorative-pins-2": "photo-hijab-accessories-4515450",
   "subcat-hijab-acc-magnetic-brooch-sets-1": "photo-hijab-accessories-36198510",
   "subcat-hijab-acc-magnetic-brooch-sets-2": "photo-hijab-accessories-13629635",
+
+  // Bridal Accessories — combines 2 newly sourced bridal veil/crown
+  // photos with 4 reused close-up pin/brooch photos from Hijab
+  // Accessories (the same pearl and crystal styling doubles as bridal
+  // accessory detail shots).
+  "cat-bridal-accessories-hero": "photo-bridal-accessories-36501667",
+  "cat-bridal-accessories-card": "photo-bridal-accessories-10364972",
+  "subcat-bridal-acc-hijab-pins-1": "photo-bridal-accessories-36501667",
+  "subcat-bridal-acc-hijab-pins-2": "photo-hijab-accessories-17434774",
+  "subcat-bridal-acc-pearl-pins-1": "photo-bridal-accessories-10364972",
+  "subcat-bridal-acc-pearl-pins-2": "photo-hijab-accessories-36198510",
+  "subcat-bridal-acc-crystal-brooches-1": "photo-hijab-accessories-17434770",
+  "subcat-bridal-acc-crystal-brooches-2": "photo-hijab-accessories-35408537",
+  "subcat-bridal-acc-crowns-1": "photo-bridal-accessories-36501667",
+  "subcat-bridal-acc-crowns-2": "photo-bridal-accessories-10364972",
+  "subcat-bridal-acc-tiara-1": "photo-hijab-accessories-17434770",
+  "subcat-bridal-acc-tiara-2": "photo-hijab-accessories-17434774",
+  "subcat-bridal-acc-veils-1": "photo-hijab-accessories-36198510",
+  "subcat-bridal-acc-veils-2": "photo-hijab-accessories-35408537",
+  "subcat-bridal-acc-lace-veils-1": "photo-bridal-accessories-36501667",
+  "subcat-bridal-acc-lace-veils-2": "photo-hijab-accessories-17434770",
+  "subcat-bridal-acc-embellished-hair-1": "photo-bridal-accessories-10364972",
+  "subcat-bridal-acc-embellished-hair-2": "photo-hijab-accessories-17434774",
+  "subcat-bridal-acc-chains-1": "photo-bridal-accessories-36501667",
+  "subcat-bridal-acc-chains-2": "photo-hijab-accessories-36198510",
+  "subcat-bridal-acc-rhinestone-1": "photo-bridal-accessories-10364972",
+  "subcat-bridal-acc-rhinestone-2": "photo-hijab-accessories-35408537",
 
   // About page
   "about-hero": "factory-exterior",

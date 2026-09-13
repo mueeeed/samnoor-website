@@ -3294,6 +3294,179 @@ export const categories: Category[] = [
       },
     ],
   },
+  {
+    slug: "bridal-accessories",
+    name: "Bridal Accessories",
+    shortName: "Bridal Accessories",
+    description:
+      "Pearl pins, crystal brooches, tiaras, and veils to complete a bridal hijab or bridal abaya look, sold as a finishing accessory line alongside our bridal garment categories.",
+    content: `
+      <p>Bridal accessories finish a bridal hijab or bridal abaya look the way jewelry finishes a bridal gown &mdash; they're rarely the hero purchase, but a buyer's bridal range is genuinely incomplete without them. We develop this line specifically to coordinate with our Bridal Hijabs and Bridal Abayas categories, so a distributor can offer a bride a fully matched head-to-accessory look from one order rather than sourcing accessories separately.</p>
+      <p>Every piece here is built for a single event's wear rather than daily use, which changes the engineering priorities versus our everyday hijab accessories: hold and appearance matter more than long-term durability under repeated use. Custom color-matching to a wedding palette and gift-box packaging are available for bridal party and boutique orders.</p>
+    `,
+    heroImage: placeholder("cat-bridal-accessories-hero", "Bride wearing a crystal-embellished hijab crown and veil"),
+    cardImage: placeholder("cat-bridal-accessories-card", "Close-up of a bridal hijab crown with crystal detail and veil"),
+    keywords: [
+      "bridal hijab accessories manufacturer",
+      "wedding hijab pin supplier",
+      "hijab crown wholesale",
+      "bridal veil manufacturer India",
+    ],
+    subcategories: [
+      {
+        slug: "hijab-pins",
+        name: "Bridal Hijab Pins",
+        shortDescription: "Occasion-grade decorative pins sized and finished for a single day's bridal wear.",
+        description:
+          "Bridal hijab pins step up from our everyday hijab pin line with heavier plating and larger decorative heads sized for bridal photography rather than daily practicality. They're built to hold securely through a full ceremony and reception rather than the extended multi-week wear our everyday accessories are tested against. Sold individually or in small sets for bridal party coordination. Produced from 50 pieces per design.",
+        images: [
+          placeholder("subcat-bridal-acc-hijab-pins-1", "Bride wearing a crystal-embellished hijab crown"),
+          placeholder("subcat-bridal-acc-hijab-pins-2", "Close-up of the pin clasp mechanism on a decorative flower brooch"),
+        ],
+        colors: [
+          { name: "Silver", hex: "#c7c7c7" },
+          { name: "Gold", hex: "#c9a635" },
+          { name: "Rose Gold", hex: "#d9a89c" },
+        ],
+      },
+      {
+        slug: "pearl-pins",
+        name: "Pearl Hijab Pins",
+        shortDescription: "Individually set pearl-head pins for a classic bridal finishing detail.",
+        description:
+          "Pearl hijab pins use individually set faux-pearl heads on a secure locking pin, the most classic and most-ordered bridal accessory finish across our regional bridal accounts. Pearl size and pin length are available in a few standard options, and larger custom orders can specify pearl tone (bright white through warmer cream) to match a specific bridal palette. Produced from 50 pieces per design.",
+        images: [
+          placeholder("subcat-bridal-acc-pearl-pins-1", "Bride wearing a crystal tiara over a white hijab and veil"),
+          placeholder("subcat-bridal-acc-pearl-pins-2", "Close-up of a pearl-bordered decorative pin on dark fabric"),
+        ],
+        colors: [
+          { name: "Pearl White", hex: "#f3ece2" },
+          { name: "Cream", hex: "#f5f0e6" },
+        ],
+      },
+      {
+        slug: "crystal-brooches",
+        name: "Crystal Brooches",
+        shortDescription: "Faceted crystal statement brooch for maximum sparkle in bridal photography.",
+        description:
+          "Crystal brooches use faceted glass stones set in a statement cluster, chosen for how they catch flash photography and venue lighting rather than daylight alone. It's the accessory we recommend pairing with our crystal bridal hijab and crystal bridal abaya lines for a fully coordinated sparkle finish rather than mixing embellishment styles. Produced from 50 pieces per design.",
+        images: [
+          placeholder("subcat-bridal-acc-crystal-brooches-1", "Close-up of a pearl and crystal flower brooch on a white background"),
+          placeholder("subcat-bridal-acc-crystal-brooches-2", "Close-up of a small gold leaf-and-pearl brooch pinned to a coat lapel"),
+        ],
+        colors: [
+          { name: "Silver", hex: "#c7c7c7" },
+          { name: "Gold", hex: "#c9a635" },
+        ],
+      },
+      {
+        slug: "crowns",
+        name: "Bridal Hijab Crowns",
+        shortDescription: "Crystal crown-band styled directly onto the hijab drape rather than a separate headpiece.",
+        description:
+          "Bridal hijab crowns integrate a crystal crown-band directly onto the hijab's hairline drape rather than functioning as a separate headpiece worn on top, giving a cleaner, more intentional bridal silhouette. This is our top-tier bridal accessory, usually reserved for the bride rather than the wider bridal party. It pairs specifically with our crown-style bridal hijab construction, which is drafted to sit cleanly beneath it. Produced from 25 pieces per design.",
+        images: [
+          placeholder("subcat-bridal-acc-crowns-1", "Bride wearing a crystal-embellished hijab crown"),
+          placeholder("subcat-bridal-acc-crowns-2", "Bride wearing a crystal tiara over a white hijab and veil"),
+        ],
+        colors: [
+          { name: "Silver", hex: "#c7c7c7" },
+          { name: "Gold", hex: "#c9a635" },
+        ],
+      },
+      {
+        slug: "tiara",
+        name: "Hijab Tiara Accessories",
+        shortDescription: "Standalone tiara-style headpiece worn over the hijab rather than integrated into it.",
+        description:
+          "Hijab tiara accessories are a standalone crystal headpiece worn over the completed hijab, distinct from our integrated crown-style hijab where the embellishment is built into the drape itself. This gives buyers a more flexible accessory that can be removed for the reception while the base hijab stays on, versus a crown-style piece that's fixed to the garment. Produced from 25 pieces per design.",
+        images: [
+          placeholder("subcat-bridal-acc-tiara-1", "Close-up of a pearl and crystal flower brooch on a white background"),
+          placeholder("subcat-bridal-acc-tiara-2", "Close-up of the pin clasp mechanism on a decorative flower brooch"),
+        ],
+        colors: [
+          { name: "Silver", hex: "#c7c7c7" },
+          { name: "Gold", hex: "#c9a635" },
+        ],
+      },
+      {
+        slug: "veils",
+        name: "Bridal Veils",
+        shortDescription: "Sheer tulle overlay styled to fall like a traditional veil over a bridal hijab.",
+        description:
+          "Bridal veils add a sheer tulle layer over a base bridal hijab, styled forward over the face for the ceremony and swept back for the reception, the same dual-look approach as our veil-style bridal hijab garment. Length is available in shoulder, waist, and cathedral options. It's most often ordered alongside a crown or tiara accessory for a complete bridal headpiece look. Produced from 25 pieces per design.",
+        images: [
+          placeholder("subcat-bridal-acc-veils-1", "Close-up of a pearl-bordered decorative pin on dark fabric"),
+          placeholder("subcat-bridal-acc-veils-2", "Close-up of a small gold leaf-and-pearl brooch pinned to a coat lapel"),
+        ],
+        colors: [
+          { name: "White", hex: "#faf8f5" },
+          { name: "Ivory", hex: "#f0e9db" },
+        ],
+      },
+      {
+        slug: "lace-veils",
+        name: "Lace Veils",
+        shortDescription: "Scalloped lace-edge veil for a softer, more traditional bridal finish than plain tulle.",
+        description:
+          "Lace veils finish the tulle edge with a scalloped lace border rather than a raw or simply hemmed edge, giving a softer, more traditional bridal look. It pairs naturally with our bridal lace hijab for a coordinated lace-detail bridal look across the hijab and veil. Lace pattern and border width are available in a couple of standard options. Produced from 25 pieces per design.",
+        images: [
+          placeholder("subcat-bridal-acc-lace-veils-1", "Bride wearing a crystal-embellished hijab crown"),
+          placeholder("subcat-bridal-acc-lace-veils-2", "Close-up of a pearl and crystal flower brooch on a white background"),
+        ],
+        colors: [
+          { name: "White", hex: "#faf8f5" },
+          { name: "Ivory", hex: "#f0e9db" },
+        ],
+      },
+      {
+        slug: "embellished-hair",
+        name: "Embellished Hair Accessories",
+        shortDescription: "Decorative pins and clips positioned at the visible hijab edge rather than under it.",
+        description:
+          "Embellished hair accessories are positioned to be visible at the hijab's front edge or temple rather than hidden underneath it, functioning as a styling detail rather than a structural fastener. This is a flexible, lower-commitment accessory category for bridal party members who want a coordinated look without the cost of a full crown or tiara. Produced from 50 pieces per design.",
+        images: [
+          placeholder("subcat-bridal-acc-embellished-hair-1", "Bride wearing a crystal tiara over a white hijab and veil"),
+          placeholder("subcat-bridal-acc-embellished-hair-2", "Close-up of the pin clasp mechanism on a decorative flower brooch"),
+        ],
+        colors: [
+          { name: "Gold", hex: "#c9a635" },
+          { name: "Silver", hex: "#c7c7c7" },
+          { name: "Pearl White", hex: "#f3ece2" },
+        ],
+      },
+      {
+        slug: "chains",
+        name: "Bridal Hijab Chains",
+        shortDescription: "Delicate draped chain accessory styled across the forehead or temple of the hijab.",
+        description:
+          "Bridal hijab chains drape a delicate metal chain, often with small pearl or crystal accents, across the forehead or from temple to temple over the hijab, a styling detail borrowed from South Asian and Middle Eastern bridal jewelry traditions. It's ordered as a coordinating accessory alongside a crown or tiara rather than as a standalone piece. Produced from 25 pieces per design.",
+        images: [
+          placeholder("subcat-bridal-acc-chains-1", "Bride wearing a crystal-embellished hijab crown"),
+          placeholder("subcat-bridal-acc-chains-2", "Close-up of a pearl-bordered decorative pin on dark fabric"),
+        ],
+        colors: [
+          { name: "Gold", hex: "#c9a635" },
+          { name: "Silver", hex: "#c7c7c7" },
+        ],
+      },
+      {
+        slug: "rhinestone",
+        name: "Rhinestone Accessories",
+        shortDescription: "Budget-tier sparkle accessories using rhinestones rather than cut crystal or pearl.",
+        description:
+          "Rhinestone accessories use lower-cost rhinestones rather than faceted cut crystal or genuine pearl, giving bridal party buyers a budget-tier sparkle option for larger orders where every attendant needs a coordinated piece. The visual effect reads similarly to our crystal line from a normal viewing distance, at a meaningfully lower unit cost for bulk bridal party orders. Produced from 100 pieces per design.",
+        images: [
+          placeholder("subcat-bridal-acc-rhinestone-1", "Bride wearing a crystal tiara over a white hijab and veil"),
+          placeholder("subcat-bridal-acc-rhinestone-2", "Close-up of a small gold leaf-and-pearl brooch pinned to a coat lapel"),
+        ],
+        colors: [
+          { name: "Silver", hex: "#c7c7c7" },
+          { name: "Gold", hex: "#c9a635" },
+        ],
+      },
+    ],
+  },
 ];
 
 export function getCategoryBySlug(slug: string): Category | undefined {
