@@ -490,6 +490,36 @@ const SEED_THEME_MAP: Record<string, keyof typeof THEME_PHOTOS> = {
   "subcat-abayas-everyday-1": "photo-abayas-5616021",
   "subcat-abayas-everyday-2": "abaya-embellished",
 
+  // Inner-cap/underscarf subcategories — this category has only 3 distinct
+  // free-stock photos available after an extensive search (see the
+  // "Islamic inner caps" note further up), so each subcategory pairs two
+  // of those three photos in rotation rather than showing the same pair
+  // twice in a row.
+  "subcat-innercaps-tube-1": "innercap-rows",
+  "subcat-innercaps-tube-2": "innercap-model",
+  "subcat-innercaps-ninja-1": "innercap-model",
+  "subcat-innercaps-ninja-2": "photo-islamic-inner-caps-13067900",
+  "subcat-innercaps-scrunchie-volumising-1": "photo-islamic-inner-caps-13067900",
+  "subcat-innercaps-scrunchie-volumising-2": "innercap-rows",
+  "subcat-innercaps-adjustable-1": "innercap-rows",
+  "subcat-innercaps-adjustable-2": "innercap-model",
+  "subcat-innercaps-band-1": "innercap-model",
+  "subcat-innercaps-band-2": "photo-islamic-inner-caps-13067900",
+  "subcat-innercaps-multi-wear-1": "photo-islamic-inner-caps-13067900",
+  "subcat-innercaps-multi-wear-2": "innercap-rows",
+  "subcat-innercaps-cotton-1": "innercap-rows",
+  "subcat-innercaps-cotton-2": "innercap-model",
+  "subcat-innercaps-jersey-1": "innercap-model",
+  "subcat-innercaps-jersey-2": "photo-islamic-inner-caps-13067900",
+  "subcat-innercaps-tie-back-1": "photo-islamic-inner-caps-13067900",
+  "subcat-innercaps-tie-back-2": "innercap-rows",
+  "subcat-innercaps-lace-1": "innercap-rows",
+  "subcat-innercaps-lace-2": "innercap-model",
+  "subcat-innercaps-full-coverage-1": "innercap-model",
+  "subcat-innercaps-full-coverage-2": "photo-islamic-inner-caps-13067900",
+  "subcat-innercaps-cross-back-1": "photo-islamic-inner-caps-13067900",
+  "subcat-innercaps-cross-back-2": "innercap-rows",
+
   // About page
   "about-hero": "factory-exterior",
   "about-story": "design-desk",

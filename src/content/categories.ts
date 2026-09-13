@@ -650,6 +650,213 @@ export const categories: Category[] = [
       { name: "Stretch & Fit", productSlug: "bushra-jersey-inner-cap" },
       { name: "Specialty", productSlug: "insiya-bamboo-inner-cap" },
     ],
+    subcategories: [
+      {
+        slug: "tube",
+        name: "Tube Cap",
+        shortDescription: "Seamless tube construction for a smooth profile under thinner outer hijab fabrics.",
+        description:
+          "Tube caps are knit as one continuous seamless tube rather than a fitted cap shape, which removes the one detail most likely to show through a thin chiffon or georgette outer layer: a seamed cap edge printing a visible line across the forehead or crown. Distributors sell it as the complement SKU to lightweight, sheer hijab fabrics specifically because of this smoother profile. It stretches to fit a wide head-size range with no adjustment needed, which keeps SKU count down for retailers stocking a single size. Sold in bulk multi-packs from 500 pieces per color.",
+        images: [
+          placeholder("subcat-innercaps-tube-1", "Rows of seamless tube-construction inner caps"),
+          placeholder("subcat-innercaps-tube-2", "Model wearing a seamless tube inner cap under a hijab"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Nude", hex: "#d9b99b" },
+          { name: "Beige", hex: "#e3d3b8" },
+          { name: "Brown", hex: "#5c4433" },
+          { name: "Grey", hex: "#8a8a8a" },
+          { name: "White", hex: "#f5f3ee" },
+        ],
+      },
+      {
+        slug: "ninja",
+        name: "Ninja Cap",
+        shortDescription: "Extended coverage down the neck and across the shoulders for full-wrap modesty underneath any outer layer.",
+        description:
+          "Ninja caps extend coverage past the hairline and jaw down across the neck and upper shoulders in one piece, giving full-wrap modesty underneath any outer hijab, khimar, or niqab without needing a separate neck cover. It's the style distributors stock for customers who specifically ask for maximum coverage, particularly in markets where a visible neckline under a lighter outer fabric is a common complaint. The wider shoulder panel uses more fabric than a standard cap, which is reflected in a modest per-unit cost increase over our tube and cotton lines. Sold in bulk multi-packs from 500 pieces per color.",
+        images: [
+          placeholder("subcat-innercaps-ninja-1", "Model wearing a full-coverage ninja-style inner cap extending over the neck and shoulders"),
+          placeholder("subcat-innercaps-ninja-2", "Close-up of ninja cap fabric and neck coverage panel"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Nude", hex: "#d9b99b" },
+          { name: "Brown", hex: "#5c4433" },
+          { name: "Grey", hex: "#8a8a8a" },
+        ],
+      },
+      {
+        slug: "scrunchie-volumising",
+        name: "Scrunchie / Volumising Cap",
+        shortDescription: "Built-in volume at the crown for a fuller, styled silhouette under the outer hijab.",
+        description:
+          "Scrunchie and volumising caps build a gathered, scrunchie-style panel or padded crown into the cap itself, giving customers height and volume at the crown without a separate hair bun or clip-in volumizer underneath. This is the fastest-growing style in our inner cap range, driven almost entirely by short-form video tutorials showing the \"no-bun volume\" styling technique. It pairs naturally with our instant hijab and luxury hijab ranges, where a more sculpted silhouette is part of the sell. Sold in bulk multi-packs from 300 pieces per color.",
+        images: [
+          placeholder("subcat-innercaps-scrunchie-volumising-1", "Close-up of a volumising inner cap with a gathered crown panel"),
+          placeholder("subcat-innercaps-scrunchie-volumising-2", "Rows of scrunchie-style volumising inner caps"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Nude", hex: "#d9b99b" },
+          { name: "Beige", hex: "#e3d3b8" },
+          { name: "Brown", hex: "#5c4433" },
+        ],
+      },
+      {
+        slug: "adjustable",
+        name: "Adjustable Cap",
+        shortDescription: "Drawstring or elastic-back adjustment for a customizable fit across head sizes.",
+        description:
+          "Adjustable caps add a drawstring or elastic toggle at the back rather than relying on stretch fabric alone to fit a range of head sizes, which is the detail buyers ask for specifically when stocking for a customer base with a wider-than-average size range, including youth and plus-size lines. The adjustment mechanism sits flat against the head so it doesn't print through a thin outer fabric the way a knot or clip would. It's a practical, low-return-rate SKU for distributors who've had size-related returns on stretch-only caps. Sold in bulk multi-packs from 500 pieces per color.",
+        images: [
+          placeholder("subcat-innercaps-adjustable-1", "Rows of adjustable inner caps with back drawstring detail"),
+          placeholder("subcat-innercaps-adjustable-2", "Model wearing an adjustable inner cap fitted at the back"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Nude", hex: "#d9b99b" },
+          { name: "Beige", hex: "#e3d3b8" },
+          { name: "Grey", hex: "#8a8a8a" },
+          { name: "White", hex: "#f5f3ee" },
+        ],
+      },
+      {
+        slug: "band",
+        name: "Band Cap",
+        shortDescription: "Minimal-coverage stretch headband style for buyers layering their own separate hair cover.",
+        description:
+          "Band caps cover only the hairline and forehead in a wide stretch band rather than the full crown, designed for customers who already wear a separate volumizer or bun cover and just need a clean, non-slip hairline edge under their outer hijab. It's the lowest-fabric, lowest-cost SKU in our inner cap range, which makes it a strong impulse-add or bundle item at checkout rather than a standalone hero product. Distributors typically stock it alongside our scrunchie/volumising cap as a two-piece styling system. Sold in bulk multi-packs from 500 pieces per color.",
+        images: [
+          placeholder("subcat-innercaps-band-1", "Model wearing a minimal stretch band cap at the hairline"),
+          placeholder("subcat-innercaps-band-2", "Close-up of stretch band cap fabric and hairline edge"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Nude", hex: "#d9b99b" },
+          { name: "Beige", hex: "#e3d3b8" },
+        ],
+      },
+      {
+        slug: "multi-wear",
+        name: "4-Coloured Multi-Wear Cap",
+        shortDescription: "Four color-blocked panels on one cap, giving distributors four coordinating looks from a single SKU.",
+        description:
+          "Multi-wear caps piece together four coordinating fabric panels on a single cap, so the same SKU can be styled to peek out from underneath an outer hijab in whichever panel color best matches that day's outfit, rather than a customer needing four separate solid caps. This is a merchandising-driven SKU we developed specifically for retailers who wanted to reduce shelf-facing count without reducing perceived color choice. Panel colorways are fully customizable for private label buyers who want to match their own core palette. Sold in bulk multi-packs from 300 pieces per set.",
+        images: [
+          placeholder("subcat-innercaps-multi-wear-1", "Close-up of a four-panel color-blocked multi-wear inner cap"),
+          placeholder("subcat-innercaps-multi-wear-2", "Rows of multi-wear inner caps in coordinating color panels"),
+        ],
+        colors: [
+          { name: "Black / Nude / Grey / White", hex: "#1a1a1a" },
+          { name: "Brown / Beige / Nude / Black", hex: "#5c4433" },
+        ],
+      },
+      {
+        slug: "cotton",
+        name: "Cotton Cap",
+        shortDescription: "Combed cotton with a non-slip grip band at the hairline for all-day breathable wear.",
+        description:
+          "Cotton caps are our reference underscarf, built on breathable combed cotton with a non-slip grip band woven into the hairline to keep the cap in place through a full day of wear without repositioning. This is the detail that actually determines repeat purchase on an inner cap: one that slides under a hijab by afternoon gets returned or simply not reordered, regardless of price. It's the style we'd recommend as the default stocking SKU for any new distributor entering this category. Sold in bulk multi-packs from 500 pieces per color across an extended neutral range.",
+        images: [
+          placeholder("subcat-innercaps-cotton-1", "Rows of combed cotton inner caps in a neutral color range"),
+          placeholder("subcat-innercaps-cotton-2", "Model wearing a combed cotton inner cap"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Nude", hex: "#d9b99b" },
+          { name: "Beige", hex: "#e3d3b8" },
+          { name: "Brown", hex: "#5c4433" },
+          { name: "Grey", hex: "#8a8a8a" },
+          { name: "White", hex: "#f5f3ee" },
+        ],
+      },
+      {
+        slug: "jersey",
+        name: "Jersey Cap",
+        shortDescription: "Stretch jersey construction for a softer, more casual pull-on fit than woven cotton.",
+        description:
+          "Jersey caps swap our standard combed cotton for a stretch jersey knit, giving a softer hand-feel and an easier pull-on fit for customers who find woven cotton caps too structured for daily, casual wear. The added stretch also makes it more forgiving across a wider head-size range without needing the drawstring adjustment our adjustable cap relies on. It's the style that pairs most naturally with our jersey and modal hijab ranges for buyers building a coordinated casual-wear program. Sold in bulk multi-packs from 500 pieces per color.",
+        images: [
+          placeholder("subcat-innercaps-jersey-1", "Model wearing a soft stretch jersey inner cap"),
+          placeholder("subcat-innercaps-jersey-2", "Close-up of stretch jersey inner cap fabric texture"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Nude", hex: "#d9b99b" },
+          { name: "Grey", hex: "#8a8a8a" },
+          { name: "Navy", hex: "#202a44" },
+        ],
+      },
+      {
+        slug: "tie-back",
+        name: "Tie-Back Cap",
+        shortDescription: "Adjustable fabric tie closure at the nape for a fully customizable, no-elastic fit.",
+        description:
+          "Tie-back caps close with a fabric tie at the nape rather than elastic or a drawstring toggle, giving a fit that's fully customizable and comfortable for extended daily wear, including for customers who find elastic bands irritating against the skin over a full day. The tie construction is the same approach used on our turban-style specialty cap, adapted here to a simpler, everyday base fabric. It's a strong option for sensitive-skin and all-day-wear customer segments that buyers flag as underserved by standard elastic caps. Sold in bulk multi-packs from 300 pieces per color.",
+        images: [
+          placeholder("subcat-innercaps-tie-back-1", "Close-up of tie-back inner cap closure at the nape"),
+          placeholder("subcat-innercaps-tie-back-2", "Rows of tie-back inner caps with fabric tie closures"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Nude", hex: "#d9b99b" },
+          { name: "Beige", hex: "#e3d3b8" },
+        ],
+      },
+      {
+        slug: "lace",
+        name: "Lace Cap",
+        shortDescription: "Decorative lace trim at the front edge for bridal and occasion-adjacent styling.",
+        description:
+          "Lace caps add a decorative lace trim along the front hairline edge, positioned for customers who want a visible, feminine detail peeking out from under a loosely styled outer hijab rather than a purely functional cap. It's the style our distributors reorder most heavily ahead of wedding and Eid season, often bundled with our bridal hijab and luxury hijab ranges for a coordinated occasion look. The lace trim is finished flat against the base cap so it doesn't add bulk under thinner outer fabrics. Sold in bulk multi-packs from 200 pieces per color.",
+        images: [
+          placeholder("subcat-innercaps-lace-1", "Close-up of decorative lace trim on an inner cap hairline edge"),
+          placeholder("subcat-innercaps-lace-2", "Model wearing a lace-trim inner cap peeking out from under a hijab"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Ivory", hex: "#f0e9db" },
+          { name: "Nude", hex: "#d9b99b" },
+          { name: "Champagne", hex: "#e8d9b5" },
+        ],
+      },
+      {
+        slug: "full-coverage",
+        name: "Full Coverage Cap",
+        shortDescription: "Extended coverage down to the base of the neck for buyers whose markets expect fuller coverage.",
+        description:
+          "Full coverage caps extend a few centimeters past the standard cap line down to the base of the neck, without going as far as our ninja cap's shoulder panel, for markets and customer segments that expect fuller coverage than a standard crown-and-hairline cap provides. It's a middle-ground SKU between our standard cotton cap and the full ninja cap, letting distributors offer a graduated coverage range rather than jumping straight from minimal to maximum. Fabric and construction otherwise match our combed cotton cap line. Sold in bulk multi-packs from 400 pieces per color.",
+        images: [
+          placeholder("subcat-innercaps-full-coverage-1", "Model wearing a full coverage inner cap extending to the base of the neck"),
+          placeholder("subcat-innercaps-full-coverage-2", "Close-up of full coverage inner cap neck extension panel"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Nude", hex: "#d9b99b" },
+          { name: "Brown", hex: "#5c4433" },
+          { name: "Grey", hex: "#8a8a8a" },
+        ],
+      },
+      {
+        slug: "cross-back",
+        name: "Cross-Back Cap",
+        shortDescription: "Crossover back panel doubling as a standalone light underscarf as well as a base layer.",
+        description:
+          "Cross-back caps add a crossover front-and-back panel construction, letting the same piece function as a standalone light underscarf on its own or as a base layer underneath a heavier outer hijab &mdash; a dual-purpose SKU that serves two use cases from one product line rather than requiring separate inventory for each. The crossed panels also distribute tension more evenly across the back of the head than a single elastic band, which buyers report as more comfortable for extended wear. Sold in bulk multi-packs from 300 pieces per color.",
+        images: [
+          placeholder("subcat-innercaps-cross-back-1", "Close-up of crossover back panel construction on an inner cap"),
+          placeholder("subcat-innercaps-cross-back-2", "Model wearing a cross-back inner cap as a standalone light underscarf"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Nude", hex: "#d9b99b" },
+          { name: "Beige", hex: "#e3d3b8" },
+          { name: "Grey", hex: "#8a8a8a" },
+        ],
+      },
+    ],
   },
   {
     slug: "scarves",
