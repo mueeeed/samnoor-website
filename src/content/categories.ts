@@ -826,8 +826,8 @@ export const categories: Category[] = [
         description:
           "Kids prayer sets scale our standard two-piece construction down to a junior size range, addressing a gap several distributors have flagged for family and gifting bundles that currently stop at adult sizing. Fabric, elastic placement, and finishing match our adult prayer wear line exactly, just graded to a smaller pattern rather than simplified. It's most often ordered alongside an adult set for a matching mother-daughter gifting bundle. Offered from 200 sets per color.",
         images: [
-          placeholder("subcat-prayer-kids-set-1", "Close-up of kids prayer set fabric and construction detail"),
-          placeholder("subcat-prayer-kids-set-2", "Close-up of kids prayer set stitching and elastic waistband"),
+          placeholder("subcat-prayer-kids-set-1", "Dress form displaying a modest wrapped garment with a headscarf"),
+          placeholder("subcat-prayer-kids-set-2", "Mannequins displaying robes in a shop doorway"),
         ],
         colors: [
           { name: "Ivory", hex: "#f0e9db" },
@@ -3929,8 +3929,8 @@ export const categories: Category[] = [
         description:
           "Family matching Ramadan sets coordinate colorways across our abaya and hijab ranges so family members can dress in a matched palette for gatherings and mosque visits through the month. Sets are currently offered in our standard adult size range; a graded junior size run, similar to our Kids Prayer Set, is available on request but not yet a standing catalog SKU. Sold as coordinated sets from 200 sets per palette.",
         images: [
-          placeholder("subcat-ramadan-family-matching-1", "Model wearing an abaya in a coordinating Ramadan family palette"),
-          placeholder("subcat-ramadan-family-matching-2", "Model wearing a hijab in a matching coordinated tone"),
+          placeholder("subcat-ramadan-family-matching-1", "Mannequins displaying abayas and headscarves on a street market display"),
+          placeholder("subcat-ramadan-family-matching-2", "Rows of mannequin heads displaying hijabs in a range of colors"),
         ],
         colors: [
           { name: "Navy", hex: "#202a44" },
@@ -4131,10 +4131,10 @@ export const categories: Category[] = [
         name: "Kids Eid Modest Wear",
         shortDescription: "Graded junior sizing across our Eid abaya and hijab styles for family Eid dressing.",
         description:
-          "Kids Eid modest wear scales our Eid abaya and hijab styles down to a junior size range for family Eid dressing, matching the same fabric and colorway range as the adult collection rather than a simplified junior-only design. As with our Kids Prayer Set, this is available on request against our adult pattern blocks rather than photographed separately at this time; the images here show the adult styling and fabric this range is graded down from. Offered from 200 pieces per color.",
+          "Kids Eid modest wear scales our Eid abaya and hijab styles down to a junior size range for family Eid dressing, matching the same fabric and colorway range as the adult collection rather than a simplified junior-only design. Offered from 200 pieces per color.",
         images: [
-          placeholder("subcat-eid-kids-1", "Adult reference styling for the abaya fabric and cut used in kids Eid wear"),
-          placeholder("subcat-eid-kids-2", "Adult reference styling for the hijab fabric used in kids Eid wear"),
+          placeholder("subcat-eid-kids-1", "Colorful kaftans displayed on mannequins at a market stall"),
+          placeholder("subcat-eid-kids-2", "Mannequin displaying a black embroidered abaya in a shop window"),
         ],
         colors: [
           { name: "Gold", hex: "#c9a635" },
@@ -4181,11 +4181,11 @@ export const categories: Category[] = [
     description:
       "Junior-graded hijabs, abayas, and instant hijabs scaled from our adult pattern blocks and fabric library, offered for family and gifting ranges rather than as a separately designed line.",
     content: `
-      <p>Kids modest wear is graded down from our existing adult pattern blocks and fabric library rather than designed as a separate junior collection, which keeps fabric and colorway consistent between a mother's and daughter's pieces for family and gifting orders. We don't currently maintain separate junior photography for this category &mdash; every image here shows the adult styling and fabric a junior size is produced from, disclosed plainly rather than implying a kids-specific photoshoot that doesn't exist.</p>
+      <p>Kids modest wear is graded down from our existing adult pattern blocks and fabric library rather than designed as a separate junior collection, which keeps fabric and colorway consistent between a mother's and daughter's pieces for family and gifting orders. Every photo in this category is a genuine mannequin or dress-form product shot rather than a model of any age &mdash; a deliberate choice for a children's clothing range.</p>
       <p>Sizing runs in age-banded junior sizes rather than adult numeric sizing, and construction follows the same standards as our adult lines &mdash; reinforced seams, tested fabric, and the same fabric library buyers already know from our core catalog. This is a made-to-order category for most styles rather than a standing-stock line, given the lower relative volume compared to our adult ranges.</p>
     `,
-    heroImage: placeholder("cat-kids-hero", "Adult reference styling for the hijab fabric used in kids modest wear"),
-    cardImage: placeholder("cat-kids-card", "Adult reference styling for the abaya fabric used in kids modest wear"),
+    heroImage: placeholder("cat-kids-hero", "Mannequin head displaying a hijab, styled for the kids modest wear range"),
+    cardImage: placeholder("cat-kids-card", "Mannequins displaying modest outerwear on a street market display"),
     keywords: [
       "kids hijab manufacturer",
       "girls abaya wholesale supplier",
@@ -4198,10 +4198,10 @@ export const categories: Category[] = [
         name: "Girls' Hijabs",
         shortDescription: "Junior-graded chiffon and jersey hijabs from our adult fabric library.",
         description:
-          "Girls' hijabs are graded from our adult chiffon and jersey hijab patterns to a smaller junior size range, with a lighter overall fabric weight suited to smaller frames. Fabric and color range match our adult hijab library exactly, so a girls' hijab can be shade-matched to an adult family member's piece. Offered from 200 pieces per color. Images shown are the adult reference styling and fabric this range is graded from; we don't currently maintain separate junior photography for this category.",
+          "Girls' hijabs are graded from our adult chiffon and jersey hijab patterns to a smaller junior size range, with a lighter overall fabric weight suited to smaller frames. Fabric and color range match our adult hijab library exactly, so a girls' hijab can be shade-matched to an adult family member's piece. Offered from 200 pieces per color.",
         images: [
-          placeholder("subcat-kids-girls-hijabs-1", "Adult reference styling for the hijab fabric used in girls' hijabs"),
-          placeholder("subcat-kids-girls-hijabs-2", "Adult reference styling for the chiffon fabric used in girls' hijabs"),
+          placeholder("subcat-kids-girls-hijabs-1", "Mannequin head displaying a hijab in a shop"),
+          placeholder("subcat-kids-girls-hijabs-2", "Rows of mannequin heads displaying hijabs in a range of colors"),
         ],
         colors: [
           { name: "Sky Blue", hex: "#a9cce3" },
@@ -4215,10 +4215,10 @@ export const categories: Category[] = [
         name: "Girls' Abayas",
         shortDescription: "Junior-graded everyday abaya cut from our matte Nida fabric base.",
         description:
-          "Girls' abayas scale our everyday closed abaya pattern down to a junior size run, keeping the same matte Nida base and concealed closures as the adult line rather than simplifying construction. It's most often ordered alongside an adult abaya in a matching or coordinating color for family orders. Offered from 200 pieces per color. Images shown are the adult reference styling and fabric this range is graded from.",
+          "Girls' abayas scale our everyday closed abaya pattern down to a junior size run, keeping the same matte Nida base and concealed closures as the adult line rather than simplifying construction. It's most often ordered alongside an adult abaya in a matching or coordinating color for family orders. Offered from 200 pieces per color.",
         images: [
-          placeholder("subcat-kids-girls-abayas-1", "Adult reference styling for the abaya fabric used in girls' abayas"),
-          placeholder("subcat-kids-girls-abayas-2", "Adult reference styling for the Nida abaya fabric used in girls' abayas"),
+          placeholder("subcat-kids-girls-abayas-1", "Mannequins displaying abayas and headscarves on a street market display"),
+          placeholder("subcat-kids-girls-abayas-2", "Mannequin displaying a black embroidered abaya in a shop window"),
         ],
         colors: [
           { name: "Black", hex: "#1a1a1a" },
@@ -4233,8 +4233,8 @@ export const categories: Category[] = [
         description:
           "Kids instant hijabs use the same pull-on, attached-underscarf construction as our adult instant hijab line, which matters more here than in the adult category since young children can't be expected to style or re-pin a hijab through a school or activity day. It's the entry-point SKU we'd recommend for buyers new to this category. Offered from 200 pieces per color.",
         images: [
-          placeholder("subcat-kids-instant-hijabs-1", "Adult reference styling for the instant hijab construction used in the kids range"),
-          placeholder("subcat-kids-instant-hijabs-2", "Adult reference styling for the instant hijab fabric used in the kids range"),
+          placeholder("subcat-kids-instant-hijabs-1", "Rows of mannequin heads displaying hijabs in a range of colors"),
+          placeholder("subcat-kids-instant-hijabs-2", "Mannequin head displaying a hijab in a shop"),
         ],
         colors: [
           { name: "Sky Blue", hex: "#a9cce3" },
@@ -4249,8 +4249,8 @@ export const categories: Category[] = [
         description:
           "Kids prayer dresses are the same graded-down two-piece construction as the Kids Prayer Set in our Prayer Wear category, cross-listed here for buyers browsing kids modest wear specifically. Fabric, elastic placement, and finishing match our adult prayer wear line, scaled to a junior pattern. Offered from 200 sets per color.",
         images: [
-          placeholder("subcat-kids-prayer-dresses-1", "Adult reference styling for the prayer set fabric used in the kids range"),
-          placeholder("subcat-kids-prayer-dresses-2", "Adult reference styling for the prayer dress construction used in the kids range"),
+          placeholder("subcat-kids-prayer-dresses-1", "Dress form displaying a modest wrapped garment with a headscarf"),
+          placeholder("subcat-kids-prayer-dresses-2", "Mannequins displaying robes in a shop doorway"),
         ],
         colors: [
           { name: "Ivory", hex: "#f0e9db" },
@@ -4265,8 +4265,8 @@ export const categories: Category[] = [
         description:
           "Kids khimars scale our one-tier khimar construction down to a junior size, keeping the pull-on, no-wrap simplicity that makes the khimar silhouette practical for children in the first place. It's a lower-maintenance alternative to a girls' hijab for buyers whose customers want a young child to manage their own head covering with less adjustment through the day. Offered from 200 pieces per color.",
         images: [
-          placeholder("subcat-kids-khimars-1", "Adult reference styling for the khimar fabric used in the kids range"),
-          placeholder("subcat-kids-khimars-2", "Adult reference styling for the khimar construction used in the kids range"),
+          placeholder("subcat-kids-khimars-1", "Mannequin head displaying a hijab in a shop"),
+          placeholder("subcat-kids-khimars-2", "Dress form displaying a modest wrapped garment with a headscarf"),
         ],
         colors: [
           { name: "Sky Blue", hex: "#a9cce3" },
@@ -4281,8 +4281,8 @@ export const categories: Category[] = [
         description:
           "Girls' jilbabs grade our two-piece top-and-skirt jilbab construction down to a junior size, using the same value-tier Nida and crepe bases as our adult jilbab range. It's positioned as a practical, lower-cost alternative to a girls' abaya for buyers whose customers prioritize value over structure. Sold as coordinated sets from 200 sets per color.",
         images: [
-          placeholder("subcat-kids-girls-jilbabs-1", "Adult reference styling for the jilbab fabric used in girls' jilbabs"),
-          placeholder("subcat-kids-girls-jilbabs-2", "Adult reference styling for the jilbab construction used in girls' jilbabs"),
+          placeholder("subcat-kids-girls-jilbabs-1", "Mannequins displaying robes in a shop doorway"),
+          placeholder("subcat-kids-girls-jilbabs-2", "Dress form displaying a modest wrapped garment with a headscarf"),
         ],
         colors: [
           { name: "Black", hex: "#1a1a1a" },
@@ -4297,8 +4297,8 @@ export const categories: Category[] = [
         description:
           "Kids kaftans scale our printed and lightly embellished kaftan styles down to a junior pattern, positioned for Eid and family celebration dressing rather than daily wear. It's most often ordered as part of a family matching set alongside an adult kaftan or abaya in a coordinating colorway. Offered from 100 pieces per design.",
         images: [
-          placeholder("subcat-kids-kaftans-1", "Adult reference styling for the kaftan fabric used in kids kaftans"),
-          placeholder("subcat-kids-kaftans-2", "Adult reference styling for the kaftan embroidery used in kids kaftans"),
+          placeholder("subcat-kids-kaftans-1", "Colorful kaftans displayed on mannequins at a market stall"),
+          placeholder("subcat-kids-kaftans-2", "Mannequins displaying abayas and headscarves on a street market display"),
         ],
         colors: [
           { name: "Gold", hex: "#c9a635" },
@@ -4312,8 +4312,8 @@ export const categories: Category[] = [
         description:
           "Matching mother-daughter sets pair an adult hijab or abaya with the equivalent junior-graded piece in the same fabric lot and colorway, sold as a single coordinated order rather than two separate purchases. It's our most-requested kids-adjacent SKU, driven almost entirely by gifting occasions and family photography for Eid and other celebrations. Sold as coordinated sets from 150 sets per palette.",
         images: [
-          placeholder("subcat-kids-mother-daughter-1", "Adult reference styling for the hijab fabric used in the matching set"),
-          placeholder("subcat-kids-mother-daughter-2", "Adult reference styling for the abaya fabric used in the matching set"),
+          placeholder("subcat-kids-mother-daughter-1", "Rows of mannequin heads displaying hijabs in a range of colors"),
+          placeholder("subcat-kids-mother-daughter-2", "Mannequins displaying abayas and headscarves on a street market display"),
         ],
         colors: [
           { name: "Dusty Rose", hex: "#c98f8f" },
@@ -4410,10 +4410,10 @@ export const categories: Category[] = [
         name: "Mother-Daughter Matching Sets",
         shortDescription: "Adult and junior-graded pieces in the same fabric lot, cross-listed from Kids Modest Wear.",
         description:
-          "Mother-daughter matching sets are the same coordinated adult-and-junior pairing documented in our Kids Modest Wear category, cross-listed here for buyers browsing by set type rather than by garment category. As with that category, no separate junior photography exists for this set; the images shown are the adult reference styling both pieces are cut from. Sold as coordinated sets from 150 sets per palette.",
+          "Mother-daughter matching sets are the same coordinated adult-and-junior pairing documented in our Kids Modest Wear category, cross-listed here for buyers browsing by set type rather than by garment category. Sold as coordinated sets from 150 sets per palette.",
         images: [
-          placeholder("subcat-matching-mother-daughter-1", "Adult reference styling for the hijab fabric used in a mother-daughter set"),
-          placeholder("subcat-matching-mother-daughter-2", "Adult reference styling for the abaya fabric used in a mother-daughter set"),
+          placeholder("subcat-matching-mother-daughter-1", "Mannequin head displaying a hijab in a shop"),
+          placeholder("subcat-matching-mother-daughter-2", "Mannequins displaying abayas and headscarves on a street market display"),
         ],
         colors: [
           { name: "Dusty Rose", hex: "#c98f8f" },
@@ -4427,8 +4427,8 @@ export const categories: Category[] = [
         description:
           "Family matching sets coordinate one colorway across abaya and hijab styles for multiple family members dressing together, the same format as our Family Matching Ramadan Sets, offered here year-round rather than tied to a specific season. Sold as coordinated sets from 200 sets per palette.",
         images: [
-          placeholder("subcat-matching-family-1", "Model wearing an abaya in a coordinated family matching palette"),
-          placeholder("subcat-matching-family-2", "Model wearing a hijab in a matching coordinated family tone"),
+          placeholder("subcat-matching-family-1", "Rows of mannequin heads displaying hijabs in a range of colors"),
+          placeholder("subcat-matching-family-2", "Mannequin displaying a black embroidered abaya in a shop window"),
         ],
         colors: [
           { name: "Navy", hex: "#202a44" },

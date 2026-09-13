@@ -237,6 +237,18 @@ const THEME_PHOTOS: Record<string, string> = {
   "photo-occasion-30664510": "/products/occasion-wear/30664510.jpg",
   "photo-occasion-33226868": "/products/occasion-wear/33226868.jpg",
   "photo-occasion-16797844": "/products/occasion-wear/16797844.jpg",
+
+  // Genuine mannequin/dress-form product photography — no live model of
+  // any age. Used everywhere a kids-related subcategory would otherwise
+  // need a "graded from adult" disclaimer, per the site owner's request
+  // to just show the mannequin instead.
+  "photo-mannequin-35056254": "/products/mannequin/35056254.jpg",
+  "photo-mannequin-17359940": "/products/mannequin/17359940.jpg",
+  "photo-mannequin-37977637": "/products/mannequin/37977637.jpg",
+  "photo-mannequin-32166675": "/products/mannequin/32166675.jpg",
+  "photo-mannequin-39399650": "/products/mannequin/39399650.jpg",
+  "photo-mannequin-37738270": "/products/mannequin/37738270.jpg",
+  "photo-mannequin-30252935": "/products/mannequin/30252935.jpg",
   "blog-fabric-rolls-shelf": "/blog/17329670.jpg",
 };
 
@@ -720,8 +732,8 @@ const SEED_THEME_MAP: Record<string, keyof typeof THEME_PHOTOS> = {
   "subcat-prayer-khimar-2": "photo-prayer-dresses-36212007",
   "subcat-prayer-travel-set-1": "photo-prayer-dresses-34201029",
   "subcat-prayer-travel-set-2": "photo-prayer-dresses-36523935",
-  "subcat-prayer-kids-set-1": "photo-prayer-dresses-36405519",
-  "subcat-prayer-kids-set-2": "photo-prayer-dresses-36537147",
+  "subcat-prayer-kids-set-1": "photo-mannequin-32166675",
+  "subcat-prayer-kids-set-2": "photo-mannequin-37738270",
   "subcat-prayer-cotton-1": "photo-prayer-dresses-36212007",
   "subcat-prayer-cotton-2": "photo-prayer-dresses-20785719",
   "subcat-prayer-jersey-1": "photo-prayer-dresses-36523935",
@@ -1015,8 +1027,8 @@ const SEED_THEME_MAP: Record<string, keyof typeof THEME_PHOTOS> = {
   "subcat-ramadan-prayer-sets-2": "photo-prayer-dresses-20785719",
   "subcat-ramadan-embroidered-1": "abaya-embellished",
   "subcat-ramadan-embroidered-2": "embroidery-closeup",
-  "subcat-ramadan-family-matching-1": "photo-abayas-9880858",
-  "subcat-ramadan-family-matching-2": "photo-hijabs-34870036",
+  "subcat-ramadan-family-matching-1": "photo-mannequin-35056254",
+  "subcat-ramadan-family-matching-2": "photo-mannequin-37977637",
   "subcat-ramadan-gift-sets-1": "warehouse-cartons",
   "subcat-ramadan-gift-sets-2": "fabric-swatch-cards",
   "subcat-ramadan-iftar-1": "photo-prayer-dresses-34464775",
@@ -1044,36 +1056,35 @@ const SEED_THEME_MAP: Record<string, keyof typeof THEME_PHOTOS> = {
   "subcat-eid-embellished-2": "photo-kaftans-20453561",
   "subcat-eid-luxury-1": "photo-luxury-hijabs-8007347",
   "subcat-eid-luxury-2": "photo-occasion-33226868",
-  "subcat-eid-kids-1": "photo-abayas-29188546",
-  "subcat-eid-kids-2": "photo-hijabs-39118868",
+  "subcat-eid-kids-1": "photo-mannequin-30252935",
+  "subcat-eid-kids-2": "photo-mannequin-39399650",
   "subcat-eid-gift-sets-1": "warehouse-cartons",
   "subcat-eid-gift-sets-2": "fabric-premium-blends-stack",
   "subcat-eid-matching-1": "photo-abayas-34721670",
   "subcat-eid-matching-2": "photo-hijabs-2693065",
 
-  // Kids Modest Wear — no photos of a child model are used anywhere in
-  // this category. Every image is the adult reference styling/fabric a
-  // graded junior size is produced from (the same honest disclosure
-  // pattern as Kids Prayer Set and Kids Eid Modest Wear), built entirely
-  // from existing photo pools.
-  "cat-kids-hero": "photo-hijabs-10145415",
-  "cat-kids-card": "photo-abayas-32279501",
-  "subcat-kids-girls-hijabs-1": "photo-hijabs-10145415",
-  "subcat-kids-girls-hijabs-2": "photo-hijabs-8063290",
-  "subcat-kids-girls-abayas-1": "photo-abayas-32279501",
-  "subcat-kids-girls-abayas-2": "photo-abayas-29188546",
-  "subcat-kids-instant-hijabs-1": "photo-instant-hijabs-5125189",
-  "subcat-kids-instant-hijabs-2": "photo-instant-hijabs-15628800",
-  "subcat-kids-prayer-dresses-1": "photo-prayer-dresses-36405519",
-  "subcat-kids-prayer-dresses-2": "photo-prayer-dresses-36537147",
-  "subcat-kids-khimars-1": "photo-khimars-3754156",
-  "subcat-kids-khimars-2": "photo-khimars-17907026",
-  "subcat-kids-girls-jilbabs-1": "photo-jilbabs-8422394",
-  "subcat-kids-girls-jilbabs-2": "photo-jilbabs-8002584",
-  "subcat-kids-kaftans-1": "photo-kaftans-32355507",
-  "subcat-kids-kaftans-2": "photo-kaftans-15751104",
-  "subcat-kids-mother-daughter-1": "photo-hijabs-34870036",
-  "subcat-kids-mother-daughter-2": "photo-abayas-31049717",
+  // Kids Modest Wear — no photo of any live person, adult or child, is
+  // used anywhere in this category. Every image is a genuine mannequin
+  // or dress-form product shot, per the site owner's explicit request to
+  // use a mannequin rather than an "adult reference" model photo.
+  "cat-kids-hero": "photo-mannequin-17359940",
+  "cat-kids-card": "photo-mannequin-35056254",
+  "subcat-kids-girls-hijabs-1": "photo-mannequin-17359940",
+  "subcat-kids-girls-hijabs-2": "photo-mannequin-37977637",
+  "subcat-kids-girls-abayas-1": "photo-mannequin-35056254",
+  "subcat-kids-girls-abayas-2": "photo-mannequin-39399650",
+  "subcat-kids-instant-hijabs-1": "photo-mannequin-37977637",
+  "subcat-kids-instant-hijabs-2": "photo-mannequin-17359940",
+  "subcat-kids-prayer-dresses-1": "photo-mannequin-32166675",
+  "subcat-kids-prayer-dresses-2": "photo-mannequin-37738270",
+  "subcat-kids-khimars-1": "photo-mannequin-17359940",
+  "subcat-kids-khimars-2": "photo-mannequin-32166675",
+  "subcat-kids-girls-jilbabs-1": "photo-mannequin-37738270",
+  "subcat-kids-girls-jilbabs-2": "photo-mannequin-32166675",
+  "subcat-kids-kaftans-1": "photo-mannequin-30252935",
+  "subcat-kids-kaftans-2": "photo-mannequin-35056254",
+  "subcat-kids-mother-daughter-1": "photo-mannequin-37977637",
+  "subcat-kids-mother-daughter-2": "photo-mannequin-35056254",
 
   // Matching & Coordinated Sets — the final category, built entirely from
   // existing photo pools across Hijabs, Caps, Abayas, Belts, Bridal
@@ -1089,10 +1100,10 @@ const SEED_THEME_MAP: Record<string, keyof typeof THEME_PHOTOS> = {
   "subcat-matching-abaya-belt-2": "photo-belts-29278753",
   "subcat-matching-bridal-veil-1": "photo-luxury-hijabs-7988399",
   "subcat-matching-bridal-veil-2": "photo-bridal-accessories-36501667",
-  "subcat-matching-mother-daughter-1": "photo-hijabs-34870036",
-  "subcat-matching-mother-daughter-2": "photo-abayas-31049717",
-  "subcat-matching-family-1": "photo-abayas-9880858",
-  "subcat-matching-family-2": "photo-hijabs-34870036",
+  "subcat-matching-mother-daughter-1": "photo-mannequin-17359940",
+  "subcat-matching-mother-daughter-2": "photo-mannequin-35056254",
+  "subcat-matching-family-1": "photo-mannequin-37977637",
+  "subcat-matching-family-2": "photo-mannequin-39399650",
   "subcat-matching-prayer-1": "photo-prayer-dresses-36523935",
   "subcat-matching-prayer-2": "photo-prayer-dresses-34464775",
   "subcat-matching-eid-1": "photo-abayas-34721670",
