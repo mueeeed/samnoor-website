@@ -1075,6 +1075,33 @@ const SEED_THEME_MAP: Record<string, keyof typeof THEME_PHOTOS> = {
   "subcat-kids-mother-daughter-1": "photo-hijabs-34870036",
   "subcat-kids-mother-daughter-2": "photo-abayas-31049717",
 
+  // Matching & Coordinated Sets — the final category, built entirely from
+  // existing photo pools across Hijabs, Caps, Abayas, Belts, Bridal
+  // Hijabs, Bridal Accessories, Prayer Wear, Eid Collection, and
+  // Activewear.
+  "cat-matching-sets-hero": "photo-abayas-34957209",
+  "cat-matching-sets-card": "photo-hijabs-2711126",
+  "subcat-matching-hijab-cap-1": "photo-hijabs-8217839",
+  "subcat-matching-hijab-cap-2": "innercap-model",
+  "subcat-matching-hijab-abaya-1": "photo-hijabs-30333754",
+  "subcat-matching-hijab-abaya-2": "photo-abayas-34721670",
+  "subcat-matching-abaya-belt-1": "photo-abayas-9880858",
+  "subcat-matching-abaya-belt-2": "photo-belts-29278753",
+  "subcat-matching-bridal-veil-1": "photo-luxury-hijabs-7988399",
+  "subcat-matching-bridal-veil-2": "photo-bridal-accessories-36501667",
+  "subcat-matching-mother-daughter-1": "photo-hijabs-34870036",
+  "subcat-matching-mother-daughter-2": "photo-abayas-31049717",
+  "subcat-matching-family-1": "photo-abayas-9880858",
+  "subcat-matching-family-2": "photo-hijabs-34870036",
+  "subcat-matching-prayer-1": "photo-prayer-dresses-36523935",
+  "subcat-matching-prayer-2": "photo-prayer-dresses-34464775",
+  "subcat-matching-eid-1": "photo-abayas-34721670",
+  "subcat-matching-eid-2": "photo-hijabs-2693065",
+  "subcat-matching-co-ord-1": "photo-sports-hijabs-36161718",
+  "subcat-matching-co-ord-2": "photo-sports-hijabs-8736746",
+  "subcat-matching-gift-box-1": "fabric-swatch-cards",
+  "subcat-matching-gift-box-2": "warehouse-cartons",
+
   // About page
   "about-hero": "factory-exterior",
   "about-story": "design-desk",

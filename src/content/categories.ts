@@ -4323,6 +4323,179 @@ export const categories: Category[] = [
       },
     ],
   },
+  {
+    slug: "matching-sets",
+    name: "Matching & Coordinated Sets",
+    shortName: "Matching Sets",
+    description:
+      "Cross-category coordinated bundles — hijab and cap, hijab and abaya, mother and daughter, full family — pulled together from our existing ranges into one merchandised set per occasion.",
+    content: `
+      <p>This category is a merchandising index rather than a new product line: every set here pairs items that already exist individually elsewhere in our catalog, bundled specifically because our accounts report that matched, coordinated presentation sells better at retail than the same items hung as separates. If you've found a specific pairing here, the individual pieces are also documented in their own category with full specifications.</p>
+      <p>All coordinated sets are cut and dyed from the same fabric lots across every piece in the set, which is the detail that actually makes a "matching" set look matched rather than approximately similar shades from different production runs. Custom pairings beyond what's listed here are available on request for private label buyers building a specific bundle.</p>
+    `,
+    heroImage: placeholder("cat-matching-sets-hero", "Coordinated abaya and hijab styled as a matching set"),
+    cardImage: placeholder("cat-matching-sets-card", "Coordinated hijab styled as part of a matching set"),
+    keywords: [
+      "matching hijab abaya set wholesale",
+      "mother daughter matching hijab supplier",
+      "coordinated modest wear sets manufacturer",
+      "family matching Islamic wear wholesale",
+    ],
+    subcategories: [
+      {
+        slug: "hijab-cap",
+        name: "Hijab + Cap Sets",
+        shortDescription: "A hijab bundled with its matching or coordinating inner cap as one SKU.",
+        description:
+          "Hijab and cap sets bundle a hijab from our core range with a coordinating inner cap from our Caps/Underscarves category, sold as one SKU rather than two separate line items. It's a practical bundle for retailers who'd otherwise stock the two categories independently and want a simpler reorder unit. See our Hijabs and Caps/Underscarves categories for the individual pieces. Sold as coordinated sets from 300 sets per color.",
+        images: [
+          placeholder("subcat-matching-hijab-cap-1", "Model wearing a hijab from a coordinated hijab and cap set"),
+          placeholder("subcat-matching-hijab-cap-2", "Model wearing an inner cap from a coordinated hijab and cap set"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Nude", hex: "#d9b99b" },
+          { name: "Navy", hex: "#202a44" },
+        ],
+      },
+      {
+        slug: "hijab-abaya",
+        name: "Hijab + Abaya Sets",
+        shortDescription: "Matched hijab and abaya cut from the same fabric lot for a guaranteed shade match.",
+        description:
+          "Hijab and abaya sets pair pieces from our Hijabs and Abayas categories in the same fabric lot, guaranteeing a shade match that ordering the two separately from standard stock can't promise. This is our most-ordered coordinated set overall, since it's the base combination most retail customers actually buy together. Sold as coordinated sets from 300 sets per color.",
+        images: [
+          placeholder("subcat-matching-hijab-abaya-1", "Model wearing a hijab from a coordinated hijab and abaya set"),
+          placeholder("subcat-matching-hijab-abaya-2", "Model wearing an abaya from a coordinated hijab and abaya set"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Navy", hex: "#202a44" },
+          { name: "Camel", hex: "#c19a6b" },
+        ],
+      },
+      {
+        slug: "abaya-belt",
+        name: "Abaya + Belt Sets",
+        shortDescription: "An abaya bundled with a coordinating waist belt from our Belts category.",
+        description:
+          "Abaya and belt sets pair a style from our Abayas category with a coordinating piece from Belts & Waist Accessories, pre-selected so the belt's width and finish genuinely suit that abaya's silhouette rather than leaving the pairing to guesswork at retail. It's the bundle we recommend for buyers introducing belts as a new accessory category alongside their existing abaya range. Sold as coordinated sets from 200 sets per color.",
+        images: [
+          placeholder("subcat-matching-abaya-belt-1", "Model wearing an abaya styled with a coordinating waist belt"),
+          placeholder("subcat-matching-abaya-belt-2", "Close-up of a tie belt styled as part of a coordinated abaya and belt set"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Camel", hex: "#c19a6b" },
+        ],
+      },
+      {
+        slug: "bridal-veil",
+        name: "Bridal Hijab + Veil Sets",
+        shortDescription: "A bridal hijab bundled with a matching veil from Bridal Accessories.",
+        description:
+          "Bridal hijab and veil sets pair a style from our Bridal Hijabs category with a coordinating veil from Bridal Accessories, sold as one complete bridal headpiece purchase rather than requiring the buyer to match a veil separately. Length, lace detail, and embellishment level are coordinated across both pieces. Produced from 25 pieces per design.",
+        images: [
+          placeholder("subcat-matching-bridal-veil-1", "Close-up of hand-set faceted crystals on bridal hijab fabric"),
+          placeholder("subcat-matching-bridal-veil-2", "Bride wearing a crystal-embellished hijab crown and veil"),
+        ],
+        colors: [
+          { name: "Ivory", hex: "#f0e9db" },
+          { name: "White", hex: "#faf8f5" },
+          { name: "Champagne", hex: "#e8d9b5" },
+        ],
+      },
+      {
+        slug: "mother-daughter",
+        name: "Mother-Daughter Matching Sets",
+        shortDescription: "Adult and junior-graded pieces in the same fabric lot, cross-listed from Kids Modest Wear.",
+        description:
+          "Mother-daughter matching sets are the same coordinated adult-and-junior pairing documented in our Kids Modest Wear category, cross-listed here for buyers browsing by set type rather than by garment category. As with that category, no separate junior photography exists for this set; the images shown are the adult reference styling both pieces are cut from. Sold as coordinated sets from 150 sets per palette.",
+        images: [
+          placeholder("subcat-matching-mother-daughter-1", "Adult reference styling for the hijab fabric used in a mother-daughter set"),
+          placeholder("subcat-matching-mother-daughter-2", "Adult reference styling for the abaya fabric used in a mother-daughter set"),
+        ],
+        colors: [
+          { name: "Dusty Rose", hex: "#c98f8f" },
+          { name: "Sage", hex: "#9caf88" },
+        ],
+      },
+      {
+        slug: "family",
+        name: "Family Matching Sets",
+        shortDescription: "Coordinated colorway across multiple family members' pieces, cross-listed from Ramadan.",
+        description:
+          "Family matching sets coordinate one colorway across abaya and hijab styles for multiple family members dressing together, the same format as our Family Matching Ramadan Sets, offered here year-round rather than tied to a specific season. Sold as coordinated sets from 200 sets per palette.",
+        images: [
+          placeholder("subcat-matching-family-1", "Model wearing an abaya in a coordinated family matching palette"),
+          placeholder("subcat-matching-family-2", "Model wearing a hijab in a matching coordinated family tone"),
+        ],
+        colors: [
+          { name: "Navy", hex: "#202a44" },
+          { name: "Camel", hex: "#c19a6b" },
+        ],
+      },
+      {
+        slug: "prayer",
+        name: "Prayer Wear Sets",
+        shortDescription: "Two and three-piece prayer sets, cross-listed from our Prayer Wear category.",
+        description:
+          "Prayer wear sets are the same two and three-piece coordinated sets documented in our Prayer Wear category, cross-listed here for buyers browsing by set format. Every piece in a set is cut and dyed from the same fabric lot. Sold as coordinated sets from 300 sets per color.",
+        images: [
+          placeholder("subcat-matching-prayer-1", "Model wearing a two-piece prayer set top and skirt"),
+          placeholder("subcat-matching-prayer-2", "Model wearing a one-piece prayer dress with elasticated cuffs"),
+        ],
+        colors: [
+          { name: "Ivory", hex: "#f0e9db" },
+          { name: "Sky Blue", hex: "#a9cce3" },
+        ],
+      },
+      {
+        slug: "eid",
+        name: "Eid Matching Sets",
+        shortDescription: "Coordinated Eid-season abaya and hijab pairing, cross-listed from our Eid Collection.",
+        description:
+          "Eid matching sets are the same coordinated abaya-and-hijab pairing documented in our Eid Collection, cross-listed here for buyers browsing coordinated sets generally rather than by season. Sold as coordinated sets from 200 sets per palette.",
+        images: [
+          placeholder("subcat-matching-eid-1", "Model wearing an abaya in a coordinated Eid matching palette"),
+          placeholder("subcat-matching-eid-2", "Model wearing a hijab in a matching coordinated Eid tone"),
+        ],
+        colors: [
+          { name: "Emerald", hex: "#175f4c" },
+          { name: "Gold", hex: "#c9a635" },
+        ],
+      },
+      {
+        slug: "co-ord",
+        name: "Co-Ord Modest Sets",
+        shortDescription: "Mix-and-match coordinating (not identical) pieces, cross-listed from Modest Activewear.",
+        description:
+          "Co-ord modest sets bundle pieces in coordinating rather than identical colorways, the same curated approach as our Activewear Co-Ord Sets, applied here across our broader catalog for buyers who want a styled, color-blocked look rather than a single-color matched set. Sold as coordinated sets from 200 sets per color story.",
+        images: [
+          placeholder("subcat-matching-co-ord-1", "Model wearing a coordinated co-ord set in complementary tones"),
+          placeholder("subcat-matching-co-ord-2", "Close-up of coordinated co-ord set fabric in a complementary colorway"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Teal", hex: "#1f7a6c" },
+        ],
+      },
+      {
+        slug: "gift-box",
+        name: "Gift Box Sets",
+        shortDescription: "Any coordinated set above packaged in a branded retail gift box.",
+        description:
+          "Gift box sets take any of the coordinated pairings above and package them in a rigid branded gift box rather than standard poly-bag packaging, for buyers building a retail gifting display or seasonal promotional range. Box branding, insert cards, and ribbon finish are all customizable for private label orders. Configured from 100 sets per bundle.",
+        images: [
+          placeholder("subcat-matching-gift-box-1", "Fabric swatch cards arranged for a gift box set color selection"),
+          placeholder("subcat-matching-gift-box-2", "Warehouse cartons packed for a gift box set shipment"),
+        ],
+        colors: [
+          { name: "Assorted", hex: "#8a8a8a" },
+        ],
+      },
+    ],
+  },
 ];
 
 export function getCategoryBySlug(slug: string): Category | undefined {
