@@ -2567,6 +2567,189 @@ export const categories: Category[] = [
       },
     ],
   },
+  {
+    slug: "tunics",
+    name: "Modest Tops & Tunics",
+    shortName: "Tops & Tunics",
+    description:
+      "Longline, oversized, and flared modest tops and tunics cut to layer over trousers or a skirt, filling the gap between a standard top and a full abaya for buyers building a modest separates range.",
+    content: `
+      <p>Modest tops and tunics fill a gap in most wholesale ranges: customers who want daily coverage without committing to a full abaya every day, and who build outfits from separates rather than one-piece garments. Length and cut are what separate this category from a standard top &mdash; every style here is drafted long enough to cover the hip at minimum, with the wider silhouettes running to mid-thigh.</p>
+      <p>We produce this range across cotton, linen, and jersey bases depending on the silhouette, with construction detail (button plackets, peplum seams, embroidery placement) driving most of the cost difference between styles rather than fabric alone. It's a natural complement category for buyers who already stock our hijab and skirt ranges and want to offer complete separates-based outfits.</p>
+    `,
+    heroImage: placeholder("cat-tunics-hero", "Woman wearing an oversized button-down modest tunic with a hijab"),
+    cardImage: placeholder("cat-tunics-card", "Woman wearing a printed oversized tunic with puff sleeves"),
+    keywords: [
+      "modest tunic manufacturer",
+      "wholesale modest tops supplier",
+      "longline tunic manufacturer India",
+      "modest fashion separates wholesale",
+    ],
+    subcategories: [
+      {
+        slug: "longline",
+        name: "Longline Tops",
+        shortDescription: "Extended-length top covering to the hip or below, the base cut for this category.",
+        description:
+          "Longline tops extend past a standard top's hem to cover the hip or below, the base construction most of our other tunic styles build from. It's cut close enough through the body to layer under a cardigan or open abaya without adding bulk, unlike our fuller oversized and flared cuts. This is the entry-point SKU for buyers new to the tunic category, since one silhouette works across the widest range of styling occasions. Offered from 300 pieces per color.",
+        images: [
+          placeholder("subcat-tunics-longline-1", "Model wearing a longline modest top with a hijab"),
+          placeholder("subcat-tunics-longline-2", "Model wearing a longline top styled with wide-leg trousers"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Charcoal", hex: "#3d3d3d" },
+          { name: "Ivory", hex: "#f0e9db" },
+          { name: "Camel", hex: "#c19a6b" },
+        ],
+      },
+      {
+        slug: "oversized",
+        name: "Oversized Tunics",
+        shortDescription: "Relaxed, boxy fit through the body for a loose, comfortable daily layer.",
+        description:
+          "Oversized tunics use a boxy, relaxed body block that skips waist shaping entirely, giving a loose, comfortable daily layer that suits a wide range of body shapes without needing multiple fitted sizes. It's the style our buyers reorder most for casual, everyday-adjacent ranges, since the relaxed fit reduces size-related returns compared to our more fitted longline cut. Offered from 300 pieces per color.",
+        images: [
+          placeholder("subcat-tunics-oversized-1", "Model wearing an oversized button-down tunic over jeans"),
+          placeholder("subcat-tunics-oversized-2", "Model wearing an oversized navy tunic with a hijab"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Navy", hex: "#202a44" },
+          { name: "Lavender", hex: "#c9b8e0" },
+          { name: "Ivory", hex: "#f0e9db" },
+        ],
+      },
+      {
+        slug: "flared",
+        name: "Flared Tunics",
+        shortDescription: "A-line flare from the bust for movement and a more feminine silhouette than a boxy cut.",
+        description:
+          "Flared tunics introduce an A-line flare from the bust down, giving a more feminine, movement-forward silhouette than our boxy oversized cut without going as fitted as our longline style. The flare is built into the pattern rather than gathered at a seam, so it hangs evenly rather than bunching at one point. It's a strong option for buyers whose customers want tunics with visible shape rather than a purely relaxed fit. Offered from 300 pieces per color.",
+        images: [
+          placeholder("subcat-tunics-flared-1", "Model wearing a flared A-line tunic with a hijab"),
+          placeholder("subcat-tunics-flared-2", "Model wearing a flared tunic with floral sleeve detail"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Sage", hex: "#9caf88" },
+          { name: "Dusty Rose", hex: "#c98f8f" },
+        ],
+      },
+      {
+        slug: "button-down",
+        name: "Button-Down Tunics",
+        shortDescription: "Full-length button placket for a shirt-style tunic that can be worn open or closed.",
+        description:
+          "Button-down tunics carry a full-length button placket rather than a pull-on construction, letting the same piece be worn fully closed, partially open over a top, or fully open as a light layering piece. This flexibility is the main reason distributors reorder it as a single SKU that serves multiple styling occasions. Buttonhole and button hardware are available in tonal or contrast finishes for private label branding. Offered from 300 pieces per color.",
+        images: [
+          placeholder("subcat-tunics-button-down-1", "Model wearing an oversized button-down tunic with a hijab"),
+          placeholder("subcat-tunics-button-down-2", "Model wearing a printed button-down tunic with puff sleeves"),
+        ],
+        colors: [
+          { name: "Ivory", hex: "#f0e9db" },
+          { name: "Camel", hex: "#c19a6b" },
+          { name: "Navy", hex: "#202a44" },
+        ],
+      },
+      {
+        slug: "peplum",
+        name: "Peplum Tunics",
+        shortDescription: "Fitted bodice with a gathered peplum flare at the waist for a defined, structured silhouette.",
+        description:
+          "Peplum tunics fit through the bodice and add a gathered flare panel at the waist, giving a more structured, defined silhouette than our other tunic cuts. The peplum seam is the main construction cost driver on this style, since it requires an additional pattern piece and seam finish beyond a single-panel cut. It's positioned as a step-up, going-out-adjacent style rather than a purely casual daily top. Offered from 250 pieces per color.",
+        images: [
+          placeholder("subcat-tunics-peplum-1", "Model wearing a peplum-waist tunic with button detail"),
+          placeholder("subcat-tunics-peplum-2", "Model wearing a peplum-style longline tunic in pinstripe fabric"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Burgundy", hex: "#6d2130" },
+          { name: "Navy", hex: "#202a44" },
+        ],
+      },
+      {
+        slug: "jersey",
+        name: "Jersey Tunics",
+        shortDescription: "Stretch jersey base for a softer, more casual tunic than our woven cotton and linen styles.",
+        description:
+          "Jersey tunics use a stretch knit base rather than woven cotton or linen, giving a softer hand-feel and more forgiving fit for customers who want a casual, athleisure-adjacent tunic. The added stretch also makes it easier to layer under a fitted outer piece without pulling at the seams. It's the fabric we recommend pairing with our jersey hijab range for a fully coordinated casual line. Offered from 300 pieces per color.",
+        images: [
+          placeholder("subcat-tunics-jersey-1", "Model wearing a soft jersey tunic with a hijab"),
+          placeholder("subcat-tunics-jersey-2", "Model wearing a jersey longline top styled casually"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Charcoal Heather", hex: "#5c5c5c" },
+          { name: "Sage", hex: "#9caf88" },
+        ],
+      },
+      {
+        slug: "cotton",
+        name: "Cotton Tunics",
+        shortDescription: "Breathable woven cotton for hot-climate daily wear with a crisper structure than jersey.",
+        description:
+          "Cotton tunics use a breathable woven cotton base, holding a crisper structure than our jersey line while staying cooler than synthetic-blend fabrics in hot, humid climates. It's the fabric most buyers choose for our button-down and oversized silhouettes specifically, since cotton presses and holds a crease better than a stretch knit. Offered from 300 pieces per color.",
+        images: [
+          placeholder("subcat-tunics-cotton-1", "Model wearing an oversized cotton tunic over trousers"),
+          placeholder("subcat-tunics-cotton-2", "Model wearing a cotton tunic with a hijab in an outdoor setting"),
+        ],
+        colors: [
+          { name: "Ivory", hex: "#f0e9db" },
+          { name: "Sky Blue", hex: "#a9cce3" },
+          { name: "Sand", hex: "#d9c7a3" },
+        ],
+      },
+      {
+        slug: "linen",
+        name: "Linen Tunics",
+        shortDescription: "Natural linen-blend fabric for a visibly textured, earthy-toned tunic range.",
+        description:
+          "Linen tunics bring our natural, visibly textured linen blend into the tunic category, aimed at buyers whose customers respond to an earthy, less polished aesthetic than our smoother cotton and jersey lines. Linen takes muted, natural dye tones particularly well and develops a soft hand-feel with wear rather than pilling. It's a lower-volume, specialty fabric compared to our cotton and jersey tunics. Offered from 300 pieces per color.",
+        images: [
+          placeholder("subcat-tunics-linen-1", "Model wearing a linen-blend tunic with a hijab outdoors"),
+          placeholder("subcat-tunics-linen-2", "Model wearing a flared linen tunic in a natural tone"),
+        ],
+        colors: [
+          { name: "Natural", hex: "#ddd2bc" },
+          { name: "Sand", hex: "#d9c7a3" },
+          { name: "Charcoal", hex: "#4a4a4a" },
+        ],
+      },
+      {
+        slug: "embroidered",
+        name: "Embroidered Tunics",
+        shortDescription: "Thread embroidery detail at the neckline or sleeve for a premium, occasion-adjacent tunic.",
+        description:
+          "Embroidered tunics add a thread-embroidered motif at the neckline, cuff, or hem, positioned as a premium step-up above our plain tunic styles rather than full bridal-tier embellishment. Thread color, density, and placement are all customizable per order. It's the style most often chosen for gifting and festive-adjacent retail displays where a tunic needs to read as more than a basic daily top. Offered from 250 pieces per color.",
+        images: [
+          placeholder("subcat-tunics-embroidered-1", "Model wearing an embroidered oversized tunic with a hijab"),
+          placeholder("subcat-tunics-embroidered-2", "Close-up of embroidered detail on a modest tunic"),
+        ],
+        colors: [
+          { name: "Ivory", hex: "#f0e9db" },
+          { name: "Camel", hex: "#c19a6b" },
+          { name: "Burgundy", hex: "#6d2130" },
+        ],
+      },
+      {
+        slug: "layering",
+        name: "Layering Tunics",
+        shortDescription: "Lightweight open-front tunic designed to be worn over another top rather than alone.",
+        description:
+          "Layering tunics are cut deliberately lighter and looser than our other styles, designed from the start to be worn open over another top or dress rather than as a standalone piece. It fills a similar role to a light cardigan but in a longer, more structured tunic length. This is a strong complement SKU for buyers who want to extend a core top or dress range into more layered, cooler-weather-appropriate looks without a full new garment category. Offered from 300 pieces per color.",
+        images: [
+          placeholder("subcat-tunics-layering-1", "Model wearing a longline layering tunic over a printed top"),
+          placeholder("subcat-tunics-layering-2", "Model wearing a peplum tunic layered over a coordinating top"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Charcoal", hex: "#3d3d3d" },
+          { name: "Camel", hex: "#c19a6b" },
+        ],
+      },
+    ],
+  },
 ];
 
 export function getCategoryBySlug(slug: string): Category | undefined {

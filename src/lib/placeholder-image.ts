@@ -180,6 +180,17 @@ const THEME_PHOTOS: Record<string, string> = {
   "location-hero-27099093": "/locations/27099093.jpg",
   "location-hero-209251": "/locations/209251.jpg",
   "location-hero-906494": "/locations/906494.jpg",
+
+  "photo-tunics-8063352": "/products/tunics/8063352.jpg",
+  "photo-tunics-13246734": "/products/tunics/13246734.jpg",
+  "photo-tunics-7297555": "/products/tunics/7297555.jpg",
+  "photo-tunics-9218401": "/products/tunics/9218401.jpg",
+  "photo-tunics-33282245": "/products/tunics/33282245.jpg",
+  "photo-tunics-34468167": "/products/tunics/34468167.jpg",
+  "photo-tunics-32438420": "/products/tunics/32438420.jpg",
+  "photo-tunics-36919784": "/products/tunics/36919784.jpg",
+  "photo-tunics-32873853": "/products/tunics/32873853.jpg",
+  "photo-tunics-6121876": "/products/tunics/6121876.jpg",
   "blog-fabric-rolls-shelf": "/blog/17329670.jpg",
 };
 
@@ -751,6 +762,33 @@ const SEED_THEME_MAP: Record<string, keyof typeof THEME_PHOTOS> = {
   "subcat-wholesale-mixed-colour-2": "fabric-premium-blends-stack",
   "subcat-wholesale-clearance-1": "shipping-containers",
   "subcat-wholesale-clearance-2": "warehouse-cartons",
+
+  // Modest Tops & Tunics — a new category with 10 freshly sourced,
+  // visually-verified photos (no existing pool to draw from). Primary
+  // image per subcategory, secondary offset by half the 10-photo pool so
+  // every subcategory shows two different photos.
+  "cat-tunics-hero": "photo-tunics-9218401",
+  "cat-tunics-card": "photo-tunics-32873853",
+  "subcat-tunics-longline-1": "photo-tunics-8063352",
+  "subcat-tunics-longline-2": "photo-tunics-34468167",
+  "subcat-tunics-oversized-1": "photo-tunics-13246734",
+  "subcat-tunics-oversized-2": "photo-tunics-32438420",
+  "subcat-tunics-flared-1": "photo-tunics-7297555",
+  "subcat-tunics-flared-2": "photo-tunics-36919784",
+  "subcat-tunics-button-down-1": "photo-tunics-9218401",
+  "subcat-tunics-button-down-2": "photo-tunics-32873853",
+  "subcat-tunics-peplum-1": "photo-tunics-33282245",
+  "subcat-tunics-peplum-2": "photo-tunics-6121876",
+  "subcat-tunics-jersey-1": "photo-tunics-34468167",
+  "subcat-tunics-jersey-2": "photo-tunics-8063352",
+  "subcat-tunics-cotton-1": "photo-tunics-32438420",
+  "subcat-tunics-cotton-2": "photo-tunics-13246734",
+  "subcat-tunics-linen-1": "photo-tunics-36919784",
+  "subcat-tunics-linen-2": "photo-tunics-7297555",
+  "subcat-tunics-embroidered-1": "photo-tunics-32873853",
+  "subcat-tunics-embroidered-2": "photo-tunics-9218401",
+  "subcat-tunics-layering-1": "photo-tunics-6121876",
+  "subcat-tunics-layering-2": "photo-tunics-33282245",
 
   // About page
   "about-hero": "factory-exterior",
