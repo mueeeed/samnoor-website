@@ -3467,6 +3467,184 @@ export const categories: Category[] = [
       },
     ],
   },
+  {
+    slug: "belts",
+    name: "Belts & Waist Accessories",
+    shortName: "Belts",
+    description:
+      "Tie, buckle, chain, and elastic waist belts styled over abayas, kaftans, and modest dresses to define the waist without altering the garment itself.",
+    content: `
+      <p>A waist belt is the single fastest way for a customer to restyle the same abaya or kaftan into a noticeably different silhouette, which is why we treat this as its own accessory category rather than bundling one fixed belt with each garment. Buyers stocking a belt range alongside their abaya and kaftan lines report it as one of the highest attach-rate add-on categories at checkout.</p>
+      <p>Construction ranges from simple fabric tie belts through structured buckle and chain styles, and every belt is sized to fit over outer garments rather than against bare skin, so sizing runs looser than a conventional fashion belt. Custom buckle branding and fabric-matched tie belts (cut from the same fabric lot as a specific abaya style) are available for private label buyers.</p>
+    `,
+    heroImage: placeholder("cat-belts-hero", "Woman wearing a magenta obi-style tie belt over a floral dress and hijab"),
+    cardImage: placeholder("cat-belts-card", "Close-up of a thick buckle belt worn over a purple dress"),
+    keywords: [
+      "abaya belt manufacturer",
+      "waist belt wholesale supplier",
+      "obi belt manufacturer India",
+      "modest fashion accessories wholesale",
+    ],
+    subcategories: [
+      {
+        slug: "abaya-waist",
+        name: "Abaya Waist Belts",
+        shortDescription: "Fabric tie belt sized to sit comfortably over an abaya rather than against the body.",
+        description:
+          "Abaya waist belts are cut long and finished with a soft fabric tie rather than a rigid buckle, sized specifically to sit comfortably over the volume of an abaya rather than against bare skin. It's the style we recommend as a first accessory SKU for buyers stocking our abaya range, since it works across nearly every silhouette from closed to open-front styles. Offered in coordinating and contrast colorways. Sold in bulk multi-packs from 300 pieces per color.",
+        images: [
+          placeholder("subcat-belts-abaya-waist-1", "Model wearing a fabric tie belt over a floral dress and hijab"),
+          placeholder("subcat-belts-abaya-waist-2", "Back view of a fabric tie belt worn over a modest dress"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Camel", hex: "#c19a6b" },
+          { name: "Burgundy", hex: "#6d2130" },
+        ],
+      },
+      {
+        slug: "elastic",
+        name: "Elastic Waist Belts",
+        shortDescription: "Stretch elastic band belt for a no-fuss, one-size cinch over any outer garment.",
+        description:
+          "Elastic waist belts use a wide stretch band rather than a tie or buckle closure, giving a no-fuss, one-size fit that cinches over an outer garment without needing to be adjusted or tied. It's the fastest belt style to put on, which distributors report as the reason customers reorder it as a daily-wear accessory rather than an occasional styling piece. Sold in bulk multi-packs from 300 pieces per color.",
+        images: [
+          placeholder("subcat-belts-elastic-1", "Close-up of a thin belt worn over a floral dress"),
+          placeholder("subcat-belts-elastic-2", "Close-up of a thick buckle belt worn over a purple dress"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Camel", hex: "#c19a6b" },
+          { name: "Dusty Rose", hex: "#c98f8f" },
+        ],
+      },
+      {
+        slug: "buckle",
+        name: "Buckle Belts",
+        shortDescription: "Structured belt with a statement buckle for a defined, tailored waist finish.",
+        description:
+          "Buckle belts use a rigid buckle closure rather than a tie or elastic, giving the most structured, defined waist finish in our belt range. Buckle size and finish range from a minimal metal clasp to a large statement piece, priced accordingly. It's the style most often paired with our coat and blazer-style abayas, where a tailored, structured accessory suits the garment's own silhouette. Sold in bulk multi-packs from 200 pieces per design.",
+        images: [
+          placeholder("subcat-belts-buckle-1", "Close-up of a thick buckle belt worn over a purple dress"),
+          placeholder("subcat-belts-buckle-2", "Close-up of an ornate buckle belt with gold medallion detail"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Tan", hex: "#c19a6b" },
+          { name: "Gold", hex: "#c9a635" },
+        ],
+      },
+      {
+        slug: "chain",
+        name: "Chain Belts",
+        shortDescription: "Metal chain-link belt for a statement, occasion-adjacent finish over a plain garment.",
+        description:
+          "Chain belts use a metal chain-link or linked-medallion construction rather than fabric, giving a statement occasion-adjacent finish that dresses up a plain abaya or kaftan without changing the garment itself. It's a heavier accessory than our fabric belt styles, so it's sized with an adjustable clasp rather than a fixed tie length. Sold in bulk multi-packs from 200 pieces per design.",
+        images: [
+          placeholder("subcat-belts-chain-1", "Close-up of an ornate buckle belt with gold medallion detail"),
+          placeholder("subcat-belts-chain-2", "Model wearing a fabric tie belt over a floral dress and hijab"),
+        ],
+        colors: [
+          { name: "Gold", hex: "#c9a635" },
+          { name: "Silver", hex: "#c7c7c7" },
+        ],
+      },
+      {
+        slug: "embellished",
+        name: "Embellished Belts",
+        shortDescription: "Stone, crystal, or metalwork detail belt positioned for occasion and bridal-adjacent styling.",
+        description:
+          "Embellished belts carry hand-applied stonework, crystal detail, or ornate metalwork across the buckle or body of the belt, positioned as an occasion accessory rather than daily wear. It's the belt style most often paired with our bridal kaftans and bridal abayas, where the belt itself becomes part of the garment's overall embellishment rather than a purely functional accessory. Produced from 100 pieces per design.",
+        images: [
+          placeholder("subcat-belts-embellished-1", "Close-up of an ornate buckle belt with gold medallion detail"),
+          placeholder("subcat-belts-embellished-2", "Back view of a fabric tie belt worn over a modest dress"),
+        ],
+        colors: [
+          { name: "Gold", hex: "#c9a635" },
+          { name: "Silver", hex: "#c7c7c7" },
+        ],
+      },
+      {
+        slug: "corset",
+        name: "Corset-Style Belts",
+        shortDescription: "Wide, structured belt that cinches at the waist for a more sculpted silhouette.",
+        description:
+          "Corset-style belts are cut wider than our standard tie or buckle belts and structured to cinch at the natural waist, giving a more sculpted silhouette over a loose-cut abaya or kaftan. Unlike a true corset, there's no boning involved &mdash; the structure comes from a heavier interior interfacing that holds shape without restricting movement or breathing. Sold in bulk multi-packs from 200 pieces per color.",
+        images: [
+          placeholder("subcat-belts-corset-1", "Back view of a wide structured tie belt worn over a modest dress"),
+          placeholder("subcat-belts-corset-2", "Close-up of a thin belt worn over a floral dress"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Olive", hex: "#6b6f52" },
+          { name: "Camel", hex: "#c19a6b" },
+        ],
+      },
+      {
+        slug: "obi",
+        name: "Obi Belts",
+        shortDescription: "Wide sash-style belt tied in a front bow, borrowed from Japanese obi styling.",
+        description:
+          "Obi belts borrow the wide sash and front-tied bow from Japanese obi styling, adapted here as a modest fashion accessory worn over a kaftan or open-front abaya. The wide sash covers more of the torso than a standard tie belt, and the front bow becomes a visible styling feature rather than a purely functional closure. It's a strong pairing with our kimono-style abayas, which share the same styling reference point. Sold in bulk multi-packs from 200 pieces per color.",
+        images: [
+          placeholder("subcat-belts-obi-1", "Model wearing a wide obi-style tie belt with a front bow over a floral dress"),
+          placeholder("subcat-belts-obi-2", "Close-up of a thick buckle belt worn over a purple dress"),
+        ],
+        colors: [
+          { name: "Magenta", hex: "#a3275a" },
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Navy", hex: "#202a44" },
+        ],
+      },
+      {
+        slug: "leather-look",
+        name: "Leather-Look Belts",
+        shortDescription: "Vegan leather-look finish for a structured belt without genuine leather sourcing.",
+        description:
+          "Leather-look belts use a vegan PU finish rather than genuine leather, giving the structured look and slight sheen of a leather belt while keeping sourcing and pricing simpler for wholesale volume. It's a practical, everyday-wear belt style that holds shape better through repeated use than a purely fabric tie belt. Sold in bulk multi-packs from 300 pieces per color.",
+        images: [
+          placeholder("subcat-belts-leather-look-1", "Close-up of a thin leather-look belt worn over a floral dress"),
+          placeholder("subcat-belts-leather-look-2", "Close-up of an ornate buckle belt with gold medallion detail"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Tan", hex: "#c19a6b" },
+          { name: "Burgundy", hex: "#6d2130" },
+        ],
+      },
+      {
+        slug: "satin",
+        name: "Satin Waist Belts",
+        shortDescription: "High-sheen satin tie belt for an occasion-appropriate finishing detail.",
+        description:
+          "Satin waist belts use our high-sheen satin fabric rather than matte cotton or leather-look finishes, positioned for occasion and evening styling over a satin or silk kaftan, abaya, or bridal piece. The glossy finish catches light similarly to our satin garment lines, so it coordinates rather than competes with a satin outer piece. Sold in bulk multi-packs from 200 pieces per color.",
+        images: [
+          placeholder("subcat-belts-satin-1", "Model wearing a wide obi-style tie belt with a front bow over a floral dress"),
+          placeholder("subcat-belts-satin-2", "Close-up of a thin belt worn over a floral dress"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Champagne", hex: "#e8d9b5" },
+          { name: "Wine", hex: "#722f37" },
+        ],
+      },
+      {
+        slug: "adjustable",
+        name: "Adjustable Waist Belts",
+        shortDescription: "Multi-hole or slide-adjust closure for a fit that isn't locked to one waist size.",
+        description:
+          "Adjustable waist belts use a multi-hole buckle or slide-adjust closure rather than a fixed tie length or single elastic size, letting one SKU fit a wider range of body sizes and garment thicknesses. It's the practical choice for buyers who've had size-related returns or fit complaints on fixed-length tie belts. Sold in bulk multi-packs from 300 pieces per color.",
+        images: [
+          placeholder("subcat-belts-adjustable-1", "Close-up of a thick buckle belt worn over a purple dress"),
+          placeholder("subcat-belts-adjustable-2", "Back view of a wide structured tie belt worn over a modest dress"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Tan", hex: "#c19a6b" },
+        ],
+      },
+    ],
+  },
 ];
 
 export function getCategoryBySlug(slug: string): Category | undefined {

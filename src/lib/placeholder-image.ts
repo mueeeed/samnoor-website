@@ -220,6 +220,12 @@ const THEME_PHOTOS: Record<string, string> = {
 
   "photo-bridal-accessories-36501667": "/products/bridal-accessories/36501667.jpg",
   "photo-bridal-accessories-10364972": "/products/bridal-accessories/10364972.jpg",
+
+  "photo-belts-32498639": "/products/belts/32498639.jpg",
+  "photo-belts-29278753": "/products/belts/29278753.jpg",
+  "photo-belts-34225147": "/products/belts/34225147.jpg",
+  "photo-belts-34262275": "/products/belts/34262275.jpg",
+  "photo-belts-20310526": "/products/belts/20310526.jpg",
   "blog-fabric-rolls-shelf": "/blog/17329670.jpg",
 };
 
@@ -929,6 +935,33 @@ const SEED_THEME_MAP: Record<string, keyof typeof THEME_PHOTOS> = {
   "subcat-bridal-acc-chains-2": "photo-hijab-accessories-36198510",
   "subcat-bridal-acc-rhinestone-1": "photo-bridal-accessories-10364972",
   "subcat-bridal-acc-rhinestone-2": "photo-hijab-accessories-35408537",
+
+  // Belts & Waist Accessories — 5 freshly sourced photos (a genuine
+  // chain-link belt photo could not be found, so Chain Belts reuses the
+  // closest available match, an ornate metal-medallion belt, rather than
+  // an unrelated photo).
+  "cat-belts-hero": "photo-belts-29278753",
+  "cat-belts-card": "photo-belts-34262275",
+  "subcat-belts-abaya-waist-1": "photo-belts-29278753",
+  "subcat-belts-abaya-waist-2": "photo-belts-20310526",
+  "subcat-belts-elastic-1": "photo-belts-34225147",
+  "subcat-belts-elastic-2": "photo-belts-34262275",
+  "subcat-belts-buckle-1": "photo-belts-34262275",
+  "subcat-belts-buckle-2": "photo-belts-32498639",
+  "subcat-belts-chain-1": "photo-belts-32498639",
+  "subcat-belts-chain-2": "photo-belts-29278753",
+  "subcat-belts-embellished-1": "photo-belts-32498639",
+  "subcat-belts-embellished-2": "photo-belts-20310526",
+  "subcat-belts-corset-1": "photo-belts-20310526",
+  "subcat-belts-corset-2": "photo-belts-34225147",
+  "subcat-belts-obi-1": "photo-belts-29278753",
+  "subcat-belts-obi-2": "photo-belts-34262275",
+  "subcat-belts-leather-look-1": "photo-belts-34225147",
+  "subcat-belts-leather-look-2": "photo-belts-32498639",
+  "subcat-belts-satin-1": "photo-belts-29278753",
+  "subcat-belts-satin-2": "photo-belts-34225147",
+  "subcat-belts-adjustable-1": "photo-belts-34262275",
+  "subcat-belts-adjustable-2": "photo-belts-20310526",
 
   // About page
   "about-hero": "factory-exterior",
