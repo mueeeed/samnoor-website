@@ -520,6 +520,30 @@ const SEED_THEME_MAP: Record<string, keyof typeof THEME_PHOTOS> = {
   "subcat-innercaps-cross-back-1": "photo-islamic-inner-caps-13067900",
   "subcat-innercaps-cross-back-2": "innercap-rows",
 
+  // Instant hijab subcategories — pairs of photos drawn from the
+  // instant-hijabs product photo pool, offset so the two images shown per
+  // subcategory are always different from one another.
+  "subcat-instant-chiffon-1": "photo-instant-hijabs-32856246",
+  "subcat-instant-chiffon-2": "photo-instant-hijabs-9881169",
+  "subcat-instant-jersey-1": "photo-instant-hijabs-5125189",
+  "subcat-instant-jersey-2": "photo-instant-hijabs-8250052",
+  "subcat-instant-pre-stitched-1": "photo-instant-hijabs-7951667",
+  "subcat-instant-pre-stitched-2": "photo-instant-hijabs-15628800",
+  "subcat-instant-modal-1": "photo-instant-hijabs-9881169",
+  "subcat-instant-modal-2": "photo-instant-hijabs-32856246",
+  "subcat-instant-crinkle-1": "photo-instant-hijabs-8250052",
+  "subcat-instant-crinkle-2": "photo-instant-hijabs-5125189",
+  "subcat-instant-cotton-1": "photo-instant-hijabs-15628800",
+  "subcat-instant-cotton-2": "photo-instant-hijabs-7951667",
+  "subcat-instant-pleated-1": "photo-instant-hijabs-32856246",
+  "subcat-instant-pleated-2": "photo-instant-hijabs-9881169",
+  "subcat-instant-one-piece-1": "photo-instant-hijabs-5125189",
+  "subcat-instant-one-piece-2": "photo-instant-hijabs-8250052",
+  "subcat-instant-two-layer-1": "photo-instant-hijabs-7951667",
+  "subcat-instant-two-layer-2": "photo-instant-hijabs-15628800",
+  "subcat-instant-khimar-1": "photo-instant-hijabs-9881169",
+  "subcat-instant-khimar-2": "photo-instant-hijabs-32856246",
+
   // About page
   "about-hero": "factory-exterior",
   "about-story": "design-desk",

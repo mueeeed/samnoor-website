@@ -895,6 +895,182 @@ export const categories: Category[] = [
       { name: "Casual Jersey", productSlug: "rukan-jersey-instant-hijab" },
       { name: "Premium & Print", productSlug: "elif-printed-instant-hijab" },
     ],
+    subcategories: [
+      {
+        slug: "chiffon",
+        name: "Chiffon Instant Hijab",
+        shortDescription: "Our classic pull-on construction on matte chiffon, sewn to a pre-shaped drape.",
+        description:
+          "Chiffon instant hijabs are the reference style in this category: a matte chiffon outer shell with the underscarf cap sewn directly in, pre-shaped so the drape falls the same way every time without pins or practice. Chiffon holds a crisper, more structured fold than jersey-based instant styles, which is why it's the version most private label ranges lead with for a polished, retail-ready first impression. It's also the easiest base fabric to print and recolor consistently at volume for buyers building a wider instant hijab range. Offered from 500 pieces per color.",
+        images: [
+          placeholder("subcat-instant-chiffon-1", "Model wearing a chiffon instant hijab with a pre-shaped drape"),
+          placeholder("subcat-instant-chiffon-2", "Close-up of chiffon instant hijab construction and attached underscarf"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Charcoal", hex: "#4a4a4a" },
+          { name: "Navy", hex: "#202a44" },
+          { name: "Ivory", hex: "#f0e9db" },
+          { name: "Camel", hex: "#c19a6b" },
+          { name: "Dusty Rose", hex: "#c98f8f" },
+        ],
+      },
+      {
+        slug: "jersey",
+        name: "Jersey Instant Hijab",
+        shortDescription: "Stretch jersey base for a softer, more casual pull-on than the chiffon standard.",
+        description:
+          "Jersey instant hijabs replace the chiffon shell with a stretch jersey knit, trading chiffon's crisp structure for a softer, more casual finish suited to everyday and athleisure-adjacent ranges. The stretch also makes it more forgiving to pull on and adjust than a woven fabric, which buyers targeting younger or first-time hijab-wearing customers tend to prefer. It reorders strongest alongside our jersey and modal hijab lines for buyers building a coordinated casual program. Offered from 500 pieces per color.",
+        images: [
+          placeholder("subcat-instant-jersey-1", "Model wearing a jersey instant hijab in a relaxed, casual style"),
+          placeholder("subcat-instant-jersey-2", "Close-up of stretch jersey instant hijab fabric and construction"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Charcoal Heather", hex: "#5c5c5c" },
+          { name: "Navy", hex: "#202a44" },
+          { name: "Camel", hex: "#c19a6b" },
+          { name: "Sage", hex: "#9caf88" },
+        ],
+      },
+      {
+        slug: "pre-stitched",
+        name: "Pre-Stitched Hijab",
+        shortDescription: "Fully pre-sewn shape with no folding or draping required at the point of wear.",
+        description:
+          "Pre-stitched hijabs take the instant category's core idea furthest: the entire outer shape, pleating, and fall are stitched into the garment at the factory, so there's no folding, tucking, or draping technique for the customer to get right at all. This is the style we recommend for gifting and first-time-buyer SKUs specifically because it removes user error from the equation entirely. Construction is more labor-intensive than a simple pull-on tube, which is reflected in a moderate per-unit cost increase over our standard chiffon instant line. Offered from 300 pieces per color.",
+        images: [
+          placeholder("subcat-instant-pre-stitched-1", "Model wearing a fully pre-stitched hijab with no draping required"),
+          placeholder("subcat-instant-pre-stitched-2", "Close-up of pre-stitched hijab construction showing built-in pleating"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Navy", hex: "#202a44" },
+          { name: "Ivory", hex: "#f0e9db" },
+          { name: "Camel", hex: "#c19a6b" },
+        ],
+      },
+      {
+        slug: "modal",
+        name: "Modal Instant Hijab",
+        shortDescription: "Soft modal-blend shell for a natural-fiber instant hijab with a matte, low-sheen finish.",
+        description:
+          "Modal instant hijabs use our modal-cotton blend in place of chiffon, aimed at buyers positioning a natural-fiber narrative even within the fast-fashion instant hijab category. The modal shell holds shape well through the attached-cap construction without needing the fabric to carry structure on its own, and it gives a noticeably softer hand-feel against the skin than chiffon over a full day of wear. It's a strong step-up SKU for buyers building a good-better-best instant hijab range. Offered from 500 pieces per color.",
+        images: [
+          placeholder("subcat-instant-modal-1", "Model wearing a soft modal instant hijab with a matte finish"),
+          placeholder("subcat-instant-modal-2", "Close-up of modal instant hijab fabric and attached cap construction"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Heather Grey", hex: "#8a8a8a" },
+          { name: "Navy", hex: "#202a44" },
+          { name: "Blush", hex: "#f2c4c4" },
+        ],
+      },
+      {
+        slug: "crinkle",
+        name: "Crinkle Instant Hijab",
+        shortDescription: "Self-textured crinkle finish for volume and movement in a pull-on construction.",
+        description:
+          "Crinkle instant hijabs bring our heat-set crinkle texturing into the pull-on category, giving visible volume and movement without asking the customer to style or crease the fabric themselves. Because the texture is permanent rather than pressed, it survives machine washing without needing to be re-ironed between wears, which is the same durability advantage our standalone crinkle hijab has over pleated alternatives. It's a strong step-up finish for buyers who find flat chiffon instant styles too plain for their retail price point. Offered from 500 pieces per color.",
+        images: [
+          placeholder("subcat-instant-crinkle-1", "Model wearing a crinkle-texture instant hijab with visible movement"),
+          placeholder("subcat-instant-crinkle-2", "Close-up of crinkle instant hijab fabric showing its textured surface"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Charcoal", hex: "#4a4a4a" },
+          { name: "Camel", hex: "#c19a6b" },
+          { name: "Dusty Rose", hex: "#c98f8f" },
+        ],
+      },
+      {
+        slug: "cotton",
+        name: "Cotton Instant Hijab",
+        shortDescription: "Breathable cotton shell for hot-climate daily wear in a no-pin construction.",
+        description:
+          "Cotton instant hijabs pair a breathable cotton-voile shell with the category's standard attached-underscarf construction, for buyers in hot, humid markets whose customers ask for natural fiber but still want the speed of a pull-on style. It trades chiffon's crisp structure for better airflow and a softer, less synthetic hand-feel, at the cost of a slightly less sharp fold after packaging. It's the natural pairing for buyers who already stock our cotton voile hijab and want a matching instant option. Offered from 500 pieces per color.",
+        images: [
+          placeholder("subcat-instant-cotton-1", "Model wearing a breathable cotton instant hijab"),
+          placeholder("subcat-instant-cotton-2", "Close-up of cotton instant hijab fabric and construction"),
+        ],
+        colors: [
+          { name: "Ivory", hex: "#f0e9db" },
+          { name: "Sky Blue", hex: "#a9cce3" },
+          { name: "Sage", hex: "#9caf88" },
+          { name: "Sand", hex: "#d9c7a3" },
+        ],
+      },
+      {
+        slug: "pleated",
+        name: "Pleated Instant Hijab",
+        shortDescription: "Pressed pleat construction for a structured, uniform fold across every unit.",
+        description:
+          "Pleated instant hijabs use a pressed, uniform pleat set into the fabric during finishing, giving a structured, tailored look distinct from crinkle's random self-texture. Because the pleat is heat-pressed rather than woven in, buyers should expect it to soften gradually over repeated washing, which we disclose upfront rather than overselling the finish as permanent. It's a strong fit for occasion and formalwear-adjacent private label ranges wanting a tailored instant option. Offered from 300 pieces per color.",
+        images: [
+          placeholder("subcat-instant-pleated-1", "Model wearing a pleated instant hijab with a structured, tailored fold"),
+          placeholder("subcat-instant-pleated-2", "Close-up of pressed pleat detail on an instant hijab"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Navy", hex: "#202a44" },
+          { name: "Burgundy", hex: "#6d2130" },
+          { name: "Charcoal", hex: "#4a4a4a" },
+        ],
+      },
+      {
+        slug: "one-piece",
+        name: "One-Piece Instant Hijab",
+        shortDescription: "Single-piece pull-on construction — the simplest, fastest style in the category.",
+        description:
+          "One-piece instant hijabs are the simplest version in this category: a single pull-on garment with the underscarf built in, no detachable layers or separate components to lose or mismatch. It's the lowest-cost, fastest-to-wear construction we produce, and the SKU we'd recommend leading with for a brand-new instant hijab range before adding two-piece or layered variations. Fabric can be specified as chiffon, jersey, or modal at the same one-piece construction. Offered from 500 pieces per color.",
+        images: [
+          placeholder("subcat-instant-one-piece-1", "Model wearing a simple one-piece pull-on instant hijab"),
+          placeholder("subcat-instant-one-piece-2", "Close-up of one-piece instant hijab construction"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Navy", hex: "#202a44" },
+          { name: "Camel", hex: "#c19a6b" },
+          { name: "Ivory", hex: "#f0e9db" },
+        ],
+      },
+      {
+        slug: "two-layer",
+        name: "Two-Layer Instant Hijab",
+        shortDescription: "Double-fabric-layer construction for added opacity and dimension over a single shell.",
+        description:
+          "Two-layer instant hijabs add a second fabric layer beneath the outer shell, giving added opacity for lighter-colored or sheerer fabrics and a subtle dimensional fall that a single-layer construction can't produce. It's the style we recommend for pastel and light-colorway orders specifically, where a single chiffon layer alone can run too sheer for some markets' coverage expectations. See our Shifa Two-Piece Instant Hijab for a detachable variation on this layered approach. Offered from 400 pieces per color.",
+        images: [
+          placeholder("subcat-instant-two-layer-1", "Model wearing a two-layer instant hijab with added opacity and fall"),
+          placeholder("subcat-instant-two-layer-2", "Close-up of two-layer instant hijab construction showing the double fabric"),
+        ],
+        colors: [
+          { name: "Ivory", hex: "#f0e9db" },
+          { name: "Blush", hex: "#f2c4c4" },
+          { name: "Sky Blue", hex: "#a9cce3" },
+          { name: "Sage", hex: "#9caf88" },
+        ],
+      },
+      {
+        slug: "khimar",
+        name: "Instant Khimar Hijab",
+        shortDescription: "Instant pull-on convenience extended to khimar-length shoulder and chest coverage.",
+        description:
+          "Instant khimar hijabs extend the category's pull-on, no-pin convenience down to khimar-length coverage across the shoulders and chest, for customers who want fuller coverage without giving up the speed that makes instant styles popular. It's a strong crossover SKU for buyers stocking both categories who want a single style that bridges instant hijabs and our khimar range rather than treating them as entirely separate customer segments. Construction and fabric options mirror our standard instant hijab line, scaled to the longer khimar body. Offered from 300 pieces per color.",
+        images: [
+          placeholder("subcat-instant-khimar-1", "Model wearing an instant khimar hijab with extended shoulder coverage"),
+          placeholder("subcat-instant-khimar-2", "Close-up of instant khimar hijab construction and fabric fall"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Navy", hex: "#202a44" },
+          { name: "Charcoal", hex: "#4a4a4a" },
+          { name: "Olive", hex: "#6b6f52" },
+          { name: "Burgundy", hex: "#6d2130" },
+        ],
+      },
+    ],
   },
   {
     slug: "sports-hijabs",
