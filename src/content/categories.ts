@@ -1301,6 +1301,230 @@ export const categories: Category[] = [
       },
     ],
   },
+  {
+    slug: "bridal-abayas",
+    name: "Bridal Abayas",
+    shortName: "Bridal Abayas",
+    description:
+      "Occasion-grade abayas in embroidery, pearl, stone, and crystal embellishment on silk and satin bases, built for wedding, nikah, and bridal party ranges rather than everyday retail.",
+    content: `
+      <p>Bridal abaya is the highest-embellishment, highest-margin tier in our abaya range, and the one where fabric weight matters most: every stone, pearl, or crystal adds real weight to the garment, and a base fabric that can't carry that weight will sag or pucker exactly where the embellishment sits. We build this range exclusively on heavier crepe, satin, and silk bases for that reason, never on lighter everyday fabrics.</p>
+      <p>Buyers use this category to serve boutique, bridal party, and gifting channels alongside their standard abaya range, typically as a lower-volume, higher-margin complement. Small-batch production is standard, with most styles available from 50 units per design, and custom embroidery motifs, stone placement, and color-matched threadwork are all available for private label buyers building a signature bridal line.</p>
+    `,
+    heroImage: placeholder("cat-bridal-abayas-hero", "Embellished bridal abaya with hand-placed stonework draped elegantly"),
+    cardImage: placeholder("cat-bridal-abayas-card", "Close-up of hand-placed bridal embellishment on abaya fabric"),
+    keywords: [
+      "bridal abaya manufacturer",
+      "wedding abaya wholesale supplier",
+      "embellished bridal abaya manufacturer India",
+      "nikah abaya supplier",
+    ],
+    subcategories: [
+      {
+        slug: "embroidered",
+        name: "Bridal Embroidered Abaya",
+        shortDescription: "Hand or machine thread embroidery in a custom motif on a heavier crepe or satin base.",
+        description:
+          "Bridal embroidered abayas carry a thread-embroidered motif across the bodice, sleeves, or hem, fully customizable to a buyer's own pattern or one we develop in-house from a reference image. The heavier crepe or satin base is chosen specifically because it holds the embroidery's tension without the fabric puckering around the stitched area, which is the defect most buyers cite from lower-cost embroidered competitors. This is the style most often ordered as a fully custom, one-off design for a specific wedding party rather than a repeat catalog SKU. Produced from 50 units per design.",
+        images: [
+          placeholder("subcat-bridal-abaya-embroidered-1", "Model wearing a bridal embroidered abaya with a custom thread motif"),
+          placeholder("subcat-bridal-abaya-embroidered-2", "Close-up of hand embroidery detail on a bridal abaya"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Navy", hex: "#202a44" },
+          { name: "Burgundy", hex: "#6d2130" },
+          { name: "Gold", hex: "#c9a635" },
+        ],
+      },
+      {
+        slug: "pearl",
+        name: "Pearl Bridal Abaya",
+        shortDescription: "Hand-sewn pearl trim or scattered pearl field across the bodice and sleeves.",
+        description:
+          "Pearl bridal abayas use hand-sewn faux-pearl beading, either as a trim line along seams and hems or scattered across the bodice, individually secured so beads don't shed with handling. It's our most-ordered bridal abaya finish because it reads as elevated without the weight or cost of full crystal or stone coverage across the whole garment. Bead density and placement pattern are fully customizable per design. Produced from 50 units per design.",
+        images: [
+          placeholder("subcat-bridal-abaya-pearl-1", "Model wearing a pearl-embellished bridal abaya"),
+          placeholder("subcat-bridal-abaya-pearl-2", "Close-up of hand-sewn pearl beading on bridal abaya fabric"),
+        ],
+        colors: [
+          { name: "Ivory", hex: "#f0e9db" },
+          { name: "White", hex: "#faf8f5" },
+          { name: "Champagne", hex: "#e8d9b5" },
+          { name: "Black", hex: "#1a1a1a" },
+        ],
+      },
+      {
+        slug: "stone-work",
+        name: "Stone-Work Bridal Abaya",
+        shortDescription: "Mixed stone, bead, and sequin embellishment concentrated at the bodice and cuffs.",
+        description:
+          "Stone-work bridal abayas combine cut-glass stones, beads, and sequins into one mixed-media design, usually concentrated at the bodice, collar, and cuffs where it catches the most light and attention rather than spread evenly across the full garment. This concentrated placement also keeps the added weight manageable for a full-length garment compared to all-over coverage. It's the finish our design team recommends when a buyer wants a statement front panel without the cost of embellishing the entire abaya. Produced from 50 units per design.",
+        images: [
+          placeholder("subcat-bridal-abaya-stone-work-1", "Model wearing a bridal abaya with concentrated stone-work at the bodice"),
+          placeholder("subcat-bridal-abaya-stone-work-2", "Close-up of mixed stone and bead embellishment on bridal abaya fabric"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Navy", hex: "#202a44" },
+          { name: "Charcoal", hex: "#3d3d3d" },
+          { name: "Gold", hex: "#c9a635" },
+        ],
+      },
+      {
+        slug: "crystal",
+        name: "Crystal Bridal Abaya",
+        shortDescription: "Faceted crystal embellishment for maximum sparkle under reception and event lighting.",
+        description:
+          "Crystal bridal abayas use faceted glass or acrylic crystals in a hot-fix or hand-stitched application, chosen for how they catch light under event and reception lighting specifically. Coverage ranges from an accent trim at the neckline and cuffs to a fully crystal-covered bodice, priced accordingly. Because of the added weight, this style is built exclusively on our heaviest crepe and satin bases to hold structure without drooping. Produced from 50 units per design.",
+        images: [
+          placeholder("subcat-bridal-abaya-crystal-1", "Model wearing a crystal-embellished bridal abaya catching the light"),
+          placeholder("subcat-bridal-abaya-crystal-2", "Close-up of hand-set faceted crystals on bridal abaya fabric"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Ivory", hex: "#f0e9db" },
+          { name: "White", hex: "#faf8f5" },
+          { name: "Silver", hex: "#c7c7c7" },
+        ],
+      },
+      {
+        slug: "lace",
+        name: "Lace Bridal Abaya",
+        shortDescription: "Lace overlay panels or lace sleeve inserts for a softer, layered bridal finish.",
+        description:
+          "Lace bridal abayas use sheer lace overlay panels or lace sleeve inserts against a solid base fabric, giving a softer, more layered finish than fully embellished crystal or stone styles. The lace is pre-washed and finished flat against the base to prevent shrinkage mismatch, which otherwise shows up as visible puckering along the seam line. It's the style most bridal party buyers order for the wider wedding party alongside a more heavily embellished piece for the bride. Produced from 50 units per design.",
+        images: [
+          placeholder("subcat-bridal-abaya-lace-1", "Model wearing a bridal abaya with lace overlay sleeve inserts"),
+          placeholder("subcat-bridal-abaya-lace-2", "Close-up of lace overlay panel on a bridal abaya"),
+        ],
+        colors: [
+          { name: "Ivory", hex: "#f0e9db" },
+          { name: "White", hex: "#faf8f5" },
+          { name: "Champagne", hex: "#e8d9b5" },
+          { name: "Black", hex: "#1a1a1a" },
+        ],
+      },
+      {
+        slug: "satin",
+        name: "Satin Bridal Abaya",
+        shortDescription: "High-sheen satin base for a fluid, photograph-ready drape under embellishment weight.",
+        description:
+          "Satin bridal abayas use our high-sheen satin weave as a base specifically because its weighted drape holds embellishment placement without shifting through a full ceremony and reception. The glossy finish reflects light well in both daylight and flash photography, which matters more for bridal wear than almost any other category we produce. Offered plain or as a base for any of our pearl, stone, or crystal finishes. Produced from 50 units per design.",
+        images: [
+          placeholder("subcat-bridal-abaya-satin-1", "Model wearing a satin bridal abaya with a fluid, photograph-ready drape"),
+          placeholder("subcat-bridal-abaya-satin-2", "Close-up of glossy satin fabric used as a bridal abaya base"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Ivory", hex: "#f0e9db" },
+          { name: "Champagne", hex: "#e8d9b5" },
+          { name: "Wine", hex: "#722f37" },
+        ],
+      },
+      {
+        slug: "silk",
+        name: "Luxury Silk Bridal Abaya",
+        shortDescription: "Genuine mulberry silk base for the highest bridal abaya tier, hand-finished throughout.",
+        description:
+          "Luxury silk bridal abayas run on genuine mulberry silk rather than a satin substitute, hand-finished at the hem and seams by a specialist team rather than machine-processed like our standard lines. This is our top bridal abaya tier, positioned for boutique and department-store-adjacent placement rather than volume distribution. The natural fiber's sheen and weight give a drape and movement that photographs distinctly from satin or crepe alternatives. Produced from 50 units per design.",
+        images: [
+          placeholder("subcat-bridal-abaya-silk-1", "Model wearing a luxury silk bridal abaya with a hand-finished hem"),
+          placeholder("subcat-bridal-abaya-silk-2", "Close-up of silk bridal abaya fabric showing its natural sheen"),
+        ],
+        colors: [
+          { name: "Ivory", hex: "#f0e9db" },
+          { name: "Champagne", hex: "#e8d9b5" },
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Blush", hex: "#f2c4c4" },
+        ],
+      },
+      {
+        slug: "cape-style",
+        name: "Cape-Style Bridal Abaya",
+        shortDescription: "Detachable or built-in cape layer over a fitted or flowing base abaya.",
+        description:
+          "Cape-style bridal abayas add a detachable or built-in cape layer over the shoulders, a construction borrowed from bridal gown design and adapted to abaya proportions. The cape can be removed for the reception after being worn through the ceremony, giving one garment two distinct looks across a single event. It's the style our boutique accounts report as the strongest differentiator versus standard embellished abayas, since the silhouette itself is the statement rather than the embellishment alone. Produced from 50 units per design.",
+        images: [
+          placeholder("subcat-bridal-abaya-cape-style-1", "Model wearing a cape-style bridal abaya with a detachable shoulder layer"),
+          placeholder("subcat-bridal-abaya-cape-style-2", "Close-up of cape-style bridal abaya construction and attachment point"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Navy", hex: "#202a44" },
+          { name: "Charcoal", hex: "#3d3d3d" },
+          { name: "Burgundy", hex: "#6d2130" },
+        ],
+      },
+      {
+        slug: "trail-gown-style",
+        name: "Trail / Gown-Style Bridal Abaya",
+        shortDescription: "Extended back trail on a gown-adjacent silhouette for maximum bridal drama.",
+        description:
+          "Trail and gown-style bridal abayas extend the back hem into a trailing panel, borrowing the silhouette of a bridal gown train while keeping full modest coverage through the body and sleeves. This is our most fabric-intensive bridal style, and it's usually ordered as a single custom piece for the bride rather than across a wedding party given the extended hem's specialized cutting and finishing requirements. It pairs naturally with a veil-style bridal hijab for a complete matched bridal look. Produced from 50 units per design.",
+        images: [
+          placeholder("subcat-bridal-abaya-trail-gown-style-1", "Model wearing a gown-style bridal abaya with an extended back trail"),
+          placeholder("subcat-bridal-abaya-trail-gown-style-2", "Close-up of trail-style bridal abaya hem and fabric fall"),
+        ],
+        colors: [
+          { name: "Ivory", hex: "#f0e9db" },
+          { name: "White", hex: "#faf8f5" },
+          { name: "Champagne", hex: "#e8d9b5" },
+          { name: "Black", hex: "#1a1a1a" },
+        ],
+      },
+      {
+        slug: "white",
+        name: "White Bridal Abaya",
+        shortDescription: "Pure white base fabric positioned for Western-influenced and civil ceremony bridal wear.",
+        description:
+          "White bridal abayas run on a pure white base rather than our warmer ivory or champagne tones, positioned for buyers whose customers want a Western-bridal-adjacent white look for a civil ceremony or reception rather than the traditional ivory associated with regional bridal wear. Getting a true, consistent white at scale requires tighter dye-lot control than our standard color range, since white shows any batch-to-batch shade variation far more visibly than darker colors. Available plain or as a base for any embellishment finish in this category. Produced from 50 units per design.",
+        images: [
+          placeholder("subcat-bridal-abaya-white-1", "Model wearing a pure white bridal abaya"),
+          placeholder("subcat-bridal-abaya-white-2", "Close-up of pure white bridal abaya fabric and finish"),
+        ],
+        colors: [
+          { name: "White", hex: "#faf8f5" },
+          { name: "Ivory", hex: "#f0e9db" },
+          { name: "Off-White", hex: "#f2efe6" },
+          { name: "Pearl White", hex: "#f3ece2" },
+        ],
+      },
+      {
+        slug: "champagne",
+        name: "Champagne Bridal Abaya",
+        shortDescription: "Warm champagne base tone, the most-requested neutral for regional bridal and nikah wear.",
+        description:
+          "Champagne bridal abayas run on a warm, muted gold-beige base that's consistently the most-requested neutral tone across our regional bridal accounts, photographing warmer than white and softer than gold under most venue lighting. It's a versatile base for embellishment since pearl, gold-thread, and crystal accents all read cleanly against it without competing for attention the way they can against pure white. Shade consistency across a production run is checked against a fixed Pantone reference rather than eyeballed, given how visible small variations are in this tone family. Produced from 50 units per design.",
+        images: [
+          placeholder("subcat-bridal-abaya-champagne-1", "Model wearing a champagne-toned bridal abaya"),
+          placeholder("subcat-bridal-abaya-champagne-2", "Close-up of champagne bridal abaya fabric showing its warm tone"),
+        ],
+        colors: [
+          { name: "Champagne", hex: "#e8d9b5" },
+          { name: "Rose Champagne", hex: "#e0c4ae" },
+          { name: "Gold Champagne", hex: "#dcc48f" },
+          { name: "Blush Champagne", hex: "#e6c9c0" },
+        ],
+      },
+      {
+        slug: "gold-embellished",
+        name: "Gold Embellished Bridal Abaya",
+        shortDescription: "Gold-thread embroidery or gold-tone stonework on a dark base for maximum contrast.",
+        description:
+          "Gold embellished bridal abayas pair gold-thread embroidery or gold-tone stonework against a dark base fabric &mdash; usually black, navy, or charcoal &mdash; for maximum contrast between the embellishment and the garment rather than the tonal, monochrome look of pearl-on-ivory styles. This is the style most requested by buyers serving Gulf regional markets specifically, where gold embellishment on a dark abaya is a well-established bridal and formal-occasion convention. Gold-thread color is checked against a fixed reference to avoid the greenish cast cheaper metallic thread can develop after washing. Produced from 50 units per design.",
+        images: [
+          placeholder("subcat-bridal-abaya-gold-embellished-1", "Model wearing a gold-embellished bridal abaya on a dark base"),
+          placeholder("subcat-bridal-abaya-gold-embellished-2", "Close-up of gold-thread embroidery and stonework on bridal abaya fabric"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Navy", hex: "#202a44" },
+          { name: "Charcoal", hex: "#3d3d3d" },
+        ],
+      },
+    ],
+  },
 ];
 
 export function getCategoryBySlug(slug: string): Category | undefined {

@@ -571,6 +571,36 @@ const SEED_THEME_MAP: Record<string, keyof typeof THEME_PHOTOS> = {
   "subcat-bridal-hijab-veil-style-1": "photo-luxury-hijabs-16065663",
   "subcat-bridal-hijab-veil-style-2": "photo-luxury-hijabs-7676340",
 
+  // Bridal Abayas — a new category built on the existing abayas photo pool
+  // plus the same embellishment/fabric detail themes used for Bridal
+  // Hijabs.
+  "cat-bridal-abayas-hero": "photo-abayas-35150034",
+  "cat-bridal-abayas-card": "abaya-embellished",
+  "subcat-bridal-abaya-embroidered-1": "photo-abayas-36919797",
+  "subcat-bridal-abaya-embroidered-2": "embroidery-closeup",
+  "subcat-bridal-abaya-pearl-1": "photo-abayas-5616021",
+  "subcat-bridal-abaya-pearl-2": "abaya-embellished",
+  "subcat-bridal-abaya-stone-work-1": "photo-abayas-9880858",
+  "subcat-bridal-abaya-stone-work-2": "abaya-embellished",
+  "subcat-bridal-abaya-crystal-1": "photo-abayas-31049717",
+  "subcat-bridal-abaya-crystal-2": "embroidery-closeup",
+  "subcat-bridal-abaya-lace-1": "photo-abayas-32178223",
+  "subcat-bridal-abaya-lace-2": "abaya-embellished",
+  "subcat-bridal-abaya-satin-1": "photo-abayas-35150034",
+  "subcat-bridal-abaya-satin-2": "fabric-satin-sheen",
+  "subcat-bridal-abaya-silk-1": "photo-abayas-34957209",
+  "subcat-bridal-abaya-silk-2": "fabric-silk-sheen",
+  "subcat-bridal-abaya-cape-style-1": "photo-abayas-34721670",
+  "subcat-bridal-abaya-cape-style-2": "abaya-embellished",
+  "subcat-bridal-abaya-trail-gown-style-1": "photo-abayas-32279501",
+  "subcat-bridal-abaya-trail-gown-style-2": "embroidery-closeup",
+  "subcat-bridal-abaya-white-1": "photo-abayas-29188546",
+  "subcat-bridal-abaya-white-2": "fabric-satin-sheen",
+  "subcat-bridal-abaya-champagne-1": "photo-abayas-36919797",
+  "subcat-bridal-abaya-champagne-2": "fabric-silk-sheen",
+  "subcat-bridal-abaya-gold-embellished-1": "photo-abayas-5616021",
+  "subcat-bridal-abaya-gold-embellished-2": "abaya-embellished",
+
   // About page
   "about-hero": "factory-exterior",
   "about-story": "design-desk",
