@@ -10,6 +10,7 @@ import { ProductCard } from "@/components/products/ProductCard";
 import { ContactForm } from "@/components/forms/ContactForm";
 import { categories, getCategoryBySlug } from "@/content/categories";
 import { getProductsByCategory, getProductBySlug } from "@/content/products";
+import { buildImageCaption } from "@/lib/image-caption";
 import { ArrowRightIcon, PackageIcon } from "@/components/ui/icons";
 
 export async function generateStaticParams() {
@@ -36,6 +37,16 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
   const collections = (category.collections || [])
     .map((c) => ({ ...c, product: getProductBySlug(category.slug, c.productSlug) }))
     .filter((c) => c.product !== undefined);
+
+  const galleryImages = products.flatMap((product) =>
+    product.images.map((image, imageIndex) => ({
+      key: `${product.slug}-${imageIndex}`,
+      href: `/products/${category.slug}/${product.slug}`,
+      src: image.src,
+      caption: buildImageCaption(product, category, imageIndex),
+      productName: product.name,
+    }))
+  );
 
   return (
     <>
@@ -114,6 +125,48 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
 
         </Container>
       </section>
+
+      {galleryImages.length > 0 && (
+        <section className="bg-panel-alt py-20 sm:py-24">
+          <Container>
+            <div className="mb-10 flex flex-col gap-4">
+              <Kicker>Full Gallery</Kicker>
+              <h2 className="font-heading text-2xl font-semibold text-heading sm:text-3xl">
+                {galleryImages.length} {category.name} Photos
+              </h2>
+              <p className="max-w-2xl text-muted">
+                Every style, fabric, and finish we produce in {category.name.toLowerCase()} &mdash; click any photo for
+                full specifications, MOQ, and lead time.
+              </p>
+            </div>
+            <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
+              {galleryImages.map((img) => (
+                <Link
+                  key={img.key}
+                  href={img.href}
+                  title={img.caption}
+                  className="group relative flex aspect-square flex-col justify-end overflow-hidden rounded-sm border border-line"
+                >
+                  <Image
+                    src={img.src}
+                    alt={img.caption}
+                    fill
+                    sizes="(min-width: 1024px) 18vw, 45vw"
+                    className="object-cover transition-transform duration-700 group-hover:scale-110"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-noir/95 via-noir/10 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
+                  <span
+                    aria-hidden="true"
+                    className="relative line-clamp-4 p-3 text-[0.7rem] leading-snug text-cream opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+                  >
+                    {img.caption}
+                  </span>
+                </Link>
+              ))}
+            </div>
+          </Container>
+        </section>
+      )}
 
       <section className="bg-panel-alt py-20 sm:py-24">
         <Container className="grid gap-12 lg:grid-cols-[1.4fr_1fr] lg:gap-16">
