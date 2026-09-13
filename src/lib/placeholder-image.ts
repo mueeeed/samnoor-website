@@ -699,6 +699,33 @@ const SEED_THEME_MAP: Record<string, keyof typeof THEME_PHOTOS> = {
   "subcat-activewear-co-ord-sets-1": "photo-sports-hijabs-36161718",
   "subcat-activewear-co-ord-sets-2": "photo-sports-hijabs-8736746",
 
+  // Fabric & Material Collections — a new category built entirely from
+  // fabric-texture photos already sourced for the /fabrics library and the
+  // Hijabs subcategory pages, paired with the generic swatch-card photo as
+  // a consistent second image across every fabric collection.
+  "cat-fabric-collections-hero": "fabric-swatch-cards",
+  "cat-fabric-collections-card": "fabric-premium-blends-stack",
+  "subcat-fabric-premium-chiffon-1": "fabric-chiffon-sheer",
+  "subcat-fabric-premium-chiffon-2": "fabric-swatch-cards",
+  "subcat-fabric-premium-georgette-1": "fabric-georgette-crinkle",
+  "subcat-fabric-premium-georgette-2": "fabric-swatch-cards",
+  "subcat-fabric-luxury-modal-1": "fabric-modal-heather",
+  "subcat-fabric-luxury-modal-2": "fabric-swatch-cards",
+  "subcat-fabric-premium-jersey-1": "fabric-jersey-stretch",
+  "subcat-fabric-premium-jersey-2": "fabric-swatch-cards",
+  "subcat-fabric-satin-collection-1": "fabric-satin-sheen",
+  "subcat-fabric-satin-collection-2": "fabric-swatch-cards",
+  "subcat-fabric-silk-collection-1": "fabric-silk-sheen",
+  "subcat-fabric-silk-collection-2": "fabric-swatch-cards",
+  "subcat-fabric-cotton-collection-1": "fabric-cotton-texture",
+  "subcat-fabric-cotton-collection-2": "fabric-swatch-cards",
+  "subcat-fabric-linen-collection-1": "fabric-linen-texture",
+  "subcat-fabric-linen-collection-2": "fabric-swatch-cards",
+  "subcat-fabric-crinkle-collection-1": "fabric-georgette-crinkle",
+  "subcat-fabric-crinkle-collection-2": "fabric-swatch-cards",
+  "subcat-fabric-ribbed-collection-1": "fabric-ribbed-knit",
+  "subcat-fabric-ribbed-collection-2": "fabric-swatch-cards",
+
   // About page
   "about-hero": "factory-exterior",
   "about-story": "design-desk",

@@ -2179,6 +2179,202 @@ export const categories: Category[] = [
       },
     ],
   },
+  {
+    slug: "fabric-collections",
+    name: "Fabric & Material Collections",
+    shortName: "Fabric Collections",
+    description:
+      "Browse our manufacturing catalog by fabric rather than garment — the same premium chiffon, georgette, modal, jersey, satin, and silk bases used across every category, grouped by material for buyers who spec by fabric first.",
+    content: `
+      <p>Most buyers browse our catalog by garment, but fabric is what actually determines cost, MOQ, and lead time, and several of our accounts prefer to spec a private label range by material first and choose garment silhouettes second. This category groups our fabric library that way, cross-referencing every garment category that fabric appears in rather than repeating fabric information on each individual product page.</p>
+      <p>For the full technical fabric library &mdash; weight, composition, and care instructions for every fabric we run &mdash; see our dedicated <a href="/fabrics">Fabric Library</a>. This category exists as a shopping entry point for buyers who want to jump straight to "show me everything in silk" rather than browsing category by category.</p>
+    `,
+    heroImage: placeholder("cat-fabric-collections-hero", "Fabric swatch cards arranged for a private label review"),
+    cardImage: placeholder("cat-fabric-collections-card", "Stack of premium fabric blends arranged by texture"),
+    keywords: [
+      "fabric manufacturer India",
+      "wholesale fabric supplier modest wear",
+      "premium chiffon supplier",
+      "silk fabric manufacturer India",
+    ],
+    subcategories: [
+      {
+        slug: "premium-chiffon",
+        name: "Premium Chiffon",
+        shortDescription: "Our 75 gsm matte chiffon base, used across hijabs, niqabs, jilbabs, and instant hijabs.",
+        description:
+          "Premium chiffon is the single most-used fabric in our catalog, running through our hijab, niqab, jilbab, and instant hijab lines as the default \"standard\" fabric most buyers mean when they don't specify otherwise. The 75 gsm matte weave is opaque enough to wear without an underscarf in most climates and takes dye and print consistently at volume. Buyers spec-ing a private label range around one core fabric across multiple garment types most often choose this one. Available across our full 42-shade library from 300 pieces per color.",
+        images: [
+          placeholder("subcat-fabric-premium-chiffon-1", "Close-up of premium matte chiffon fabric weave"),
+          placeholder("subcat-fabric-premium-chiffon-2", "Chiffon fabric swatch cards showing the available color range"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Charcoal", hex: "#4a4a4a" },
+          { name: "Navy", hex: "#202a44" },
+          { name: "Ivory", hex: "#f0e9db" },
+          { name: "Camel", hex: "#c19a6b" },
+          { name: "Burgundy", hex: "#6d2130" },
+        ],
+      },
+      {
+        slug: "premium-georgette",
+        name: "Premium Georgette",
+        shortDescription: "Self-crinkled polyester-viscose weave used across hijabs, abayas, and jilbabs.",
+        description:
+          "Premium georgette carries our self-crinkled texture across every category that offers it &mdash; hijabs, abayas, and jilbabs &mdash; giving buyers a consistent textured-fabric option throughout a coordinated range rather than a texture that's unique to one garment type. The crinkle is woven in rather than pressed, so it survives repeated washing without flattening, a durability advantage over pleated-finish competitors. Available from 300 pieces per color.",
+        images: [
+          placeholder("subcat-fabric-premium-georgette-1", "Close-up of premium georgette fabric showing its crinkle weave"),
+          placeholder("subcat-fabric-premium-georgette-2", "Georgette fabric swatch cards showing the available color range"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Charcoal", hex: "#4a4a4a" },
+          { name: "Dusty Rose", hex: "#c98f8f" },
+          { name: "Sage", hex: "#9caf88" },
+          { name: "Camel", hex: "#c19a6b" },
+        ],
+      },
+      {
+        slug: "luxury-modal",
+        name: "Luxury Modal",
+        shortDescription: "Beechwood-derived modal blend used across hijabs and instant hijabs for a softer hand-feel.",
+        description:
+          "Luxury modal is our step-up natural-fiber-blend fabric, used across standard and instant hijabs wherever a buyer wants a noticeably softer hand-feel and lower-sheen finish than jersey without moving up to genuine silk. The beechwood-derived fiber takes dye more evenly than cotton jersey, giving richer, more consistent color across a production run. Available from 500 pieces per color.",
+        images: [
+          placeholder("subcat-fabric-luxury-modal-1", "Close-up of soft heather modal fabric texture"),
+          placeholder("subcat-fabric-luxury-modal-2", "Modal fabric swatch cards showing the available color range"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Heather Grey", hex: "#8a8a8a" },
+          { name: "Navy", hex: "#202a44" },
+          { name: "Blush", hex: "#f2c4c4" },
+        ],
+      },
+      {
+        slug: "premium-jersey",
+        name: "Premium Jersey",
+        shortDescription: "Cotton-modal stretch knit used across hijabs, jilbabs, instant hijabs, and niqabs.",
+        description:
+          "Premium jersey is our four-way stretch knit base, appearing across hijabs, jilbabs, instant hijabs, and niqabs wherever a no-pin, wrap-and-go construction is the priority over chiffon's structured drape. It resists fraying at the cut edge, keeping hemming costs down compared to woven fabrics, and holds shape through a full day of wear without sagging. Available in solid and heathered finishes from 300 pieces per color.",
+        images: [
+          placeholder("subcat-fabric-premium-jersey-1", "Close-up of premium stretch jersey fabric texture"),
+          placeholder("subcat-fabric-premium-jersey-2", "Jersey fabric swatch cards showing the available color range"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Charcoal Heather", hex: "#5c5c5c" },
+          { name: "Navy", hex: "#202a44" },
+          { name: "Camel", hex: "#c19a6b" },
+        ],
+      },
+      {
+        slug: "satin-collection",
+        name: "Satin Collection",
+        shortDescription: "High-sheen occasion fabric used across hijabs, abayas, and bridal ranges.",
+        description:
+          "The satin collection spans every occasion-tier product we make &mdash; satin hijabs, satin abayas, and satin bridal styles &mdash; built on the same high-gloss weave engineered to hold a pressed, glass-smooth finish through transport and retail handling. Buyers building a coordinated occasion or bridal range across multiple garment types typically standardize on this fabric first. Available from 200 pieces per color.",
+        images: [
+          placeholder("subcat-fabric-satin-collection-1", "Close-up of glossy satin fabric sheen"),
+          placeholder("subcat-fabric-satin-collection-2", "Satin fabric swatch cards showing the available color range"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Ivory", hex: "#f0e9db" },
+          { name: "Champagne", hex: "#e8d9b5" },
+          { name: "Wine", hex: "#722f37" },
+          { name: "Royal Blue", hex: "#1f3a93" },
+        ],
+      },
+      {
+        slug: "silk-collection",
+        name: "Silk Collection",
+        shortDescription: "Genuine mulberry silk used across our luxury, bridal, and mid-tier hijab and abaya lines.",
+        description:
+          "The silk collection covers every genuine mulberry silk product we manufacture &mdash; luxury and mid-tier silk hijabs, silk bridal hijabs, and luxury silk bridal abayas &mdash; rather than a synthetic silk-look substitute. Finishing ranges from a machine-rolled hem on our mid-tier pieces to a fully hand-rolled hem on our luxury and bridal tiers. Available from 150 pieces per color depending on tier.",
+        images: [
+          placeholder("subcat-fabric-silk-collection-1", "Close-up of natural silk fabric sheen"),
+          placeholder("subcat-fabric-silk-collection-2", "Silk fabric swatch cards showing the available color range"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Ivory", hex: "#f0e9db" },
+          { name: "Champagne", hex: "#e8d9b5" },
+          { name: "Emerald", hex: "#175f4c" },
+          { name: "Sapphire", hex: "#0f52ba" },
+        ],
+      },
+      {
+        slug: "cotton-collection",
+        name: "Cotton Collection",
+        shortDescription: "Breathable cotton voile used across hijabs, instant hijabs, and niqabs for hot climates.",
+        description:
+          "The cotton collection groups every breathable, natural-fiber cotton voile product across our hijab, instant hijab, and niqab lines, positioned for hot, humid markets and buyers building a natural-fiber marketing narrative. It trades a small amount of chiffon's crisp structure for genuinely better airflow. Available from 300 pieces per color, pre-shrunk to reduce size variance after the customer's first wash.",
+        images: [
+          placeholder("subcat-fabric-cotton-collection-1", "Close-up of breathable cotton voile fabric weave"),
+          placeholder("subcat-fabric-cotton-collection-2", "Cotton fabric swatch cards showing the available color range"),
+        ],
+        colors: [
+          { name: "Ivory", hex: "#f0e9db" },
+          { name: "Sky Blue", hex: "#a9cce3" },
+          { name: "Blush", hex: "#f2c4c4" },
+          { name: "Sage", hex: "#9caf88" },
+        ],
+      },
+      {
+        slug: "linen-collection",
+        name: "Linen Collection",
+        shortDescription: "Natural linen-blend fabric for buyers building an earthy, texture-forward private label range.",
+        description:
+          "The linen collection offers a natural, visibly textured fiber option for buyers whose customers respond to an earthy, less polished aesthetic than our smoother chiffon and satin lines. Linen blends take muted, natural dye tones particularly well and develop a soft hand-feel with wear and washing rather than pilling. It's a lower-volume, specialty fabric compared to our chiffon and jersey lines. Available from 300 pieces per color.",
+        images: [
+          placeholder("subcat-fabric-linen-collection-1", "Close-up of natural linen fabric texture"),
+          placeholder("subcat-fabric-linen-collection-2", "Linen fabric swatch cards showing the available color range"),
+        ],
+        colors: [
+          { name: "Natural", hex: "#ddd2bc" },
+          { name: "Sand", hex: "#d9c7a3" },
+          { name: "Sage", hex: "#9caf88" },
+          { name: "Charcoal", hex: "#4a4a4a" },
+        ],
+      },
+      {
+        slug: "crinkle-collection",
+        name: "Crinkle Collection",
+        shortDescription: "Heat-set crinkle texturing available across hijabs and instant hijabs for volume and movement.",
+        description:
+          "The crinkle collection covers our heat-set texturing process across every category that offers it, giving visible volume and movement that survives machine washing without needing to be re-ironed the way a pressed pleat does. This is the same permanent texturing behind our georgette fabric family, grouped here for buyers browsing by finish rather than by base fabric name. Available from 300 pieces per color.",
+        images: [
+          placeholder("subcat-fabric-crinkle-collection-1", "Close-up of crinkle-textured fabric surface"),
+          placeholder("subcat-fabric-crinkle-collection-2", "Crinkle fabric swatch cards showing the available color range"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Charcoal", hex: "#4a4a4a" },
+          { name: "Camel", hex: "#c19a6b" },
+          { name: "Dusty Rose", hex: "#c98f8f" },
+        ],
+      },
+      {
+        slug: "ribbed-collection",
+        name: "Ribbed Collection",
+        shortDescription: "Vertical rib-knit fabric used across hijabs and inner caps for a structured, streetwear-adjacent finish.",
+        description:
+          "The ribbed collection groups our vertical rib-knit fabric across the categories that use it, giving a slightly compressed, sculpted silhouette aimed at younger customer segments who wear modest fashion closer to streetwear than traditional occasion dressing. The tighter rib construction holds more structure than standard jersey without needing pins to hold shape. Available from 300 pieces per color.",
+        images: [
+          placeholder("subcat-fabric-ribbed-collection-1", "Close-up of ribbed knit fabric vertical texture"),
+          placeholder("subcat-fabric-ribbed-collection-2", "Ribbed fabric swatch cards showing the available color range"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Charcoal", hex: "#4a4a4a" },
+          { name: "Camel", hex: "#c19a6b" },
+          { name: "Rust", hex: "#b5502c" },
+        ],
+      },
+    ],
+  },
 ];
 
 export function getCategoryBySlug(slug: string): Category | undefined {
