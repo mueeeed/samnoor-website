@@ -191,6 +191,14 @@ const THEME_PHOTOS: Record<string, string> = {
   "photo-tunics-36919784": "/products/tunics/36919784.jpg",
   "photo-tunics-32873853": "/products/tunics/32873853.jpg",
   "photo-tunics-6121876": "/products/tunics/6121876.jpg",
+
+  "photo-skirts-18239440": "/products/skirts/18239440.jpg",
+  "photo-skirts-17439099": "/products/skirts/17439099.jpg",
+  "photo-skirts-8350626": "/products/skirts/8350626.jpg",
+  "photo-skirts-30334295": "/products/skirts/30334295.jpg",
+  "photo-skirts-7401087": "/products/skirts/7401087.jpg",
+  "photo-skirts-39221177": "/products/skirts/39221177.jpg",
+  "photo-skirts-4074600": "/products/skirts/4074600.jpg",
   "blog-fabric-rolls-shelf": "/blog/17329670.jpg",
 };
 
@@ -789,6 +797,33 @@ const SEED_THEME_MAP: Record<string, keyof typeof THEME_PHOTOS> = {
   "subcat-tunics-embroidered-2": "photo-tunics-9218401",
   "subcat-tunics-layering-1": "photo-tunics-6121876",
   "subcat-tunics-layering-2": "photo-tunics-33282245",
+
+  // Modest Skirts — a new category with 7 freshly sourced, visually
+  // verified photos (a genuine denim-maxi-skirt-plus-hijab photo could not
+  // be found after several searches, so Denim Maxi Skirts reuses this same
+  // general skirt pool rather than an unrelated or misleading photo).
+  "cat-skirts-hero": "photo-skirts-18239440",
+  "cat-skirts-card": "photo-skirts-7401087",
+  "subcat-skirts-maxi-1": "photo-skirts-18239440",
+  "subcat-skirts-maxi-2": "photo-skirts-30334295",
+  "subcat-skirts-pleated-1": "photo-skirts-17439099",
+  "subcat-skirts-pleated-2": "photo-skirts-7401087",
+  "subcat-skirts-a-line-1": "photo-skirts-8350626",
+  "subcat-skirts-a-line-2": "photo-skirts-39221177",
+  "subcat-skirts-flared-1": "photo-skirts-30334295",
+  "subcat-skirts-flared-2": "photo-skirts-4074600",
+  "subcat-skirts-straight-cut-1": "photo-skirts-7401087",
+  "subcat-skirts-straight-cut-2": "photo-skirts-18239440",
+  "subcat-skirts-denim-maxi-1": "photo-skirts-39221177",
+  "subcat-skirts-denim-maxi-2": "photo-skirts-17439099",
+  "subcat-skirts-satin-1": "photo-skirts-4074600",
+  "subcat-skirts-satin-2": "photo-skirts-8350626",
+  "subcat-skirts-jersey-1": "photo-skirts-30334295",
+  "subcat-skirts-jersey-2": "photo-skirts-39221177",
+  "subcat-skirts-cotton-1": "photo-skirts-7401087",
+  "subcat-skirts-cotton-2": "photo-skirts-4074600",
+  "subcat-skirts-tiered-1": "photo-skirts-39221177",
+  "subcat-skirts-tiered-2": "photo-skirts-18239440",
 
   // About page
   "about-hero": "factory-exterior",

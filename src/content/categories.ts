@@ -2750,6 +2750,188 @@ export const categories: Category[] = [
       },
     ],
   },
+  {
+    slug: "skirts",
+    name: "Modest Skirts",
+    shortName: "Skirts",
+    description:
+      "Maxi, pleated, A-line, and straight-cut modest skirts, drafted to a floor-grazing or ankle length across cotton, jersey, satin, and denim bases for a full modest separates range.",
+    content: `
+      <p>A modest skirt is defined almost entirely by length and fullness rather than any single fabric, which is why we run the same core silhouettes &mdash; maxi, pleated, A-line, straight-cut, and tiered &mdash; across multiple fabric bases rather than tying a cut to one material. Every style is drafted to a floor-grazing or ankle length as standard, with waistbands sized generously enough to sit comfortably under a longline top or tunic.</p>
+      <p>This category is built as a companion range to our tops and tunics line: buyers building complete separates-based outfits typically order matching or coordinating skirts and tops from the same fabric lot to guarantee a shade match across the full look. Custom waistband elastic, drawstring, or zip-fly construction is available for private label orders.</p>
+    `,
+    heroImage: placeholder("cat-skirts-hero", "Woman wearing a long maxi skirt with a hijab"),
+    cardImage: placeholder("cat-skirts-card", "Woman wearing a flared floral maxi skirt with a hijab"),
+    keywords: [
+      "modest skirt manufacturer",
+      "wholesale maxi skirt supplier",
+      "pleated modest skirt manufacturer India",
+      "modest fashion separates wholesale",
+    ],
+    subcategories: [
+      {
+        slug: "maxi",
+        name: "Maxi Skirts",
+        shortDescription: "Our base floor-length skirt cut, straight through the hip with a soft fall to the floor.",
+        description:
+          "Maxi skirts are our base floor-length cut, sitting straight through the hip with enough fabric ease to fall softly to the floor without clinging. It's the silhouette most other cuts in this category build from, and the one we recommend as an opening SKU for buyers new to the skirt category. Waistband options include elastic, drawstring, or a fitted zip-fly depending on the fabric base. Offered from 300 pieces per color.",
+        images: [
+          placeholder("subcat-skirts-maxi-1", "Model wearing a floor-length maxi skirt with a hijab"),
+          placeholder("subcat-skirts-maxi-2", "Model wearing a straight-cut maxi skirt in an urban setting"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Navy", hex: "#202a44" },
+          { name: "Charcoal", hex: "#3d3d3d" },
+          { name: "Camel", hex: "#c19a6b" },
+        ],
+      },
+      {
+        slug: "pleated",
+        name: "Pleated Skirts",
+        shortDescription: "Permanent heat-set pleats from waist to hem for structured movement and fall.",
+        description:
+          "Pleated skirts use heat-set pleats running the full length from waist to hem, giving structured, defined movement that a flat maxi cut doesn't produce. The pleats are permanently set rather than pressed, so they survive machine washing without needing to be re-ironed between wears. It's a strong step-up SKU above our plain maxi skirt for buyers who want more visual interest at a similar price point. Offered from 300 pieces per color.",
+        images: [
+          placeholder("subcat-skirts-pleated-1", "Model wearing a pleated black maxi skirt with a printed hijab"),
+          placeholder("subcat-skirts-pleated-2", "Model wearing a pleated skirt with a wide sun hat over a hijab"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Grey", hex: "#8a8a8a" },
+          { name: "Navy", hex: "#202a44" },
+        ],
+      },
+      {
+        slug: "a-line",
+        name: "A-Line Skirts",
+        shortDescription: "Gentle flare from the waist for a classic, universally flattering silhouette.",
+        description:
+          "A-line skirts flare gently from the waist down, giving a classic, universally flattering silhouette that sits between our fitted straight-cut and our fuller flared styles. The flare is built into the pattern rather than gathered, so it hangs evenly without bunching at the waistband. It's the safest default recommendation we give buyers unsure which silhouette their market prefers. Offered from 300 pieces per color.",
+        images: [
+          placeholder("subcat-skirts-a-line-1", "Model wearing an A-line skirt with a white top and hijab"),
+          placeholder("subcat-skirts-a-line-2", "Model wearing a pleated A-line skirt with a sun hat"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Ivory", hex: "#f0e9db" },
+          { name: "Sage", hex: "#9caf88" },
+        ],
+      },
+      {
+        slug: "flared",
+        name: "Flared Skirts",
+        shortDescription: "Fuller circular flare than our A-line cut, for more visible movement and swing.",
+        description:
+          "Flared skirts use a fuller circular-cut flare than our A-line style, giving more visible movement and swing when walking. This uses more fabric per unit than a straight or A-line cut, which is reflected in a modest per-unit cost increase. It's the style our buyers reorder most for warm-climate markets where a fuller, breezier skirt is preferred over a fitted silhouette. Offered from 300 pieces per color.",
+        images: [
+          placeholder("subcat-skirts-flared-1", "Model wearing a straight-cut skirt with a belt and hijab"),
+          placeholder("subcat-skirts-flared-2", "Model wearing a satin pleated skirt with visible movement"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Navy", hex: "#202a44" },
+          { name: "Teal", hex: "#1f7a6c" },
+        ],
+      },
+      {
+        slug: "straight-cut",
+        name: "Straight-Cut Skirts",
+        shortDescription: "Fitted, column silhouette with a rear vent or kick pleat for ease of movement.",
+        description:
+          "Straight-cut skirts hold a fitted, column silhouette from waist to hem rather than flaring, with a rear vent or kick pleat built into the hem specifically so the fitted cut doesn't restrict walking. This is our most tailored, office-and-formal-adjacent skirt style, positioned above our casual maxi and A-line cuts. Offered from 250 pieces per color.",
+        images: [
+          placeholder("subcat-skirts-straight-cut-1", "Model wearing a fitted straight-cut skirt with a belt and hijab"),
+          placeholder("subcat-skirts-straight-cut-2", "Model wearing a straight maxi skirt with a hijab on steps"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Charcoal", hex: "#3d3d3d" },
+          { name: "Grey", hex: "#8a8a8a" },
+        ],
+      },
+      {
+        slug: "denim-maxi",
+        name: "Denim Maxi Skirts",
+        shortDescription: "Structured denim base for a casual, durable everyday skirt.",
+        description:
+          "Denim maxi skirts bring our maxi silhouette to a structured denim base, giving a more durable, casual-everyday option than our fluid woven and knit fabrics. The heavier fabric holds a straighter line at the hem than our lighter maxi skirts, and it's the style buyers reorder most for youth and casual-wear-focused retail ranges. Offered from 300 pieces per color, in standard indigo and black washes.",
+        images: [
+          placeholder("subcat-skirts-denim-maxi-1", "Model wearing a pleated skirt styled casually with a sun hat"),
+          placeholder("subcat-skirts-denim-maxi-2", "Model wearing a black pleated maxi skirt with a printed hijab"),
+        ],
+        colors: [
+          { name: "Indigo", hex: "#2c3e6b" },
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Grey Wash", hex: "#7a8494" },
+        ],
+      },
+      {
+        slug: "satin",
+        name: "Satin Skirts",
+        shortDescription: "High-sheen satin base for an occasion-adjacent skirt with a fluid drape.",
+        description:
+          "Satin skirts use our high-sheen satin weave, giving a fluid, weighted drape and glossy finish suited to occasion and evening-adjacent styling rather than daily casual wear. It pairs naturally with our satin and silk tunic and hijab lines for a coordinated occasion outfit. The glossier surface shows creasing more visibly than matte fabrics, so garments ship on a hanger rather than folded for retail accounts that request it. Offered from 250 pieces per color.",
+        images: [
+          placeholder("subcat-skirts-satin-1", "Model wearing a satin-look pleated maxi skirt"),
+          placeholder("subcat-skirts-satin-2", "Model wearing an A-line skirt in a glossy satin fabric"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Champagne", hex: "#e8d9b5" },
+          { name: "Wine", hex: "#722f37" },
+        ],
+      },
+      {
+        slug: "jersey",
+        name: "Jersey Skirts",
+        shortDescription: "Stretch jersey construction for a soft, comfortable everyday maxi skirt.",
+        description:
+          "Jersey skirts use a stretch knit base rather than a woven fabric, giving a softer, more comfortable fit for daily wear and easier care than our structured cotton and satin styles. The added stretch also makes one size range fit a wider variety of body shapes. It's the fabric we recommend pairing with our jersey hijab and tunic ranges for a fully coordinated casual line. Offered from 300 pieces per color.",
+        images: [
+          placeholder("subcat-skirts-jersey-1", "Model wearing a soft flared skirt styled casually"),
+          placeholder("subcat-skirts-jersey-2", "Model wearing a pleated skirt with a relaxed, casual fit"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Charcoal Heather", hex: "#5c5c5c" },
+          { name: "Navy", hex: "#202a44" },
+        ],
+      },
+      {
+        slug: "cotton",
+        name: "Cotton Skirts",
+        shortDescription: "Breathable woven cotton for hot-climate daily wear with a crisper structure than jersey.",
+        description:
+          "Cotton skirts use a breathable woven cotton base, holding a crisper structure than our jersey line while staying cooler than synthetic-blend fabrics in hot, humid climates. It's the fabric most buyers choose for our A-line and straight-cut silhouettes specifically, since cotton presses and holds a crease better than a stretch knit. Offered from 300 pieces per color.",
+        images: [
+          placeholder("subcat-skirts-cotton-1", "Model wearing a floral maxi skirt with a hijab outdoors"),
+          placeholder("subcat-skirts-cotton-2", "Model wearing a satin-finish skirt in a natural setting"),
+        ],
+        colors: [
+          { name: "Ivory", hex: "#f0e9db" },
+          { name: "Sky Blue", hex: "#a9cce3" },
+          { name: "Sand", hex: "#d9c7a3" },
+        ],
+      },
+      {
+        slug: "tiered",
+        name: "Tiered Skirts",
+        shortDescription: "Stacked ruffle-tier construction for a boho-adjacent, romantic silhouette.",
+        description:
+          "Tiered skirts stack multiple gathered fabric tiers from waist to hem, giving a boho-adjacent, romantic silhouette with more visible volume than our other flared cuts. Each tier is cut and gathered separately before assembly, which is the main construction cost driver on this style compared to a single-panel maxi skirt. It's a strong seasonal or occasion-adjacent addition to a primarily solid-color skirt range. Offered from 250 pieces per color.",
+        images: [
+          placeholder("subcat-skirts-tiered-1", "Model wearing a pleated skirt styled with a wide sun hat"),
+          placeholder("subcat-skirts-tiered-2", "Model wearing a maxi skirt with visible tiered movement"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Ivory", hex: "#f0e9db" },
+          { name: "Dusty Rose", hex: "#c98f8f" },
+        ],
+      },
+    ],
+  },
 ];
 
 export function getCategoryBySlug(slug: string): Category | undefined {
