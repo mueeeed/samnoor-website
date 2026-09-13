@@ -4103,7 +4103,7 @@ export const categories: Category[] = [
         description:
           "Embellished Eid wear covers the heaviest embellishment tier across abayas and kaftans in this collection, combining stonework, sequins, and thread embroidery for maximum visual impact in Eid photography and gatherings. It's positioned above our standard Eid abaya and kaftan tiers as the premium celebration option. Produced from 100 pieces per design.",
         images: [
-          placeholder("subcat-eid-embellished-1", "Close-up of embellishment detail on abaya fabric for Eid"),
+          placeholder("subcat-eid-embellished-1", "Close-up of gold and silver bullion embroidery detail"),
           placeholder("subcat-eid-embellished-2", "Close-up of hand-set faceted crystals on kaftan fabric"),
         ],
         colors: [

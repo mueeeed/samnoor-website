@@ -52,6 +52,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
+  const subcategoryEntries: MetadataRoute.Sitemap = categories.flatMap((c) =>
+    (c.subcategories ?? []).map((s) => ({
+      url: `${siteConfig.url}/products/${c.slug}/type/${s.slug}`,
+      lastModified: now,
+      changeFrequency: "monthly" as const,
+      priority: 0.6,
+    }))
+  );
+
   const blogEntries: MetadataRoute.Sitemap = getPublishedPosts().map((p) => ({
     url: `${siteConfig.url}/blog/${p.slug}`,
     lastModified: new Date(p.updatedAt || p.publishedAt),
@@ -84,6 +93,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...staticEntries,
     ...categoryEntries,
     ...productEntries,
+    ...subcategoryEntries,
     ...blogEntries,
     ...fabricEntries,
     ...locationEntries,
