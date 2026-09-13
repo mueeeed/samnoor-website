@@ -7,6 +7,7 @@ import { PageHero } from "@/components/ui/PageHero";
 import { Kicker } from "@/components/ui/Kicker";
 import { LinkButton } from "@/components/ui/Button";
 import { ProductCard } from "@/components/products/ProductCard";
+import { ColorSwatches } from "@/components/products/ColorSwatches";
 import { ContactForm } from "@/components/forms/ContactForm";
 import { categories, getCategoryBySlug } from "@/content/categories";
 import { getProductsByCategory, getProductBySlug } from "@/content/products";
@@ -79,6 +80,51 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
                   <div className="relative flex flex-col gap-0.5 p-4 text-cream">
                     <span className="text-[0.65rem] font-medium uppercase tracking-widest text-gold-soft">Collection</span>
                     <span className="font-heading text-sm font-semibold leading-tight">{name}</span>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </Container>
+        </section>
+      )}
+
+      {category.subcategories && category.subcategories.length > 0 && (
+        <section className="py-16 sm:py-20">
+          <Container>
+            <div className="mb-10 flex flex-col gap-4">
+              <Kicker>Shop by Fabric &amp; Finish</Kicker>
+              <h2 className="font-heading text-2xl font-semibold text-heading sm:text-3xl">
+                {category.subcategories.length} {category.name} Fabrics
+              </h2>
+              <p className="max-w-2xl text-muted">
+                Every fabric and finish we produce in {category.name.toLowerCase()}, each with its own color range,
+                MOQ, and detailed spec &mdash; click through for the full write-up.
+              </p>
+            </div>
+            <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+              {category.subcategories.map((subcategory) => (
+                <Link
+                  key={subcategory.slug}
+                  href={`/products/${category.slug}/type/${subcategory.slug}`}
+                  className="group card-premium flex flex-col overflow-hidden"
+                >
+                  <div className="relative aspect-[4/3] w-full overflow-hidden">
+                    <Image
+                      src={subcategory.images[0]?.src}
+                      alt={subcategory.images[0]?.alt ?? subcategory.name}
+                      fill
+                      sizes="(min-width: 1024px) 32vw, 90vw"
+                      className="object-cover transition-transform duration-700 group-hover:scale-110"
+                    />
+                  </div>
+                  <div className="flex flex-1 flex-col gap-2.5 p-5">
+                    <h3 className="font-heading text-base font-semibold text-heading group-hover:text-accent">
+                      {subcategory.name}
+                    </h3>
+                    <p className="text-sm leading-relaxed text-muted">{subcategory.shortDescription}</p>
+                    <div className="mt-auto pt-2">
+                      <ColorSwatches colors={subcategory.colors.slice(0, 6)} size="sm" showLabels={false} />
+                    </div>
                   </div>
                 </Link>
               ))}

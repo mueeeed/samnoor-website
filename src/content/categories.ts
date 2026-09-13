@@ -28,6 +28,240 @@ export const categories: Category[] = [
       { name: "Textured & Statement", productSlug: "alia-georgette-hijab" },
       { name: "Silk & Modal Premium", productSlug: "farah-silk-hijab" },
     ],
+    subcategories: [
+      {
+        slug: "georgette",
+        name: "Georgette Hijabs",
+        shortDescription: "Crinkle-texture georgette with visible movement and a lightweight, non-cling drape.",
+        description:
+          "Georgette hijab wholesale is our go-to recommendation for buyers who want more visible texture than chiffon without adding weight. The self-crinkled polyester-viscose weave holds a soft, lived-in fold straight out of the pack, so it photographs well on a hanger and doesn't need steaming before a customer wears it. Because the crinkle is woven in rather than pressed, it survives repeated washing at retail without flattening out, which is the main complaint buyers report with pleated-finish competitors. Offered from 300 pieces per color with Pantone matching on request.",
+        images: [
+          placeholder("subcat-hijabs-georgette-1", "Model wearing a georgette hijab with visible crinkle texture and soft drape"),
+          placeholder("subcat-hijabs-georgette-2", "Close-up of georgette hijab fabric showing its self-textured crinkle weave"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Charcoal", hex: "#4a4a4a" },
+          { name: "Navy", hex: "#202a44" },
+          { name: "Dusty Rose", hex: "#c98f8f" },
+          { name: "Sage", hex: "#9caf88" },
+          { name: "Camel", hex: "#c19a6b" },
+          { name: "Burgundy", hex: "#6d2130" },
+          { name: "Ivory", hex: "#f0e9db" },
+        ],
+      },
+      {
+        slug: "chiffon",
+        name: "Chiffon Hijabs",
+        shortDescription: "Our highest-volume export fabric — a 75 gsm matte weave opaque enough to skip an underscarf.",
+        description:
+          "Chiffon is the fabric most wholesale buyers mean by default when they ask for a \"standard\" hijab, and it's the largest single line running through our hijab manufacturing floor. The 75 gsm matte weave is opaque enough to wear without an underscarf in most climates, presses flat for retail packaging, and holds a crisp fold that jersey and modal can't replicate. It's the fabric we recommend to first-time private label buyers because it's the most forgiving to print, dye, and finish consistently at volume. Available across our full 42-shade library from 300 pieces per color.",
+        images: [
+          placeholder("subcat-hijabs-chiffon-1", "Model wearing a matte chiffon hijab draped with a crisp, structured fold"),
+          placeholder("subcat-hijabs-chiffon-2", "Close-up of matte chiffon hijab fabric showing its fine, opaque weave"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Charcoal", hex: "#4a4a4a" },
+          { name: "Navy", hex: "#202a44" },
+          { name: "Ivory", hex: "#f0e9db" },
+          { name: "Camel", hex: "#c19a6b" },
+          { name: "Dusty Rose", hex: "#c98f8f" },
+          { name: "Sage", hex: "#9caf88" },
+          { name: "Burgundy", hex: "#6d2130" },
+        ],
+      },
+      {
+        slug: "jersey",
+        name: "Jersey Hijabs",
+        shortDescription: "Four-way stretch knit built for a no-pin, wrap-and-go finish.",
+        description:
+          "Jersey hijabs solve for speed: a cotton-modal knit with four-way stretch that customers wrap and go without pins, safety pins, or an underscarf cap holding it in place. The knit resists fraying at the cut edge, which keeps hemming costs down compared to woven fabrics, and it holds its shape through a full day of wear without the sagging some cheaper viscose jerseys develop by afternoon. This is the strongest-reordering fabric for buyers targeting athleisure-adjacent and first-time hijab wearer segments. Offered in solid and heathered finishes from 300 pieces per color.",
+        images: [
+          placeholder("subcat-hijabs-jersey-1", "Model wearing a stretch jersey hijab wrapped in a relaxed, no-pin style"),
+          placeholder("subcat-hijabs-jersey-2", "Close-up of jersey hijab knit fabric showing its four-way stretch texture"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Charcoal Heather", hex: "#5c5c5c" },
+          { name: "Navy", hex: "#202a44" },
+          { name: "Camel", hex: "#c19a6b" },
+          { name: "Dusty Rose", hex: "#c98f8f" },
+          { name: "Sage", hex: "#9caf88" },
+          { name: "Rust", hex: "#b5502c" },
+          { name: "Ivory", hex: "#f0e9db" },
+        ],
+      },
+      {
+        slug: "modal",
+        name: "Modal Hijabs",
+        shortDescription: "Soft modal-blend hijab with a matte, low-sheen finish and a silkier hand-feel than jersey.",
+        description:
+          "Modal hijabs sit a step up from standard jersey for buyers who want the same no-pin stretch with a noticeably softer, silkier hand-feel and a lower-sheen finish. The beechwood-derived modal fiber blend drapes closer to the body than cotton jersey without clinging, and it takes dye more evenly, which shows up as richer, more consistent color across a production run. It's a strong fit for premium everyday and gifting ranges where buyers want to differentiate from commodity jersey hijabs on fabric feel alone. Offered from 300 pieces per color with custom blend ratios available for larger orders.",
+        images: [
+          placeholder("subcat-hijabs-modal-1", "Model wearing a soft modal hijab with a matte, low-sheen drape"),
+          placeholder("subcat-hijabs-modal-2", "Close-up of heathered modal fabric showing its soft, fine knit texture"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Heather Grey", hex: "#8a8a8a" },
+          { name: "Navy", hex: "#202a44" },
+          { name: "Camel", hex: "#c19a6b" },
+          { name: "Blush", hex: "#f2c4c4" },
+          { name: "Sage", hex: "#9caf88" },
+          { name: "Ivory", hex: "#f0e9db" },
+        ],
+      },
+      {
+        slug: "printed-modal",
+        name: "Printed Modal Hijabs",
+        shortDescription: "Modal's soft stretch with in-house digital print development for pattern-led ranges.",
+        description:
+          "Printed modal brings our in-house print studio onto the modal base, giving buyers pattern variety without giving up the fabric's soft, no-pin stretch. Digital printing holds fine floral and botanical detail better than screen printing at this weight, and colors stay sharp through repeated washing because the print is heat-set into the modal fiber rather than sitting on top of it. This range is aimed at younger, fashion-forward customer segments who reorder for new prints more often than they reorder solids. Strike-off samples typically turn around in under two weeks, with production from 300 pieces per design.",
+        images: [
+          placeholder("subcat-hijabs-printed-modal-1", "Model wearing a printed modal hijab in a botanical pattern"),
+          placeholder("subcat-hijabs-printed-modal-2", "Close-up of a floral printed pattern on soft modal fabric"),
+        ],
+        colors: [
+          { name: "Indigo Floral", hex: "#2b3a67" },
+          { name: "Blush Botanical", hex: "#d98c96" },
+          { name: "Sage Paisley", hex: "#8a9b6e" },
+          { name: "Terracotta Bloom", hex: "#c1622d" },
+        ],
+      },
+      {
+        slug: "printed-chiffon",
+        name: "Printed Chiffon Hijabs",
+        shortDescription: "Digitally printed chiffon with in-house pattern development from concept to strike-off.",
+        description:
+          "Printed chiffon pairs our standard-bearer fabric with custom pattern development, so private label buyers get a fully differentiated SKU rather than a solid reorder of the core chiffon line. Our in-house print studio can take a new pattern from concept to strike-off sample in under two weeks, and the chiffon base holds fine line detail and color saturation better than most printed jersey alternatives on the market. It's the fabric we recommend when a buyer wants a signature seasonal print without committing to a full custom-fabric minimum. Production runs from 300 pieces per design with Pantone-matched recoloring available on repeat orders.",
+        images: [
+          placeholder("subcat-hijabs-printed-chiffon-1", "Model wearing a printed chiffon hijab with a fine floral pattern"),
+          placeholder("subcat-hijabs-printed-chiffon-2", "Close-up of a navy floral print on matte chiffon fabric"),
+        ],
+        colors: [
+          { name: "Navy Floral", hex: "#22304f" },
+          { name: "Ivory Vine", hex: "#e7e2d3" },
+          { name: "Rust Paisley", hex: "#b5502c" },
+          { name: "Emerald Bloom", hex: "#175f4c" },
+        ],
+      },
+      {
+        slug: "satin",
+        name: "Satin Hijabs",
+        shortDescription: "High-sheen satin weave positioned for occasion, evening, and gifting ranges.",
+        description:
+          "Satin hijabs are our step-up occasion fabric, woven for a high-gloss sheen and a fluid, weighted drape that reads as formal wear rather than daily basics. The tighter weave holds a pressed, glass-smooth finish through transport and retail handling far better than lower-cost satin-look alternatives, which tend to develop a dull, matted sheen after one wash. Buyers stock this range alongside luxury silk for evening and bridal-adjacent gifting collections where presentation matters as much as fabric cost. Offered from 200 pieces per color, with gift-box packaging available on request.",
+        images: [
+          placeholder("subcat-hijabs-satin-1", "Model wearing a high-sheen satin hijab with a fluid, weighted drape"),
+          placeholder("subcat-hijabs-satin-2", "Close-up of ivory satin fabric showing its smooth, glossy sheen"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Ivory", hex: "#f0e9db" },
+          { name: "Champagne", hex: "#e8d9b5" },
+          { name: "Wine", hex: "#722f37" },
+          { name: "Emerald", hex: "#175f4c" },
+          { name: "Royal Blue", hex: "#1f3a93" },
+        ],
+      },
+      {
+        slug: "silk",
+        name: "Silk Hijabs",
+        shortDescription: "Mid-tier mulberry silk with a machine-rolled hem for a genuine silk hand-feel at wholesale scale.",
+        description:
+          "Silk hijabs run on genuine mulberry silk rather than a synthetic silk-look substitute, which is the detail that separates a private label \"luxury\" claim customers actually believe from one they don't. The fiber's natural sheen and weight give a drape no polyester blend fully replicates, and our machine-rolled hem keeps unit costs workable at wholesale volume without hand-finishing every edge. This tier sits below our fully hand-rolled luxury silk hijab line, making it the practical entry point for buyers who want a genuine silk SKU without a luxury-tier price point. Offered from 200 pieces per color.",
+        images: [
+          placeholder("subcat-hijabs-silk-1", "Model wearing a mulberry silk hijab draped elegantly with natural sheen"),
+          placeholder("subcat-hijabs-silk-2", "Close-up of silk hijab fabric showing its natural fiber sheen"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Ivory", hex: "#f0e9db" },
+          { name: "Champagne", hex: "#e8d9b5" },
+          { name: "Dusty Rose", hex: "#c98f8f" },
+          { name: "Emerald", hex: "#175f4c" },
+          { name: "Sapphire", hex: "#0f52ba" },
+          { name: "Camel", hex: "#c19a6b" },
+        ],
+      },
+      {
+        slug: "crinkle",
+        name: "Crinkle Hijabs",
+        shortDescription: "Self-textured crinkle finish for volume and visible movement without added weight.",
+        description:
+          "Crinkle hijabs use a heat-set texturing process that locks a permanent, self-supporting ripple into the fabric surface, giving visible volume and movement that a flat weave can't produce on its own. Unlike a pressed pleat, the crinkle texture survives machine washing and doesn't need re-ironing to hold its shape, which buyers in retail (rather than boutique) channels consistently rate as the top reason they reorder this finish over pleated alternatives. It pairs naturally with our georgette range for buyers building a full textured-hijab collection. Offered from 300 pieces per color.",
+        images: [
+          placeholder("subcat-hijabs-crinkle-1", "Model wearing a crinkle-texture hijab with visible self-supporting ripple"),
+          placeholder("subcat-hijabs-crinkle-2", "Close-up of crinkle hijab fabric showing its permanent textured surface"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Charcoal", hex: "#4a4a4a" },
+          { name: "Navy", hex: "#202a44" },
+          { name: "Camel", hex: "#c19a6b" },
+          { name: "Dusty Rose", hex: "#c98f8f" },
+          { name: "Sage", hex: "#9caf88" },
+        ],
+      },
+      {
+        slug: "cotton",
+        name: "Cotton Hijabs",
+        shortDescription: "Breathable cotton voile built for hot-climate daily wear.",
+        description:
+          "Cotton voile hijabs are the fabric buyers in hot, humid markets ask for once chiffon starts drawing complaints about heat retention. The lightweight, breathable weave lets air through in a way synthetic fabrics can't, at the cost of a less structured drape and slightly more visible creasing after folding. It's a natural-fiber alternative for buyers whose customers specifically ask for cotton, and for private label ranges building a breathable, natural-fiber marketing angle. Offered from 300 pieces per color, pre-shrunk to reduce size variance after the customer's first wash.",
+        images: [
+          placeholder("subcat-hijabs-cotton-1", "Model wearing a breathable cotton voile hijab folded softly"),
+          placeholder("subcat-hijabs-cotton-2", "Close-up of cotton voile hijab fabric showing its light, breathable weave"),
+        ],
+        colors: [
+          { name: "Ivory", hex: "#f0e9db" },
+          { name: "Sky Blue", hex: "#a9cce3" },
+          { name: "Blush", hex: "#f2c4c4" },
+          { name: "Sage", hex: "#9caf88" },
+          { name: "Sand", hex: "#d9c7a3" },
+          { name: "Charcoal", hex: "#4a4a4a" },
+        ],
+      },
+      {
+        slug: "ribbed",
+        name: "Ribbed Hijabs",
+        shortDescription: "Ribbed knit texture for a structured, streetwear-adjacent finish.",
+        description:
+          "Ribbed hijabs bring a visible vertical rib knit into the hijab category, aimed at younger customer segments who wear hijab styling closer to streetwear than traditional occasion wear. The tighter rib construction holds more structure than standard jersey, giving a slightly compressed, sculpted wrap style without needing pins to hold the shape. It reorders strongest alongside our sports and instant hijab ranges for buyers targeting an active, casual-first customer base. Offered from 300 pieces per color.",
+        images: [
+          placeholder("subcat-hijabs-ribbed-1", "Model wearing a ribbed knit hijab with a structured, sculpted wrap"),
+          placeholder("subcat-hijabs-ribbed-2", "Close-up of ribbed knit fabric showing its vertical rib texture"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Charcoal", hex: "#4a4a4a" },
+          { name: "Camel", hex: "#c19a6b" },
+          { name: "Rust", hex: "#b5502c" },
+          { name: "Sage", hex: "#9caf88" },
+          { name: "Cream", hex: "#f5f0e6" },
+        ],
+      },
+      {
+        slug: "bamboo",
+        name: "Bamboo Hijabs",
+        shortDescription: "Bamboo-viscose blend for a soft, breathable, eco-positioned hijab range.",
+        description:
+          "Bamboo hijabs use a bamboo-viscose blend that markets well to sustainability-conscious customers while giving a genuinely softer hand-feel and better moisture-wicking than standard cotton jersey. The fiber's natural antibacterial properties and breathability make it a strong fit for buyers building an eco or wellness-positioned private label range, and it takes muted, earthy dye tones particularly well. This is a newer addition to our fabric library, developed in response to distributor demand for natural-fiber alternatives beyond cotton. Offered from 300 pieces per color.",
+        images: [
+          placeholder("subcat-hijabs-bamboo-1", "Model wearing a soft bamboo-viscose hijab in a muted earthy tone"),
+          placeholder("subcat-hijabs-bamboo-2", "Close-up of soft bamboo-blend fabric showing its smooth, breathable weave"),
+        ],
+        colors: [
+          { name: "Oat", hex: "#ddd2bc" },
+          { name: "Sage", hex: "#9caf88" },
+          { name: "Stone", hex: "#b8ada0" },
+          { name: "Blush", hex: "#f2c4c4" },
+          { name: "Charcoal", hex: "#4a4a4a" },
+          { name: "Ink", hex: "#23262b" },
+        ],
+      },
+    ],
     faqs: [
       {
         question: "What's the difference between chiffon, jersey, and modal hijabs?",
@@ -283,4 +517,10 @@ export const categories: Category[] = [
 
 export function getCategoryBySlug(slug: string): Category | undefined {
   return categories.find((c) => c.slug === slug);
+}
+
+export function getSubcategory(categorySlug: string, subcategorySlug: string) {
+  const category = getCategoryBySlug(categorySlug);
+  const subcategory = category?.subcategories?.find((s) => s.slug === subcategorySlug);
+  return category && subcategory ? { category, subcategory } : undefined;
 }

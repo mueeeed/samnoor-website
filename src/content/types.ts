@@ -17,11 +17,22 @@ export type Category = {
   faqs?: { question: string; answer: string }[];
   /** Named sub-collections within this category, each pointing at a representative product (by slug) whose photo stands in for the collection. */
   collections?: { name: string; productSlug: string }[];
+  /** Fabric/finish-based subcategories (e.g. "Georgette Hijabs") shown as their own detail pages under this category. */
+  subcategories?: Subcategory[];
 };
 
 export type ProductVariant = {
   name: string;
   hex?: string;
+};
+
+export type Subcategory = {
+  slug: string;
+  name: string;
+  shortDescription: string;
+  description: string;
+  images: ImageAsset[];
+  colors: ProductVariant[];
 };
 
 export type Product = {
