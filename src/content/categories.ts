@@ -1580,6 +1580,171 @@ export const categories: Category[] = [
       { name: "Running & Cardio", productSlug: "sakina-running-hijab" },
       { name: "Youth & Print", productSlug: "zara-print-sports-hijab" },
     ],
+    subcategories: [
+      {
+        slug: "sports-hijabs",
+        name: "Sports Hijabs",
+        shortDescription: "Our reference technical-knit hijab, tested for moisture management and stretch recovery.",
+        description:
+          "Sports hijabs are built on a technical knit developed specifically for moisture management and stretch recovery through repeated wear, sweat, and washing, with flatlock seams to prevent chafing during activity. This isn't a jersey hijab with a sportier label; reusing standard jersey for an \"active\" line is a shortcut that shows up quickly in customer complaints about pilling and stretched-out necklines after a few wash cycles. It's the reference style underneath every other activewear piece in this category. Offered from 500 pieces per color.",
+        images: [
+          placeholder("subcat-activewear-sports-hijabs-1", "Model wearing a technical sports hijab during activity"),
+          placeholder("subcat-activewear-sports-hijabs-2", "Close-up of technical sports hijab fabric and flatlock seams"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Charcoal", hex: "#3d3d3d" },
+          { name: "Navy", hex: "#202a44" },
+          { name: "Teal", hex: "#1f7a6c" },
+          { name: "Maroon", hex: "#7a2333" },
+        ],
+      },
+      {
+        slug: "sports-jilbabs",
+        name: "Sports Jilbabs",
+        shortDescription: "Full-length jilbab cut on technical sports knit for coverage during activity.",
+        description:
+          "Sports jilbabs bring our technical activewear knit to the jilbab silhouette, giving full-length modest coverage for exercise and outdoor activity without the fabric restricting movement or trapping heat the way a standard jilbab fabric would. It's built with the same flatlock seam construction as our sports hijab line to prevent chafing during extended wear. This is a growing crossover category between our jilbab and activewear ranges. Offered from 250 pieces per color.",
+        images: [
+          placeholder("subcat-activewear-sports-jilbabs-1", "Model wearing a sports jilbab in technical activewear knit"),
+          placeholder("subcat-activewear-sports-jilbabs-2", "Close-up of technical knit fabric used for sports jilbabs"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Charcoal", hex: "#3d3d3d" },
+          { name: "Navy", hex: "#202a44" },
+        ],
+      },
+      {
+        slug: "tops",
+        name: "Modest Sports Tops",
+        shortDescription: "Long-sleeve, high-coverage athletic tops designed to layer under or replace a standard tee.",
+        description:
+          "Modest sports tops are cut long through the torso and sleeve with a higher neckline than a standard athletic tee, designed to be worn on their own or layered under a sports jilbab or full-coverage set. The technical knit matches our sports hijab fabric for moisture management, so buyers can offer a fully coordinated activewear range from one consistent fabric library. It's a strong standalone SKU for customers who want modest activewear without committing to a full matching set. Offered from 300 pieces per color.",
+        images: [
+          placeholder("subcat-activewear-tops-1", "Model wearing a long-sleeve modest sports top"),
+          placeholder("subcat-activewear-tops-2", "Close-up of modest sports top fabric and seam construction"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Charcoal", hex: "#3d3d3d" },
+          { name: "Teal", hex: "#1f7a6c" },
+        ],
+      },
+      {
+        slug: "track-pants",
+        name: "Modest Track Pants",
+        shortDescription: "Full-length, relaxed-through-the-leg track pants to complete a modest activewear set.",
+        description:
+          "Modest track pants are cut full-length and relaxed through the leg rather than fitted, completing a modest activewear look without the compression-fit silhouette of standard leggings. Waistbands use a wide, soft elastic for comfort through a full range of motion, and the fabric matches our sports hijab and tops for a fully coordinated set. It's a straightforward companion SKU for buyers building a complete activewear range rather than hijabs alone. Offered from 300 pieces per color.",
+        images: [
+          placeholder("subcat-activewear-track-pants-1", "Model wearing modest, relaxed-fit track pants"),
+          placeholder("subcat-activewear-track-pants-2", "Close-up of modest track pants fabric and waistband"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Charcoal", hex: "#3d3d3d" },
+          { name: "Navy", hex: "#202a44" },
+        ],
+      },
+      {
+        slug: "full-coverage-sets",
+        name: "Full-Coverage Sports Sets",
+        shortDescription: "Coordinated hijab, top, and pants sold as one complete modest activewear outfit.",
+        description:
+          "Full-coverage sports sets bundle our sports hijab, modest top, and track pants into one coordinated outfit, cut and dyed from matching fabric lots so distributors can merchandise it as a single ready-to-wear SKU rather than assembling separates. This is the format we recommend for buyers entering the activewear category for the first time, since it demonstrates the full coordinated range in one purchase. Sold as coordinated sets from 200 sets per color.",
+        images: [
+          placeholder("subcat-activewear-full-coverage-sets-1", "Model wearing a full-coverage modest sports set"),
+          placeholder("subcat-activewear-full-coverage-sets-2", "Close-up of coordinated full-coverage sports set fabric"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Charcoal", hex: "#3d3d3d" },
+          { name: "Teal", hex: "#1f7a6c" },
+        ],
+      },
+      {
+        slug: "running-hijabs",
+        name: "Running Hijabs",
+        shortDescription: "Lightweight running hijab with mesh ventilation panels for high-output cardio.",
+        description:
+          "Running hijabs add mesh ventilation panels at the temples and nape to our sports hijab construction, developed specifically for running and high-output cardio activity where heat buildup is the primary complaint with standard sports hijabs. The lighter overall weight compared to our general sports hijab makes it the preferred choice for buyers whose customers specifically train outdoors or run distance rather than mixed gym training. Offered from 400 pieces per color.",
+        images: [
+          placeholder("subcat-activewear-running-hijabs-1", "Model wearing a running hijab with mesh ventilation panels"),
+          placeholder("subcat-activewear-running-hijabs-2", "Close-up of mesh ventilation panel detail on a running hijab"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Charcoal", hex: "#3d3d3d" },
+          { name: "Teal", hex: "#1f7a6c" },
+        ],
+      },
+      {
+        slug: "gym-hijabs",
+        name: "Gym Hijabs",
+        shortDescription: "Firmer-compression sports hijab built for high-intensity strength and interval training.",
+        description:
+          "Gym hijabs use a firmer compression knit than our standard sports hijab, developed for high-intensity training where a snugger fit reduces movement and slippage during strength and interval work. This is the style our distributors in competitive athletic-wear channels reorder most consistently, since it holds position through movement patterns that would shift a looser hijab. Offered from 400 pieces per color.",
+        images: [
+          placeholder("subcat-activewear-gym-hijabs-1", "Model wearing a firm-compression gym hijab during strength training"),
+          placeholder("subcat-activewear-gym-hijabs-2", "Close-up of compression knit fabric used for gym hijabs"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Charcoal", hex: "#3d3d3d" },
+          { name: "Maroon", hex: "#7a2333" },
+        ],
+      },
+      {
+        slug: "swimming-hijabs",
+        name: "Swimming Hijabs",
+        shortDescription: "Chlorine- and salt-resistant swim hijab with a snug, secure fit in water.",
+        description:
+          "Swimming hijabs are built on a chlorine- and salt-resistant technical knit with a snug fit designed to stay in place in water, extending our sports hijab program into swimwear. It pairs with our modest swimwear-adjacent development program for buyers building a full aquatics range. Standard fabric doesn't hold up to chlorine exposure the way this dedicated swim knit does, which is the detail we flag to any buyer trying to repurpose a standard sports hijab for pool use. Offered from 400 pieces per color.",
+        images: [
+          placeholder("subcat-activewear-swimming-hijabs-1", "Model wearing a chlorine-resistant swimming hijab"),
+          placeholder("subcat-activewear-swimming-hijabs-2", "Close-up of technical swim knit fabric used for swimming hijabs"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Navy", hex: "#202a44" },
+          { name: "Teal", hex: "#1f7a6c" },
+        ],
+      },
+      {
+        slug: "sports-abayas",
+        name: "Sports Abayas",
+        shortDescription: "Looser-cut abaya silhouette on technical activewear knit for modest outdoor activity.",
+        description:
+          "Sports abayas apply our technical activewear knit to a looser abaya silhouette, aimed at customers who want full-coverage modest dressing for outdoor activity, walking, or light training without the fitted profile of a sports jilbab or leggings-based set. The wider cut trades some of the compression benefits of our gym hijab line for a more relaxed, everyday-adjacent activewear look. Offered from 250 pieces per color.",
+        images: [
+          placeholder("subcat-activewear-sports-abayas-1", "Model wearing a sports abaya in technical activewear fabric"),
+          placeholder("subcat-activewear-sports-abayas-2", "Close-up of technical knit fabric used for sports abayas"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Charcoal", hex: "#3d3d3d" },
+          { name: "Navy", hex: "#202a44" },
+        ],
+      },
+      {
+        slug: "co-ord-sets",
+        name: "Activewear Co-Ord Sets",
+        shortDescription: "Mix-and-match coordinated activewear pieces sold as a styled bundle rather than a fixed outfit.",
+        description:
+          "Activewear co-ord sets bundle multiple pieces from across our activewear range &mdash; hijab, top, and pants or jilbab &mdash; in coordinating (rather than identical) colorways, so the set reads as intentionally styled rather than a uniform. This differs from our full-coverage sports sets, which use matching fabric lots throughout; co-ord sets are curated for color-blocking and visual variety instead. It's a merchandising-driven format aimed at buyers who want to present activewear as a lifestyle range rather than purely functional kit. Sold as coordinated sets from 200 sets per color.",
+        images: [
+          placeholder("subcat-activewear-co-ord-sets-1", "Model wearing a coordinated activewear co-ord set"),
+          placeholder("subcat-activewear-co-ord-sets-2", "Close-up of coordinated color-blocked activewear fabric"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Charcoal", hex: "#3d3d3d" },
+          { name: "Teal", hex: "#1f7a6c" },
+          { name: "Maroon", hex: "#7a2333" },
+        ],
+      },
+    ],
   },
   {
     slug: "luxury-hijabs",

@@ -672,6 +672,33 @@ const SEED_THEME_MAP: Record<string, keyof typeof THEME_PHOTOS> = {
   "subcat-prayer-embroidered-1": "photo-prayer-dresses-36537147",
   "subcat-prayer-embroidered-2": "photo-prayer-dresses-34201029",
 
+  // Modest activewear subcategories — drawn from the existing 8-photo
+  // sports-hijabs pool, offset by 4 (half the pool) so the two images per
+  // subcategory are always different. Several of these (Sports Jilbabs,
+  // Sports Abayas, Track Pants) don't have their own dedicated activewear
+  // photography, so they reuse this same sports-hijab pool as the closest
+  // available match rather than an unrelated stock photo.
+  "subcat-activewear-sports-hijabs-1": "photo-sports-hijabs-8735657",
+  "subcat-activewear-sports-hijabs-2": "photo-sports-hijabs-8744799",
+  "subcat-activewear-sports-jilbabs-1": "photo-sports-hijabs-36161718",
+  "subcat-activewear-sports-jilbabs-2": "photo-sports-hijabs-8736746",
+  "subcat-activewear-tops-1": "photo-sports-hijabs-8353992",
+  "subcat-activewear-tops-2": "photo-sports-hijabs-8736748",
+  "subcat-activewear-track-pants-1": "photo-sports-hijabs-8735654",
+  "subcat-activewear-track-pants-2": "photo-sports-hijabs-35214626",
+  "subcat-activewear-full-coverage-sets-1": "photo-sports-hijabs-8744799",
+  "subcat-activewear-full-coverage-sets-2": "photo-sports-hijabs-8735657",
+  "subcat-activewear-running-hijabs-1": "photo-sports-hijabs-8736746",
+  "subcat-activewear-running-hijabs-2": "photo-sports-hijabs-36161718",
+  "subcat-activewear-gym-hijabs-1": "photo-sports-hijabs-8736748",
+  "subcat-activewear-gym-hijabs-2": "photo-sports-hijabs-8353992",
+  "subcat-activewear-swimming-hijabs-1": "photo-sports-hijabs-35214626",
+  "subcat-activewear-swimming-hijabs-2": "photo-sports-hijabs-8735654",
+  "subcat-activewear-sports-abayas-1": "photo-sports-hijabs-8735657",
+  "subcat-activewear-sports-abayas-2": "photo-sports-hijabs-8744799",
+  "subcat-activewear-co-ord-sets-1": "photo-sports-hijabs-36161718",
+  "subcat-activewear-co-ord-sets-2": "photo-sports-hijabs-8736746",
+
   // About page
   "about-hero": "factory-exterior",
   "about-story": "design-desk",
