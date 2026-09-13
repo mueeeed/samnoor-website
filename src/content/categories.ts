@@ -22,6 +22,12 @@ export const categories: Category[] = [
       "modal hijab manufacturer",
       "wholesale hijab supplier",
     ],
+    collections: [
+      { name: "Everyday Essentials", productSlug: "aria-chiffon-hijab" },
+      { name: "No-Pin Jersey", productSlug: "nadia-jersey-hijab" },
+      { name: "Textured & Statement", productSlug: "alia-georgette-hijab" },
+      { name: "Silk & Modal Premium", productSlug: "farah-silk-hijab" },
+    ],
     faqs: [
       {
         question: "What's the difference between chiffon, jersey, and modal hijabs?",
@@ -55,6 +61,12 @@ export const categories: Category[] = [
       "Nida abaya manufacturer",
       "private label abaya manufacturer",
     ],
+    collections: [
+      { name: "Everyday Nida", productSlug: "layla-nida-abaya" },
+      { name: "Occasion & Embellished", productSlug: "zahra-embellished-abaya" },
+      { name: "Premium Korean Nida", productSlug: "salma-korean-nida-abaya" },
+      { name: "Layering & Resort", productSlug: "widad-kimono-abaya" },
+    ],
   },
   {
     slug: "niqabs",
@@ -69,6 +81,11 @@ export const categories: Category[] = [
     heroImage: placeholder("cat-niqabs-hero", "Folded chiffon niqab fabric detail"),
     cardImage: placeholder("cat-niqabs-card", "Niqab fabric texture close-up"),
     keywords: ["niqab manufacturer", "niqab wholesale supplier", "niqab manufacturer India"],
+    collections: [
+      { name: "Double-Layer Classics", productSlug: "yara-double-layer-niqab" },
+      { name: "Single & Breathable", productSlug: "sabiha-single-layer-niqab" },
+      { name: "Adjustable Fit", productSlug: "ghina-adjustable-niqab" },
+    ],
     faqs: [
       {
         question: "Is a niqab the same as a burqa?",
@@ -90,6 +107,11 @@ export const categories: Category[] = [
     heroImage: placeholder("cat-prayer-hero", "Folded lightweight prayer dress fabric"),
     cardImage: placeholder("cat-prayer-card", "Woman wearing a two-piece prayer dress"),
     keywords: ["prayer dress manufacturer", "salah abaya supplier", "prayer abaya wholesale"],
+    collections: [
+      { name: "Two-Piece Sets", productSlug: "sana-two-piece-prayer-dress" },
+      { name: "One-Piece & Travel", productSlug: "ruqayyah-travel-prayer-set" },
+      { name: "Premium Gifting", productSlug: "bilqis-embellished-prayer-set" },
+    ],
   },
   {
     slug: "khimars",
@@ -109,6 +131,12 @@ export const categories: Category[] = [
       "khimar wholesale supplier",
       "three tier khimar manufacturer",
       "khimar manufacturer India",
+    ],
+    collections: [
+      { name: "Everyday Two-Tier", productSlug: "sundus-two-tier-khimar" },
+      { name: "Structured Three-Tier", productSlug: "mira-three-tier-khimar" },
+      { name: "Soft & Casual", productSlug: "latifa-georgette-khimar" },
+      { name: "Occasion", productSlug: "amani-embellished-khimar" },
     ],
     faqs: [
       {
@@ -141,6 +169,11 @@ export const categories: Category[] = [
       "jilbab manufacturer India",
       "jilbab vs abaya",
     ],
+    collections: [
+      { name: "Two-Piece Classics", productSlug: "hana-jilbab-set" },
+      { name: "Premium Korean Nida", productSlug: "roshan-korean-nida-jilbab" },
+      { name: "Value & Resort", productSlug: "najma-value-jilbab" },
+    ],
     faqs: [
       {
         question: "What is the difference between a jilbab and an abaya?",
@@ -162,6 +195,11 @@ export const categories: Category[] = [
     heroImage: placeholder("cat-innercaps-hero", "Cotton inner caps arranged in rows"),
     cardImage: placeholder("cat-innercaps-card", "Model wearing an underscarf cap"),
     keywords: ["inner cap hijab manufacturer", "underscarf supplier wholesale", "hijab cap manufacturer India"],
+    collections: [
+      { name: "Everyday Caps", productSlug: "rania-cotton-inner-cap" },
+      { name: "Stretch & Fit", productSlug: "bushra-jersey-inner-cap" },
+      { name: "Specialty", productSlug: "insiya-bamboo-inner-cap" },
+    ],
   },
   {
     slug: "scarves",
@@ -176,6 +214,11 @@ export const categories: Category[] = [
     heroImage: placeholder("cat-scarves-hero", "Folded printed scarves stacked by color"),
     cardImage: placeholder("cat-scarves-card", "Woman wearing a printed silk scarf"),
     keywords: ["scarf manufacturer India", "wholesale scarf supplier", "silk scarf manufacturer"],
+    collections: [
+      { name: "Everyday Scarves", productSlug: "samar-cotton-scarf" },
+      { name: "Silk & Occasion", productSlug: "yasmin-silk-blend-scarf" },
+      { name: "Statement & Seasonal", productSlug: "celine-oversized-shawl" },
+    ],
   },
   {
     slug: "instant-hijabs",
@@ -190,6 +233,11 @@ export const categories: Category[] = [
     heroImage: placeholder("cat-instant-hero", "Instant hijab with attached underscarf laid flat"),
     cardImage: placeholder("cat-instant-card", "Woman wearing a pull-on instant hijab"),
     keywords: ["instant hijab manufacturer", "one-piece hijab supplier", "pull on hijab wholesale"],
+    collections: [
+      { name: "Classic Instant", productSlug: "amira-instant-hijab" },
+      { name: "Casual Jersey", productSlug: "rukan-jersey-instant-hijab" },
+      { name: "Premium & Print", productSlug: "elif-printed-instant-hijab" },
+    ],
   },
   {
     slug: "sports-hijabs",
@@ -204,6 +252,12 @@ export const categories: Category[] = [
     heroImage: placeholder("cat-sports-hero", "Technical sports hijab fabric close-up"),
     cardImage: placeholder("cat-sports-card", "Woman wearing an athletic sports hijab"),
     keywords: ["sports hijab manufacturer", "active hijab supplier wholesale", "sports hijab manufacturer India"],
+    collections: [
+      { name: "Performance Training", productSlug: "zayn-sports-hijab" },
+      { name: "Swim & Water", productSlug: "rayyan-swim-hijab" },
+      { name: "Running & Cardio", productSlug: "sakina-running-hijab" },
+      { name: "Youth & Print", productSlug: "zara-print-sports-hijab" },
+    ],
   },
   {
     slug: "luxury-hijabs",
@@ -218,6 +272,12 @@ export const categories: Category[] = [
     heroImage: placeholder("cat-luxury-hero", "Silk luxury hijab draped elegantly"),
     cardImage: placeholder("cat-luxury-card", "Close-up of hand-rolled hem on a silk hijab"),
     keywords: ["luxury hijab manufacturer", "silk hijab manufacturer", "premium silk hijab supplier India"],
+    collections: [
+      { name: "Signature Silk", productSlug: "noor-silk-luxury-hijab" },
+      { name: "Embellished", productSlug: "johara-embellished-silk-hijab" },
+      { name: "Satin & Print", productSlug: "almas-satin-luxury-hijab" },
+      { name: "Cashmere Blend", productSlug: "zumurrud-cashmere-blend-hijab" },
+    ],
   },
 ];
 

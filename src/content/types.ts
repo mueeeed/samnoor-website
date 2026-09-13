@@ -15,6 +15,8 @@ export type Category = {
   cardImage: ImageAsset;
   keywords: string[];
   faqs?: { question: string; answer: string }[];
+  /** Named sub-collections within this category, each pointing at a representative product (by slug) whose photo stands in for the collection. */
+  collections?: { name: string; productSlug: string }[];
 };
 
 export type ProductVariant = {

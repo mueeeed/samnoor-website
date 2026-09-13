@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Container } from "@/components/ui/Container";
@@ -8,7 +9,7 @@ import { LinkButton } from "@/components/ui/Button";
 import { ProductCard } from "@/components/products/ProductCard";
 import { ContactForm } from "@/components/forms/ContactForm";
 import { categories, getCategoryBySlug } from "@/content/categories";
-import { getProductsByCategory } from "@/content/products";
+import { getProductsByCategory, getProductBySlug } from "@/content/products";
 import { ArrowRightIcon, PackageIcon } from "@/components/ui/icons";
 
 export async function generateStaticParams() {
@@ -32,12 +33,50 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
 
   const products = getProductsByCategory(category.slug);
   const otherCategories = categories.filter((c) => c.slug !== category.slug);
+  const collections = (category.collections || [])
+    .map((c) => ({ ...c, product: getProductBySlug(category.slug, c.productSlug) }))
+    .filter((c) => c.product !== undefined);
 
   return (
     <>
       <PageHero kicker="Category" title={category.name} description={category.description} image={category.heroImage} crumb={category.name} />
 
-      <section className="py-20 sm:py-24">
+      {collections.length > 0 && (
+        <section className="py-16 sm:py-20">
+          <Container>
+            <div className="mb-10 flex flex-col gap-4">
+              <Kicker>Shop by Collection</Kicker>
+              <h2 className="font-heading text-2xl font-semibold text-heading sm:text-3xl">
+                {collections.length} Collections Within {category.name}
+              </h2>
+            </div>
+            <div className="grid grid-cols-2 gap-5 lg:grid-cols-4">
+              {collections.map(({ name, product }) => (
+                <Link
+                  key={name}
+                  href={`/products/${category.slug}/${product!.slug}`}
+                  className="group relative flex aspect-[3/4] flex-col justify-end overflow-hidden rounded-sm border border-line"
+                >
+                  <Image
+                    src={product!.images[0].src}
+                    alt={product!.images[0].alt}
+                    fill
+                    sizes="(min-width: 1024px) 22vw, 45vw"
+                    className="object-cover transition-transform duration-700 group-hover:scale-110"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-noir/90 via-noir/15 to-transparent" />
+                  <div className="relative flex flex-col gap-0.5 p-4 text-cream">
+                    <span className="text-[0.65rem] font-medium uppercase tracking-widest text-gold-soft">Collection</span>
+                    <span className="font-heading text-sm font-semibold leading-tight">{name}</span>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </Container>
+        </section>
+      )}
+
+      <section className="py-8 sm:py-10">
         <Container>
           <div className="mb-10 flex flex-wrap items-center justify-between gap-4">
             <Kicker>{products.length} {products.length === 1 ? "Style" : "Styles"} Available</Kicker>
