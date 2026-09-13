@@ -226,6 +226,17 @@ const THEME_PHOTOS: Record<string, string> = {
   "photo-belts-34225147": "/products/belts/34225147.jpg",
   "photo-belts-34262275": "/products/belts/34262275.jpg",
   "photo-belts-20310526": "/products/belts/20310526.jpg",
+
+  "photo-occasion-15751035": "/products/occasion-wear/15751035.jpg",
+  "photo-occasion-15751046": "/products/occasion-wear/15751046.jpg",
+  "photo-occasion-15752029": "/products/occasion-wear/15752029.jpg",
+  "photo-occasion-34719231": "/products/occasion-wear/34719231.jpg",
+  "photo-occasion-35076078": "/products/occasion-wear/35076078.jpg",
+  "photo-occasion-37537668": "/products/occasion-wear/37537668.jpg",
+  "photo-occasion-15752063": "/products/occasion-wear/15752063.jpg",
+  "photo-occasion-30664510": "/products/occasion-wear/30664510.jpg",
+  "photo-occasion-33226868": "/products/occasion-wear/33226868.jpg",
+  "photo-occasion-16797844": "/products/occasion-wear/16797844.jpg",
   "blog-fabric-rolls-shelf": "/blog/17329670.jpg",
 };
 
@@ -962,6 +973,31 @@ const SEED_THEME_MAP: Record<string, keyof typeof THEME_PHOTOS> = {
   "subcat-belts-satin-2": "photo-belts-34225147",
   "subcat-belts-adjustable-1": "photo-belts-34262275",
   "subcat-belts-adjustable-2": "photo-belts-20310526",
+
+  // Modest Occasion Wear — 10 freshly sourced evening/party gown photos
+  // (all with a hijab or full modest head covering).
+  "cat-occasion-hero": "photo-occasion-33226868",
+  "cat-occasion-card": "photo-occasion-37537668",
+  "subcat-occasion-eid-1": "photo-occasion-15751035",
+  "subcat-occasion-eid-2": "photo-occasion-37537668",
+  "subcat-occasion-ramadan-1": "photo-occasion-15751046",
+  "subcat-occasion-ramadan-2": "photo-occasion-15752063",
+  "subcat-occasion-wedding-guest-1": "photo-occasion-15752029",
+  "subcat-occasion-wedding-guest-2": "photo-occasion-30664510",
+  "subcat-occasion-nikah-1": "photo-occasion-34719231",
+  "subcat-occasion-nikah-2": "photo-occasion-33226868",
+  "subcat-occasion-engagement-1": "photo-occasion-35076078",
+  "subcat-occasion-engagement-2": "photo-occasion-16797844",
+  "subcat-occasion-party-1": "photo-occasion-37537668",
+  "subcat-occasion-party-2": "photo-occasion-15751035",
+  "subcat-occasion-evening-1": "photo-occasion-15752063",
+  "subcat-occasion-evening-2": "photo-occasion-15751046",
+  "subcat-occasion-luxury-1": "photo-occasion-30664510",
+  "subcat-occasion-luxury-2": "photo-occasion-15752029",
+  "subcat-occasion-festive-1": "photo-occasion-33226868",
+  "subcat-occasion-festive-2": "photo-occasion-34719231",
+  "subcat-occasion-formal-1": "photo-occasion-16797844",
+  "subcat-occasion-formal-2": "photo-occasion-35076078",
 
   // About page
   "about-hero": "factory-exterior",

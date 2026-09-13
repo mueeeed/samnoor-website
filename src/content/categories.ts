@@ -3645,6 +3645,187 @@ export const categories: Category[] = [
       },
     ],
   },
+  {
+    slug: "occasion-wear",
+    name: "Modest Occasion Wear",
+    shortName: "Occasion Wear",
+    description:
+      "Embellished gowns and formal dresses built with full modest coverage, covering everything from Eid and nikah through engagement, party, and black-tie formal occasions.",
+    content: `
+      <p>Modest occasion wear is the category that pulls together the top of nearly every other line we produce &mdash; embellishment techniques from our bridal categories, satin and silk bases from our fabric library, and the same full-coverage construction standard as our daily-wear hijabs and abayas &mdash; into standalone formal gowns and dresses rather than the abaya or kaftan silhouette. It exists because not every dressy occasion calls for an abaya-shaped garment.</p>
+      <p>Every style keeps long sleeves and a high neckline as standard, with modesty built into the pattern rather than added as an afterthought with a separate underlayer. Buyers use this category to serve customers attending events where Western-style formalwear is the norm but full coverage is still required. Small-batch and made-to-order production is standard, given how event- and season-specific this category is.</p>
+    `,
+    heroImage: placeholder("cat-occasion-hero", "Woman wearing a champagne glittered gown with a jeweled hijab pin"),
+    cardImage: placeholder("cat-occasion-card", "Woman wearing a blue sequin gown with a peplum ruffle and hijab"),
+    keywords: [
+      "modest evening gown manufacturer",
+      "modest occasion wear wholesale",
+      "hijab formal dress supplier",
+      "modest party dress manufacturer India",
+    ],
+    subcategories: [
+      {
+        slug: "eid",
+        name: "Eid Collection",
+        shortDescription: "Richly colored formal gowns timed for Eid celebration dressing.",
+        description:
+          "Our Eid collection leans into richer jewel tones and all-over embellishment, designed for daytime and evening Eid celebrations where customers want a formal gown rather than an abaya or kaftan silhouette. It's a seasonal companion to our Eid wholesale bundle in the Wholesale Collections category, but sold here as an individual style rather than a pre-configured bundle. Produced from 75 pieces per design, ordered ahead of season given production lead time.",
+        images: [
+          placeholder("subcat-occasion-eid-1", "Woman wearing a sequined pale yellow gown with a hijab"),
+          placeholder("subcat-occasion-eid-2", "Woman wearing a blue sequin gown with a peplum ruffle and hijab"),
+        ],
+        colors: [
+          { name: "Gold", hex: "#c9a635" },
+          { name: "Emerald", hex: "#175f4c" },
+          { name: "Fuchsia", hex: "#c22a6d" },
+        ],
+      },
+      {
+        slug: "ramadan",
+        name: "Ramadan Collection",
+        shortDescription: "Softer, more modest-toned formal wear for iftar gatherings and family events.",
+        description:
+          "Our Ramadan collection favors softer tones and slightly more restrained embellishment than our Eid styles, suited to iftar gatherings and family events through the month rather than the peak celebration itself. It's a lighter-weight complement to our Ramadan wholesale bundle for buyers who want an individual formalwear SKU alongside that assortment. Produced from 75 pieces per design.",
+        images: [
+          placeholder("subcat-occasion-ramadan-1", "Woman wearing a fuchsia beaded gown with a taupe hijab"),
+          placeholder("subcat-occasion-ramadan-2", "Woman wearing a lavender embellished gown with a hijab"),
+        ],
+        colors: [
+          { name: "Lavender", hex: "#c9b8e0" },
+          { name: "Dusty Rose", hex: "#c98f8f" },
+          { name: "Champagne", hex: "#e8d9b5" },
+        ],
+      },
+      {
+        slug: "wedding-guest",
+        name: "Wedding Guest Wear",
+        shortDescription: "Formal dressing appropriate for attending a wedding without competing with the bride.",
+        description:
+          "Wedding guest wear is calibrated specifically to be formal enough for a wedding without competing with bridal party colors or embellishment levels &mdash; no white, no ivory, and embellishment concentrated rather than all-over. It's a distinct positioning from our bridal categories, which are built for the bride and her immediate party rather than the wider guest list. Produced from 100 pieces per design.",
+        images: [
+          placeholder("subcat-occasion-wedding-guest-1", "Close-up of a black beaded evening gown with intricate embroidery and hijab"),
+          placeholder("subcat-occasion-wedding-guest-2", "Woman wearing a navy beaded gown with a satin hijab at an event"),
+        ],
+        colors: [
+          { name: "Navy", hex: "#202a44" },
+          { name: "Emerald", hex: "#175f4c" },
+          { name: "Burgundy", hex: "#6d2130" },
+        ],
+      },
+      {
+        slug: "nikah",
+        name: "Nikah Collection",
+        shortDescription: "Formal gowns for the nikah ceremony itself, distinct from bridal reception wear.",
+        description:
+          "Our nikah collection is built for the ceremony itself, which in many of our buyers' markets is a separate, often more understated event from the reception or walima. Styles here favor a modest, elegant gown silhouette over the fuller bridal abaya or kaftan cuts, in colors beyond pure white for brides who reserve white specifically for the reception look. Produced from 50 pieces per design.",
+        images: [
+          placeholder("subcat-occasion-nikah-1", "Woman wearing a navy lace gown with ruffled sleeves and hijab, seated"),
+          placeholder("subcat-occasion-nikah-2", "Woman wearing a champagne glittered gown with a jeweled hijab pin"),
+        ],
+        colors: [
+          { name: "Champagne", hex: "#e8d9b5" },
+          { name: "Navy", hex: "#202a44" },
+          { name: "Dusty Rose", hex: "#c98f8f" },
+        ],
+      },
+      {
+        slug: "engagement",
+        name: "Engagement Wear",
+        shortDescription: "Statement gowns for engagement photography and celebration events.",
+        description:
+          "Engagement wear is built for a single high-visibility event and heavily photographed occasion, so color saturation and embellishment placement are chosen specifically for how they read in engagement photography rather than in person alone. It's a distinct SKU from bridal styling since most customers want their engagement look visually distinct from their eventual wedding-day pieces. Produced from 50 pieces per design.",
+        images: [
+          placeholder("subcat-occasion-engagement-1", "Woman wearing a sky blue sequined gown with ruffle detail and hijab"),
+          placeholder("subcat-occasion-engagement-2", "Woman wearing a champagne sequined gown with an embellished fascinator"),
+        ],
+        colors: [
+          { name: "Sky Blue", hex: "#4a90c2" },
+          { name: "Blush", hex: "#f2c4c4" },
+          { name: "Champagne", hex: "#e8d9b5" },
+        ],
+      },
+      {
+        slug: "party",
+        name: "Party Wear",
+        shortDescription: "Shorter-lead, lower-embellishment formal dresses for general celebration occasions.",
+        description:
+          "Party wear covers general celebration dressing &mdash; birthdays, graduations, family gatherings &mdash; where customers want a formal, photograph-ready look without the embellishment cost or production lead time of our bridal or nikah tiers. It's our fastest-turnaround formal category and the one we recommend as an entry point for buyers new to occasion wear. Offered from 150 pieces per design.",
+        images: [
+          placeholder("subcat-occasion-party-1", "Woman wearing a blue sequin gown with a peplum ruffle and hijab"),
+          placeholder("subcat-occasion-party-2", "Woman wearing a sequined pale yellow gown with a hijab"),
+        ],
+        colors: [
+          { name: "Sky Blue", hex: "#4a90c2" },
+          { name: "Gold", hex: "#c9a635" },
+          { name: "Fuchsia", hex: "#c22a6d" },
+        ],
+      },
+      {
+        slug: "evening",
+        name: "Evening Wear",
+        shortDescription: "Fitted, floor-length silhouette for black-tie and formal evening events.",
+        description:
+          "Evening wear uses a fitted, floor-length silhouette built specifically for black-tie and formal evening events, distinct from our fuller party wear cuts. Fabric is weighted satin or beaded mesh over a structured lining so the gown holds its line through a full evening rather than losing shape while seated. This is our most formal non-bridal tier. Offered from 75 pieces per design.",
+        images: [
+          placeholder("subcat-occasion-evening-1", "Woman wearing a lavender embellished gown with a hijab"),
+          placeholder("subcat-occasion-evening-2", "Woman wearing a fuchsia beaded gown with a taupe hijab"),
+        ],
+        colors: [
+          { name: "Lavender", hex: "#c9b8e0" },
+          { name: "Fuchsia", hex: "#c22a6d" },
+          { name: "Navy", hex: "#202a44" },
+        ],
+      },
+      {
+        slug: "luxury",
+        name: "Luxury Modest Wear",
+        shortDescription: "Our highest fabric and embellishment tier across the occasion wear range.",
+        description:
+          "Luxury modest wear sits above every other tier in this category on both fabric quality and embellishment density, using the same silk and hand-set stonework standards as our luxury hijab and bridal lines. It's positioned for boutique and department-store-adjacent placement rather than volume distribution, and every piece is individually inspected before packaging. Produced from 50 pieces per design.",
+        images: [
+          placeholder("subcat-occasion-luxury-1", "Woman wearing a navy beaded gown with a satin hijab at an event"),
+          placeholder("subcat-occasion-luxury-2", "Close-up of a black beaded evening gown with intricate embroidery and hijab"),
+        ],
+        colors: [
+          { name: "Navy", hex: "#202a44" },
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Champagne", hex: "#e8d9b5" },
+        ],
+      },
+      {
+        slug: "festive",
+        name: "Festive Collection",
+        shortDescription: "Bright, celebratory colorways and prints for regional festival dressing.",
+        description:
+          "Our festive collection runs brighter colorways and pattern-forward embellishment than our other occasion tiers, developed for regional festival dressing beyond Eid and Ramadan specifically. Buyers serving South Asian and Southeast Asian markets have driven most of the demand for this range, where festival dressing calls for more color variety than the jewel-tone-and-neutral palette common in our Gulf-market-facing styles. Produced from 100 pieces per design.",
+        images: [
+          placeholder("subcat-occasion-festive-1", "Woman wearing a champagne glittered gown with a jeweled hijab pin"),
+          placeholder("subcat-occasion-festive-2", "Woman wearing a navy lace gown with ruffled sleeves and hijab, seated"),
+        ],
+        colors: [
+          { name: "Fuchsia", hex: "#c22a6d" },
+          { name: "Gold", hex: "#c9a635" },
+          { name: "Sky Blue", hex: "#4a90c2" },
+        ],
+      },
+      {
+        slug: "formal",
+        name: "Formal Modest Wear",
+        shortDescription: "Understated, minimal-embellishment formal dressing for corporate and civic events.",
+        description:
+          "Formal modest wear strips embellishment back to a minimum, aimed at corporate galas, award ceremonies, and civic events where the venue calls for formalwear but heavy embellishment would read as overdressed. Clean lines and a restrained color palette are the priority over sparkle or print. Offered from 150 pieces per design.",
+        images: [
+          placeholder("subcat-occasion-formal-1", "Woman wearing a champagne sequined gown with an embellished fascinator"),
+          placeholder("subcat-occasion-formal-2", "Woman wearing a sky blue sequined gown with ruffle detail and hijab"),
+        ],
+        colors: [
+          { name: "Navy", hex: "#202a44" },
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Charcoal", hex: "#3d3d3d" },
+        ],
+      },
+    ],
+  },
 ];
 
 export function getCategoryBySlug(slug: string): Category | undefined {
