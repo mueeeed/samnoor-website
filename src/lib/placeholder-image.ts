@@ -209,6 +209,14 @@ const THEME_PHOTOS: Record<string, string> = {
   "photo-kaftans-15751104": "/products/kaftans/15751104.jpg",
   "photo-kaftans-32355507": "/products/kaftans/32355507.jpg",
   "photo-kaftans-15751065": "/products/kaftans/15751065.jpg",
+
+  "photo-hijab-accessories-17434770": "/products/hijab-accessories/17434770.jpg",
+  "photo-hijab-accessories-17434774": "/products/hijab-accessories/17434774.jpg",
+  "photo-hijab-accessories-36198510": "/products/hijab-accessories/36198510.jpg",
+  "photo-hijab-accessories-35408537": "/products/hijab-accessories/35408537.jpg",
+  "photo-hijab-accessories-13629635": "/products/hijab-accessories/13629635.jpg",
+  "photo-hijab-accessories-31854724": "/products/hijab-accessories/31854724.jpg",
+  "photo-hijab-accessories-4515450": "/products/hijab-accessories/4515450.jpg",
   "blog-fabric-rolls-shelf": "/blog/17329670.jpg",
 };
 
@@ -861,6 +869,36 @@ const SEED_THEME_MAP: Record<string, keyof typeof THEME_PHOTOS> = {
   "subcat-kaftans-evening-2": "photo-kaftans-20453561",
   "subcat-kaftans-casual-1": "photo-kaftans-34201019",
   "subcat-kaftans-casual-2": "photo-kaftans-35344028",
+
+  // Hijab Accessories — a new category of small objects (pins, clips,
+  // brooches) rather than garments, so photography is close-up product/
+  // flat-lay style instead of a model wearing the item. Free-stock
+  // coverage for hijab-specific accessories (magnets, tape, grippers) is
+  // very limited, so these representative pin/clip/brooch photos are
+  // reused across several subcategories — captions describe only what is
+  // actually visible rather than claiming a specific mechanism.
+  "cat-hijab-accessories-hero": "photo-hijab-accessories-4515450",
+  "cat-hijab-accessories-card": "photo-hijab-accessories-35408537",
+  "subcat-hijab-acc-magnets-1": "photo-hijab-accessories-17434770",
+  "subcat-hijab-acc-magnets-2": "photo-hijab-accessories-35408537",
+  "subcat-hijab-acc-pins-1": "photo-hijab-accessories-17434774",
+  "subcat-hijab-acc-pins-2": "photo-hijab-accessories-13629635",
+  "subcat-hijab-acc-safety-pins-1": "photo-hijab-accessories-36198510",
+  "subcat-hijab-acc-safety-pins-2": "photo-hijab-accessories-31854724",
+  "subcat-hijab-acc-brooches-1": "photo-hijab-accessories-35408537",
+  "subcat-hijab-acc-brooches-2": "photo-hijab-accessories-4515450",
+  "subcat-hijab-acc-clips-1": "photo-hijab-accessories-13629635",
+  "subcat-hijab-acc-clips-2": "photo-hijab-accessories-17434770",
+  "subcat-hijab-acc-rings-1": "photo-hijab-accessories-31854724",
+  "subcat-hijab-acc-rings-2": "photo-hijab-accessories-17434774",
+  "subcat-hijab-acc-grippers-1": "photo-hijab-accessories-4515450",
+  "subcat-hijab-acc-grippers-2": "photo-hijab-accessories-36198510",
+  "subcat-hijab-acc-tape-1": "photo-hijab-accessories-17434770",
+  "subcat-hijab-acc-tape-2": "photo-hijab-accessories-31854724",
+  "subcat-hijab-acc-decorative-pins-1": "photo-hijab-accessories-17434774",
+  "subcat-hijab-acc-decorative-pins-2": "photo-hijab-accessories-4515450",
+  "subcat-hijab-acc-magnetic-brooch-sets-1": "photo-hijab-accessories-36198510",
+  "subcat-hijab-acc-magnetic-brooch-sets-2": "photo-hijab-accessories-13629635",
 
   // About page
   "about-hero": "factory-exterior",

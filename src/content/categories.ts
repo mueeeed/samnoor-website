@@ -3115,6 +3115,185 @@ export const categories: Category[] = [
       },
     ],
   },
+  {
+    slug: "hijab-accessories",
+    name: "Hijab Accessories",
+    shortName: "Accessories",
+    description:
+      "Pins, clips, magnets, and brooches for securing and finishing a hijab, sold as a bulk accessory line alongside our garment categories rather than sourced separately.",
+    content: `
+      <p>Hijab accessories are a small-object category we manufacture and source as a bulk accessory line specifically because our distributor accounts asked to stop sourcing fastening hardware separately from their garment orders. Every accessory here is developed against the same standard we hold garments to: hardware that holds under repeated daily use rather than looking good in a single product photo and failing after a week.</p>
+      <p>This is a low-cost, high-repeat-order category, typically sold in bulk multi-packs and bundled with hijab or khimar orders rather than as a standalone hero purchase. Custom finishes and packaging (including branded retail card mounts) are available for private label buyers.</p>
+    `,
+    heroImage: placeholder("cat-hijab-accessories-hero", "Assorted pearl hair pins and gold accessories arranged for display"),
+    cardImage: placeholder("cat-hijab-accessories-card", "Close-up of a small gold decorative pin fastened to fabric"),
+    keywords: [
+      "hijab pins wholesale",
+      "hijab accessories manufacturer",
+      "hijab magnet supplier",
+      "hijab brooch wholesale India",
+    ],
+    subcategories: [
+      {
+        slug: "magnets",
+        name: "Hijab Magnets",
+        shortDescription: "Concealed magnetic closure for a pin-free fasten with no fabric puncture.",
+        description:
+          "Hijab magnets use a two-piece concealed magnet rather than a pin, closing fabric layers without puncturing the material at all. This is the fastest-growing fastener style in our accessory range, driven by customers who've had hijabs damaged by repeated pin holes in the same spot. Magnet strength is tested against our own chiffon and jersey weights to hold securely without being difficult to separate. Sold in bulk multi-packs from 500 sets per finish.",
+        images: [
+          placeholder("subcat-hijab-acc-magnets-1", "Close-up of a decorative gold pin used to fasten hijab fabric"),
+          placeholder("subcat-hijab-acc-magnets-2", "Close-up of a small gold pin fastened to a fold of fabric"),
+        ],
+        colors: [
+          { name: "Gold", hex: "#c9a635" },
+          { name: "Silver", hex: "#c7c7c7" },
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Rose Gold", hex: "#d9a89c" },
+        ],
+      },
+      {
+        slug: "pins",
+        name: "Hijab Pins",
+        shortDescription: "Standard straight decorative pin, the most common hijab fastener sold at retail.",
+        description:
+          "Hijab pins are a straight decorative pin with a secure locking clasp, the most common fastener sold at hijab retail counters worldwide. Ours use a stainless pin core under a decorative gold or silver head so the pin doesn't rust or discolor with repeated use. It's the default accessory bundled into our starter packs and gift sets. Sold in bulk multi-packs from 500 pieces per finish.",
+        images: [
+          placeholder("subcat-hijab-acc-pins-1", "Close-up of the pin clasp mechanism on a decorative flower brooch"),
+          placeholder("subcat-hijab-acc-pins-2", "Close-up of a gold hair clip pinned to striped fabric"),
+        ],
+        colors: [
+          { name: "Gold", hex: "#c9a635" },
+          { name: "Silver", hex: "#c7c7c7" },
+          { name: "Rose Gold", hex: "#d9a89c" },
+        ],
+      },
+      {
+        slug: "safety-pins",
+        name: "Safety Pins",
+        shortDescription: "Enclosed-point pin for the securest hold and the lowest snag or scratch risk.",
+        description:
+          "Safety pins fully enclose the sharp point when closed, making them the securest and lowest-risk fastener in our range for customers concerned about a pin working loose or scratching. It's a practical, unglamorous accessory that distributors reorder at higher volume than any decorative pin style precisely because it's the most functional option. Sold in bulk multi-packs from 1,000 pieces per finish.",
+        images: [
+          placeholder("subcat-hijab-acc-safety-pins-1", "Close-up of a pearl-bordered decorative pin on dark fabric"),
+          placeholder("subcat-hijab-acc-safety-pins-2", "Close-up of cream hair clips displayed in a shell dish"),
+        ],
+        colors: [
+          { name: "Silver", hex: "#c7c7c7" },
+          { name: "Gold", hex: "#c9a635" },
+          { name: "Black", hex: "#1a1a1a" },
+        ],
+      },
+      {
+        slug: "brooches",
+        name: "Brooches",
+        shortDescription: "Decorative statement pin sized for a visible finishing detail rather than a hidden fastener.",
+        description:
+          "Brooches are sized and designed to be seen, used as a finishing detail at the collarbone or temple rather than a hidden functional fastener. Buyers stock this style for gifting and occasion-adjacent ranges where the accessory itself is part of the styling rather than purely functional hardware. Motifs and stone colors are customizable for private label orders. Sold in bulk multi-packs from 300 pieces per design.",
+        images: [
+          placeholder("subcat-hijab-acc-brooches-1", "Close-up of a small gold leaf-and-pearl brooch pinned to a coat lapel"),
+          placeholder("subcat-hijab-acc-brooches-2", "Assorted pearl hair pins and brooches arranged for display"),
+        ],
+        colors: [
+          { name: "Gold", hex: "#c9a635" },
+          { name: "Pearl White", hex: "#f3ece2" },
+          { name: "Silver", hex: "#c7c7c7" },
+        ],
+      },
+      {
+        slug: "clips",
+        name: "Hijab Clips",
+        shortDescription: "Spring-hinge clip for gathering fabric volume without a pin or magnet.",
+        description:
+          "Hijab clips use a spring-hinge mechanism to gather and hold fabric volume, most often used at the crown or nape to secure a wrap style in place. It's a faster, no-puncture alternative to a pin for customers styling rather than simply fastening their hijab. Offered in both plain and decorative finishes. Sold in bulk multi-packs from 500 pieces per finish.",
+        images: [
+          placeholder("subcat-hijab-acc-clips-1", "Close-up of a gold hair clip pinned to striped fabric"),
+          placeholder("subcat-hijab-acc-clips-2", "Close-up of a decorative gold pin used to fasten hijab fabric"),
+        ],
+        colors: [
+          { name: "Gold", hex: "#c9a635" },
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Tortoiseshell", hex: "#6b4a2f" },
+        ],
+      },
+      {
+        slug: "rings",
+        name: "Hijab Rings",
+        shortDescription: "Fabric-gathering ring accessory for a cinched, styled drape without pinning.",
+        description:
+          "Hijab rings gather loose fabric through a decorative ring rather than pinning or clipping it, creating a cinched, styled drape at the shoulder or side that's popular in wrap-style tutorials. It's a styling accessory more than a functional fastener, and buyers typically stock it alongside instant and luxury hijab ranges where a more finished, styled look is part of the sell. Sold in bulk multi-packs from 300 pieces per finish.",
+        images: [
+          placeholder("subcat-hijab-acc-rings-1", "Close-up of cream hair clips and a pearl bracelet displayed together"),
+          placeholder("subcat-hijab-acc-rings-2", "Close-up of the pin clasp mechanism on a decorative flower brooch"),
+        ],
+        colors: [
+          { name: "Gold", hex: "#c9a635" },
+          { name: "Silver", hex: "#c7c7c7" },
+          { name: "Rose Gold", hex: "#d9a89c" },
+        ],
+      },
+      {
+        slug: "grippers",
+        name: "Hijab Grippers",
+        shortDescription: "Small friction-grip clip designed to hold an underscarf edge in place all day.",
+        description:
+          "Hijab grippers are a small, low-profile friction clip designed specifically to hold the edge of an underscarf or inner cap in place under an outer hijab layer through a full day of wear, rather than to be seen. It's a practical companion accessory to our inner cap range, addressing the same all-day-slip complaint that drove the grip-band design on our cotton inner caps. Sold in bulk multi-packs from 500 pieces per finish.",
+        images: [
+          placeholder("subcat-hijab-acc-grippers-1", "Assorted pearl hair pins arranged with jewelry for display"),
+          placeholder("subcat-hijab-acc-grippers-2", "Close-up of a pearl-bordered decorative pin on dark fabric"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Nude", hex: "#d9b99b" },
+          { name: "Clear", hex: "#e8e6e1" },
+        ],
+      },
+      {
+        slug: "tape",
+        name: "Hijab Tape",
+        shortDescription: "Double-sided fabric-safe tape for a completely pin-free, invisible fasten.",
+        description:
+          "Hijab tape is a double-sided, fabric-safe adhesive strip for customers who want a completely pin-free, invisible fasten, particularly for delicate chiffon and silk where a pin can snag or pull threads. It's a single-use consumable rather than a reusable hardware accessory, so it's sold in higher-count packs than our pins and clips. Sold in bulk multi-packs from 1,000 strips per pack.",
+        images: [
+          placeholder("subcat-hijab-acc-tape-1", "Close-up of a decorative gold pin used to fasten hijab fabric"),
+          placeholder("subcat-hijab-acc-tape-2", "Close-up of cream hair clips displayed in a shell dish"),
+        ],
+        colors: [
+          { name: "Clear", hex: "#e8e6e1" },
+        ],
+      },
+      {
+        slug: "decorative-pins",
+        name: "Decorative Pins",
+        shortDescription: "Fashion-forward pin designs in seasonal motifs for retail impulse-add merchandising.",
+        description:
+          "Decorative pins rotate through seasonal motifs and finishes, developed as an impulse-add, checkout-counter merchandising item rather than a core stocked SKU. Buyers reorder new designs each season to keep the display fresh, similar to how our printed scarf program rotates patterns. Custom motifs are available for private label buyers running seasonal retail campaigns. Sold in bulk multi-packs from 300 pieces per design.",
+        images: [
+          placeholder("subcat-hijab-acc-decorative-pins-1", "Close-up of the pin clasp mechanism on a decorative flower brooch"),
+          placeholder("subcat-hijab-acc-decorative-pins-2", "Assorted pearl hair pins and brooches arranged for display"),
+        ],
+        colors: [
+          { name: "Gold", hex: "#c9a635" },
+          { name: "Rose Gold", hex: "#d9a89c" },
+          { name: "Pearl White", hex: "#f3ece2" },
+        ],
+      },
+      {
+        slug: "magnetic-brooch-sets",
+        name: "Magnetic Brooch Sets",
+        shortDescription: "Decorative brooch head paired with a magnetic back plate, combining both fastener types.",
+        description:
+          "Magnetic brooch sets pair a decorative brooch head with a magnetic back plate instead of a traditional pin post, combining the visible styling of a brooch with the no-puncture hold of a magnetic fastener. This is our premium accessory tier, priced above single-mechanism pins or magnets, and sold as a matched set rather than separate components. Sold in bulk multi-packs from 200 sets per design.",
+        images: [
+          placeholder("subcat-hijab-acc-magnetic-brooch-sets-1", "Close-up of a pearl-bordered decorative pin on dark fabric"),
+          placeholder("subcat-hijab-acc-magnetic-brooch-sets-2", "Close-up of a gold hair clip pinned to striped fabric"),
+        ],
+        colors: [
+          { name: "Gold", hex: "#c9a635" },
+          { name: "Silver", hex: "#c7c7c7" },
+        ],
+      },
+    ],
+  },
 ];
 
 export function getCategoryBySlug(slug: string): Category | undefined {
