@@ -2375,6 +2375,198 @@ export const categories: Category[] = [
       },
     ],
   },
+  {
+    slug: "wholesale-collections",
+    name: "Wholesale Collections",
+    shortName: "Wholesale Collections",
+    description:
+      "Pre-configured bulk assortments and starter packs across our catalog, built for distributors and new retail accounts who want a ready-made order structure rather than building one SKU at a time.",
+    content: `
+      <p>Every product in our catalog can be ordered individually against its own MOQ, but a meaningful share of our accounts &mdash; particularly new distributors and retailers placing a first order &mdash; prefer a pre-configured bundle that removes the guesswork of which styles, colors, and quantities to start with. This category exists for that buyer.</p>
+      <p>Bundles are built from our best-reordering SKUs in each category, weighted toward the colors and sizes our sales data shows move fastest, and can be adjusted before production once a buyer has reviewed the default configuration. None of these are simply excess stock repackaged &mdash; every bundle is produced to order against the same specification as the individual product it's built from, with the exception of our Bulk Clearance Stock line.</p>
+    `,
+    heroImage: placeholder("cat-wholesale-collections-hero", "Warehouse cartons stacked and ready for wholesale shipment"),
+    cardImage: placeholder("cat-wholesale-collections-card", "Shipping containers at an export freight terminal"),
+    keywords: [
+      "wholesale hijab bundles",
+      "bulk abaya supplier",
+      "modest fashion starter pack wholesale",
+      "wholesale modest wear distributor India",
+    ],
+    subcategories: [
+      {
+        slug: "hijab-bundles",
+        name: "Wholesale Hijab Bundles",
+        shortDescription: "Pre-configured multi-color, multi-fabric hijab assortment built from our best-reordering SKUs.",
+        description:
+          "Wholesale hijab bundles pre-configure a multi-color, multi-fabric assortment across our chiffon, jersey, and modal lines, weighted toward the shades and fabrics our sales data shows move fastest for new accounts. It removes the guesswork of picking an opening order color range from scratch, while still being fully adjustable before production runs. Bundles are produced to order, not drawn from existing stock. Configured from 1,000 pieces total per bundle.",
+        images: [
+          placeholder("subcat-wholesale-hijab-bundles-1", "Assortment of hijab styles representing a wholesale bundle"),
+          placeholder("subcat-wholesale-hijab-bundles-2", "Fabric swatch cards showing the bundle's color range"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Charcoal", hex: "#4a4a4a" },
+          { name: "Navy", hex: "#202a44" },
+          { name: "Ivory", hex: "#f0e9db" },
+          { name: "Camel", hex: "#c19a6b" },
+          { name: "Sage", hex: "#9caf88" },
+        ],
+      },
+      {
+        slug: "abaya-bundles",
+        name: "Wholesale Abaya Bundles",
+        shortDescription: "Coordinated closed, open, and everyday abaya assortment for a first or refresh order.",
+        description:
+          "Wholesale abaya bundles pre-configure a coordinated mix across our closed, open, and everyday silhouettes in our core neutral color range, giving distributors a balanced opening assortment rather than over-committing to a single cut before seeing what their market prefers. Quantities per style are weighted toward our historically strongest reorder rates. Configured from 500 pieces total per bundle.",
+        images: [
+          placeholder("subcat-wholesale-abaya-bundles-1", "Assortment of abaya silhouettes representing a wholesale bundle"),
+          placeholder("subcat-wholesale-abaya-bundles-2", "Warehouse cartons packed for a wholesale abaya bundle shipment"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Charcoal", hex: "#3d3d3d" },
+          { name: "Navy", hex: "#202a44" },
+          { name: "Chocolate", hex: "#4a3728" },
+        ],
+      },
+      {
+        slug: "cap-bundles",
+        name: "Wholesale Cap Bundles",
+        shortDescription: "Bulk multi-pack inner cap assortment across our best-selling constructions and neutral shades.",
+        description:
+          "Wholesale cap bundles package our cotton, jersey, and tube inner cap constructions together across our extended neutral color range, matching how most distributors actually stock this category &mdash; as a consumable accessory sold alongside every hijab, khimar, and niqab a customer buys rather than a single hero SKU. Configured from 2,000 pieces total per bundle given the category's low per-unit cost and high reorder frequency.",
+        images: [
+          placeholder("subcat-wholesale-cap-bundles-1", "Rows of inner caps representing a wholesale bundle assortment"),
+          placeholder("subcat-wholesale-cap-bundles-2", "Model wearing an inner cap from a wholesale bundle assortment"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Nude", hex: "#d9b99b" },
+          { name: "Beige", hex: "#e3d3b8" },
+          { name: "Grey", hex: "#8a8a8a" },
+        ],
+      },
+      {
+        slug: "instant-hijab-bundles",
+        name: "Wholesale Instant Hijab Bundles",
+        shortDescription: "Multi-color pull-on instant hijab assortment for gifting and first-time-wearer retail ranges.",
+        description:
+          "Wholesale instant hijab bundles pre-configure a multi-color assortment across our chiffon and jersey pull-on constructions, positioned for retailers targeting gifting and first-time hijab wearer segments where a foolproof, no-styling-required product matters more than fabric variety. Bundles are produced to order in our current best-selling colorways. Configured from 1,000 pieces total per bundle.",
+        images: [
+          placeholder("subcat-wholesale-instant-hijab-bundles-1", "Assortment of instant hijab styles representing a wholesale bundle"),
+          placeholder("subcat-wholesale-instant-hijab-bundles-2", "Warehouse cartons packed for a wholesale instant hijab shipment"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Navy", hex: "#202a44" },
+          { name: "Camel", hex: "#c19a6b" },
+          { name: "Ivory", hex: "#f0e9db" },
+        ],
+      },
+      {
+        slug: "bridal",
+        name: "Bridal Wholesale Collection",
+        shortDescription: "Curated assortment across our bridal hijab and bridal abaya embellishment tiers.",
+        description:
+          "The bridal wholesale collection curates a spread across our pearl, crystal, and embroidered embellishment tiers in both bridal hijabs and bridal abayas, giving boutique buyers a representative sample of our full bridal range without commissioning each embellishment style separately. It's the format we recommend for a buyer's first bridal order before they've identified which specific finishes their market responds to. Configured from 100 pieces total per bundle across mixed designs.",
+        images: [
+          placeholder("subcat-wholesale-bridal-1", "Bridal hijab embellishment representing the bridal wholesale collection"),
+          placeholder("subcat-wholesale-bridal-2", "Bridal abaya embellishment representing the bridal wholesale collection"),
+        ],
+        colors: [
+          { name: "Ivory", hex: "#f0e9db" },
+          { name: "Champagne", hex: "#e8d9b5" },
+          { name: "Black", hex: "#1a1a1a" },
+        ],
+      },
+      {
+        slug: "eid",
+        name: "Eid Wholesale Collection",
+        shortDescription: "Seasonal bulk assortment across abayas, hijabs, and prayer sets timed for Eid ordering cycles.",
+        description:
+          "The Eid wholesale collection bundles our strongest-reordering abaya, hijab, and prayer set styles into one seasonal order, timed to land with distributors' Eid ordering cycles rather than requiring separate purchase orders across categories. Colorways lean toward richer, occasion-appropriate tones alongside our core neutrals. Configured from 1,000 pieces total per bundle, with earlier ordering recommended given seasonal production capacity constraints.",
+        images: [
+          placeholder("subcat-wholesale-eid-1", "Assortment of Eid-season styles representing a wholesale bundle"),
+          placeholder("subcat-wholesale-eid-2", "Fabric swatch cards showing the Eid collection's color range"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Emerald", hex: "#175f4c" },
+          { name: "Burgundy", hex: "#6d2130" },
+          { name: "Gold", hex: "#c9a635" },
+        ],
+      },
+      {
+        slug: "ramadan",
+        name: "Ramadan Wholesale Collection",
+        shortDescription: "Seasonal bundle weighted toward prayer wear and modest daywear for Ramadan ordering cycles.",
+        description:
+          "The Ramadan wholesale collection weights its assortment toward prayer sets, prayer khimars, and everyday abayas and hijabs rather than occasion-heavy pieces, matching the actual purchase pattern distributors report through the month. It's designed to be ordered well ahead of the season given the lead time required for a bundle of this size. Configured from 1,000 pieces total per bundle.",
+        images: [
+          placeholder("subcat-wholesale-ramadan-1", "Assortment of prayer wear and daywear styles representing a Ramadan bundle"),
+          placeholder("subcat-wholesale-ramadan-2", "Warehouse cartons packed for a Ramadan wholesale collection shipment"),
+        ],
+        colors: [
+          { name: "Ivory", hex: "#f0e9db" },
+          { name: "Sage", hex: "#9caf88" },
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Navy", hex: "#202a44" },
+        ],
+      },
+      {
+        slug: "starter-packs",
+        name: "Retailer Starter Packs",
+        shortDescription: "Cross-category opening assortment for a brand-new modest fashion retail account.",
+        description:
+          "Retailer starter packs pull a small cross-category assortment &mdash; hijabs, an abaya style, inner caps, and a scarf &mdash; into one opening order, sized for a new retail account testing the category rather than an established distributor placing a category-specific bulk order. It's the lowest-commitment entry point into our wholesale catalog, and several accounts have used it specifically to validate demand before placing a larger single-category order. Configured from 300 pieces total per pack.",
+        images: [
+          placeholder("subcat-wholesale-starter-packs-1", "Warehouse cartons packed for a retailer starter pack shipment"),
+          placeholder("subcat-wholesale-starter-packs-2", "Shipping containers representing export of a retailer starter pack order"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Navy", hex: "#202a44" },
+          { name: "Ivory", hex: "#f0e9db" },
+        ],
+      },
+      {
+        slug: "mixed-colour",
+        name: "Mixed Colour Bundles",
+        shortDescription: "Single style, full color range — one SKU ordered across our entire standing color library.",
+        description:
+          "Mixed colour bundles order a single style across our entire standing color range in one purchase order, rather than a buyer manually splitting quantities across individual color line items. It's a practical simplification for distributors who've already decided on a specific style and just need full-spectrum color coverage for retail display. Available for any standing catalog SKU from 500 pieces total across the full color range.",
+        images: [
+          placeholder("subcat-wholesale-mixed-colour-1", "Fabric swatch cards showing a full mixed colour range"),
+          placeholder("subcat-wholesale-mixed-colour-2", "Stack of premium fabric blends showing color variety"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Charcoal", hex: "#4a4a4a" },
+          { name: "Navy", hex: "#202a44" },
+          { name: "Ivory", hex: "#f0e9db" },
+          { name: "Camel", hex: "#c19a6b" },
+          { name: "Sage", hex: "#9caf88" },
+          { name: "Dusty Rose", hex: "#c98f8f" },
+          { name: "Burgundy", hex: "#6d2130" },
+        ],
+      },
+      {
+        slug: "clearance",
+        name: "Bulk Clearance Stock",
+        shortDescription: "Discounted end-of-run and discontinued-colorway stock sold as-is at reduced MOQ.",
+        description:
+          "Bulk clearance stock is the one line in this category drawn from existing inventory rather than produced to order: end-of-run fabric lots, discontinued colorways, and overrun quantities from other orders, sold at a reduced price and a lower MOQ than our standard production minimums. Availability changes continuously and isn't guaranteed to repeat, so buyers should confirm current stock before planning a retail launch around it. Available from 100 pieces, subject to current inventory.",
+        images: [
+          placeholder("subcat-wholesale-clearance-1", "Shipping containers representing bulk clearance stock ready for export"),
+          placeholder("subcat-wholesale-clearance-2", "Warehouse cartons of clearance stock ready for shipment"),
+        ],
+        colors: [
+          { name: "Assorted", hex: "#8a8a8a" },
+        ],
+      },
+    ],
+  },
 ];
 
 export function getCategoryBySlug(slug: string): Category | undefined {

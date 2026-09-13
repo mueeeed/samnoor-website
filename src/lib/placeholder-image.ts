@@ -726,6 +726,32 @@ const SEED_THEME_MAP: Record<string, keyof typeof THEME_PHOTOS> = {
   "subcat-fabric-ribbed-collection-1": "fabric-ribbed-knit",
   "subcat-fabric-ribbed-collection-2": "fabric-swatch-cards",
 
+  // Wholesale Collections — a new merchandising-concept category built
+  // from cross-category product photos plus the existing warehouse/
+  // shipping theme photos for the purely logistical concepts.
+  "cat-wholesale-collections-hero": "warehouse-cartons",
+  "cat-wholesale-collections-card": "shipping-containers",
+  "subcat-wholesale-hijab-bundles-1": "photo-hijabs-2711126",
+  "subcat-wholesale-hijab-bundles-2": "fabric-swatch-cards",
+  "subcat-wholesale-abaya-bundles-1": "photo-abayas-36919797",
+  "subcat-wholesale-abaya-bundles-2": "warehouse-cartons",
+  "subcat-wholesale-cap-bundles-1": "innercap-rows",
+  "subcat-wholesale-cap-bundles-2": "innercap-model",
+  "subcat-wholesale-instant-hijab-bundles-1": "photo-instant-hijabs-32856246",
+  "subcat-wholesale-instant-hijab-bundles-2": "warehouse-cartons",
+  "subcat-wholesale-bridal-1": "photo-luxury-hijabs-8007347",
+  "subcat-wholesale-bridal-2": "photo-abayas-35150034",
+  "subcat-wholesale-eid-1": "photo-abayas-9880858",
+  "subcat-wholesale-eid-2": "fabric-swatch-cards",
+  "subcat-wholesale-ramadan-1": "photo-prayer-dresses-36212007",
+  "subcat-wholesale-ramadan-2": "warehouse-cartons",
+  "subcat-wholesale-starter-packs-1": "warehouse-cartons",
+  "subcat-wholesale-starter-packs-2": "shipping-containers",
+  "subcat-wholesale-mixed-colour-1": "fabric-swatch-cards",
+  "subcat-wholesale-mixed-colour-2": "fabric-premium-blends-stack",
+  "subcat-wholesale-clearance-1": "shipping-containers",
+  "subcat-wholesale-clearance-2": "warehouse-cartons",
+
   // About page
   "about-hero": "factory-exterior",
   "about-story": "design-desk",
