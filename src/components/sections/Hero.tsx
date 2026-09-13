@@ -6,7 +6,7 @@ import { ArrowRightIcon } from "@/components/ui/icons";
 
 const heroImage = {
   src: "/hero-campaign.png",
-  alt: "Woman in a flowing olive-green satin Samnoor abaya and hijab, viewed from behind",
+  alt: "Woman in a flowing olive-green satin SamNoor abaya and hijab, viewed from behind",
 };
 
 const HERO_FADE = "linear-gradient(to right, transparent, black 24%)";
@@ -40,7 +40,7 @@ export function Hero() {
             {siteConfig.tagline}
           </h1>
           <p className="max-w-lg text-sm leading-relaxed text-cream/80 sm:text-base">
-            Samnoor produces premium hijabs, abayas, and modest wear at wholesale scale for distributors
+            SamNoor produces premium hijabs, abayas, and modest wear at wholesale scale for distributors
             and private label brands in {siteConfig.stats.countriesServed}+ countries &mdash; from first sample to
             container-ready shipment.
           </p>
@@ -78,7 +78,7 @@ export function Hero() {
         </div>
 
         <div
-          className="relative mx-auto mt-8 aspect-square h-[42vh] min-h-[260px] max-h-[380px] overflow-hidden sm:h-[50vh] sm:max-h-[440px] lg:hidden"
+          className="relative -mx-5 mt-8 aspect-square w-[calc(100%+2.5rem)] overflow-hidden sm:-mx-8 sm:w-[calc(100%+4rem)] lg:hidden"
           style={{ WebkitMaskImage: HERO_FADE, maskImage: HERO_FADE }}
         >
           <Image

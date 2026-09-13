@@ -3,7 +3,7 @@ import type { Testimonial } from "./types";
 export const testimonials: Testimonial[] = [
   {
     quote:
-      "Samnoor rebuilt our private label abaya line from the ground up, from fabric selection to packaging. Our reorder rate on their base styles is the highest in our catalog.",
+      "SamNoor rebuilt our private label abaya line from the ground up, from fabric selection to packaging. Our reorder rate on their base styles is the highest in our catalog.",
     name: "Amira Al Farsi",
     role: "Buying Director",
     company: "Noor Collective Boutiques",
@@ -11,7 +11,7 @@ export const testimonials: Testimonial[] = [
   },
   {
     quote:
-      "We evaluated six manufacturers before committing. Samnoor was the only one that sent lab-tested fabric reports without us having to ask twice.",
+      "We evaluated six manufacturers before committing. SamNoor was the only one that sent lab-tested fabric reports without us having to ask twice.",
     name: "Sarah Whitfield",
     role: "Head of Sourcing",
     company: "Modest & Co.",

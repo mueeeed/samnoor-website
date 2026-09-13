@@ -3,30 +3,39 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Container } from "@/components/ui/Container";
-import { blogPosts, getBlogPostBySlug, getRelatedPosts } from "@/content/blog";
+import { getPublishedPostBySlug, getPublishedPosts, getRelatedPosts } from "@/lib/blog-store";
 import { formatDate } from "@/lib/utils";
 import { ArrowRightIcon } from "@/components/ui/icons";
+import { ViewCounter } from "@/components/blog/ViewCounter";
+import { BlogPostingSchema } from "@/components/seo/BlogPostingSchema";
+
+// Known posts are pre-rendered at build time; posts created later through
+// the admin panel render on first visit and are then cached like the rest.
+export const revalidate = 300;
+export const dynamicParams = true;
 
 export async function generateStaticParams() {
-  return blogPosts.map((post) => ({ slug: post.slug }));
+  return getPublishedPosts().map((post) => ({ slug: post.slug }));
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
-  const post = getBlogPostBySlug(slug);
+  const post = getPublishedPostBySlug(slug);
   if (!post) return {};
   return { title: post.title, description: post.excerpt };
 }
 
 export default async function BlogPostPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
-  const post = getBlogPostBySlug(slug);
+  const post = getPublishedPostBySlug(slug);
   if (!post) notFound();
 
   const related = getRelatedPosts(post);
 
   return (
     <article>
+      <BlogPostingSchema post={post} />
+      <ViewCounter slug={post.slug} />
       <section className="relative overflow-hidden bg-noir">
         <div className="absolute inset-0">
           <Image src={post.coverImage.src} alt={post.coverImage.alt} fill priority sizes="100vw" className="object-cover opacity-40" />
@@ -47,7 +56,8 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
             {post.title}
           </h1>
           <p className="text-sm text-cream/70">
-            By {post.author}, {post.authorRole} &middot; {formatDate(post.publishedAt)}
+            By {post.author}, {post.authorRole} &middot; {formatDate(post.publishedAt)} &middot;{" "}
+            {post.views.toLocaleString()} {post.views === 1 ? "read" : "reads"}
           </p>
         </Container>
       </section>

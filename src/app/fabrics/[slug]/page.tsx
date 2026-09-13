@@ -16,7 +16,10 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const fabric = getFabricBySlug(slug);
   if (!fabric) return {};
-  return { title: fabric.name, description: fabric.description };
+  return {
+    title: `${fabric.name} Fabric for Hijab & Abaya Manufacturing`,
+    description: fabric.description,
+  };
 }
 
 export default async function FabricPage({ params }: { params: Promise<{ slug: string }> }) {

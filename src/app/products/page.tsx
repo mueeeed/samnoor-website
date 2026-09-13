@@ -11,8 +11,8 @@ import { placeholder } from "@/lib/placeholder-image";
 import { ArrowRightIcon } from "@/components/ui/icons";
 
 export const metadata: Metadata = {
-  title: "Product Categories",
-  description: "Browse Samnoor's full catalog of hijabs, abayas, and modest wear, manufactured for wholesale and private label buyers.",
+  title: "Hijab & Abaya Wholesale Catalog",
+  description: "Browse SamNoor's wholesale catalog — hijabs, abayas, khimars, jilbabs, and modest wear manufactured in Mumbai for distributors and private label buyers.",
 };
 
 export default function ProductsPage() {
@@ -22,7 +22,7 @@ export default function ProductsPage() {
     <>
       <PageHero
         kicker="Catalog"
-        title="Fifteen Categories, One Factory"
+        title="Eleven Categories, One Factory"
         description="Every category below is manufactured in-house and available for wholesale purchase or private label development."
         image={placeholder("products-hero", "Range of modest fashion garments in a curated color palette")}
       />

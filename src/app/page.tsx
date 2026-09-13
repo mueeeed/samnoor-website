@@ -13,10 +13,14 @@ import { CTASection } from "@/components/sections/CTASection";
 import { siteConfig } from "@/lib/site-config";
 
 export const metadata: Metadata = {
-  title: `${siteConfig.name} | Premium Hijab & Abaya Manufacturer, Exporter & Private Label Supplier`,
+  title: `${siteConfig.name} | Hijab & Abaya Manufacturer in Mumbai, India`,
   description: siteConfig.description,
   alternates: { canonical: "/" },
 };
+
+// The Journal preview reads live blog data from disk, so this page is
+// revalidated periodically rather than only at build time.
+export const revalidate = 300;
 
 export default function HomePage() {
   return (

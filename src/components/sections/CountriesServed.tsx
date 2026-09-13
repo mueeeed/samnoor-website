@@ -1,8 +1,10 @@
+import Link from "next/link";
 import { Container } from "@/components/ui/Container";
 import { countries, regions } from "@/content/countries";
+import { slugify } from "@/content/locations";
 import { siteConfig } from "@/lib/site-config";
 import { Kicker } from "@/components/ui/Kicker";
-import { GlobeIcon } from "@/components/ui/icons";
+import { GlobeIcon, ArrowRightIcon } from "@/components/ui/icons";
 
 export function CountriesServed() {
   return (
@@ -14,7 +16,7 @@ export function CountriesServed() {
             Exporting to {siteConfig.stats.countriesServed}+ Countries
           </h2>
           <p className="max-w-2xl text-muted">
-            From our Dubai facility, Samnoor ships to wholesale and private label partners across six regions.
+            From our Mumbai facility, SamNoor ships to wholesale and private label partners across six regions.
           </p>
         </div>
 
@@ -32,17 +34,25 @@ export function CountriesServed() {
                 </div>
                 <div className="flex flex-wrap gap-2">
                   {regionCountries.map((country) => (
-                    <span
+                    <Link
                       key={country.code}
-                      className="rounded-full border border-line bg-panel px-3 py-1 text-xs text-ink"
+                      href={`/locations/${slugify(country.name)}`}
+                      className="rounded-full border border-line bg-panel px-3 py-1 text-xs text-ink transition-colors hover:border-accent hover:text-accent"
                     >
                       {country.name}
-                    </span>
+                    </Link>
                   ))}
                 </div>
               </div>
             );
           })}
+        </div>
+
+        <div className="mt-10 text-center">
+          <Link href="/locations" className="inline-flex items-center gap-1.5 font-body text-sm font-medium text-accent hover:underline">
+            See shipping details for every market
+            <ArrowRightIcon width={15} height={15} />
+          </Link>
         </div>
       </Container>
     </section>

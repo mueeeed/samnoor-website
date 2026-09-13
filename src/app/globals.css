@@ -4,24 +4,25 @@
 
 :root {
   /* Brand constants — same in both modes. Used by fixed dark "signature"
-     bands (hero, footer, feature CTAs) that anchor the olive+gold identity
-     regardless of light/dark reading mode. */
-  --color-noir: #262b19;
-  --color-noir-soft: #333a22;
+     bands (hero, footer, feature CTAs) that anchor the emerald+cream
+     identity regardless of light/dark reading mode. Gold stays tied to the
+     wordmark artwork; emerald is the vibrant main color. */
+  --color-noir: #0b3226;
+  --color-noir-soft: #124a38;
   --color-gold: #cdb787;
   --color-gold-soft: #e6dab9;
   --color-gold-deep: #a68f5f;
   --color-cream: #f4efdf;
 
   /* Theme-reactive tokens — redefined under .dark below. Light values here. */
-  --color-paper: #f8f7ee;
+  --color-paper: #faf6ec;
   --color-panel: #ffffff;
-  --color-panel-alt: #eef0e2;
-  --color-heading: #232715;
-  --color-ink: #33361f;
-  --color-muted: #6f7259;
-  --color-line: #e2e5d2;
-  --color-accent: #5c6b34;
+  --color-panel-alt: #f1ead8;
+  --color-heading: #1b1f1a;
+  --color-ink: #322f28;
+  --color-muted: #7a7469;
+  --color-line: #e7ddc8;
+  --color-accent: #0d8a5f;
 
   --font-display: var(--font-bellefair), "Iowan Old Style", "Palatino Linotype", serif;
   --font-heading: var(--font-cormorant), var(--font-bellefair), serif;
@@ -29,14 +30,14 @@
 }
 
 :root.dark {
-  --color-paper: #1c1f13;
-  --color-panel: #262b1a;
-  --color-panel-alt: #2e341f;
-  --color-heading: #e6d9ad;
-  --color-ink: #ece6d2;
-  --color-muted: #a8a68a;
-  --color-line: rgba(205, 183, 135, 0.18);
-  --color-accent: #cdb787;
+  --color-paper: #0a1613;
+  --color-panel: #11221c;
+  --color-panel-alt: #16291f;
+  --color-heading: #f4efdf;
+  --color-ink: #e8e3d3;
+  --color-muted: #99a29b;
+  --color-line: rgba(50, 210, 150, 0.18);
+  --color-accent: #32d296;
 }
 
 @theme inline {
@@ -95,14 +96,14 @@ body {
 
 /* Header glass — adapts to theme */
 .glass {
-  background: color-mix(in srgb, var(--color-paper) 75%, transparent);
+  background: color-mix(in srgb, var(--color-paper) 96%, transparent);
   backdrop-filter: blur(14px) saturate(140%);
   -webkit-backdrop-filter: blur(14px) saturate(140%);
 }
 
 /* Fixed dark "signature" bands — always dark regardless of site theme */
 .glass-noir {
-  background: color-mix(in srgb, var(--color-noir) 70%, transparent);
+  background: color-mix(in srgb, var(--color-noir) 94%, transparent);
   backdrop-filter: blur(14px) saturate(140%);
   -webkit-backdrop-filter: blur(14px) saturate(140%);
 }

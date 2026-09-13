@@ -3,7 +3,7 @@ import type { FaqItem } from "./types";
 export const faqs: FaqItem[] = [
   {
     category: "Ordering & MOQ",
-    question: "What is the minimum order quantity for Samnoor products?",
+    question: "What is the minimum order quantity for SamNoor products?",
     answer:
       "Minimum order quantities vary by product and fabric. Standard hijab styles typically start at 300 pieces per color, abayas at 200 pieces per color and size run, and embellished occasion pieces at 50 units per design. Custom private label programs with new fabric development carry higher minimums due to mill order thresholds. Exact MOQs are confirmed at quotation stage based on your specification.",
   },
@@ -21,13 +21,13 @@ export const faqs: FaqItem[] = [
   },
   {
     category: "Private Label & OEM",
-    question: "Does Samnoor offer private label and white label manufacturing?",
+    question: "Does SamNoor offer private label and white label manufacturing?",
     answer:
       "Yes. We support full private label programs including custom woven or printed labels, hang tags, poly bag or box branding, and custom care labels. Our OEM service covers manufacturing to your design specification, and our ODM service includes design development support if you are building a range from a concept rather than a finished tech pack.",
   },
   {
     category: "Private Label & OEM",
-    question: "Can Samnoor develop a custom fabric or color for my brand?",
+    question: "Can SamNoor develop a custom fabric or color for my brand?",
     answer:
       "Yes. Custom Pantone color matching is available from 500 pieces per color on existing fabric bases. Fully custom fabric development, including new weights, blends, or finishes, is available for partners with sufficient volume commitment to meet mill minimums, typically starting at 1,000 to 3,000 meters depending on the fabric type.",
   },
@@ -39,33 +39,33 @@ export const faqs: FaqItem[] = [
   },
   {
     category: "Fabrics & Quality",
-    question: "What fabrics does Samnoor manufacture with?",
+    question: "What fabrics does SamNoor manufacture with?",
     answer:
       "Our core fabric library includes Nida, Korean Nida, Zoom, chiffon, cotton, jersey, silk, linen blends, crepe, georgette, rayon, and viscose, along with custom-developed premium blends for private label partners. Full specifications, weights, and care requirements for each fabric are detailed on our fabrics page.",
   },
   {
     category: "Fabrics & Quality",
-    question: "How does Samnoor manage quality control?",
+    question: "How does SamNoor manage quality control?",
     answer:
       "Every order passes through in-line inspection during cutting and stitching, a pre-final inspection before packing, and a randomized final audit before the shipment is released. Fabric batches are checked for colorfastness, weight, and composition against specification before cutting begins. Third-party pre-shipment inspection can be arranged on request.",
   },
   {
     category: "Fabrics & Quality",
-    question: "Is Samnoor certified for ethical and quality manufacturing?",
+    question: "Is SamNoor certified for ethical and quality manufacturing?",
     answer:
-      "Samnoor holds ISO 9001:2015 quality management certification, OEKO-TEX Standard 100 fabric safety certification, WRAP ethical manufacturing certification, and is SEDEX/SMETA audited along with BSCI compliance. Full details are available on our certifications page.",
+      "SamNoor holds ISO 9001:2015 quality management certification, OEKO-TEX Standard 100 fabric safety certification, WRAP ethical manufacturing certification, and is SEDEX/SMETA audited along with BSCI compliance. Full details are available on our certifications page.",
   },
   {
     category: "Shipping & Export",
-    question: "Which countries does Samnoor export to?",
+    question: "Which countries does SamNoor export to?",
     answer:
       "We currently export to 42 countries across the Middle East, Europe, North America, Africa, Asia, and Oceania, including the United Arab Emirates, Saudi Arabia, the United Kingdom, the United States, Canada, and Australia. See our export page for a full list of markets served.",
   },
   {
     category: "Shipping & Export",
-    question: "What shipping and Incoterms does Samnoor support?",
+    question: "What shipping and Incoterms does SamNoor support?",
     answer:
-      "We ship via air freight, sea freight (FCL and LCL), and express courier depending on order size and timeline. Standard Incoterms supported include EXW, FOB, CIF, and DDP, with FOB Dubai or FOB Jebel Ali being the most commonly used terms for our wholesale accounts.",
+      "We ship via air freight, sea freight (FCL and LCL), and express courier depending on order size and timeline. Standard Incoterms supported include EXW, FOB, CIF, and DDP, with FOB Mumbai (Nhava Sheva/JNPT) being the most commonly used term for our wholesale accounts.",
   },
   {
     category: "Shipping & Export",
@@ -75,13 +75,13 @@ export const faqs: FaqItem[] = [
   },
   {
     category: "General",
-    question: "How do I start a wholesale or bulk order inquiry with Samnoor?",
+    question: "How do I start a wholesale or bulk order inquiry with SamNoor?",
     answer:
       "Submit an inquiry through our contact form or product pages with your target products, estimated quantity, and target market. Our sales team responds within one business day with a quotation, and we typically schedule a call to confirm specifications before sampling begins.",
   },
   {
     category: "General",
-    question: "Does Samnoor work with distributors as well as retail brands?",
+    question: "Does SamNoor work with distributors as well as retail brands?",
     answer:
       "Yes. We supply both distributors purchasing our standard catalog for resale and brands building private label ranges. Distributor accounts benefit from published wholesale pricing tiers, while private label accounts work through our OEM/ODM program.",
   },

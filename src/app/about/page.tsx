@@ -10,8 +10,8 @@ import { siteConfig } from "@/lib/site-config";
 import { ShieldIcon } from "@/components/ui/icons";
 
 export const metadata: Metadata = {
-  title: "About Samnoor",
-  description: "Samnoor's story, philosophy, and leadership team — a Dubai manufacturer building modest fashion for wholesale partners worldwide.",
+  title: "Our Story, Leadership & Philosophy",
+  description: "SamNoor's story, philosophy, and leadership team — a Mumbai-based hijab and abaya manufacturer building modest fashion for wholesale partners worldwide.",
 };
 
 export default function AboutPage() {
@@ -21,10 +21,10 @@ export default function AboutPage() {
   return (
     <>
       <PageHero
-        kicker="About Samnoor"
+        kicker="About SamNoor"
         title={siteConfig.tagline}
         description={siteConfig.description}
-        image={placeholder("about-hero", "Exterior of the Samnoor factory in Dubai")}
+        image={placeholder("about-hero", "Exterior of the SamNoor factory in Mumbai")}
       />
 
       <section className="py-20 sm:py-24">
@@ -34,18 +34,21 @@ export default function AboutPage() {
           </div>
           <div className="flex flex-col gap-4">
             <Kicker>Our Story</Kicker>
-            <h2 className="font-heading text-3xl font-semibold text-heading sm:text-4xl">From a Single Line to a Full Factory</h2>
+            <h2 className="font-heading text-3xl font-semibold text-heading sm:text-4xl">From One Cutting Table in Marol to a Full Export House</h2>
             <p className="text-muted">
-              Samnoor was founded in {siteConfig.founded} on a single production line making chiffon hijabs for
-              regional wholesalers. Over {siteConfig.stats.yearsInBusiness} years, that line grew into a{" "}
-              {siteConfig.stats.factoryAreaSqFt.toLocaleString()} square foot facility in Dubai&rsquo;s Al Quoz
-              Industrial Area, employing {siteConfig.stats.workforce}+ people across cutting, stitching, embroidery,
-              and quality control.
+              SamNoor started in {siteConfig.founded} as a single cutting table and three tailors in Mumbai&rsquo;s
+              Marol Industrial Estate, stitching chiffon hijabs to order for a handful of Gulf-bound trading houses.
+              Marol has been one of the city&rsquo;s garment export hubs since the 1980s, and growing up inside that
+              cluster meant learning the export side of the business &mdash; documentation, quality audits, freight
+              &mdash; almost as early as the stitching side.
             </p>
             <p className="text-muted">
-              Today we manufacture fifteen product categories for {siteConfig.stats.clientsWorldwide.toLocaleString()}+
-              clients across {siteConfig.stats.countriesServed}+ countries, from standing wholesale accounts to
-              private label brands we&rsquo;ve built from a first sketch.
+              {siteConfig.stats.yearsInBusiness} years on, that cutting table has grown into a{" "}
+              {siteConfig.stats.factoryAreaSqFt.toLocaleString()} sq ft manufacturing unit employing{" "}
+              {siteConfig.stats.workforce}+ people, producing eleven categories of hijabs, abayas, and modest wear for{" "}
+              {siteConfig.stats.clientsWorldwide.toLocaleString()}+ wholesale clients across{" "}
+              {siteConfig.stats.countriesServed}+ countries &mdash; still shipped out of the same neighbourhood where
+              we started.
             </p>
           </div>
         </Container>

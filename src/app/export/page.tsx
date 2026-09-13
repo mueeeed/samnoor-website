@@ -1,21 +1,23 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { Container } from "@/components/ui/Container";
 import { PageHero } from "@/components/ui/PageHero";
 import { Kicker } from "@/components/ui/Kicker";
 import { LinkButton } from "@/components/ui/Button";
 import { countries, regions } from "@/content/countries";
+import { slugify } from "@/content/locations";
 import { placeholder } from "@/lib/placeholder-image";
 import { siteConfig } from "@/lib/site-config";
 import { GlobeIcon, TruckIcon, ArrowRightIcon } from "@/components/ui/icons";
 
 export const metadata: Metadata = {
   title: "Export Markets",
-  description: "Samnoor ships to 42 countries across six regions, with air, sea, and express freight and full Incoterm support.",
+  description: "SamNoor is a hijab and abaya exporter shipping from Mumbai to 42 countries across six regions, with air, sea, and express freight and full Incoterm support.",
 };
 
 const INCOTERMS = [
   { term: "EXW", name: "Ex Works", description: "You manage export customs and freight from our factory door. Lowest quoted price." },
-  { term: "FOB", name: "Free on Board", description: "We handle export customs and load onto the vessel at Jebel Ali. Our most common wholesale term." },
+  { term: "FOB", name: "Free on Board", description: "We handle export customs and load onto the vessel at Nhava Sheva (JNPT). Our most common wholesale term." },
   { term: "CIF", name: "Cost, Insurance & Freight", description: "We book freight and insurance to your destination port; you handle import customs." },
   { term: "DDP", name: "Delivered Duty Paid", description: "We manage the full chain including destination duties and clearance. Best for first-time importers." },
 ];
@@ -26,7 +28,7 @@ export default function ExportPage() {
       <PageHero
         kicker="Export"
         title={`Shipping to ${siteConfig.stats.countriesServed}+ Countries`}
-        description="From our Dubai facility, Samnoor exports to wholesale and private label partners across six regions, with full documentation and Incoterm support."
+        description="From our Mumbai facility, SamNoor exports to wholesale and private label partners across six regions, with full documentation and Incoterm support."
         image={placeholder("export-hero", "Shipping containers at an export freight terminal")}
       />
 
@@ -50,9 +52,13 @@ export default function ExportPage() {
                   </div>
                   <div className="flex flex-wrap gap-2">
                     {regionCountries.map((country) => (
-                      <span key={country.code} className="rounded-full border border-line bg-panel px-3 py-1 text-xs text-ink">
+                      <Link
+                        key={country.code}
+                        href={`/locations/${slugify(country.name)}`}
+                        className="rounded-full border border-line bg-panel px-3 py-1 text-xs text-ink transition-colors hover:border-accent hover:text-accent"
+                      >
                         {country.name}
-                      </span>
+                      </Link>
                     ))}
                   </div>
                 </div>

@@ -18,7 +18,7 @@ export default function PrivacyPage() {
 
           <div className="prose-samnoor mt-10">
             <p>
-              {siteConfig.legalName} (&ldquo;Samnoor,&rdquo; &ldquo;we,&rdquo; &ldquo;us&rdquo;) respects your privacy.
+              {siteConfig.legalName} (&ldquo;SamNoor,&rdquo; &ldquo;we,&rdquo; &ldquo;us&rdquo;) respects your privacy.
               This policy explains what information we collect through {siteConfig.url}, how we use it, and the
               choices available to you as a visitor, buyer, or private label partner.
             </p>
@@ -63,7 +63,7 @@ export default function PrivacyPage() {
             <p>
               Questions about this policy can be sent to {siteConfig.contact.email} or by mail to{" "}
               {siteConfig.contact.address.line1}, {siteConfig.contact.address.line2}, {siteConfig.contact.address.city},{" "}
-              {siteConfig.contact.address.country}.
+              {siteConfig.contact.address.state}, {siteConfig.contact.address.country}.
             </p>
           </div>
         </div>

@@ -9,7 +9,7 @@ import { MailIcon, PhoneIcon, MapPinIcon, ClockIcon, WhatsAppIcon } from "@/comp
 
 export const metadata: Metadata = {
   title: "Contact",
-  description: "Get in touch with Samnoor's export sales team for a wholesale quotation, private label inquiry, or general question.",
+  description: "Get in touch with SamNoor's export sales team for a wholesale quotation, private label inquiry, or general question.",
 };
 
 export default function ContactPage() {
@@ -59,7 +59,7 @@ export default function ContactPage() {
                   <span className="block font-medium text-heading">Factory Address</span>
                   {siteConfig.contact.address.line1}, {siteConfig.contact.address.line2}
                   <br />
-                  {siteConfig.contact.address.city}, {siteConfig.contact.address.country}
+                  {siteConfig.contact.address.city}, {siteConfig.contact.address.state} {siteConfig.contact.address.postalCode}, {siteConfig.contact.address.country}
                 </span>
               </div>
               <div className="card-premium flex items-center gap-3 p-5 text-sm text-ink">

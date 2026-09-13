@@ -9,7 +9,7 @@ import { faqs } from "@/content/faqs";
 import { CheckIcon, ArrowRightIcon, PackageIcon, SparkleIcon, ShieldIcon } from "@/components/ui/icons";
 
 export const metadata: Metadata = {
-  title: "Private Label & OEM",
+  title: "Private Label Abaya & Hijab Manufacturer (OEM/ODM)",
   description: "Full private label, OEM, and ODM manufacturing — custom labels, packaging, fabric development, and design support.",
 };
 

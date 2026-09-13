@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Container } from "@/components/ui/Container";
@@ -7,6 +6,7 @@ import { Kicker } from "@/components/ui/Kicker";
 import { LinkButton } from "@/components/ui/Button";
 import { ProductGallery } from "@/components/products/ProductGallery";
 import { ProductCard } from "@/components/products/ProductCard";
+import { ContactForm } from "@/components/forms/ContactForm";
 import { getCategoryBySlug } from "@/content/categories";
 import { products, getProductBySlug, getRelatedProducts } from "@/content/products";
 import { CheckIcon, ArrowRightIcon, ShieldIcon, TruckIcon } from "@/components/ui/icons";
@@ -131,7 +131,7 @@ export default async function ProductPage({ params }: { params: Promise<{ catego
             </div>
 
             <div className="mt-2 flex flex-wrap gap-3">
-              <LinkButton href="/contact" variant="primary">
+              <LinkButton href="#enquire" variant="primary">
                 Request a Quote
                 <ArrowRightIcon width={16} height={16} />
               </LinkButton>
@@ -170,6 +170,24 @@ export default async function ProductPage({ params }: { params: Promise<{ catego
               </tbody>
             </table>
           </div>
+        </Container>
+      </section>
+
+      <section id="enquire" className="py-16 sm:py-20">
+        <Container className="grid gap-12 lg:grid-cols-[1fr_1.4fr] lg:gap-16">
+          <div className="flex flex-col gap-4">
+            <Kicker>Request a Quote</Kicker>
+            <h2 className="font-heading text-2xl font-semibold text-heading sm:text-3xl">Get Pricing on {product.name}</h2>
+            <p className="text-sm leading-relaxed text-muted">
+              Send your target quantity and market and our export sales team will respond within one business day.
+              The category and product are pre-filled for you below.
+            </p>
+          </div>
+          <ContactForm
+            defaultCategory={category?.name}
+            defaultInterest={product.name}
+            sourcePage={`/products/${categorySlug}/${productSlug}`}
+          />
         </Container>
       </section>
 

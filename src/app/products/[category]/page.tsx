@@ -6,6 +6,7 @@ import { PageHero } from "@/components/ui/PageHero";
 import { Kicker } from "@/components/ui/Kicker";
 import { LinkButton } from "@/components/ui/Button";
 import { ProductCard } from "@/components/products/ProductCard";
+import { ContactForm } from "@/components/forms/ContactForm";
 import { categories, getCategoryBySlug } from "@/content/categories";
 import { getProductsByCategory } from "@/content/products";
 import { ArrowRightIcon, PackageIcon } from "@/components/ui/icons";
@@ -72,13 +73,68 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
             </div>
           )}
 
-          <div className="mt-10 flex flex-wrap gap-2">
-            {category.keywords.map((keyword) => (
-              <span key={keyword} className="rounded-full border border-line bg-panel-alt px-3 py-1 text-xs text-muted">
-                {keyword}
-              </span>
-            ))}
+        </Container>
+      </section>
+
+      <section className="bg-panel-alt py-20 sm:py-24">
+        <Container className="grid gap-12 lg:grid-cols-[1.4fr_1fr] lg:gap-16">
+          <div className="prose-samnoor" dangerouslySetInnerHTML={{ __html: category.content }} />
+          <div className="flex flex-col gap-6">
+            <div className="card-premium p-6">
+              <h3 className="font-heading text-sm font-semibold uppercase tracking-widest text-accent">Search Terms We Cover</h3>
+              <div className="mt-3 flex flex-wrap gap-2">
+                {category.keywords.map((keyword) => (
+                  <span key={keyword} className="rounded-full border border-line bg-panel-alt px-3 py-1 text-xs text-muted">
+                    {keyword}
+                  </span>
+                ))}
+              </div>
+            </div>
+            <div className="card-premium flex flex-col gap-3 p-6">
+              <h3 className="font-heading text-sm font-semibold uppercase tracking-widest text-accent">Request This Category</h3>
+              <p className="text-sm text-muted">Get a quotation for {category.name.toLowerCase()} in your target fabric and volume.</p>
+              <LinkButton href="#enquire" variant="primary" className="mt-1">
+                Request a Quote
+                <ArrowRightIcon width={16} height={16} />
+              </LinkButton>
+            </div>
           </div>
+        </Container>
+      </section>
+
+      {category.faqs && category.faqs.length > 0 && (
+        <section className="py-16 sm:py-20">
+          <Container>
+            <Kicker>Common Questions</Kicker>
+            <h2 className="mt-4 mb-8 font-heading text-2xl font-semibold text-heading sm:text-3xl">{category.name} FAQs</h2>
+            <div className="mx-auto flex max-w-3xl flex-col gap-4">
+              {category.faqs.map((faq) => (
+                <details key={faq.question} className="card-premium group px-6 py-5">
+                  <summary className="flex cursor-pointer list-none items-center justify-between gap-4 font-heading text-base font-semibold text-heading">
+                    {faq.question}
+                    <span className="shrink-0 text-accent transition-transform group-open:rotate-45">+</span>
+                  </summary>
+                  <p className="mt-3 text-sm leading-relaxed text-muted">{faq.answer}</p>
+                </details>
+              ))}
+            </div>
+          </Container>
+        </section>
+      )}
+
+      <section id="enquire" className="py-16 sm:py-20">
+        <Container className="grid gap-12 lg:grid-cols-[1fr_1.4fr] lg:gap-16">
+          <div className="flex flex-col gap-4">
+            <Kicker>Request a Quote</Kicker>
+            <h2 className="font-heading text-2xl font-semibold text-heading sm:text-3xl">
+              Get Pricing on {category.name}
+            </h2>
+            <p className="text-sm leading-relaxed text-muted">
+              Tell us your target fabric, quantity, and market and our export sales team will respond within one
+              business day with a quotation and sample timeline. The category below is pre-selected for you.
+            </p>
+          </div>
+          <ContactForm defaultCategory={category.name} sourcePage={`/products/${category.slug}`} />
         </Container>
       </section>
 

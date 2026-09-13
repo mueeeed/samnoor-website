@@ -10,8 +10,8 @@ import { placeholder } from "@/lib/placeholder-image";
 import { CheckIcon, ArrowRightIcon } from "@/components/ui/icons";
 
 export const metadata: Metadata = {
-  title: "Fabric Library",
-  description: "Samnoor's core fabric library, from everyday Nida and chiffon to mulberry silk and custom-developed blends.",
+  title: "Hijab & Abaya Fabric Types — Nida, Chiffon, Silk & More",
+  description: "The full fabric library behind our hijabs and abayas — Nida fabric for abaya, chiffon, jersey, georgette, and mulberry silk, with the right hijab fabric type for every price tier.",
 };
 
 export default function FabricsPage() {

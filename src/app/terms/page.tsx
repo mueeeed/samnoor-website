@@ -19,7 +19,7 @@ export default function TermsPage() {
           <div className="prose-samnoor mt-10">
             <p>
               These Terms of Trade govern wholesale, private label, and OEM orders placed with{" "}
-              {siteConfig.legalName} (&ldquo;Samnoor&rdquo;). By submitting a purchase order, you agree to the terms
+              {siteConfig.legalName} (&ldquo;SamNoor&rdquo;). By submitting a purchase order, you agree to the terms
               below unless a separately signed agreement states otherwise.
             </p>
 
@@ -48,7 +48,7 @@ export default function TermsPage() {
             <p>
               First orders are typically structured as a deposit on order confirmation with the balance due before
               shipment. Standing wholesale accounts may qualify for alternate terms after an established order
-              history, at Samnoor&rsquo;s discretion.
+              history, at SamNoor&rsquo;s discretion.
             </p>
 
             <h2>Quality &amp; Inspection</h2>
@@ -73,8 +73,8 @@ export default function TermsPage() {
 
             <h2>Governing Law</h2>
             <p>
-              These terms are governed by the laws of the United Arab Emirates. Disputes not resolved directly will
-              be referred to arbitration in Dubai.
+              These terms are governed by the laws of India. Disputes not resolved directly will be referred to
+              arbitration in Mumbai, in accordance with the Arbitration and Conciliation Act, 1996.
             </p>
 
             <h2>Contact</h2>

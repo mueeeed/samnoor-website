@@ -7,7 +7,7 @@ export const fabrics: Fabric[] = [
     name: "Nida",
     origin: "Woven in-house from imported polyester filament yarn",
     description:
-      "Nida is the workhorse fabric of our abaya program: a matte, medium-weight polyester weave with enough body to hold structure without stiffness. It resists creasing through transit and daily wear, which makes it the default base for volume wholesale orders.",
+      "Nida is the workhorse fabric of our abaya program: a matte, medium-weight polyester weave with enough body to hold structure without stiffness. A Nida abaya resists creasing through transit and daily wear, which makes this the default base fabric for volume wholesale orders.",
     properties: ["Matte finish", "Wrinkle-resistant", "Opaque at standard weight", "Holds structured seams"],
     careInstructions: ["Machine wash cold", "Hang dry", "Cool iron if needed"],
     bestFor: ["Abayas", "Jilbabs", "Everyday outerwear"],
@@ -40,7 +40,7 @@ export const fabrics: Fabric[] = [
     name: "Chiffon",
     origin: "Fine polyester filament, woven for a sheer-to-opaque range",
     description:
-      "Our chiffon is developed specifically for hijabs, balancing sheerness with sufficient opacity that most customers can wear it without an underscarf. It is available in matte and satin-finish variants and is the base fabric for our best-selling hijab styles.",
+      "Our chiffon hijab fabric is developed specifically for headscarves, balancing sheerness with sufficient opacity that most customers can wear it without an underscarf. It is available in matte and satin-finish variants and is the base fabric for our best-selling hijab styles.",
     properties: ["Soft drape", "Available matte or satin", "Breathable", "Consistent dye uptake"],
     careInstructions: ["Machine wash cold, gentle cycle", "Hang dry", "Do not wring"],
     bestFor: ["Hijabs", "Niqabs", "Scarves"],
@@ -62,7 +62,7 @@ export const fabrics: Fabric[] = [
     name: "Jersey",
     origin: "Cotton-modal and cotton-elastane knit blends",
     description:
-      "Jersey knit gives stretch and recovery for no-pin, wrap-and-go hijab styles and casual modest wear. We produce both solid and heathered finishes, and the fabric's stretch percentage is tuned specifically for hijab applications rather than generic apparel jersey.",
+      "Jersey and modal hijab fabric gives stretch and recovery for no-pin, wrap-and-go styles and casual modest wear. We produce both solid and heathered finishes, and the fabric's stretch percentage is tuned specifically for hijab applications rather than generic apparel jersey.",
     properties: ["Four-way stretch", "Breathable", "Wrinkle-resistant", "No-pin wearability"],
     careInstructions: ["Machine wash cold", "Tumble dry low"],
     bestFor: ["Jersey hijabs", "Sports hijabs", "Casual wear"],
@@ -73,7 +73,7 @@ export const fabrics: Fabric[] = [
     name: "Silk",
     origin: "100% mulberry silk, sourced from certified suppliers",
     description:
-      "Mulberry silk is reserved for our luxury tier: hand-rolled hem hijabs, premium scarves, and gift-ready ranges. It carries natural sheen and drape that synthetic fabrics cannot fully replicate, and every roll is inspected for consistency before cutting.",
+      "Mulberry silk hijab fabric is reserved for our luxury tier: hand-rolled hem hijabs, premium scarves, and gift-ready ranges. It carries natural sheen and drape that synthetic fabrics cannot fully replicate, and every roll is inspected for consistency before cutting.",
     properties: ["Natural sheen", "Superior drape", "Temperature-regulating", "Hypoallergenic"],
     careInstructions: ["Dry clean only", "Store flat or on padded hangers"],
     bestFor: ["Luxury hijabs", "Premium scarves", "Gift collections"],
@@ -87,7 +87,7 @@ export const fabrics: Fabric[] = [
       "Linen and linen-blend fabrics are used in our warm-climate and resort-adjacent modest wear lines. We finish our blends to reduce the extreme creasing associated with pure linen while retaining its characteristic texture and breathability.",
     properties: ["Highly breathable", "Textured hand-feel", "Naturally cooling", "Reduced-crease finish"],
     careInstructions: ["Machine wash cold", "Hang dry", "Iron while slightly damp"],
-    bestFor: ["Resort modest dresses", "Warm-climate abayas"],
+    bestFor: ["Warm-climate abayas", "Resort modest wear"],
     image: placeholder("fabric-linen", "Textured linen-blend fabric close-up"),
   },
   {
@@ -95,10 +95,10 @@ export const fabrics: Fabric[] = [
     name: "Crepe",
     origin: "Polyester crepe, available in standard and satin-back weights",
     description:
-      "Crepe is our most versatile occasion fabric, used across khimars, kaftans, and embellished abayas. Its slightly textured surface diffuses light attractively, which makes it a preferred base for embroidery and stonework.",
+      "Crepe is our most versatile occasion fabric, used across khimars and embellished crepe abayas. Its slightly textured surface diffuses light attractively, which makes it a preferred base for embroidery and stonework.",
     properties: ["Textured matte finish", "Holds embellishment well", "Good structure", "Available satin-back"],
     careInstructions: ["Dry clean recommended for embellished pieces", "Machine wash cold for plain crepe"],
-    bestFor: ["Khimars", "Kaftans", "Embellished abayas"],
+    bestFor: ["Khimars", "Embellished abayas"],
     image: placeholder("fabric-crepe", "Crepe fabric with subtle textured surface"),
   },
   {
@@ -106,10 +106,10 @@ export const fabrics: Fabric[] = [
     name: "Georgette",
     origin: "Crinkled polyester weave",
     description:
-      "Georgette's characteristic crinkle texture gives movement and volume without added weight, making it a popular choice for occasion abayas and kaftans that need to photograph with visible motion in product imagery.",
+      "Georgette's characteristic crinkle texture gives movement and volume without added weight, which is why georgette hijab styles are one of our steadier reorders alongside occasion abayas that need to photograph with visible motion in product imagery.",
     properties: ["Crinkled texture", "Lightweight", "Good movement and flow", "Semi-sheer to opaque range"],
     careInstructions: ["Hand wash or dry clean", "Hang dry"],
-    bestFor: ["Occasion abayas", "Kaftans", "Layered pieces"],
+    bestFor: ["Georgette hijabs", "Occasion abayas", "Layered pieces"],
     image: placeholder("fabric-georgette", "Georgette fabric with crinkled texture"),
   },
   {
@@ -117,10 +117,10 @@ export const fabrics: Fabric[] = [
     name: "Rayon",
     origin: "Regenerated cellulose fiber, woven and finished locally",
     description:
-      "Rayon offers a soft, slightly silky hand-feel at a more accessible price point than natural silk, and takes dye exceptionally well. It is used in select modest dress and scarf lines where a fluid drape is desired without the silk price premium.",
+      "Rayon offers a soft, slightly silky hand-feel at a more accessible price point than natural silk, and takes dye exceptionally well. It is used in select hijab and scarf lines where a fluid drape is desired without the silk price premium.",
     properties: ["Soft hand-feel", "Excellent color depth", "Fluid drape", "Breathable"],
     careInstructions: ["Hand wash cold", "Hang dry", "Low iron"],
-    bestFor: ["Modest dresses", "Printed scarves"],
+    bestFor: ["Printed scarves", "Fluid-drape hijabs"],
     image: placeholder("fabric-rayon", "Rayon fabric with fluid drape"),
   },
   {
@@ -128,7 +128,7 @@ export const fabrics: Fabric[] = [
     name: "Viscose",
     origin: "Regenerated cellulose fiber, blended for stability",
     description:
-      "Viscose blends give a cool, breathable hand-feel suited to warm-climate daywear. We blend viscose with small percentages of elastane or polyester to improve shape retention over the pure fiber's tendency to stretch out with wear.",
+      "Viscose hijab fabric gives a cool, breathable hand-feel suited to warm-climate daywear. We blend viscose with small percentages of elastane or polyester to improve shape retention over the pure fiber's tendency to stretch out with wear.",
     properties: ["Cool hand-feel", "Breathable", "Good drape", "Blended for shape retention"],
     careInstructions: ["Hand wash cold", "Hang dry"],
     bestFor: ["Warm-climate hijabs", "Modest daywear"],
@@ -137,7 +137,7 @@ export const fabrics: Fabric[] = [
   {
     slug: "premium-blends",
     name: "Premium Blends",
-    origin: "Custom-developed blends milled to Samnoor specification",
+    origin: "Custom-developed blends milled to SamNoor specification",
     description:
       "For private label partners with specific performance or hand-feel requirements, we develop custom fiber blends in partnership with our mill network, typically combining two or three base fibers to hit a target weight, opacity, and drape profile that off-the-shelf fabric cannot match.",
     properties: ["Developed to specification", "Custom weight and opacity targets", "Minimum development run applies"],

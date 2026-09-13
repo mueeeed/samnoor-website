@@ -1,6 +1,17 @@
+import Image from "next/image";
+import Link from "next/link";
 import { Container } from "@/components/ui/Container";
 import { Kicker } from "@/components/ui/Kicker";
-import { ShieldIcon, ClockIcon, PackageIcon, GlobeIcon, TruckIcon, SparkleIcon } from "@/components/ui/icons";
+import { placeholder } from "@/lib/placeholder-image";
+import {
+  ShieldIcon,
+  ClockIcon,
+  PackageIcon,
+  GlobeIcon,
+  TruckIcon,
+  SparkleIcon,
+  ArrowRightIcon,
+} from "@/components/ui/icons";
 
 const REASONS = [
   {
@@ -36,11 +47,13 @@ const REASONS = [
 ];
 
 export function WhyChooseUs() {
+  const image = placeholder("cert-hero", "Quality inspector reviewing certification documents", 1600, 500);
+
   return (
     <section className="bg-panel-alt py-20 sm:py-24">
       <Container>
         <div className="mb-12 flex flex-col gap-4 sm:mb-14">
-          <Kicker>Why Samnoor</Kicker>
+          <Kicker>Why SamNoor</Kicker>
           <h2 className="font-heading text-3xl font-semibold text-heading sm:text-4xl">Built for Wholesale Partners</h2>
         </div>
 
@@ -58,6 +71,29 @@ export function WhyChooseUs() {
             </div>
           ))}
         </div>
+
+        <Link
+          href="/certifications"
+          className="group relative mt-5 flex aspect-[21/6] w-full items-end overflow-hidden rounded-sm border border-line sm:aspect-[21/4]"
+        >
+          <Image
+            src={image.src}
+            alt={image.alt}
+            fill
+            sizes="100vw"
+            className="object-cover transition-transform duration-700 group-hover:scale-105"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-noir/85 via-noir/40 to-transparent" />
+          <div className="relative z-10 flex flex-wrap items-center justify-between gap-3 p-5 sm:p-7">
+            <span className="font-heading text-base font-semibold text-cream sm:text-lg">
+              ISO 9001, OEKO-TEX &amp; SEDEX/SMETA Certified &mdash; See Our Certifications
+            </span>
+            <span className="inline-flex shrink-0 items-center gap-1.5 text-sm font-medium text-gold-soft">
+              View all
+              <ArrowRightIcon width={15} height={15} />
+            </span>
+          </div>
+        </Link>
       </Container>
     </section>
   );

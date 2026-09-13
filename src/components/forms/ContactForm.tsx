@@ -2,6 +2,7 @@
 
 import { useState, type FormEvent } from "react";
 import { businessTypes, contactMethods } from "@/lib/schema";
+import { categories } from "@/content/categories";
 import { ArrowRightIcon, CheckIcon } from "@/components/ui/icons";
 
 type Status = "idle" | "submitting" | "success" | "error";
@@ -10,62 +11,69 @@ const inputClass =
   "w-full rounded-sm border border-line bg-panel px-4 py-2.5 text-sm text-ink placeholder:text-muted focus:border-accent focus:outline-none";
 const labelClass = "text-xs font-medium uppercase tracking-wide text-muted";
 
-export function ContactForm() {
+const categoryOptions = ["General Inquiry", ...categories.map((c) => c.name)];
+
+type Props = {
+  /** Pre-selects the Product Category field — pass the category name when this form is embedded on a category or product page. */
+  defaultCategory?: string;
+  /** Pre-fills "Products of Interest" — typically the specific product name on a product detail page. */
+  defaultInterest?: string;
+  /** Identifies where the enquiry came from, stored with the submission for follow-up context. */
+  sourcePage?: string;
+  className?: string;
+};
+
+export function ContactForm({ defaultCategory, defaultInterest, sourcePage, className }: Props) {
   const [status, setStatus] = useState<Status>("idle");
-  const [errors, setErrors] = useState<Record<string, string[]>>({});
-  const [errorMessage, setErrorMessage] = useState("");
+  const [error, setError] = useState<string | null>(null);
 
   async function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
     setStatus("submitting");
-    setErrors({});
-    setErrorMessage("");
+    setError(null);
 
     const form = e.currentTarget;
     const formData = new FormData(form);
+
     const payload = {
-      fullName: formData.get("fullName"),
-      companyName: formData.get("companyName"),
-      country: formData.get("country"),
-      phone: formData.get("phone"),
-      whatsapp: formData.get("whatsapp") || "",
-      email: formData.get("email"),
-      interestedProducts: formData.get("interestedProducts"),
-      quantity: formData.get("quantity"),
-      targetMarket: formData.get("targetMarket"),
-      businessType: formData.get("businessType"),
+      fullName: String(formData.get("fullName") || ""),
+      companyName: String(formData.get("companyName") || ""),
+      email: String(formData.get("email") || ""),
+      phone: String(formData.get("phone") || ""),
+      whatsapp: String(formData.get("whatsapp") || "") || undefined,
+      country: String(formData.get("country") || ""),
+      productCategory: String(formData.get("productCategory") || ""),
+      interestedProducts: String(formData.get("interestedProducts") || ""),
+      quantity: String(formData.get("quantity") || ""),
+      targetMarket: String(formData.get("targetMarket") || ""),
+      businessType: String(formData.get("businessType") || ""),
+      preferredContactMethod: String(formData.get("preferredContactMethod") || ""),
       privateLabelRequired: formData.get("privateLabelRequired") === "on",
       oemRequired: formData.get("oemRequired") === "on",
       customBranding: formData.get("customBranding") === "on",
-      message: formData.get("message") || "",
-      preferredContactMethod: formData.get("preferredContactMethod"),
-      consent: formData.get("consent") === "on",
-      website: formData.get("website") || "",
-      source: "contact-page",
-      pageUrl: typeof window !== "undefined" ? window.location.href : "",
-      referrer: typeof document !== "undefined" ? document.referrer : "",
+      message: String(formData.get("message") || "") || undefined,
+      sourcePage: sourcePage || (typeof window !== "undefined" ? window.location.pathname : "unknown"),
+      botField: String(formData.get("botField") || ""),
     };
 
     try {
-      const res = await fetch("/api/contact", {
+      const res = await fetch("/api/enquiry", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload),
       });
-      const data = await res.json();
 
       if (res.ok) {
         setStatus("success");
         form.reset();
         return;
       }
-
+      const data = await res.json().catch(() => ({}));
+      setError(data.error || "Something went wrong. Please try again.");
       setStatus("error");
-      setErrorMessage(data.error || "Something went wrong. Please try again.");
-      if (data.issues?.fieldErrors) setErrors(data.issues.fieldErrors);
     } catch {
+      setError("Something went wrong. Please try again or email us directly.");
       setStatus("error");
-      setErrorMessage("Something went wrong. Please check your connection and try again.");
     }
   }
 
@@ -84,29 +92,29 @@ export function ContactForm() {
   }
 
   return (
-    <form onSubmit={handleSubmit} className="card-premium flex flex-col gap-5 p-6 sm:p-8">
-      <input type="text" name="website" tabIndex={-1} autoComplete="off" className="hidden" aria-hidden="true" />
+    <form onSubmit={handleSubmit} className={className || "card-premium flex flex-col gap-5 p-6 sm:p-8"}>
+      <p className="hidden" aria-hidden="true">
+        <label>
+          Don&rsquo;t fill this out if you&rsquo;re human: <input name="botField" tabIndex={-1} autoComplete="off" />
+        </label>
+      </p>
 
       <div className="grid gap-5 sm:grid-cols-2">
         <div className="flex flex-col gap-1.5">
           <label className={labelClass} htmlFor="fullName">Full Name *</label>
           <input id="fullName" name="fullName" required className={inputClass} placeholder="Jane Doe" />
-          {errors.fullName && <p className="text-xs text-red-500">{errors.fullName[0]}</p>}
         </div>
         <div className="flex flex-col gap-1.5">
           <label className={labelClass} htmlFor="companyName">Company Name *</label>
           <input id="companyName" name="companyName" required className={inputClass} placeholder="Noor Collective Boutiques" />
-          {errors.companyName && <p className="text-xs text-red-500">{errors.companyName[0]}</p>}
         </div>
         <div className="flex flex-col gap-1.5">
           <label className={labelClass} htmlFor="email">Email *</label>
           <input id="email" name="email" type="email" required className={inputClass} placeholder="jane@company.com" />
-          {errors.email && <p className="text-xs text-red-500">{errors.email[0]}</p>}
         </div>
         <div className="flex flex-col gap-1.5">
           <label className={labelClass} htmlFor="phone">Phone *</label>
           <input id="phone" name="phone" type="tel" required className={inputClass} placeholder="+1 555 000 0000" />
-          {errors.phone && <p className="text-xs text-red-500">{errors.phone[0]}</p>}
         </div>
         <div className="flex flex-col gap-1.5">
           <label className={labelClass} htmlFor="whatsapp">WhatsApp (optional)</label>
@@ -115,32 +123,46 @@ export function ContactForm() {
         <div className="flex flex-col gap-1.5">
           <label className={labelClass} htmlFor="country">Country *</label>
           <input id="country" name="country" required className={inputClass} placeholder="United Kingdom" />
-          {errors.country && <p className="text-xs text-red-500">{errors.country[0]}</p>}
         </div>
       </div>
 
-      <div className="flex flex-col gap-1.5">
-        <label className={labelClass} htmlFor="interestedProducts">Products of Interest *</label>
-        <input
-          id="interestedProducts"
-          name="interestedProducts"
-          required
-          className={inputClass}
-          placeholder="e.g. Chiffon hijabs, Nida abayas"
-        />
-        {errors.interestedProducts && <p className="text-xs text-red-500">{errors.interestedProducts[0]}</p>}
+      <div className="grid gap-5 sm:grid-cols-2">
+        <div className="flex flex-col gap-1.5">
+          <label className={labelClass} htmlFor="productCategory">Product Category *</label>
+          <select
+            id="productCategory"
+            name="productCategory"
+            required
+            defaultValue={defaultCategory || ""}
+            className={inputClass}
+          >
+            <option value="" disabled>Select a category</option>
+            {categoryOptions.map((name) => (
+              <option key={name} value={name}>{name}</option>
+            ))}
+          </select>
+        </div>
+        <div className="flex flex-col gap-1.5">
+          <label className={labelClass} htmlFor="interestedProducts">Products of Interest *</label>
+          <input
+            id="interestedProducts"
+            name="interestedProducts"
+            required
+            defaultValue={defaultInterest}
+            className={inputClass}
+            placeholder="e.g. Chiffon hijabs, Nida abayas"
+          />
+        </div>
       </div>
 
       <div className="grid gap-5 sm:grid-cols-2">
         <div className="flex flex-col gap-1.5">
           <label className={labelClass} htmlFor="quantity">Estimated Quantity *</label>
           <input id="quantity" name="quantity" required className={inputClass} placeholder="e.g. 1,000 pieces" />
-          {errors.quantity && <p className="text-xs text-red-500">{errors.quantity[0]}</p>}
         </div>
         <div className="flex flex-col gap-1.5">
           <label className={labelClass} htmlFor="targetMarket">Target Market *</label>
           <input id="targetMarket" name="targetMarket" required className={inputClass} placeholder="e.g. United Kingdom retail" />
-          {errors.targetMarket && <p className="text-xs text-red-500">{errors.targetMarket[0]}</p>}
         </div>
         <div className="flex flex-col gap-1.5">
           <label className={labelClass} htmlFor="businessType">Business Type *</label>
@@ -184,10 +206,10 @@ export function ContactForm() {
 
       <label className="flex items-start gap-2.5 text-sm text-muted">
         <input type="checkbox" name="consent" required className="mt-0.5 h-4 w-4 accent-accent" />
-        I agree to be contacted by Samnoor regarding this inquiry and accept the privacy policy. *
+        I agree to be contacted by SamNoor regarding this inquiry and accept the privacy policy. *
       </label>
 
-      {status === "error" && <p className="text-sm text-red-500">{errorMessage}</p>}
+      {status === "error" && <p className="text-sm text-red-500">{error}</p>}
 
       <button
         type="submit"

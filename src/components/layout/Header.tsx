@@ -69,7 +69,7 @@ export function Header() {
             href="/"
             className="absolute left-1/2 top-1/2 flex -translate-x-1/2 -translate-y-1/2 flex-col items-center"
             onClick={() => setOpen(false)}
-            aria-label="Abayatique"
+            aria-label={siteConfig.name}
           >
             <Image
               src="/logo-arabic-gold.png"
@@ -80,7 +80,7 @@ export function Header() {
               className="h-8 w-auto sm:h-9"
             />
             <span className="mt-1 font-heading text-sm uppercase tracking-[0.3em] text-heading">
-              Abayatique
+              {siteConfig.name}
             </span>
           </Link>
 

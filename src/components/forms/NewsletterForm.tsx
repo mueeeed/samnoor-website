@@ -7,27 +7,34 @@ type Status = "idle" | "submitting" | "success" | "error";
 
 export function NewsletterForm() {
   const [status, setStatus] = useState<Status>("idle");
+  const [error, setError] = useState<string | null>(null);
 
   async function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
     setStatus("submitting");
+    setError(null);
     const form = e.currentTarget;
-    const email = new FormData(form).get("email");
-    const website = new FormData(form).get("website") || "";
+    const formData = new FormData(form);
 
     try {
       const res = await fetch("/api/newsletter", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email, website }),
+        body: JSON.stringify({
+          email: String(formData.get("email") || ""),
+          botField: String(formData.get("botField") || ""),
+        }),
       });
       if (res.ok) {
         setStatus("success");
         form.reset();
       } else {
+        const data = await res.json().catch(() => ({}));
+        setError(data.error || "Something went wrong.");
         setStatus("error");
       }
     } catch {
+      setError("Something went wrong. Please try again.");
       setStatus("error");
     }
   }
@@ -38,8 +45,12 @@ export function NewsletterForm() {
 
   return (
     <form onSubmit={handleSubmit} className="flex flex-col gap-2">
+      <p className="hidden" aria-hidden="true">
+        <label>
+          Don&rsquo;t fill this out if you&rsquo;re human: <input name="botField" tabIndex={-1} autoComplete="off" />
+        </label>
+      </p>
       <div className="flex gap-2">
-        <input type="text" name="website" tabIndex={-1} autoComplete="off" className="hidden" aria-hidden="true" />
         <input
           type="email"
           name="email"
@@ -56,7 +67,7 @@ export function NewsletterForm() {
           <ArrowRightIcon width={16} height={16} />
         </button>
       </div>
-      {status === "error" && <p className="text-xs text-red-400">Something went wrong. Please try again.</p>}
+      {status === "error" && <p className="text-xs text-red-400">{error}</p>}
     </form>
   );
 }

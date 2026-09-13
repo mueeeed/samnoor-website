@@ -10,8 +10,8 @@ import { certifications } from "@/content/certifications";
 import { ArrowRightIcon, ShieldIcon } from "@/components/ui/icons";
 
 export const metadata: Metadata = {
-  title: "Manufacturing",
-  description: "Inside Samnoor's Dubai production facility — inspection, cutting, stitching, embroidery, QC, and packaging under one roof.",
+  title: "Abaya Manufacturing Process & Factory Capabilities",
+  description: "Inside SamNoor's Mumbai production facility — how a hijab and abaya manufacturer in India runs inspection, cutting, stitching, embroidery, QC, and packaging under one roof.",
 };
 
 const PROCESS = [
@@ -31,8 +31,8 @@ export default function ManufacturingPage() {
       <PageHero
         kicker="Manufacturing"
         title="One Factory, Full Vertical Control"
-        description="Every Samnoor order runs through a single facility in Dubai — from fabric inspection to final packing — so quality and timeline stay consistent."
-        image={placeholder("mfg-hero", "Wide view of the Samnoor factory production floor")}
+        description="Every SamNoor order runs through a single facility in Mumbai — from fabric inspection to final packing — so quality and timeline stay consistent."
+        image={placeholder("mfg-hero", "Wide view of the SamNoor factory production floor")}
       />
 
       <section className="border-b border-line bg-panel-alt py-14">
@@ -60,7 +60,7 @@ export default function ManufacturingPage() {
 
           <div className="flex flex-col gap-16">
             {PROCESS.map((stage, i) => {
-              const image = placeholder(stage.seed, `${stage.title} at the Samnoor production facility`, 1200, 900);
+              const image = placeholder(stage.seed, `${stage.title} at the SamNoor production facility`, 1200, 900);
               const reversed = i % 2 === 1;
               return (
                 <div key={stage.seed} className={`grid items-center gap-8 lg:grid-cols-2 lg:gap-14 ${reversed ? "lg:[&>*:first-child]:order-2" : ""}`}>

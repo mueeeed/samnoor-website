@@ -9,7 +9,7 @@ import { ShieldIcon, CheckIcon, ArrowRightIcon } from "@/components/ui/icons";
 
 export const metadata: Metadata = {
   title: "Certifications",
-  description: "Samnoor's quality, safety, and ethical manufacturing certifications — ISO 9001, OEKO-TEX, WRAP, SEDEX/SMETA, and BSCI.",
+  description: "SamNoor's quality, safety, and ethical manufacturing certifications — ISO 9001, OEKO-TEX, WRAP, SEDEX/SMETA, and BSCI.",
 };
 
 export default function CertificationsPage() {

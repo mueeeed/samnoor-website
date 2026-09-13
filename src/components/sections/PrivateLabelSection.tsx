@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { Container } from "@/components/ui/Container";
 import { LinkButton } from "@/components/ui/Button";
 import { placeholder } from "@/lib/placeholder-image";
@@ -47,9 +48,19 @@ export function PrivateLabelSection() {
           </div>
         </div>
 
-        <div className="relative aspect-[4/3] w-full overflow-hidden rounded-sm border border-gold/20 shadow-[0_30px_70px_-35px_rgba(0,0,0,0.6)]">
-          <Image src={image.src} alt={image.alt} fill sizes="(min-width: 1024px) 45vw, 90vw" className="object-cover" />
-        </div>
+        <Link
+          href="/private-label"
+          aria-label="Start your private label program"
+          className="group relative block aspect-[4/3] w-full overflow-hidden rounded-sm border border-gold/20 shadow-[0_30px_70px_-35px_rgba(0,0,0,0.6)]"
+        >
+          <Image
+            src={image.src}
+            alt={image.alt}
+            fill
+            sizes="(min-width: 1024px) 45vw, 90vw"
+            className="object-cover transition-transform duration-700 group-hover:scale-105"
+          />
+        </Link>
       </Container>
     </section>
   );

@@ -2,14 +2,19 @@ import type { MetadataRoute } from "next";
 import { siteConfig } from "@/lib/site-config";
 import { categories } from "@/content/categories";
 import { products } from "@/content/products";
-import { blogPosts } from "@/content/blog";
+import { fabrics } from "@/content/fabrics";
+import { locations } from "@/content/locations";
+import { glossaryTerms } from "@/content/glossary";
+import { getPublishedPosts } from "@/lib/blog-store";
+
+export const revalidate = 300;
 
 const staticRoutes = [
   "",
   "/about",
   "/products",
   "/manufacturing",
-  "/oem-private-label",
+  "/private-label",
   "/fabrics",
   "/export",
   "/certifications",
@@ -17,7 +22,10 @@ const staticRoutes = [
   "/blog",
   "/faq",
   "/contact",
-  "/privacy-policy",
+  "/privacy",
+  "/terms",
+  "/locations",
+  "/glossary",
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -44,12 +52,41 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
-  const blogEntries: MetadataRoute.Sitemap = blogPosts.map((p) => ({
+  const blogEntries: MetadataRoute.Sitemap = getPublishedPosts().map((p) => ({
     url: `${siteConfig.url}/blog/${p.slug}`,
     lastModified: new Date(p.updatedAt || p.publishedAt),
     changeFrequency: "monthly",
     priority: 0.6,
   }));
 
-  return [...staticEntries, ...categoryEntries, ...productEntries, ...blogEntries];
+  const fabricEntries: MetadataRoute.Sitemap = fabrics.map((f) => ({
+    url: `${siteConfig.url}/fabrics/${f.slug}`,
+    lastModified: now,
+    changeFrequency: "monthly",
+    priority: 0.6,
+  }));
+
+  const locationEntries: MetadataRoute.Sitemap = locations.map((l) => ({
+    url: `${siteConfig.url}/locations/${l.slug}`,
+    lastModified: now,
+    changeFrequency: "monthly",
+    priority: 0.5,
+  }));
+
+  const glossaryEntries: MetadataRoute.Sitemap = glossaryTerms.map((t) => ({
+    url: `${siteConfig.url}/glossary/${t.slug}`,
+    lastModified: now,
+    changeFrequency: "yearly",
+    priority: 0.4,
+  }));
+
+  return [
+    ...staticEntries,
+    ...categoryEntries,
+    ...productEntries,
+    ...blogEntries,
+    ...fabricEntries,
+    ...locationEntries,
+    ...glossaryEntries,
+  ];
 }

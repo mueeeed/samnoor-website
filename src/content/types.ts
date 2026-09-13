@@ -10,9 +10,11 @@ export type Category = {
   name: string;
   shortName: string;
   description: string;
+  content: string;
   heroImage: ImageAsset;
   cardImage: ImageAsset;
   keywords: string[];
+  faqs?: { question: string; answer: string }[];
 };
 
 export type ProductVariant = {
@@ -79,6 +81,7 @@ export type FaqItem = {
 };
 
 export type BlogPost = {
+  id: string;
   slug: string;
   title: string;
   excerpt: string;
@@ -87,9 +90,13 @@ export type BlogPost = {
   authorRole: string;
   publishedAt: string;
   updatedAt?: string;
+  /** Stored for backward compatibility; always recomputed from `content` on save. */
   readingTime: string;
   category: string;
   tags: string[];
+  /** Sanitized HTML (see `sanitizeBlogHtml` in lib/blog-store.ts) — never render unsanitized. */
   content: string;
   faqs?: { question: string; answer: string }[];
+  status: "draft" | "published";
+  views: number;
 };

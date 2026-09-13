@@ -7,6 +7,11 @@ export function ThemeToggle() {
   const [isDark, setIsDark] = useState<boolean | null>(null);
 
   useEffect(() => {
+    // Reads the theme an inline script already applied to <html> before
+    // hydration (see ThemeScript.tsx) — this can't be derived from props or
+    // computed during render, since the actual value only exists in the DOM
+    // and would mismatch between server and client if read eagerly.
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setIsDark(document.documentElement.classList.contains("dark"));
   }, []);
 

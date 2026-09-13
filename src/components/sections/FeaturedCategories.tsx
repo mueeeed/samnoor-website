@@ -5,7 +5,7 @@ import { categories } from "@/content/categories";
 import { Kicker } from "@/components/ui/Kicker";
 import { ArrowRightIcon } from "@/components/ui/icons";
 
-const FEATURED_SLUGS = ["hijabs", "abayas", "khimars", "prayer-dresses", "kaftans", "luxury-hijabs", "scarves", "instant-hijabs"];
+const FEATURED_SLUGS = ["hijabs", "abayas", "khimars", "prayer-dresses", "sports-hijabs", "luxury-hijabs", "scarves", "instant-hijabs"];
 
 export function FeaturedCategories() {
   const featured = FEATURED_SLUGS.map((slug) => categories.find((c) => c.slug === slug)).filter(
@@ -19,7 +19,7 @@ export function FeaturedCategories() {
           <Kicker>Our Range</Kicker>
           <h2 className="font-heading text-3xl font-semibold text-heading sm:text-4xl">Product Categories</h2>
           <p className="max-w-2xl text-muted">
-            Fifteen categories manufactured in-house, from everyday essentials to embellished occasion pieces &mdash;
+            Eleven categories manufactured in-house, from everyday essentials to embellished occasion pieces &mdash;
             every style available for private label and OEM production.
           </p>
         </div>

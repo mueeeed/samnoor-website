@@ -14,6 +14,8 @@ export function OrganizationSchema() {
       "@type": "PostalAddress",
       streetAddress: `${siteConfig.contact.address.line1}, ${siteConfig.contact.address.line2}`,
       addressLocality: siteConfig.contact.address.city,
+      addressRegion: siteConfig.contact.address.state,
+      postalCode: siteConfig.contact.address.postalCode,
       addressCountry: siteConfig.contact.address.country,
     },
     contactPoint: [

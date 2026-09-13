@@ -3,17 +3,19 @@ import Image from "next/image";
 import Link from "next/link";
 import { Container } from "@/components/ui/Container";
 import { PageHero } from "@/components/ui/PageHero";
-import { blogPosts } from "@/content/blog";
+import { getPublishedPosts } from "@/lib/blog-store";
 import { formatDate } from "@/lib/utils";
 import { placeholder } from "@/lib/placeholder-image";
 
 export const metadata: Metadata = {
   title: "The Journal",
-  description: "Sourcing guides, private label playbooks, and export logistics notes from the Samnoor team.",
+  description: "Sourcing guides, private label playbooks, and export logistics notes from the SamNoor team.",
 };
 
+export const revalidate = 300;
+
 export default function BlogIndexPage() {
-  const [featured, ...rest] = blogPosts;
+  const [featured, ...rest] = getPublishedPosts();
 
   return (
     <>
@@ -21,7 +23,7 @@ export default function BlogIndexPage() {
         kicker="The Journal"
         title="From Sourcing to Shipping"
         description="Notes from our product development, quality, and export teams for wholesale and private label buyers."
-        image={placeholder("blog-hero", "Wide view of the Samnoor factory production floor")}
+        image={placeholder("blog-hero", "Wide view of the SamNoor factory production floor")}
         crumb="Journal"
       />
 

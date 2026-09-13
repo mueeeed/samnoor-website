@@ -6,7 +6,7 @@ import { placeholder } from "@/lib/placeholder-image";
 
 export const metadata: Metadata = {
   title: "FAQs",
-  description: "Answers to common questions about ordering, MOQs, private label, fabrics, quality, and shipping with Samnoor.",
+  description: "Answers to common questions about ordering, MOQs, private label, fabrics, quality, and shipping with SamNoor.",
 };
 
 export default function FaqPage() {

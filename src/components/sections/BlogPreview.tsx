@@ -1,12 +1,14 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Container } from "@/components/ui/Container";
-import { blogPosts } from "@/content/blog";
+import { getPublishedPosts } from "@/lib/blog-store";
 import { formatDate } from "@/lib/utils";
 import { Kicker } from "@/components/ui/Kicker";
 import { ArrowRightIcon } from "@/components/ui/icons";
 
 export function BlogPreview() {
+  const blogPosts = getPublishedPosts().slice(0, 3);
+
   return (
     <section className="py-20 sm:py-24">
       <Container>

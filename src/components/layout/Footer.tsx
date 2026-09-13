@@ -14,11 +14,14 @@ const SOCIAL_LINKS = [
 ];
 
 const COMPANY_LINKS = [
-  { href: "/about", label: "About Samnoor" },
+  { href: "/about", label: "About SamNoor" },
   { href: "/manufacturing", label: "Manufacturing" },
   { href: "/private-label", label: "Private Label & OEM" },
   { href: "/certifications", label: "Certifications" },
   { href: "/export", label: "Export Markets" },
+  { href: "/locations", label: "Locations We Serve" },
+  { href: "/fabrics", label: "Fabric Library" },
+  { href: "/glossary", label: "Glossary" },
   { href: "/gallery", label: "Gallery" },
   { href: "/blog", label: "Journal" },
   { href: "/faq", label: "FAQs" },
@@ -30,11 +33,11 @@ export function Footer() {
       <Container className="relative z-10 grid gap-12 py-16 lg:grid-cols-[1.4fr_1fr_1fr_1.2fr]">
         <div className="flex flex-col gap-4">
           <Image
-            src="/logo-wordmark-transparent.png"
+            src="/logo-arabic-gold.png"
             alt={siteConfig.name}
-            width={520}
-            height={140}
-            className="h-11 w-auto brightness-110"
+            width={2010}
+            height={779}
+            className="h-12 w-auto self-start"
           />
           <p className="max-w-xs text-sm leading-relaxed text-cream/75">{siteConfig.description}</p>
           <div className="mt-2 flex gap-3">
@@ -94,7 +97,7 @@ export function Footer() {
             <span>
               {siteConfig.contact.address.line1}, {siteConfig.contact.address.line2}
               <br />
-              {siteConfig.contact.address.city}, {siteConfig.contact.address.country}
+              {siteConfig.contact.address.city}, {siteConfig.contact.address.state} {siteConfig.contact.address.postalCode}, {siteConfig.contact.address.country}
             </span>
           </p>
         </div>

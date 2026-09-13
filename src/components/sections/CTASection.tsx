@@ -9,7 +9,7 @@ export function CTASection() {
       <Container className="relative z-10 flex flex-col items-center gap-6 text-center">
         <Kicker tone="gold" align="center">Get Started</Kicker>
         <h2 className="text-gold-gradient max-w-2xl font-heading text-3xl font-semibold sm:text-4xl">
-          Ready to Put Samnoor on Your Production Line?
+          Ready to Put SamNoor on Your Production Line?
         </h2>
         <p className="max-w-xl text-cream/80">
           Send us your target products, estimated quantity, and market, and our sales team will respond

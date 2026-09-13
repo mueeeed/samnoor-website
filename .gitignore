@@ -39,9 +39,20 @@ yarn-error.log*
 # local sqlite data
 /data/
 
+# blog CMS state and uploads — this is server data that lives on the
+# deployed machine, not something re-shipped by code deploys (see
+# src/lib/blog-store.ts for the reasoning)
+/public/uploads/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
 
 # local agent/session state
 .claude/
+
+# Local Netlify folder
+.netlify
+
+# Raw source images (large, already processed into public/fabrics and other used assets)
+/Assets/
