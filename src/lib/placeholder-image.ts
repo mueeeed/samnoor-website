@@ -544,6 +544,33 @@ const SEED_THEME_MAP: Record<string, keyof typeof THEME_PHOTOS> = {
   "subcat-instant-khimar-1": "photo-instant-hijabs-9881169",
   "subcat-instant-khimar-2": "photo-instant-hijabs-32856246",
 
+  // Bridal Hijabs — a new category built on the existing luxury-hijabs
+  // photo pool (silk/satin/embellished styling is the same visual register
+  // as bridal), plus generic embellishment detail shots for the second
+  // image on each subcategory.
+  "cat-bridal-hijabs-hero": "photo-luxury-hijabs-8007347",
+  "cat-bridal-hijabs-card": "photo-luxury-hijabs-6331032",
+  "subcat-bridal-hijab-lace-1": "photo-luxury-hijabs-7676340",
+  "subcat-bridal-hijab-lace-2": "photo-luxury-hijabs-16065663",
+  "subcat-bridal-hijab-pearl-1": "photo-luxury-hijabs-8007347",
+  "subcat-bridal-hijab-pearl-2": "photo-luxury-hijabs-8007354",
+  "subcat-bridal-hijab-crystal-1": "photo-luxury-hijabs-7988399",
+  "subcat-bridal-hijab-crystal-2": "embroidery-closeup",
+  "subcat-bridal-hijab-stone-studded-1": "photo-luxury-hijabs-16065663",
+  "subcat-bridal-hijab-stone-studded-2": "photo-luxury-hijabs-7676340",
+  "subcat-bridal-hijab-embroidered-1": "photo-luxury-hijabs-8007354",
+  "subcat-bridal-hijab-embroidered-2": "embroidery-closeup",
+  "subcat-bridal-hijab-satin-1": "photo-luxury-hijabs-6331032",
+  "subcat-bridal-hijab-satin-2": "fabric-satin-sheen",
+  "subcat-bridal-hijab-silk-1": "photo-luxury-hijabs-7676340",
+  "subcat-bridal-hijab-silk-2": "fabric-silk-sheen",
+  "subcat-bridal-hijab-shimmer-1": "photo-luxury-hijabs-8007347",
+  "subcat-bridal-hijab-shimmer-2": "photo-luxury-hijabs-8007354",
+  "subcat-bridal-hijab-crown-style-1": "photo-luxury-hijabs-7988399",
+  "subcat-bridal-hijab-crown-style-2": "photo-luxury-hijabs-6331032",
+  "subcat-bridal-hijab-veil-style-1": "photo-luxury-hijabs-16065663",
+  "subcat-bridal-hijab-veil-style-2": "photo-luxury-hijabs-7676340",
+
   // About page
   "about-hero": "factory-exterior",
   "about-story": "design-desk",

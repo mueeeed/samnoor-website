@@ -1112,6 +1112,195 @@ export const categories: Category[] = [
       { name: "Cashmere Blend", productSlug: "zumurrud-cashmere-blend-hijab" },
     ],
   },
+  {
+    slug: "bridal-hijabs",
+    name: "Bridal Hijabs",
+    shortName: "Bridal Hijabs",
+    description:
+      "Occasion-grade hijabs finished with pearl, crystal, stone, and hand-embroidered embellishment, built for wedding, nikah, and bridal party ranges rather than everyday retail.",
+    content: `
+      <p>Bridal hijab is a distinct manufacturing discipline from our standard hijab lines, not just a dressier colorway of the same fabric. Embellishment &mdash; pearls, crystals, stones, or embroidery &mdash; has to be hand-placed or hand-stitched without distorting the drape underneath it, which means every bridal piece runs through a specialist finishing team rather than the standard production line.</p>
+      <p>We build this range on silk and satin bases specifically because they hold embellishment weight without sagging or puckering the way lighter chiffon can. Buyers use this category to serve boutique, bridal party, and gifting channels alongside their standard hijab range, usually as a lower-volume, higher-margin complement rather than a volume line. Small-batch production is standard here &mdash; most styles are available from 50 to 100 pieces per design.</p>
+    `,
+    heroImage: placeholder("cat-bridal-hijabs-hero", "Bridal hijab with pearl and crystal embellishment draped elegantly"),
+    cardImage: placeholder("cat-bridal-hijabs-card", "Close-up of hand-placed bridal embellishment on silk hijab fabric"),
+    keywords: [
+      "bridal hijab manufacturer",
+      "wedding hijab wholesale supplier",
+      "pearl embellished hijab manufacturer",
+      "nikah hijab supplier India",
+    ],
+    subcategories: [
+      {
+        slug: "lace",
+        name: "Bridal Lace Hijab",
+        shortDescription: "Delicate lace trim or lace overlay panel for a soft, romantic bridal finish.",
+        description:
+          "Bridal lace hijabs pair a silk or satin base with a lace trim edge or a sheer lace overlay panel, giving a softer, more romantic finish than fully embellished crystal or stone styles. The lace is finished flat and pre-washed to prevent shrinkage mismatch against the base fabric, a defect that shows up as visible puckering along the trim line on lower-cost competitors. It's the style most bridal party buyers order for bridesmaids' hijabs alongside a more heavily embellished piece for the bride herself. Produced from 50 pieces per design.",
+        images: [
+          placeholder("subcat-bridal-hijab-lace-1", "Model wearing a bridal hijab with delicate lace trim detail"),
+          placeholder("subcat-bridal-hijab-lace-2", "Close-up of lace overlay panel on a bridal hijab"),
+        ],
+        colors: [
+          { name: "Ivory", hex: "#f0e9db" },
+          { name: "White", hex: "#faf8f5" },
+          { name: "Champagne", hex: "#e8d9b5" },
+          { name: "Blush", hex: "#f2c4c4" },
+        ],
+      },
+      {
+        slug: "pearl",
+        name: "Pearl-Embellished Hijab",
+        shortDescription: "Hand-placed pearl trim along the edge or in a scattered field across the fabric.",
+        description:
+          "Pearl-embellished bridal hijabs use hand-sewn faux-pearl beading, either as a continuous trim along the hem or scattered across the body of the fabric, individually secured so beads don't shed with handling the way glued alternatives do. This is our most-ordered bridal finish because it reads as elevated without the cost or weight of full crystal coverage. Bead density and placement pattern are fully customizable per design. Produced from 50 pieces per design.",
+        images: [
+          placeholder("subcat-bridal-hijab-pearl-1", "Model wearing a pearl-embellished bridal hijab"),
+          placeholder("subcat-bridal-hijab-pearl-2", "Close-up of hand-sewn pearl beading on bridal hijab fabric"),
+        ],
+        colors: [
+          { name: "Ivory", hex: "#f0e9db" },
+          { name: "Pearl White", hex: "#f3ece2" },
+          { name: "Champagne", hex: "#e8d9b5" },
+          { name: "Blush", hex: "#f2c4c4" },
+        ],
+      },
+      {
+        slug: "crystal",
+        name: "Crystal Hijab",
+        shortDescription: "Faceted crystal embellishment for maximum sparkle under event lighting.",
+        description:
+          "Crystal hijabs use faceted glass or acrylic crystals hand-set in a hot-fix or hand-stitched application, chosen specifically for how they catch light under event and reception lighting rather than daylight photography alone. Coverage density ranges from an accent trim to a fully crystal-covered surface, priced accordingly. This is our highest-embellishment-weight style, so it's built exclusively on a structured silk or satin base that holds the added weight without drooping. Produced from 50 pieces per design.",
+        images: [
+          placeholder("subcat-bridal-hijab-crystal-1", "Model wearing a crystal-embellished bridal hijab catching the light"),
+          placeholder("subcat-bridal-hijab-crystal-2", "Close-up of hand-set faceted crystals on bridal hijab fabric"),
+        ],
+        colors: [
+          { name: "Ivory", hex: "#f0e9db" },
+          { name: "White", hex: "#faf8f5" },
+          { name: "Silver", hex: "#c7c7c7" },
+          { name: "Champagne", hex: "#e8d9b5" },
+        ],
+      },
+      {
+        slug: "stone-studded",
+        name: "Stone-Studded Hijab",
+        shortDescription: "Mixed stone-work embellishment combining beads, sequins, and crystals in one design.",
+        description:
+          "Stone-studded bridal hijabs combine multiple embellishment types &mdash; beads, sequins, and crystals &mdash; into one mixed-media design rather than a single repeated element, giving a more layered, textured finish than a single-material style. This is the finish our design team recommends when a buyer sends a reference image combining several embellishment styles they've seen separately elsewhere. Because it mixes application methods, production lead time runs slightly longer than single-technique styles. Produced from 50 pieces per design.",
+        images: [
+          placeholder("subcat-bridal-hijab-stone-studded-1", "Model wearing a stone-studded bridal hijab with mixed embellishment"),
+          placeholder("subcat-bridal-hijab-stone-studded-2", "Close-up of mixed bead, sequin, and crystal stonework on bridal hijab fabric"),
+        ],
+        colors: [
+          { name: "Ivory", hex: "#f0e9db" },
+          { name: "Gold", hex: "#c9a635" },
+          { name: "Champagne", hex: "#e8d9b5" },
+          { name: "Rose Gold", hex: "#d9a89c" },
+        ],
+      },
+      {
+        slug: "embroidered",
+        name: "Embroidered Bridal Hijab",
+        shortDescription: "Hand or machine thread embroidery in a custom motif for a signature bridal design.",
+        description:
+          "Embroidered bridal hijabs carry a thread-embroidered motif rather than applied beading or crystal, giving a design that reads as couture-adjacent and is fully customizable to a buyer's own pattern or a motif we develop in-house. Thread color, density, and placement are all specified per order, and combination pieces that pair embroidery with a light pearl or crystal accent are available on request. It's the bridal finish most often ordered as a fully custom, one-off design rather than a repeat catalog SKU. Produced from 50 pieces per design.",
+        images: [
+          placeholder("subcat-bridal-hijab-embroidered-1", "Model wearing an embroidered bridal hijab with a custom thread motif"),
+          placeholder("subcat-bridal-hijab-embroidered-2", "Close-up of hand embroidery detail on a bridal hijab"),
+        ],
+        colors: [
+          { name: "Ivory", hex: "#f0e9db" },
+          { name: "White", hex: "#faf8f5" },
+          { name: "Gold", hex: "#c9a635" },
+          { name: "Blush", hex: "#f2c4c4" },
+        ],
+      },
+      {
+        slug: "satin",
+        name: "Satin Bridal Hijab",
+        shortDescription: "High-sheen satin base for a fluid, photograph-ready drape under embellishment.",
+        description:
+          "Satin bridal hijabs use our high-sheen satin weave as a base specifically because its weighted drape holds embellishment placement without shifting through a full day of wear, ceremony, and photography. The glossy finish also reflects light well in both daylight and flash photography, which buyers report as a meaningful factor in how a style performs in a bride's wedding photos. It's offered plain or as a base for any of our pearl, crystal, or embroidery finishes. Produced from 50 pieces per design.",
+        images: [
+          placeholder("subcat-bridal-hijab-satin-1", "Model wearing a satin bridal hijab with a fluid, photograph-ready drape"),
+          placeholder("subcat-bridal-hijab-satin-2", "Close-up of glossy satin fabric used as a bridal hijab base"),
+        ],
+        colors: [
+          { name: "Ivory", hex: "#f0e9db" },
+          { name: "White", hex: "#faf8f5" },
+          { name: "Champagne", hex: "#e8d9b5" },
+          { name: "Blush", hex: "#f2c4c4" },
+        ],
+      },
+      {
+        slug: "silk",
+        name: "Silk Bridal Hijab",
+        shortDescription: "Genuine mulberry silk base with a hand-rolled hem for the highest bridal tier.",
+        description:
+          "Silk bridal hijabs run on the same genuine mulberry silk as our luxury hijab line, finished with a hand-rolled hem rather than a machine hem, positioned as our top bridal tier for buyers whose customers specifically ask for real silk over a synthetic satin-look alternative. The natural fiber's sheen and weight give a drape that photographs and moves differently from satin, which some brides specifically request once they've felt both. Every piece is individually inspected before packaging. Produced from 50 pieces per design.",
+        images: [
+          placeholder("subcat-bridal-hijab-silk-1", "Model wearing a mulberry silk bridal hijab with a hand-rolled hem"),
+          placeholder("subcat-bridal-hijab-silk-2", "Close-up of silk bridal hijab fabric showing its natural sheen"),
+        ],
+        colors: [
+          { name: "Ivory", hex: "#f0e9db" },
+          { name: "Champagne", hex: "#e8d9b5" },
+          { name: "Blush", hex: "#f2c4c4" },
+          { name: "White", hex: "#faf8f5" },
+        ],
+      },
+      {
+        slug: "shimmer",
+        name: "Shimmer Bridal Hijab",
+        shortDescription: "Fine metallic-thread weave for a subtle overall shimmer rather than applied embellishment.",
+        description:
+          "Shimmer bridal hijabs weave a fine metallic thread through the base fabric itself, giving an all-over subtle sparkle rather than the localized sparkle of applied crystals or beads. It's a lower-cost route to a bridal-appropriate finish for buyers who want event-ready shine without the labor cost of hand-applied embellishment, and it pairs well as a base fabric for a light pearl or crystal accent on top. The metallic thread is woven, not printed, so the shimmer doesn't crack or flake with wear. Produced from 100 pieces per design.",
+        images: [
+          placeholder("subcat-bridal-hijab-shimmer-1", "Model wearing a shimmer bridal hijab with subtle all-over metallic sparkle"),
+          placeholder("subcat-bridal-hijab-shimmer-2", "Close-up of fine metallic thread woven through shimmer bridal hijab fabric"),
+        ],
+        colors: [
+          { name: "Ivory", hex: "#f0e9db" },
+          { name: "Gold", hex: "#c9a635" },
+          { name: "Silver", hex: "#c7c7c7" },
+          { name: "Rose Gold", hex: "#d9a89c" },
+        ],
+      },
+      {
+        slug: "crown-style",
+        name: "Crown-Style Bridal Hijab",
+        shortDescription: "Structured under-cap and drape built to sit cleanly beneath a bridal tiara or crown.",
+        description:
+          "Crown-style bridal hijabs are drafted with a structured under-cap and a drape line specifically engineered to sit cleanly beneath a tiara, crown, or hijab-specific headpiece without the fabric bunching or shifting the accessory out of place through the ceremony. This is a construction detail most standard hijabs aren't drafted for, since the pattern has to account for headpiece pins and a flatter crown profile. Buyers typically order this alongside a matching bridal accessory line. Produced from 50 pieces per design.",
+        images: [
+          placeholder("subcat-bridal-hijab-crown-style-1", "Model wearing a crown-style bridal hijab styled beneath a tiara"),
+          placeholder("subcat-bridal-hijab-crown-style-2", "Close-up of structured under-cap construction for a crown-style bridal hijab"),
+        ],
+        colors: [
+          { name: "Ivory", hex: "#f0e9db" },
+          { name: "White", hex: "#faf8f5" },
+          { name: "Champagne", hex: "#e8d9b5" },
+        ],
+      },
+      {
+        slug: "veil-style",
+        name: "Veil-Style Bridal Hijab",
+        shortDescription: "Extended sheer overlay styled to fall like a traditional veil over the base hijab.",
+        description:
+          "Veil-style bridal hijabs add an extended sheer overlay layer, cut and hemmed to fall like a traditional wedding veil over a base hijab rather than functioning as a single-layer garment. The overlay can be styled forward over the face for the ceremony and swept back for the reception, giving one piece two distinct looks across the event. It's most often ordered paired with one of our embellished bridal hijabs as the base layer underneath. Produced from 50 pieces per design.",
+        images: [
+          placeholder("subcat-bridal-hijab-veil-style-1", "Model wearing a veil-style bridal hijab with a sheer overlay"),
+          placeholder("subcat-bridal-hijab-veil-style-2", "Close-up of sheer veil overlay fabric hemmed for a bridal hijab"),
+        ],
+        colors: [
+          { name: "Ivory", hex: "#f0e9db" },
+          { name: "White", hex: "#faf8f5" },
+          { name: "Champagne", hex: "#e8d9b5" },
+        ],
+      },
+    ],
+  },
 ];
 
 export function getCategoryBySlug(slug: string): Category | undefined {
