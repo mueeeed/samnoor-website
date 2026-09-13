@@ -631,6 +631,173 @@ export const categories: Category[] = [
           "The terms overlap by region, but in our production spec, an abaya is a more fitted, often single-piece robe cut close to the body, while a jilbab is looser through the body and frequently produced as a two-piece set. Buyers sourcing for markets where the terms are used interchangeably should confirm the specific cut with a reference image rather than the name alone.",
       },
     ],
+    subcategories: [
+      {
+        slug: "one-piece",
+        name: "One-Piece Jilbab",
+        shortDescription: "Single continuous robe rather than a separate top-and-skirt construction.",
+        description:
+          "One-piece jilbabs are cut as a single continuous robe rather than a separate top and skirt, giving the simplest, fastest construction in the category and the closest silhouette to a loose-cut abaya. It's the entry-point cut for distributors new to jilbab as a category, since one size block covers the whole garment rather than coordinating two separate patterns. Reinforced double-stitched seams at the underarm and hem hold up to daily wear and repeated washing. Offered from 300 pieces per color.",
+        images: [
+          placeholder("subcat-jilbabs-one-piece-1", "Model wearing a one-piece jilbab in a single continuous cut"),
+          placeholder("subcat-jilbabs-one-piece-2", "Close-up of one-piece jilbab fabric and seam construction"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Charcoal", hex: "#3d3d3d" },
+          { name: "Navy", hex: "#202a44" },
+          { name: "Chocolate", hex: "#4a3728" },
+        ],
+      },
+      {
+        slug: "two-piece",
+        name: "Two-Piece Jilbab",
+        shortDescription: "Separate top and full-length skirt, the classic jilbab construction our buyers order most.",
+        description:
+          "Two-piece jilbabs separate the garment into a top and a full-length skirt, the construction most of our wholesale buyers mean by default when they order a jilbab rather than an abaya. Independent top-and-skirt sizing fits a wider range of body proportions than a one-piece cut, and both pieces are cut from the same fabric lot for a guaranteed shade match. This is our highest-volume jilbab construction, sold as coordinated sets. Offered from 300 sets per color.",
+        images: [
+          placeholder("subcat-jilbabs-two-piece-1", "Model wearing a two-piece jilbab top and full-length skirt set"),
+          placeholder("subcat-jilbabs-two-piece-2", "Close-up of two-piece jilbab set seam and fabric match"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Navy", hex: "#202a44" },
+          { name: "Olive", hex: "#6b6f52" },
+          { name: "Stone", hex: "#b8ada0" },
+        ],
+      },
+      {
+        slug: "three-piece",
+        name: "Three-Piece Jilbab",
+        shortDescription: "Top, skirt, and matching inner slip or hijab sold as one coordinated set.",
+        description:
+          "Three-piece jilbab sets add a matching inner slip or coordinating hijab to the standard top-and-skirt format, giving distributors a complete, ready-to-wear outfit to merchandise as a single SKU rather than assembling separates at retail. All three pieces are cut and dyed from the same fabric lot for guaranteed shade consistency across the set. It's the format that performs best through Eid and occasion-adjacent wholesale accounts. Sold as coordinated sets from 200 sets per color.",
+        images: [
+          placeholder("subcat-jilbabs-three-piece-1", "Model wearing a matching three-piece jilbab, skirt, and hijab set"),
+          placeholder("subcat-jilbabs-three-piece-2", "Close-up of three-piece jilbab set fabric and coordinated finish"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Navy", hex: "#202a44" },
+          { name: "Charcoal", hex: "#3d3d3d" },
+        ],
+      },
+      {
+        slug: "pull-on",
+        name: "Pull-On Jilbab",
+        shortDescription: "No-closure, pull-over construction for the fastest possible wear.",
+        description:
+          "Pull-on jilbabs use a wide head or neck opening rather than a zip, snap, or button closure, so the whole garment goes on in one motion. Removing the closure hardware also removes the most common point of wear-related failure on a daily-use garment. It's the style buyers reorder most heavily for value-tier and back-to-school-adjacent ranges where cost and simplicity matter more than styling detail. Offered from 300 pieces per color.",
+        images: [
+          placeholder("subcat-jilbabs-pull-on-1", "Model wearing a pull-on jilbab with no front closure"),
+          placeholder("subcat-jilbabs-pull-on-2", "Close-up of pull-on jilbab neckline construction"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Charcoal", hex: "#3d3d3d" },
+          { name: "Chocolate", hex: "#4a3728" },
+          { name: "Olive", hex: "#6b6f52" },
+        ],
+      },
+      {
+        slug: "hooded",
+        name: "Hooded Jilbab",
+        shortDescription: "Built-in hood for an additional, integrated head-covering option.",
+        description:
+          "Hooded jilbabs build an integrated hood into the neckline, giving customers an additional head-covering option layered over a separate hijab, or a quick, minimal cover-up option on its own for short trips. The hood is cut generously enough to fit over a styled hijab underneath without pulling the fabric taut. It's a strong fit for buyers targeting outdoor, travel, or colder-climate markets where an extra layer of coverage is a practical selling point rather than a styling one. Offered from 250 pieces per color.",
+        images: [
+          placeholder("subcat-jilbabs-hooded-1", "Model wearing a hooded jilbab with the hood down over the shoulders"),
+          placeholder("subcat-jilbabs-hooded-2", "Close-up of hooded jilbab hood construction and neckline"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Navy", hex: "#202a44" },
+          { name: "Charcoal", hex: "#3d3d3d" },
+        ],
+      },
+      {
+        slug: "full-length",
+        name: "Full-Length Jilbab",
+        shortDescription: "Maximum-length cut reaching the floor for buyers whose markets expect full coverage.",
+        description:
+          "Full-length jilbabs are cut to a floor-length hem rather than our standard ankle-grazing length, for markets and customer segments that specifically expect maximum coverage. The extra length is accounted for in the pattern rather than simply left unhemmed, so proportions through the body and sleeves stay consistent with our standard cut. It's a straightforward upsell SKU for distributors who've had customers ask for extra length on our standard jilbabs. Offered from 300 pieces per color.",
+        images: [
+          placeholder("subcat-jilbabs-full-length-1", "Model wearing a full-length, floor-grazing jilbab"),
+          placeholder("subcat-jilbabs-full-length-2", "Close-up of full-length jilbab hem and fabric fall"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Charcoal", hex: "#3d3d3d" },
+          { name: "Navy", hex: "#202a44" },
+          { name: "Stone", hex: "#b8ada0" },
+        ],
+      },
+      {
+        slug: "jersey",
+        name: "Jersey Jilbab",
+        shortDescription: "Stretch jersey construction for a softer, more casual jilbab than our Nida and crepe lines.",
+        description:
+          "Jersey jilbabs swap our standard Nida and crepe bases for a stretch jersey knit, giving a softer hand-feel and easier pull-on fit for customers who want the jilbab silhouette with the ease of casual jersey wear. The added stretch is also more forgiving across a wider size range than a woven fabric. It's tracking well with younger, casual-wear-focused customer segments who find our structured Nida jilbabs too formal for daily wear. Offered from 300 pieces per color.",
+        images: [
+          placeholder("subcat-jilbabs-jersey-1", "Model wearing a soft stretch jersey jilbab"),
+          placeholder("subcat-jilbabs-jersey-2", "Close-up of jersey jilbab fabric texture"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Charcoal Heather", hex: "#5c5c5c" },
+          { name: "Navy", hex: "#202a44" },
+          { name: "Olive", hex: "#6b6f52" },
+        ],
+      },
+      {
+        slug: "chiffon",
+        name: "Chiffon Jilbab",
+        shortDescription: "Lightweight chiffon base for a flowing, lightweight jilbab in warmer climates.",
+        description:
+          "Chiffon jilbabs use a lightweight, flowing chiffon base rather than our structured Nida or crepe, suited to hot-climate markets where our standard jilbab weight runs too warm for daily wear. The tradeoff is a less structured silhouette than Nida, so this style typically requires an underlayer or slip for full opacity depending on the shade. It's a natural pairing for buyers who already stock our chiffon hijab range and want a matching lightweight jilbab. Offered from 300 pieces per color.",
+        images: [
+          placeholder("subcat-jilbabs-chiffon-1", "Model wearing a lightweight chiffon jilbab with a flowing drape"),
+          placeholder("subcat-jilbabs-chiffon-2", "Close-up of chiffon jilbab fabric showing its lightweight weave"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Navy", hex: "#202a44" },
+          { name: "Ivory", hex: "#f0e9db" },
+        ],
+      },
+      {
+        slug: "sports",
+        name: "Sports Jilbab",
+        shortDescription: "Technical stretch knit jilbab built for movement, layered over activewear.",
+        description:
+          "Sports jilbabs are cut on a technical stretch knit rather than our standard Nida or crepe, built to be worn over activewear for sport, exercise, and outdoor activity without restricting movement. The knit is selected for moisture management and stretch recovery through repeated wear and washing, the same standard we hold our dedicated sports hijab fabric to. It's a growing crossover category between our jilbab and sports hijab lines for buyers serving an active, modest-fashion customer base. Offered from 250 pieces per color.",
+        images: [
+          placeholder("subcat-jilbabs-sports-1", "Model wearing a sports jilbab over activewear"),
+          placeholder("subcat-jilbabs-sports-2", "Close-up of technical stretch knit fabric used for sports jilbabs"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Charcoal", hex: "#3d3d3d" },
+          { name: "Navy", hex: "#202a44" },
+        ],
+      },
+      {
+        slug: "nursing-friendly",
+        name: "Nursing-Friendly Jilbab",
+        shortDescription: "Discreet nursing access panel built into the bodice for new and breastfeeding mothers.",
+        description:
+          "Nursing-friendly jilbabs build a discreet, concealed access panel into the bodice, positioned and finished so it isn't visible when closed and doesn't compromise the garment's coverage when in use. This is a specialty SKU distributors stock specifically for new-mother and maternity-adjacent customer segments, a need we've heard flagged repeatedly by buyers whose standard jilbab range doesn't accommodate it. Panel placement and closure type (snap or concealed zip) are customizable for private label orders. Offered from 200 pieces per color.",
+        images: [
+          placeholder("subcat-jilbabs-nursing-friendly-1", "Model wearing a nursing-friendly jilbab with a concealed access panel"),
+          placeholder("subcat-jilbabs-nursing-friendly-2", "Close-up of concealed nursing access panel construction on a jilbab"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Navy", hex: "#202a44" },
+          { name: "Charcoal", hex: "#3d3d3d" },
+        ],
+      },
+    ],
   },
   {
     slug: "islamic-inner-caps",
