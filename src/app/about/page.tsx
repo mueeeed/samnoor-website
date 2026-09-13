@@ -3,7 +3,6 @@ import Image from "next/image";
 import { Container } from "@/components/ui/Container";
 import { PageHero } from "@/components/ui/PageHero";
 import { Kicker } from "@/components/ui/Kicker";
-import { team } from "@/content/team";
 import { certifications } from "@/content/certifications";
 import { placeholder } from "@/lib/placeholder-image";
 import { siteConfig } from "@/lib/site-config";
@@ -71,29 +70,6 @@ export default function AboutPage() {
           </div>
           <div className="relative aspect-[4/3] w-full overflow-hidden rounded-sm border border-line shadow-[0_24px_60px_-32px_rgba(12,12,8,0.4)] lg:order-1">
             <Image src={philosophyImage.src} alt={philosophyImage.alt} fill sizes="(min-width: 1024px) 45vw, 90vw" className="object-cover" />
-          </div>
-        </Container>
-      </section>
-
-      <section className="py-20 sm:py-24">
-        <Container>
-          <div className="mb-14 flex flex-col gap-4">
-            <Kicker>Leadership</Kicker>
-            <h2 className="font-heading text-3xl font-semibold text-heading sm:text-4xl">The People Behind the Factory</h2>
-          </div>
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-            {team.map((member) => (
-              <div key={member.name} className="card-premium flex flex-col overflow-hidden">
-                <div className="relative aspect-square w-full overflow-hidden">
-                  <Image src={member.photo.src} alt={member.photo.alt} fill sizes="(min-width: 1024px) 22vw, 45vw" className="object-cover" />
-                </div>
-                <div className="flex flex-col gap-1.5 p-5">
-                  <h3 className="font-heading text-base font-semibold text-heading">{member.name}</h3>
-                  <span className="text-xs font-medium uppercase tracking-wide text-accent">{member.role}</span>
-                  <p className="mt-1 text-sm leading-relaxed text-muted">{member.bio}</p>
-                </div>
-              </div>
-            ))}
           </div>
         </Container>
       </section>

@@ -58,10 +58,6 @@ const THEME_PHOTOS: Record<string, string> = {
   "warehouse-cartons": "https://images.pexels.com/photos/10834810/pexels-photo-10834810.jpeg?auto=compress&cs=tinysrgb&w=1600",
   "shipping-containers": "https://images.pexels.com/photos/9716365/pexels-photo-9716365.jpeg?auto=compress&cs=tinysrgb&w=1600",
   "design-desk": "https://images.pexels.com/photos/15764763/pexels-photo-15764763.jpeg?auto=compress&cs=tinysrgb&w=1600",
-  "business-headshot-1": "https://images.pexels.com/photos/33261955/pexels-photo-33261955.jpeg?auto=compress&cs=tinysrgb&w=1600",
-  "business-headshot-2": "https://images.pexels.com/photos/10347162/pexels-photo-10347162.jpeg?auto=compress&cs=tinysrgb&w=1600",
-  "business-headshot-3": "https://images.pexels.com/photos/37148339/pexels-photo-37148339.jpeg?auto=compress&cs=tinysrgb&w=1600",
-  "business-headshot-4": "https://images.pexels.com/photos/34381970/pexels-photo-34381970.jpeg?auto=compress&cs=tinysrgb&w=1600",
   "trade-exhibition-booth": "https://images.pexels.com/photos/35138560/pexels-photo-35138560.jpeg?auto=compress&cs=tinysrgb&w=1600",
   "certification-documents": "https://images.pexels.com/photos/10347152/pexels-photo-10347152.jpeg?auto=compress&cs=tinysrgb&w=1600",
 };
@@ -330,10 +326,6 @@ const SEED_THEME_MAP: Record<string, keyof typeof THEME_PHOTOS> = {
   "about-hero": "factory-exterior",
   "about-story": "design-desk",
   "about-philosophy": "qc-inspection",
-  "leader-Imran Sheikh": "business-headshot-1",
-  "leader-Sana Ansari": "business-headshot-2",
-  "leader-Zaid Khan": "business-headshot-3",
-  "leader-Ayesha Merchant": "business-headshot-4",
 
   // Gallery grid
   "gallery-factory-1": "factory-exterior",
