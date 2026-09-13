@@ -720,6 +720,170 @@ export const categories: Category[] = [
       { name: "One-Piece & Travel", productSlug: "ruqayyah-travel-prayer-set" },
       { name: "Premium Gifting", productSlug: "bilqis-embellished-prayer-set" },
     ],
+    subcategories: [
+      {
+        slug: "one-piece",
+        name: "One-Piece Prayer Dress",
+        shortDescription: "Single continuous prayer dress with elasticated cuffs and waist for full-range movement.",
+        description:
+          "One-piece prayer dresses are cut as a single continuous garment with elasticated cuffs and a soft waistband, built to move through a full prayer cycle without pulling tight at the shoulders or riding up at the hem. It's the simplest construction in the category and the fastest to put on before prayer, which is the main reason distributors reorder it more than any other prayer wear cut. Fabric is lightweight and breathable by design rather than borrowed from our daywear abaya line. Offered from 300 pieces per color.",
+        images: [
+          placeholder("subcat-prayer-one-piece-1", "Model wearing a one-piece prayer dress with elasticated cuffs"),
+          placeholder("subcat-prayer-one-piece-2", "Close-up of one-piece prayer dress fabric and elastic waistband"),
+        ],
+        colors: [
+          { name: "Ivory", hex: "#f0e9db" },
+          { name: "Sage", hex: "#9caf88" },
+          { name: "Dusty Rose", hex: "#c98f8f" },
+          { name: "Grey", hex: "#8a8a8a" },
+        ],
+      },
+      {
+        slug: "two-piece",
+        name: "Two-Piece Prayer Set",
+        shortDescription: "Top and skirt set — the highest-repeat style in this category, especially around Ramadan.",
+        description:
+          "Two-piece prayer sets separate the garment into a top and skirt, our highest-repeat style in this category, particularly around Ramadan ordering cycles. The set packs down small enough to sell in an individual drawstring travel bag, a packaging detail several of our accounts specifically request for gifting and retail displays. Both pieces are cut from the same fabric lot for a guaranteed shade match. Sold as coordinated sets from 300 sets per color.",
+        images: [
+          placeholder("subcat-prayer-two-piece-1", "Model wearing a two-piece prayer set top and skirt"),
+          placeholder("subcat-prayer-two-piece-2", "Close-up of two-piece prayer set packed in a drawstring travel bag"),
+        ],
+        colors: [
+          { name: "Ivory", hex: "#f0e9db" },
+          { name: "Sky Blue", hex: "#a9cce3" },
+          { name: "Lavender", hex: "#c9b8e0" },
+          { name: "Sage", hex: "#9caf88" },
+        ],
+      },
+      {
+        slug: "three-piece",
+        name: "Three-Piece Prayer Set",
+        shortDescription: "Top, skirt, and matching prayer hijab sold as one complete, coordinated set.",
+        description:
+          "Three-piece prayer sets add a matching prayer hijab to the standard top-and-skirt format, giving a complete, gift-ready outfit rather than requiring the customer to source a separate hijab. All three pieces are cut and dyed from the same fabric lot for guaranteed shade consistency. It's the format that performs strongest through our Ramadan and Eid gifting wholesale accounts. Sold as coordinated sets from 200 sets per color.",
+        images: [
+          placeholder("subcat-prayer-three-piece-1", "Model wearing a complete three-piece prayer set with matching hijab"),
+          placeholder("subcat-prayer-three-piece-2", "Close-up of three-piece prayer set fabric and coordinated finish"),
+        ],
+        colors: [
+          { name: "Ivory", hex: "#f0e9db" },
+          { name: "Sage", hex: "#9caf88" },
+          { name: "Dusty Rose", hex: "#c98f8f" },
+        ],
+      },
+      {
+        slug: "instant-hijab",
+        name: "Instant Prayer Hijab",
+        shortDescription: "Pull-on prayer hijab with no pinning, designed to be thrown on right before prayer.",
+        description:
+          "Instant prayer hijabs bring our pull-on, no-pin construction to prayer wear specifically, letting a customer cover up in seconds right before prayer rather than styling a wrap under time pressure. It's sold both as a standalone accessory for customers who already own a prayer dress, and bundled into our three-piece prayer sets. Fabric is the same lightweight, breathable base as the rest of our prayer wear line. Offered from 300 pieces per color.",
+        images: [
+          placeholder("subcat-prayer-instant-hijab-1", "Model wearing an instant pull-on prayer hijab"),
+          placeholder("subcat-prayer-instant-hijab-2", "Close-up of instant prayer hijab construction"),
+        ],
+        colors: [
+          { name: "Ivory", hex: "#f0e9db" },
+          { name: "Sky Blue", hex: "#a9cce3" },
+          { name: "Grey", hex: "#8a8a8a" },
+        ],
+      },
+      {
+        slug: "khimar",
+        name: "Prayer Khimar",
+        shortDescription: "Cape-style khimar cut for prayer, covering the head and shoulders in one pull-on piece.",
+        description:
+          "Prayer khimars adapt our cape-style khimar construction to prayer wear, covering the head, shoulders, and upper torso in one pull-on piece rather than requiring a separate hijab layered over a prayer top. It's a strong alternative for customers who find a separate top-and-hijab combination fiddly to keep in place through a full prayer cycle. Fabric is lightweight and breathable, matching the rest of our prayer wear range rather than our heavier daywear khimar fabric. Offered from 300 pieces per color.",
+        images: [
+          placeholder("subcat-prayer-khimar-1", "Model wearing a cape-style prayer khimar covering the shoulders"),
+          placeholder("subcat-prayer-khimar-2", "Close-up of prayer khimar fabric and construction"),
+        ],
+        colors: [
+          { name: "Ivory", hex: "#f0e9db" },
+          { name: "Sage", hex: "#9caf88" },
+          { name: "Grey", hex: "#8a8a8a" },
+        ],
+      },
+      {
+        slug: "travel-set",
+        name: "Travel Prayer Set",
+        shortDescription: "Compact folding set packed in its own drawstring pouch for travel and daily commuting.",
+        description:
+          "Travel prayer sets are cut from a lighter, more compressible fabric specifically so the set folds down small enough to carry daily rather than only for occasional use, packaged in its own drawstring pouch. This is the SKU distributors sell hardest to commuting professionals and frequent travelers who pray away from home multiple times a day. The pouch is available in branded private label finishes for retail gifting. Offered from 300 pieces per color.",
+        images: [
+          placeholder("subcat-prayer-travel-set-1", "Model holding a compact travel prayer set in its drawstring pouch"),
+          placeholder("subcat-prayer-travel-set-2", "Close-up of travel prayer set fabric folded compactly"),
+        ],
+        colors: [
+          { name: "Ivory", hex: "#f0e9db" },
+          { name: "Grey", hex: "#8a8a8a" },
+          { name: "Sky Blue", hex: "#a9cce3" },
+        ],
+      },
+      {
+        slug: "kids-set",
+        name: "Kids Prayer Set",
+        shortDescription: "Sized-down prayer set in the same lightweight fabric and construction as our adult range.",
+        description:
+          "Kids prayer sets scale our standard two-piece construction down to a junior size range, addressing a gap several distributors have flagged for family and gifting bundles that currently stop at adult sizing. Fabric, elastic placement, and finishing match our adult prayer wear line exactly, just graded to a smaller pattern rather than simplified. It's most often ordered alongside an adult set for a matching mother-daughter gifting bundle. Offered from 200 sets per color.",
+        images: [
+          placeholder("subcat-prayer-kids-set-1", "Close-up of kids prayer set fabric and construction detail"),
+          placeholder("subcat-prayer-kids-set-2", "Close-up of kids prayer set stitching and elastic waistband"),
+        ],
+        colors: [
+          { name: "Ivory", hex: "#f0e9db" },
+          { name: "Sky Blue", hex: "#a9cce3" },
+          { name: "Dusty Rose", hex: "#c98f8f" },
+        ],
+      },
+      {
+        slug: "cotton",
+        name: "Cotton Prayer Wear",
+        shortDescription: "Breathable cotton base for buyers whose customers specifically ask for natural fiber.",
+        description:
+          "Cotton prayer wear swaps our standard lightweight synthetic blend for a breathable cotton base, for buyers whose customers specifically ask for natural fiber against the skin during prayer. It trades a small amount of the compressibility our travel-set fabric offers for a softer, more breathable hand-feel over extended wear. Available across our one-piece, two-piece, and three-piece constructions. Offered from 300 pieces per color.",
+        images: [
+          placeholder("subcat-prayer-cotton-1", "Model wearing a breathable cotton prayer dress"),
+          placeholder("subcat-prayer-cotton-2", "Close-up of cotton prayer wear fabric"),
+        ],
+        colors: [
+          { name: "Ivory", hex: "#f0e9db" },
+          { name: "Sage", hex: "#9caf88" },
+          { name: "Grey", hex: "#8a8a8a" },
+        ],
+      },
+      {
+        slug: "jersey",
+        name: "Jersey Prayer Wear",
+        shortDescription: "Stretch jersey construction for a softer, more forgiving fit during movement.",
+        description:
+          "Jersey prayer wear uses a stretch knit base, giving a softer, more forgiving fit through the shoulders and hips during the full range of motion in prayer compared to our standard woven fabric. The added stretch also means one size range comfortably fits a wider body-shape variation than a woven cut. It's a strong option for buyers whose customers have specifically asked for more give in the fabric. Offered from 300 pieces per color.",
+        images: [
+          placeholder("subcat-prayer-jersey-1", "Model wearing a stretch jersey prayer set"),
+          placeholder("subcat-prayer-jersey-2", "Close-up of jersey prayer wear fabric texture"),
+        ],
+        colors: [
+          { name: "Ivory", hex: "#f0e9db" },
+          { name: "Sky Blue", hex: "#a9cce3" },
+          { name: "Lavender", hex: "#c9b8e0" },
+        ],
+      },
+      {
+        slug: "embroidered",
+        name: "Embroidered Prayer Wear",
+        shortDescription: "Light embroidery detail at the neckline or hem for a premium gifting-tier prayer set.",
+        description:
+          "Embroidered prayer wear adds a restrained embroidery detail at the neckline, cuff, or hem, positioned as a premium gifting-tier option above our standard plain prayer sets rather than a heavily embellished occasion piece. The embroidery is placed to avoid any seam or stress point that flexes during prayer movement, so it doesn't distort or fray with regular use. It's the style most often chosen for Ramadan and Eid gift sets sold in branded packaging. Offered from 200 sets per color.",
+        images: [
+          placeholder("subcat-prayer-embroidered-1", "Model wearing an embroidered prayer set with neckline detail"),
+          placeholder("subcat-prayer-embroidered-2", "Close-up of embroidery detail on prayer wear fabric"),
+        ],
+        colors: [
+          { name: "Ivory", hex: "#f0e9db" },
+          { name: "Dusty Rose", hex: "#c98f8f" },
+          { name: "Sage", hex: "#9caf88" },
+        ],
+      },
+    ],
   },
   {
     slug: "khimars",

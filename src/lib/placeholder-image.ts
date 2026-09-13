@@ -648,6 +648,30 @@ const SEED_THEME_MAP: Record<string, keyof typeof THEME_PHOTOS> = {
   "subcat-niqabs-half-1": "photo-niqabs-26600740",
   "subcat-niqabs-half-2": "photo-niqabs-36703100",
 
+  // Prayer wear subcategories — drawn from the existing 7-photo
+  // prayer-dresses pool, offset by 3 so the two images per subcategory
+  // are always different.
+  "subcat-prayer-one-piece-1": "photo-prayer-dresses-36212007",
+  "subcat-prayer-one-piece-2": "photo-prayer-dresses-20785719",
+  "subcat-prayer-two-piece-1": "photo-prayer-dresses-36523935",
+  "subcat-prayer-two-piece-2": "photo-prayer-dresses-34464775",
+  "subcat-prayer-three-piece-1": "photo-prayer-dresses-36537147",
+  "subcat-prayer-three-piece-2": "photo-prayer-dresses-34201029",
+  "subcat-prayer-instant-hijab-1": "photo-prayer-dresses-20785719",
+  "subcat-prayer-instant-hijab-2": "photo-prayer-dresses-36405519",
+  "subcat-prayer-khimar-1": "photo-prayer-dresses-34464775",
+  "subcat-prayer-khimar-2": "photo-prayer-dresses-36212007",
+  "subcat-prayer-travel-set-1": "photo-prayer-dresses-34201029",
+  "subcat-prayer-travel-set-2": "photo-prayer-dresses-36523935",
+  "subcat-prayer-kids-set-1": "photo-prayer-dresses-36405519",
+  "subcat-prayer-kids-set-2": "photo-prayer-dresses-36537147",
+  "subcat-prayer-cotton-1": "photo-prayer-dresses-36212007",
+  "subcat-prayer-cotton-2": "photo-prayer-dresses-20785719",
+  "subcat-prayer-jersey-1": "photo-prayer-dresses-36523935",
+  "subcat-prayer-jersey-2": "photo-prayer-dresses-34464775",
+  "subcat-prayer-embroidered-1": "photo-prayer-dresses-36537147",
+  "subcat-prayer-embroidered-2": "photo-prayer-dresses-34201029",
+
   // About page
   "about-hero": "factory-exterior",
   "about-story": "design-desk",
