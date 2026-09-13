@@ -416,7 +416,7 @@ export const blogSeedPosts: BlogPost[] = [
     title: "Hijab Fabric Types Explained: The Complete Guide to Chiffon, Nida, Jersey, Silk & More",
     excerpt:
       "A buyer-focused breakdown of every fabric in our library — weight, drape, climate fit, and which category each one is actually built for — so you can spec fabric with confidence instead of guessing from a swatch.",
-    coverImage: { src: "/fabrics/fabric-library-hero.jpg", alt: "Rolls of fabric arranged by color and texture on a fabric library shelf" },
+    coverImage: { src: "/blog/17329670.jpg", alt: "Stacked bolts of fabric on warehouse shelving showing a range of textile weights and textures" },
     author: "Sana Ansari",
     authorRole: "Head of Product Development",
     publishedAt: "2026-09-05T00:00:00.000Z",

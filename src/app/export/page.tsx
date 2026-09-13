@@ -6,7 +6,7 @@ import { Kicker } from "@/components/ui/Kicker";
 import { LinkButton } from "@/components/ui/Button";
 import { countries, regions } from "@/content/countries";
 import { slugify } from "@/content/locations";
-import { placeholder } from "@/lib/placeholder-image";
+import { locationHeroPhoto } from "@/lib/placeholder-image";
 import { siteConfig } from "@/lib/site-config";
 import { GlobeIcon, TruckIcon, ArrowRightIcon } from "@/components/ui/icons";
 
@@ -29,7 +29,12 @@ export default function ExportPage() {
         kicker="Export"
         title={`Shipping to ${siteConfig.stats.countriesServed}+ Countries`}
         description="From our Mumbai facility, SamNoor exports to wholesale and private label partners across six regions, with full documentation and Incoterm support."
-        image={placeholder("export-hero", "Shipping containers at an export freight terminal")}
+        image={{
+          src: locationHeroPhoto(0),
+          alt: "Container ship being loaded with cargo at a port terminal",
+          width: 1200,
+          height: 900,
+        }}
       />
 
       <section className="py-20 sm:py-24">

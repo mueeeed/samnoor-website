@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Container } from "@/components/ui/Container";
 import { PageHero } from "@/components/ui/PageHero";
 import { locations, locationRegions } from "@/content/locations";
-import { placeholder } from "@/lib/placeholder-image";
+import { locationHeroPhoto } from "@/lib/placeholder-image";
 import { siteConfig } from "@/lib/site-config";
 import { GlobeIcon } from "@/components/ui/icons";
 
@@ -19,7 +19,12 @@ export default function LocationsIndexPage() {
         kicker="Locations"
         title="Where We Ship"
         description={`Wholesale shipping details, freight options, and popular categories for every market we serve — ${siteConfig.stats.countriesServed}+ countries plus domestic distribution across India.`}
-        image={placeholder("export-hero", "Shipping containers at an export freight terminal")}
+        image={{
+          src: locationHeroPhoto(1),
+          alt: "Warehouse racking stacked with export cartons ready for wholesale shipment",
+          width: 1200,
+          height: 900,
+        }}
       />
 
       <section className="py-20 sm:py-24">

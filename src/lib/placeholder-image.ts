@@ -148,6 +148,33 @@ const THEME_PHOTOS: Record<string, string> = {
   "photo-khimars-38244092": "/products/khimars/38244092.jpg",
   "photo-khimars-34201033": "/products/khimars/34201033.jpg",
   "photo-islamic-inner-caps-13067900": "/products/islamic-inner-caps/13067900.jpg",
+
+  // Location-hero photos — a dedicated pool of logistics/shipping/warehouse
+  // photography so no two of the ~52 country/city pages (or /export,
+  // /locations) show the same hero image. Kept separate from the
+  // manufacturing-page theme photos above (factory-exterior etc.) and from
+  // the blog cover photos so those don't collide with this pool either.
+  "location-hero-21234960": "/locations/21234960.jpg",
+  "location-hero-35458829": "/locations/35458829.jpg",
+  "location-hero-27402391": "/locations/27402391.jpg",
+  "location-hero-31244440": "/locations/31244440.jpg",
+  "location-hero-34106183": "/locations/34106183.jpg",
+  "location-hero-20581299": "/locations/20581299.jpg",
+  "location-hero-24702865": "/locations/24702865.jpg",
+  "location-hero-36091628": "/locations/36091628.jpg",
+  "location-hero-1624694": "/locations/1624694.jpg",
+  "location-hero-93106": "/locations/93106.jpg",
+  "location-hero-8555366": "/locations/8555366.jpg",
+  "location-hero-11666903": "/locations/11666903.jpg",
+  "location-hero-29786116": "/locations/29786116.jpg",
+  "location-hero-1427541": "/locations/1427541.jpg",
+  "location-hero-4277794": "/locations/4277794.jpg",
+  "location-hero-4487363": "/locations/4487363.jpg",
+  "location-hero-4481327": "/locations/4481327.jpg",
+  "location-hero-27099093": "/locations/27099093.jpg",
+  "location-hero-209251": "/locations/209251.jpg",
+  "location-hero-906494": "/locations/906494.jpg",
+  "blog-fabric-rolls-shelf": "/blog/17329670.jpg",
 };
 
 /** Maps every content seed used across the site to one of the themes above. */
@@ -420,6 +447,85 @@ const SEED_THEME_MAP: Record<string, keyof typeof THEME_PHOTOS> = {
   "gallery-fabric-1": "fabric-swatch-cards",
   "gallery-team-1": "qc-inspection",
 };
+
+const CATEGORY_SLUGS_WITH_PHOTO_POOLS = [
+  "hijabs",
+  "abayas",
+  "niqabs",
+  "prayer-dresses",
+  "khimars",
+  "jilbabs",
+  "islamic-inner-caps",
+  "scarves",
+  "instant-hijabs",
+  "sports-hijabs",
+  "luxury-hijabs",
+] as const;
+
+/**
+ * Every distinct, visually-verified product photo available for a category,
+ * keyed by category slug. Lets pages that reference a category from many
+ * places (e.g. every location page's "Popular Categories" widget) show a
+ * different photo per placement instead of one static image repeated
+ * everywhere that category is linked.
+ */
+export const CATEGORY_PHOTO_POOLS: Record<string, string[]> = Object.fromEntries(
+  CATEGORY_SLUGS_WITH_PHOTO_POOLS.map((slug) => {
+    const prefix = `photo-${slug}-`;
+    const pool = Object.entries(THEME_PHOTOS)
+      .filter(([key]) => key.startsWith(prefix))
+      .map(([, url]) => url);
+    if (slug === "islamic-inner-caps") {
+      pool.push(THEME_PHOTOS["innercap-rows"], THEME_PHOTOS["innercap-model"]);
+    }
+    return [slug, pool];
+  })
+);
+
+/** Picks a category's photo deterministically by index instead of always the
+ * category's single canonical card image, so repeated placements diverge. */
+export function categoryPhotoForIndex(categorySlug: string, index: number): string | undefined {
+  const pool = CATEGORY_PHOTO_POOLS[categorySlug];
+  if (!pool || pool.length === 0) return undefined;
+  return pool[index % pool.length];
+}
+
+const LOCATION_HERO_SEEDS = [
+  "location-hero-21234960",
+  "location-hero-35458829",
+  "location-hero-27402391",
+  "location-hero-31244440",
+  "location-hero-34106183",
+  "location-hero-20581299",
+  "location-hero-24702865",
+  "location-hero-36091628",
+  "location-hero-1624694",
+  "location-hero-93106",
+  "location-hero-8555366",
+  "location-hero-11666903",
+  "location-hero-29786116",
+  "location-hero-1427541",
+  "location-hero-4277794",
+  "location-hero-4487363",
+  "location-hero-4481327",
+  "location-hero-27099093",
+  "location-hero-209251",
+  "location-hero-906494",
+  "factory-exterior",
+  "factory-floor-wide",
+  "qc-inspection",
+  "cutting-table",
+  "design-desk",
+  "trade-exhibition-booth",
+  "certification-documents",
+] as const;
+
+/** Picks a hero photo for a location page by index so the ~52 country/city
+ * pages don't all show the identical shipping-container hero image. */
+export function locationHeroPhoto(index: number): string {
+  const seed = LOCATION_HERO_SEEDS[index % LOCATION_HERO_SEEDS.length];
+  return THEME_PHOTOS[seed];
+}
 
 /**
  * Resolves a content seed to a real, verified stock photo where mapped,

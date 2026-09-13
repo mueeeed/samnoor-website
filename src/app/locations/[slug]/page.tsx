@@ -8,7 +8,7 @@ import { Kicker } from "@/components/ui/Kicker";
 import { ContactForm } from "@/components/forms/ContactForm";
 import { locations, getLocationBySlug } from "@/content/locations";
 import { getCategoryBySlug } from "@/content/categories";
-import { placeholder } from "@/lib/placeholder-image";
+import { locationHeroPhoto, categoryPhotoForIndex } from "@/lib/placeholder-image";
 import { siteConfig } from "@/lib/site-config";
 import { GlobeIcon, TruckIcon, ClockIcon } from "@/components/ui/icons";
 
@@ -33,7 +33,13 @@ export default async function LocationPage({ params }: { params: Promise<{ slug:
   if (!location) notFound();
 
   const categories = location.popularCategories.map(getCategoryBySlug).filter((c) => c !== undefined);
-  const heroImage = placeholder("export-hero", "Shipping containers at an export freight terminal");
+  const locationIndex = locations.findIndex((l) => l.slug === location.slug);
+  const heroImage = {
+    src: locationHeroPhoto(locationIndex + 2),
+    alt: `Export logistics and shipping operations serving wholesale buyers in ${location.name}`,
+    width: 1200,
+    height: 900,
+  };
   const isDomestic = location.kind === "city";
 
   const title = isDomestic
@@ -93,7 +99,7 @@ export default async function LocationPage({ params }: { params: Promise<{ slug:
                 className="group relative flex aspect-[3/4] flex-col justify-end overflow-hidden rounded-sm border border-line"
               >
                 <Image
-                  src={category.cardImage.src}
+                  src={categoryPhotoForIndex(category.slug, locationIndex) ?? category.cardImage.src}
                   alt={category.cardImage.alt}
                   fill
                   sizes="(min-width: 1024px) 22vw, 45vw"
