@@ -4,7 +4,7 @@ export const siteConfig = {
   tagline: "Crafting Modesty with Excellence",
   description:
     "SamNoor is a hijab and abaya manufacturer based in Mumbai, India, producing wholesale modest wear for distributors, boutiques, and private label brands in over 40 countries.",
-  url: "https://www.samnoor.com",
+  url: "https://samnoor.in",
   ogImage: "https://images.pexels.com/photos/10898230/pexels-photo-10898230.jpeg?auto=compress&cs=tinysrgb&w=1600",
   founded: 2009,
   contact: {
