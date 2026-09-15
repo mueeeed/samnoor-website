@@ -8,8 +8,8 @@ export const siteConfig = {
   ogImage: "https://images.pexels.com/photos/10898230/pexels-photo-10898230.jpeg?auto=compress&cs=tinysrgb&w=1600",
   founded: 2009,
   contact: {
-    email: "export@samnoor.com",
-    salesEmail: "sales@samnoor.com",
+    email: "export@samnoor.in",
+    salesEmail: "sales@samnoor.in",
     phone: "+91 22 4012 5678",
     whatsapp: "919820045678",
     address: {
