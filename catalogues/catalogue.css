@@ -1,0 +1,191 @@
+:root {
+  --noir: #0b3226;
+  --noir-soft: #124a38;
+  --gold: #cdb787;
+  --gold-soft: #e6dab9;
+  --gold-deep: #a68f5f;
+  --cream: #f4efdf;
+  --paper: #faf6ec;
+  --panel-alt: #f1ead8;
+  --heading: #1b1f1a;
+  --ink: #322f28;
+  --muted: #7a7469;
+  --line: #e7ddc8;
+  --accent: #0d8a5f;
+  --display: "Cormorant Garamond", "Palatino Linotype", Georgia, serif;
+  --body: "Jost", "Segoe UI", system-ui, sans-serif;
+}
+
+@page {
+  size: A4;
+  margin: 15mm 13mm 16mm;
+  @top-left { content: "__RUNNING_HEAD__"; font: 400 7.5pt var(--body); color: #a68f5f; letter-spacing: 0.08em; text-transform: uppercase; }
+  @top-right { content: "samnoor.in"; font: 400 7.5pt var(--body); color: #a68f5f; letter-spacing: 0.08em; }
+  @bottom-right { content: counter(page); font: 500 8pt var(--body); color: #7a7469; }
+  @bottom-left { content: "MOQ 25 pcs per pattern per colour · Sample charges ₹3,000 flat · Indicative prices, ex-factory Mumbai"; font: 300 7pt var(--body); color: #7a7469; }
+}
+@page cover { margin: 0; @top-left { content: none; } @top-right { content: none; } @bottom-right { content: none; } @bottom-left { content: none; } }
+
+* { box-sizing: border-box; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+html, body { margin: 0; background: #fff; color: var(--ink); font: 300 9.4pt/1.5 var(--body); }
+@media screen {
+  body { background: #e9e4d6; }
+  section { background: #fff; max-width: 210mm; margin: 0 auto 8mm; padding: 14mm 13mm; box-shadow: 0 2px 12px rgba(0,0,0,.08); }
+  section.cover { padding: 18mm 16mm; }
+}
+@media screen and (max-width: 640px) {
+  section { padding: 16px; }
+  .cols, .fgrid, .stats, .cgrid, .facts { grid-template-columns: 1fr !important; }
+  .ptable, .mtx { display: block; overflow-x: auto; }
+}
+
+h1, h2, h3, h4 { font-family: var(--display); color: var(--heading); font-weight: 600; margin: 0; line-height: 1.12; }
+b { font-weight: 500; color: var(--heading); }
+
+/* images: never cropped — natural aspect ratio, scaled to fit */
+img { display: block; max-width: 100%; height: auto; width: auto; object-fit: contain; margin: 0 auto; }
+figure { margin: 0; }
+
+/* ------------------------------------------------ cover */
+.cover {
+  page: cover; break-after: page; width: 210mm; height: 297mm; overflow: hidden;
+  background: radial-gradient(ellipse at 50% 0%, #124a38 0%, #0b3226 60%, #072219 100%);
+  color: var(--cream); padding: 18mm 16mm; display: flex; flex-direction: column; align-items: center; text-align: center;
+}
+.cover .logo { width: 82mm; margin-top: 2mm; }
+.cover .ctag { font: 400 8.5pt var(--body); letter-spacing: 0.32em; text-transform: uppercase; color: var(--gold); margin-top: 4mm; }
+.cover h1 { color: var(--cream); font-size: 44pt; font-weight: 500; margin-top: 9mm; letter-spacing: 0.01em; }
+.cover h1 span { display: block; font: 300 11pt var(--body); letter-spacing: 0.26em; text-transform: uppercase; color: var(--gold-soft); margin-top: 4mm; }
+.cover .cyear { margin-top: 5mm; font-size: 9pt; color: var(--gold); letter-spacing: 0.08em; }
+.cover .cimg { margin-top: 9mm; padding: 2.2mm; border: 0.6mm solid var(--gold-deep); background: rgba(205,183,135,.08); }
+.cover .cimg img { max-height: 118mm; max-width: 176mm; }
+.cover .cterms { margin-top: 5mm; display: flex; gap: 4mm; }
+.cover .cterms span { border: 0.3mm solid var(--gold); color: var(--gold-soft); font: 500 8.5pt var(--body); letter-spacing: 0.08em; padding: 1.6mm 4mm; }
+.terms { display: grid; grid-template-columns: 1fr 1fr; gap: 3mm; margin: 0 0 4mm; }
+.terms div { background: var(--noir); color: var(--cream); padding: 3mm 4mm; font: 600 13pt var(--display); }
+.terms b { display: block; font: 500 7pt var(--body); letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold); margin-bottom: 0.8mm; }
+.cover .csub { margin-top: 7mm; font: 400 9pt var(--body); color: var(--gold-soft); letter-spacing: 0.06em; max-width: 160mm; }
+.cover .cfoot { margin-top: auto; display: flex; gap: 10mm; font-size: 8.5pt; color: var(--gold); letter-spacing: 0.08em; border-top: 0.3mm solid rgba(205,183,135,.4); padding-top: 4mm; width: 100%; justify-content: center; }
+.back { justify-content: center; break-after: auto; }
+.back .contact { margin-top: 14mm; display: grid; grid-template-columns: 1fr 1fr; gap: 6mm 12mm; text-align: left; max-width: 160mm; }
+.back .contact div { font-size: 10pt; color: var(--cream); }
+.back .contact b { display: block; color: var(--gold); font-weight: 400; font-size: 7.5pt; letter-spacing: 0.22em; text-transform: uppercase; margin-bottom: 1mm; }
+.back .csub { margin-top: 18mm; font-size: 8pt; opacity: .8; }
+
+/* ------------------------------------------------ generic pages */
+.page { break-before: page; }
+.ph { font-size: 25pt; color: var(--noir); padding-bottom: 2.5mm; border-bottom: 0.4mm solid var(--gold); margin-bottom: 5mm; }
+.sh { font-size: 14pt; color: var(--noir); margin: 6mm 0 2.5mm; }
+.body { margin: 0 0 3mm; text-align: justify; hyphens: auto; }
+.small { font-size: 8.4pt; color: var(--muted); }
+.note { background: var(--panel-alt); border-left: 1.2mm solid var(--gold-deep); padding: 3.5mm 4.5mm; font-size: 9pt; margin-bottom: 4mm; }
+.cols { display: grid; grid-template-columns: 1fr 1fr; gap: 7mm; }
+.minihead { font: 500 7.5pt var(--body); letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold-deep); margin: 2.5mm 0 1.5mm; }
+
+.stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 3mm; margin: 5mm 0 2mm; }
+.stats div { background: var(--noir); color: var(--gold-soft); padding: 4mm; font-size: 8pt; letter-spacing: 0.04em; }
+.stats b { display: block; font: 600 21pt var(--display); color: var(--gold); margin-bottom: 0.5mm; }
+.toc { margin: 0; padding: 0; list-style: none; counter-reset: t; }
+.toc li { display: flex; justify-content: space-between; gap: 6mm; padding: 2mm 0; border-bottom: 0.25mm dotted var(--line); }
+.toc li b { font: 600 12pt var(--display); color: var(--noir); }
+.toc li span { color: var(--muted); font-size: 8.6pt; text-align: right; }
+
+ul.ticks { margin: 0; padding: 0; list-style: none; }
+ul.ticks li { position: relative; padding-left: 5mm; margin: 0 0 1.4mm; }
+ul.ticks li::before { content: ""; position: absolute; left: 0.6mm; top: 1.7mm; width: 1.6mm; height: 1.6mm; background: var(--gold-deep); transform: rotate(45deg); }
+ul.ticks.two { columns: 2; column-gap: 8mm; }
+ol.steps { margin: 0; padding: 0; list-style: none; counter-reset: s; }
+ol.steps li { counter-increment: s; position: relative; padding: 0 0 3.5mm 11mm; }
+ol.steps li::before { content: counter(s); position: absolute; left: 0; top: 0; width: 7mm; height: 7mm; border-radius: 50%; background: var(--noir); color: var(--gold); font: 600 10pt/7mm var(--display); text-align: center; }
+ol.steps li b { display: block; font: 600 11.5pt var(--display); color: var(--noir); }
+
+table { width: 100%; border-collapse: collapse; }
+table.spec th, table.spec td { text-align: left; padding: 1.5mm 2mm; border-bottom: 0.25mm solid var(--line); vertical-align: top; font-size: 8.6pt; }
+table.spec th { font-weight: 500; color: var(--heading); width: 40%; }
+table.spec.c3 th { width: auto; white-space: nowrap; }
+table.spec thead th { background: var(--noir); color: var(--gold-soft); font-weight: 400; letter-spacing: 0.06em; font-size: 7.8pt; text-transform: uppercase; }
+
+/* ------------------------------------------------ fabric guide */
+.fgrid { display: grid; grid-template-columns: 1fr 1fr; gap: 4mm 6mm; }
+.fcard { break-inside: avoid; border: 0.25mm solid var(--line); background: var(--paper); padding: 3mm; display: grid; grid-template-columns: 34mm 1fr; gap: 3.5mm; align-items: start; }
+.fcard figure { background: #fff; padding: 1mm; border: 0.25mm solid var(--line); }
+.fcard img { max-height: 34mm; }
+.fcard h4 { font-size: 13pt; color: var(--noir); }
+.fcard h4 span { display: block; font: 500 7.6pt var(--body); color: var(--accent); letter-spacing: 0.06em; margin-top: 0.5mm; }
+.fcard p { font-size: 7.8pt; line-height: 1.42; margin: 1.5mm 0; color: var(--ink); }
+.tags { display: flex; flex-wrap: wrap; gap: 1mm; }
+.tags span { font-size: 6.8pt; background: var(--gold-soft); color: var(--noir); padding: 0.4mm 1.6mm; border-radius: 3mm; }
+
+.bars { margin: 4mm 0; }
+.bar { display: grid; grid-template-columns: 38mm 1fr 20mm; align-items: center; gap: 3mm; margin-bottom: 1.6mm; font-size: 8.4pt; }
+.bt { position: relative; height: 3.4mm; background: var(--panel-alt); border-radius: 2mm; }
+.bt i { position: absolute; top: 0; bottom: 0; background: linear-gradient(90deg, var(--gold), var(--noir-soft)); border-radius: 2mm; min-width: 2mm; }
+.bv { color: var(--muted); font-size: 7.8pt; text-align: right; }
+
+/* ------------------------------------------------ dividers */
+.divider { break-before: page; break-after: page; text-align: center; padding-top: 4mm; }
+.divider .dnum { font: 600 54pt var(--display); color: var(--gold); line-height: 1; }
+.divider h2 { font-size: 32pt; color: var(--noir); margin-top: 1mm; }
+.divider .dintro { max-width: 150mm; margin: 3mm auto 5mm; color: var(--muted); font-size: 10pt; }
+.divider .hero { border: 0.5mm solid var(--gold); padding: 1.6mm; display: inline-block; }
+.divider .hero img { max-height: 112mm; }
+.divider .prose { text-align: justify; margin-top: 5mm; font-size: 8.8pt; columns: 2; column-gap: 7mm; }
+.divider .prose p { margin: 0 0 2.4mm; }
+
+.collections .cgrid { display: grid; grid-template-columns: 1fr 1fr; gap: 5mm; }
+.collections figure { border: 0.25mm solid var(--line); background: var(--paper); padding: 2.5mm; break-inside: avoid; }
+.collections img { max-height: 80mm; }
+.collections figcaption { margin-top: 2mm; font-size: 8pt; color: var(--muted); text-align: center; }
+.collections figcaption b { display: block; font: 600 13pt var(--display); color: var(--noir); }
+
+/* ------------------------------------------------ type / product blocks */
+.item { break-inside: avoid; padding: 5mm 0 6mm; border-bottom: 0.4mm solid var(--gold-soft); }
+.item:last-child { border-bottom: 0; }
+.item-head .kicker { font: 500 7.4pt var(--body); letter-spacing: 0.22em; text-transform: uppercase; color: var(--gold-deep); }
+.item-head h3 { font-size: 21pt; color: var(--noir); margin-top: 0.6mm; }
+.item-head .lede { margin: 1mm 0 3mm; font-size: 9.6pt; color: var(--muted); font-style: italic; }
+.badges { display: flex; gap: 1.5mm; margin: -1.5mm 0 3mm; }
+.badge { font-size: 6.8pt; letter-spacing: 0.1em; text-transform: uppercase; background: var(--noir); color: var(--gold); padding: 0.6mm 2mm; }
+
+.figs { display: grid; gap: 3mm; margin-bottom: 3.5mm; align-items: center; }
+.figs.n1 { grid-template-columns: 1fr; }
+.figs.n2 { grid-template-columns: 1fr 1fr; }
+.figs.n3 { grid-template-columns: 1fr 1fr 1fr; }
+.figs figure { background: var(--paper); border: 0.25mm solid var(--line); padding: 1.5mm; height: 100%; display: flex; flex-direction: column; justify-content: center; }
+.figs.n1 img { max-height: 86mm; }
+.figs.n2 img { max-height: 80mm; }
+.figs.n3 img { max-height: 62mm; }
+.figs figcaption { font-size: 6.6pt; color: var(--muted); text-align: center; margin-top: 1.2mm; line-height: 1.3; }
+
+.facts { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2mm; margin: 2mm 0 3mm; }
+.facts > div { background: var(--panel-alt); padding: 2mm 2.5mm; font-size: 8.4pt; }
+.facts .wide { grid-column: 1 / -1; }
+.facts b { display: block; font-size: 6.8pt; letter-spacing: 0.18em; text-transform: uppercase; color: var(--gold-deep); font-weight: 500; margin-bottom: 0.6mm; }
+.swatches { display: flex; flex-wrap: wrap; gap: 1.2mm 3mm; }
+.sw { display: inline-flex; align-items: center; gap: 1.2mm; font-size: 7.8pt; }
+.sw i { width: 3.6mm; height: 3.6mm; border-radius: 50%; border: 0.25mm solid rgba(0,0,0,.25); display: inline-block; }
+
+.product .cols { grid-template-columns: 1.15fr 1fr; gap: 6mm; margin-bottom: 3mm; }
+.product .spec th { width: 34%; }
+
+/* price tables */
+.ptable { break-inside: avoid; margin-top: 2mm; border: 0.3mm solid var(--gold-deep); }
+.ptitle { background: var(--noir); color: var(--gold); font: 600 11pt var(--display); padding: 1.8mm 3mm; display: flex; justify-content: space-between; align-items: baseline; }
+.ptitle span { font: 400 7pt var(--body); color: var(--gold-soft); letter-spacing: 0.12em; text-transform: uppercase; }
+.ptable th { background: var(--gold-soft); color: var(--noir); font-weight: 500; font-size: 7.2pt; text-align: left; padding: 1.4mm 2mm; letter-spacing: 0.04em; }
+.ptable td { padding: 1.5mm 2mm; border-top: 0.25mm solid var(--line); font-size: 8.2pt; vertical-align: top; }
+.ptable tr.std td { background: #eef5ef; }
+.ptable td.gsm { font-weight: 500; color: var(--heading); white-space: nowrap; }
+.ptable td.gsm em { display: block; font-style: normal; font-size: 6.4pt; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent); }
+.num { text-align: right !important; white-space: nowrap; }
+
+/* master matrix */
+.mtx { font-size: 7.6pt; }
+.mtx thead th { background: var(--noir); color: var(--gold-soft); font-weight: 400; padding: 1.6mm 1.8mm; text-align: left; font-size: 7pt; letter-spacing: 0.06em; text-transform: uppercase; }
+.mtx thead { display: table-header-group; }
+.mtx td { padding: 1mm 1.8mm; border-top: 0.2mm solid var(--line); vertical-align: top; }
+.mtx tr { break-inside: avoid; }
+.mtx tr.first td { border-top: 0.35mm solid var(--gold-soft); }
+.mtx tr.std td:not(.mname) { background: #eef5ef; }
+.mtx td.mname { font-weight: 500; color: var(--noir); width: 30mm; background: var(--paper); }
+.mtx tr.grp td { background: var(--gold-soft); font: 600 11pt var(--display); color: var(--noir); padding: 1.6mm 2mm; }

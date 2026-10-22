@@ -8,6 +8,8 @@ import { placeholder } from "@/lib/placeholder-image";
 export const metadata: Metadata = {
   title: "Factory Gallery",
   description: "A look inside SamNoor's Mumbai production facility — cutting, stitching, embroidery, packaging, and export.",
+  keywords: ["hijab factory photos", "abaya manufacturing facility", "modest wear factory Mumbai", "garment factory gallery India"],
+  alternates: { canonical: "/gallery" },
 };
 
 export default function GalleryPage() {

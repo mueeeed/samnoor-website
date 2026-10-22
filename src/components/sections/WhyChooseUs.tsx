@@ -16,8 +16,8 @@ import {
 const REASONS = [
   {
     Icon: ShieldIcon,
-    title: "Certified Quality",
-    description: "ISO 9001, OEKO-TEX, WRAP, and SEDEX/SMETA audited manufacturing with in-line and pre-shipment inspection.",
+    title: "Rigorous Quality Control",
+    description: "In-line inspection during cutting and stitching, plus a pre-final and randomized final audit before any shipment ships.",
   },
   {
     Icon: ClockIcon,
@@ -47,7 +47,7 @@ const REASONS = [
 ];
 
 export function WhyChooseUs() {
-  const image = placeholder("cert-hero", "Quality inspector reviewing certification documents", 1600, 500);
+  const image = placeholder("mfg-banner", "Wide view of the SamNoor factory production floor", 1600, 500);
 
   return (
     <section className="bg-panel-alt py-20 sm:py-24">
@@ -73,7 +73,7 @@ export function WhyChooseUs() {
         </div>
 
         <Link
-          href="/certifications"
+          href="/manufacturing"
           className="group relative mt-5 flex aspect-[21/6] w-full items-end overflow-hidden rounded-sm border border-line sm:aspect-[21/4]"
         >
           <Image
@@ -86,7 +86,7 @@ export function WhyChooseUs() {
           <div className="absolute inset-0 bg-gradient-to-r from-noir/85 via-noir/40 to-transparent" />
           <div className="relative z-10 flex flex-wrap items-center justify-between gap-3 p-5 sm:p-7">
             <span className="font-heading text-base font-semibold text-cream sm:text-lg">
-              ISO 9001, OEKO-TEX &amp; SEDEX/SMETA Certified &mdash; See Our Certifications
+              One Factory, Full Vertical Control &mdash; See Our Manufacturing Process
             </span>
             <span className="inline-flex shrink-0 items-center gap-1.5 text-sm font-medium text-gold-soft">
               View all

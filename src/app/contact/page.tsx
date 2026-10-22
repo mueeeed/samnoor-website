@@ -10,6 +10,8 @@ import { MailIcon, PhoneIcon, MapPinIcon, ClockIcon, WhatsAppIcon } from "@/comp
 export const metadata: Metadata = {
   title: "Contact",
   description: "Get in touch with SamNoor's export sales team for a wholesale quotation, private label inquiry, or general question.",
+  keywords: ["contact hijab manufacturer", "contact abaya supplier", "wholesale quotation request", "SamNoor contact"],
+  alternates: { canonical: "/contact" },
 };
 
 export default function ContactPage() {

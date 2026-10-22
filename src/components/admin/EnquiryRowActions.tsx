@@ -1,29 +1,35 @@
 "use client";
 
 import { useState } from "react";
-import { useRouter } from "next/navigation";
-import type { Enquiry } from "@/lib/enquiry-store";
+import type { Enquiry } from "@/content/types";
 
-export function EnquiryRowActions({ id, status }: { id: string; status: Enquiry["status"] }) {
-  const router = useRouter();
+export function EnquiryRowActions({
+  id,
+  status,
+  onChanged,
+}: {
+  id: string;
+  status: Enquiry["status"];
+  onChanged: () => void;
+}) {
   const [busy, setBusy] = useState(false);
 
   async function setStatus(next: Enquiry["status"]) {
     setBusy(true);
-    await fetch(`/api/admin/enquiries/${id}`, {
+    await fetch(`/php-api/admin/enquiries.php?id=${id}`, {
       method: "PATCH",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ status: next }),
     });
-    router.refresh();
+    onChanged();
     setBusy(false);
   }
 
   async function handleDelete() {
     if (!window.confirm("Delete this enquiry?")) return;
     setBusy(true);
-    await fetch(`/api/admin/enquiries/${id}`, { method: "DELETE" });
-    router.refresh();
+    await fetch(`/php-api/admin/enquiries.php?id=${id}`, { method: "DELETE" });
+    onChanged();
     setBusy(false);
   }
 

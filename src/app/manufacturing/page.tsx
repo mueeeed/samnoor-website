@@ -1,17 +1,22 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import Link from "next/link";
 import { Container } from "@/components/ui/Container";
 import { PageHero } from "@/components/ui/PageHero";
 import { Kicker } from "@/components/ui/Kicker";
 import { placeholder } from "@/lib/placeholder-image";
 import { siteConfig } from "@/lib/site-config";
-import { certifications } from "@/content/certifications";
-import { ArrowRightIcon, ShieldIcon } from "@/components/ui/icons";
 
 export const metadata: Metadata = {
   title: "Abaya Manufacturing Process & Factory Capabilities",
   description: "Inside SamNoor's Mumbai production facility — how a hijab and abaya manufacturer in India runs inspection, cutting, stitching, embroidery, QC, and packaging under one roof.",
+  keywords: [
+    "abaya manufacturing process",
+    "hijab factory India",
+    "modest wear production facility",
+    "garment manufacturing capabilities Mumbai",
+    "quality control abaya manufacturer",
+  ],
+  alternates: { canonical: "/manufacturing" },
 };
 
 const PROCESS = [
@@ -75,30 +80,6 @@ export default function ManufacturingPage() {
                 </div>
               );
             })}
-          </div>
-        </Container>
-      </section>
-
-      <section className="bg-panel-alt py-20 sm:py-24">
-        <Container>
-          <Kicker>Certified</Kicker>
-          <h2 className="mt-4 mb-10 font-heading text-2xl font-semibold text-heading sm:text-3xl">Audited to International Standard</h2>
-          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {certifications.map((cert) => (
-              <div key={cert.name} className="card-premium flex items-start gap-3 p-5">
-                <ShieldIcon width={20} height={20} className="mt-0.5 shrink-0 text-accent" />
-                <div>
-                  <h3 className="font-heading text-sm font-semibold text-heading">{cert.name}</h3>
-                  <p className="mt-1 text-xs text-muted">{cert.description}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-          <div className="mt-8 text-center">
-            <Link href="/certifications" className="inline-flex items-center gap-1.5 font-body text-sm font-medium text-accent hover:underline">
-              View all certifications
-              <ArrowRightIcon width={15} height={15} />
-            </Link>
           </div>
         </Container>
       </section>

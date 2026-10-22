@@ -5,9 +5,13 @@ import { products } from "@/content/products";
 import { fabrics } from "@/content/fabrics";
 import { locations } from "@/content/locations";
 import { glossaryTerms } from "@/content/glossary";
-import { getPublishedPosts } from "@/lib/blog-store";
 
-export const revalidate = 300;
+// Blog posts are excluded here and served instead by the dynamic
+// /php-api/blog-sitemap.php (declared in robots.ts) — this file is baked
+// into static HTML at build time, so it can't reflect posts published or
+// edited later through the PHP-backed admin panel.
+
+export const dynamic = "force-static";
 
 const staticRoutes = [
   "",
@@ -17,7 +21,6 @@ const staticRoutes = [
   "/private-label",
   "/fabrics",
   "/export",
-  "/certifications",
   "/gallery",
   "/blog",
   "/faq",
@@ -61,13 +64,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }))
   );
 
-  const blogEntries: MetadataRoute.Sitemap = getPublishedPosts().map((p) => ({
-    url: `${siteConfig.url}/blog/${p.slug}`,
-    lastModified: new Date(p.updatedAt || p.publishedAt),
-    changeFrequency: "monthly",
-    priority: 0.6,
-  }));
-
   const fabricEntries: MetadataRoute.Sitemap = fabrics.map((f) => ({
     url: `${siteConfig.url}/fabrics/${f.slug}`,
     lastModified: now,
@@ -94,7 +90,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...categoryEntries,
     ...productEntries,
     ...subcategoryEntries,
-    ...blogEntries,
     ...fabricEntries,
     ...locationEntries,
     ...glossaryEntries,

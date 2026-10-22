@@ -1,13 +1,25 @@
+"use client";
+
+import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { Container } from "@/components/ui/Container";
-import { getPublishedPosts } from "@/lib/blog-store";
 import { formatDate } from "@/lib/utils";
 import { Kicker } from "@/components/ui/Kicker";
 import { ArrowRightIcon } from "@/components/ui/icons";
+import type { BlogPost } from "@/content/types";
 
 export function BlogPreview() {
-  const blogPosts = getPublishedPosts().slice(0, 3);
+  const [posts, setPosts] = useState<BlogPost[]>([]);
+
+  useEffect(() => {
+    fetch("/php-api/posts-public.php?action=list")
+      .then((res) => (res.ok ? res.json() : { posts: [] }))
+      .then((data) => setPosts((data.posts || []).slice(0, 3)))
+      .catch(() => setPosts([]));
+  }, []);
+
+  if (posts.length === 0) return null;
 
   return (
     <section className="py-20 sm:py-24">
@@ -24,7 +36,7 @@ export function BlogPreview() {
         </div>
 
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-          {blogPosts.map((post) => (
+          {posts.map((post) => (
             <Link key={post.slug} href={`/blog/${post.slug}`} className="card-premium group flex flex-col gap-4 overflow-hidden">
               <div className="relative aspect-[4/3] w-full overflow-hidden">
                 <Image

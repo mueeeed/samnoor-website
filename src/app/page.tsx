@@ -18,10 +18,6 @@ export const metadata: Metadata = {
   alternates: { canonical: "/" },
 };
 
-// The Journal preview reads live blog data from disk, so this page is
-// revalidated periodically rather than only at build time.
-export const revalidate = 300;
-
 export default function HomePage() {
   return (
     <>

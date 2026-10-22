@@ -80,7 +80,7 @@ export const glossaryTerms: GlossaryTerm[] = [
       "OEKO-TEX Standard 100 is an independent certification that tests finished textiles against limits for regulated and banned substances — certain azo dyes, formaldehyde, heavy metals, pesticide residues, and chlorinated phenols among others. Limits scale by product class, with garments worn in direct, sustained contact with skin (like hijabs and inner caps) held to the strictest thresholds in the standard. It is a testable, specific standard rather than a general ethical label, and buyers should ask for the underlying test report, not just the certificate logo, when verifying a supplier's claim.",
     category: "Quality & Compliance",
     relatedSlugs: ["iso-9001", "aql"],
-    relatedLinks: [{ label: "Fabric Testing: What OEKO-TEX Actually Checks", href: "/blog/fabric-testing-what-oeko-tex-actually-checks" }, { label: "Certifications", href: "/certifications" }],
+    relatedLinks: [{ label: "Fabric Testing: What OEKO-TEX Actually Checks", href: "/blog/fabric-testing-what-oeko-tex-actually-checks" }],
   },
   {
     slug: "iso-9001",
@@ -90,7 +90,6 @@ export const glossaryTerms: GlossaryTerm[] = [
       "ISO 9001 is an internationally recognized standard for quality management systems. Certification confirms that a manufacturer has documented, consistently applied processes for production planning, inspection, corrective action, and continuous improvement — it certifies the manufacturer's process discipline rather than any single product or fabric. For a wholesale buyer, ISO 9001 certification is a reasonable signal that defects are more likely to be caught and traced to a root cause rather than treated as one-off incidents.",
     category: "Quality & Compliance",
     relatedSlugs: ["oeko-tex-standard-100", "aql"],
-    relatedLinks: [{ label: "Certifications", href: "/certifications" }],
   },
   {
     slug: "wrap-certification",
@@ -100,7 +99,6 @@ export const glossaryTerms: GlossaryTerm[] = [
       "WRAP (Worldwide Responsible Accredited Production) is a social compliance certification program that audits manufacturing facilities against standards covering labor practices, workplace health and safety, environmental practices, and legal compliance. It's one of several recognized social audits (alongside SEDEX/SMETA and BSCI) that buyers increasingly ask about alongside product quality certifications, particularly for brands building an ethical sourcing narrative into their own positioning.",
     category: "Quality & Compliance",
     relatedSlugs: ["sedex-smeta", "bsci"],
-    relatedLinks: [{ label: "Certifications", href: "/certifications" }],
   },
   {
     slug: "sedex-smeta",
@@ -110,7 +108,6 @@ export const glossaryTerms: GlossaryTerm[] = [
       "SEDEX (Supplier Ethical Data Exchange) is a platform for sharing supply chain data, and SMETA (SEDEX Members Ethical Trade Audit) is the audit methodology most commonly run through it. Together they form one of the most widely requested social compliance frameworks in global apparel sourcing, assessing a facility against four pillars: labor standards, health and safety, environmental performance, and business ethics. Buyers building a socially responsible supply chain narrative frequently require a current SMETA audit report as a condition of onboarding a new supplier.",
     category: "Quality & Compliance",
     relatedSlugs: ["wrap-certification", "bsci"],
-    relatedLinks: [{ label: "Certifications", href: "/certifications" }],
   },
   {
     slug: "bsci",
@@ -120,7 +117,6 @@ export const glossaryTerms: GlossaryTerm[] = [
       "BSCI (Business Social Compliance Initiative, now part of amfori) is a social compliance auditing system widely used by European retailers to assess supplier labor practices, working hours, wages, and workplace safety. It's frequently requested alongside or as an alternative to SEDEX/SMETA depending on which framework a buyer's own retail partners require.",
     category: "Quality & Compliance",
     relatedSlugs: ["sedex-smeta", "wrap-certification"],
-    relatedLinks: [{ label: "Certifications", href: "/certifications" }],
   },
   {
     slug: "aql",

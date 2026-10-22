@@ -1,12 +1,21 @@
 import type { Metadata } from "next";
 import { Container } from "@/components/ui/Container";
 import { PageHero } from "@/components/ui/PageHero";
-import { getFaqsByCategory } from "@/content/faqs";
+import { faqs, getFaqsByCategory } from "@/content/faqs";
 import { placeholder } from "@/lib/placeholder-image";
+import { FaqSchema } from "@/components/seo/FaqSchema";
 
 export const metadata: Metadata = {
   title: "FAQs",
   description: "Answers to common questions about ordering, MOQs, private label, fabrics, quality, and shipping with SamNoor.",
+  keywords: [
+    "hijab wholesale FAQ",
+    "abaya MOQ",
+    "private label modest wear FAQ",
+    "hijab manufacturer questions",
+    "wholesale modest fashion ordering process",
+  ],
+  alternates: { canonical: "/faq" },
 };
 
 export default function FaqPage() {
@@ -14,6 +23,7 @@ export default function FaqPage() {
 
   return (
     <>
+      <FaqSchema faqs={faqs.map(({ question, answer }) => ({ question, answer }))} />
       <PageHero
         kicker="Support"
         title="Frequently Asked Questions"

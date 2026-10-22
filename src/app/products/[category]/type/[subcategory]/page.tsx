@@ -11,6 +11,7 @@ import { ContactForm } from "@/components/forms/ContactForm";
 import { categories, getSubcategory } from "@/content/categories";
 import { getProductsByCategory } from "@/content/products";
 import { ArrowRightIcon } from "@/components/ui/icons";
+import { BreadcrumbSchema } from "@/components/seo/BreadcrumbSchema";
 
 export async function generateStaticParams() {
   return categories.flatMap((category) =>
@@ -29,7 +30,19 @@ export async function generateMetadata({
   const { category, subcategory } = await params;
   const match = getSubcategory(category, subcategory);
   if (!match) return {};
-  return { title: match.subcategory.name, description: match.subcategory.shortDescription };
+  const keywords = [
+    match.subcategory.name,
+    `${match.subcategory.name} wholesale`,
+    `${match.subcategory.name} manufacturer`,
+    `${match.subcategory.name} supplier India`,
+    ...match.category.keywords,
+  ];
+  return {
+    title: match.subcategory.name,
+    description: match.subcategory.shortDescription,
+    keywords,
+    alternates: { canonical: `/products/${category}/type/${subcategory}` },
+  };
 }
 
 export default async function SubcategoryPage({
@@ -54,6 +67,14 @@ export default async function SubcategoryPage({
 
   return (
     <>
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", path: "/" },
+          { name: "Products", path: "/products" },
+          { name: category.name, path: `/products/${category.slug}` },
+          { name: subcategory.name, path: `/products/${category.slug}/type/${subcategory.slug}` },
+        ]}
+      />
       <Container className="pt-6">
         <nav className="flex flex-wrap items-center gap-2 text-xs text-muted">
           <Link href="/" className="hover:text-accent">Home</Link>
@@ -130,8 +151,8 @@ export default async function SubcategoryPage({
       {otherSubcategories.length > 0 && (
         <section className="bg-panel-alt py-16 sm:py-20">
           <Container>
-            <Kicker>Explore More Fabrics</Kicker>
-            <h2 className="mt-4 font-heading text-2xl font-semibold text-heading sm:text-3xl">Other {category.name} Fabrics</h2>
+            <Kicker>Explore More Subcategories</Kicker>
+            <h2 className="mt-4 font-heading text-2xl font-semibold text-heading sm:text-3xl">Other {category.name} Subcategories</h2>
             <div className="mt-8 flex flex-wrap gap-3">
               {otherSubcategories.map((other) => (
                 <Link

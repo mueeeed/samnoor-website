@@ -2,8 +2,6 @@ import Link from "next/link";
 import type { ReactNode } from "react";
 import { LogoutButton } from "@/components/admin/LogoutButton";
 
-export const dynamic = "force-dynamic";
-
 export default function AdminDashboardLayout({ children }: { children: ReactNode }) {
   return (
     <div className="min-h-screen bg-paper">

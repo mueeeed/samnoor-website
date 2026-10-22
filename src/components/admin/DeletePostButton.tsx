@@ -1,18 +1,16 @@
 "use client";
 
 import { useState } from "react";
-import { useRouter } from "next/navigation";
 
-export function DeletePostButton({ id, title }: { id: string; title: string }) {
-  const router = useRouter();
+export function DeletePostButton({ id, title, onDeleted }: { id: string; title: string; onDeleted: () => void }) {
   const [deleting, setDeleting] = useState(false);
 
   async function handleDelete() {
     if (!window.confirm(`Delete "${title}"? This cannot be undone.`)) return;
     setDeleting(true);
-    const res = await fetch(`/api/admin/posts/${id}`, { method: "DELETE" });
+    const res = await fetch(`/php-api/admin/posts.php?id=${id}`, { method: "DELETE" });
     if (res.ok) {
-      router.refresh();
+      onDeleted();
     } else {
       window.alert("Failed to delete post.");
       setDeleting(false);

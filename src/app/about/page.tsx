@@ -3,14 +3,19 @@ import Image from "next/image";
 import { Container } from "@/components/ui/Container";
 import { PageHero } from "@/components/ui/PageHero";
 import { Kicker } from "@/components/ui/Kicker";
-import { certifications } from "@/content/certifications";
 import { placeholder } from "@/lib/placeholder-image";
 import { siteConfig } from "@/lib/site-config";
-import { ShieldIcon } from "@/components/ui/icons";
 
 export const metadata: Metadata = {
   title: "Our Story, Leadership & Philosophy",
   description: "SamNoor's story, philosophy, and leadership team — a Mumbai-based hijab and abaya manufacturer building modest fashion for wholesale partners worldwide.",
+  keywords: [
+    "hijab manufacturer Mumbai",
+    "abaya manufacturer company profile",
+    "modest fashion manufacturer India",
+    "about SamNoor",
+  ],
+  alternates: { canonical: "/about" },
 };
 
 export default function AboutPage() {
@@ -64,28 +69,12 @@ export default function AboutPage() {
               metric we track most closely internally &mdash; not units shipped.
             </p>
             <p className="text-muted">
-              Certification isn&rsquo;t a marketing line for us. ISO 9001, OEKO-TEX, WRAP, and SEDEX/SMETA audits
-              shape how our floor actually runs, from fabric testing to worker conditions.
+              We built our own internal fabric testing and inspection process, and it shapes how our floor
+              actually runs, from fabric testing to worker conditions &mdash; not just what happens at final packing.
             </p>
           </div>
           <div className="relative aspect-[4/3] w-full overflow-hidden rounded-sm border border-line shadow-[0_24px_60px_-32px_rgba(12,12,8,0.4)] lg:order-1">
             <Image src={philosophyImage.src} alt={philosophyImage.alt} fill sizes="(min-width: 1024px) 45vw, 90vw" className="object-cover" />
-          </div>
-        </Container>
-      </section>
-
-      <section className="noir-texture relative bg-noir py-16 text-cream">
-        <Container className="relative z-10">
-          <div className="mb-8 text-center">
-            <h2 className="text-gold-gradient font-heading text-2xl font-semibold sm:text-3xl">Certified &amp; Audited</h2>
-          </div>
-          <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-3">
-            {certifications.map((cert) => (
-              <span key={cert.name} className="flex items-center gap-2 text-sm text-cream/75">
-                <ShieldIcon width={16} height={16} className="text-gold" />
-                {cert.name}
-              </span>
-            ))}
           </div>
         </Container>
       </section>

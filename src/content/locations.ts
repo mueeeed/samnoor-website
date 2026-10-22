@@ -33,7 +33,7 @@ const REGION_PROFILES: Record<string, RegionProfile> = {
     recommendedIncoterm: "FOB from Nhava Sheva for established accounts, or DDP for a first order while you confirm your import broker",
     popularCategories: ["abayas", "khimars", "luxury-hijabs", "jilbabs"],
     introTemplate: (country) =>
-      `${country} is one of our most established export markets, with abaya, khimar, and premium hijab ranges accounting for the largest share of wholesale volume we ship into the region.`,
+      `${country} is one of our most established export markets — abaya, khimar, and premium hijab ranges make up the largest share of wholesale volume we ship into the region.`,
     leadTimeNote: "Sea freight to Gulf ports typically transits in 10 to 16 days from Nhava Sheva; air freight lands in 2 to 4 days for urgent orders.",
   },
   Europe: {
@@ -42,7 +42,7 @@ const REGION_PROFILES: Record<string, RegionProfile> = {
     recommendedIncoterm: "DDP for a first order while you're still building an import customs relationship, moving to FOB once volume is established",
     popularCategories: ["hijabs", "instant-hijabs", "scarves", "sports-hijabs"],
     introTemplate: (country) =>
-      `Buyers in ${country} most often start with our chiffon and jersey hijab ranges before expanding into instant hijabs and scarves as their private label catalog grows.`,
+      `Most buyers in ${country} start with our chiffon and jersey hijab ranges, then expand into instant hijabs and scarves as their private label catalog grows.`,
     leadTimeNote: "Sea freight to major European ports typically transits in 18 to 28 days from Nhava Sheva; air freight lands in 3 to 5 days.",
   },
   "North America": {
@@ -51,7 +51,7 @@ const REGION_PROFILES: Record<string, RegionProfile> = {
     recommendedIncoterm: "DDP or CIF for first-time importers without an established customs broker",
     popularCategories: ["hijabs", "sports-hijabs", "instant-hijabs", "islamic-inner-caps"],
     introTemplate: (country) =>
-      `Wholesale and e-commerce buyers in ${country} typically lead with everyday jersey and instant hijab styles, expanding into abayas and occasion wear as their customer base grows.`,
+      `Wholesale and e-commerce buyers in ${country} typically lead with everyday jersey and instant hijab styles, then expand into abayas and occasion wear as their customer base grows.`,
     leadTimeNote: "Sea freight to North American west coast ports typically transits in 22 to 32 days from Nhava Sheva; air freight lands in 3 to 5 days.",
   },
   Oceania: {
@@ -60,7 +60,7 @@ const REGION_PROFILES: Record<string, RegionProfile> = {
     recommendedIncoterm: "DDP or CIF for a first order",
     popularCategories: ["hijabs", "abayas", "scarves"],
     introTemplate: (country) =>
-      `${country} accounts are typically smaller-volume, higher-frequency wholesale orders, which makes air freight a practical option even outside of sample shipments.`,
+      `Accounts in ${country} tend to place smaller-volume, higher-frequency wholesale orders, which makes air freight a practical option even outside of sample shipments.`,
     leadTimeNote: "Sea freight typically transits in 25 to 35 days from Nhava Sheva; air freight lands in 4 to 6 days.",
   },
   Africa: {
@@ -69,7 +69,7 @@ const REGION_PROFILES: Record<string, RegionProfile> = {
     recommendedIncoterm: "FOB for established freight forwarder relationships, DDP for first-time buyers",
     popularCategories: ["abayas", "jilbabs", "prayer-dresses", "hijabs"],
     introTemplate: (country) =>
-      `${country} buyers most commonly order abaya, jilbab, and prayer dress ranges at volume, alongside a standing hijab program for retail distribution.`,
+      `Buyers in ${country} most commonly order abaya, jilbab, and prayer dress ranges at volume, alongside a standing hijab program for retail distribution.`,
     leadTimeNote: "Sea freight to African ports typically transits in 14 to 24 days from Nhava Sheva depending on destination; air freight lands in 3 to 5 days.",
   },
   Asia: {
@@ -78,7 +78,7 @@ const REGION_PROFILES: Record<string, RegionProfile> = {
     recommendedIncoterm: "FOB from Nhava Sheva is the most common arrangement for regional accounts",
     popularCategories: ["hijabs", "prayer-dresses", "instant-hijabs", "sports-hijabs"],
     introTemplate: (country) =>
-      `${country} is a short-transit market for us, which makes both sea and air freight practical even for smaller test orders before committing to standing volume.`,
+      `${country} sits close enough for a short transit, which makes both sea and air freight practical even for smaller test orders before committing to standing volume.`,
     leadTimeNote: "Sea freight within the region typically transits in 6 to 14 days from Nhava Sheva; air freight lands in 1 to 3 days.",
   },
 };
@@ -89,7 +89,7 @@ const INDIA_PROFILE: Omit<RegionProfile, "introTemplate"> & { introTemplate: (ci
   recommendedIncoterm: "Ex-factory (Mumbai) or delivered pricing to your warehouse, quoted on request",
   popularCategories: ["hijabs", "abayas", "scarves", "islamic-inner-caps"],
   introTemplate: (city) =>
-    `We supply wholesale and retail distribution partners in ${city} directly from our Marol, Mumbai facility, with domestic transit typically faster and lower-cost than any import route.`,
+    `We supply wholesale and retail distribution partners in ${city} directly from our Marol, Mumbai facility — domestic transit here runs faster and cheaper than any import route would.`,
   leadTimeNote: "Domestic road freight to most major Indian cities transits in 2 to 5 days from dispatch.",
 };
 

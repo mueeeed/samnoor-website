@@ -107,9 +107,32 @@ export type BlogPost = {
   readingTime: string;
   category: string;
   tags: string[];
-  /** Sanitized HTML (see `sanitizeBlogHtml` in lib/blog-store.ts) — never render unsanitized. */
+  /** Sanitized HTML (see `sanitize_blog_html` in php-api/lib/security.php) — never render unsanitized. */
   content: string;
   faqs?: { question: string; answer: string }[];
   status: "draft" | "published";
   views: number;
+};
+
+export type Enquiry = {
+  id: string;
+  submittedAt: string;
+  fullName: string;
+  companyName: string;
+  email: string;
+  phone: string;
+  whatsapp?: string;
+  country: string;
+  productCategory: string;
+  interestedProducts: string;
+  quantity: string;
+  targetMarket: string;
+  businessType: string;
+  preferredContactMethod: string;
+  privateLabelRequired: boolean;
+  oemRequired: boolean;
+  customBranding: boolean;
+  message?: string;
+  sourcePage: string;
+  status: "new" | "contacted" | "closed";
 };

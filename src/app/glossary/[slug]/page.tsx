@@ -17,6 +17,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return {
     title: `What Is ${term.term}? — Glossary`,
     description: term.shortDefinition,
+    keywords: [term.term, `${term.term} meaning`, `${term.term} definition`, term.category],
+    alternates: { canonical: `/glossary/${slug}` },
   };
 }
 

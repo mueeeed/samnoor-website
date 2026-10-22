@@ -24,7 +24,17 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     location.kind === "country"
       ? `Hijab & Abaya Wholesale Supplier for ${location.name} Buyers`
       : `Hijab & Abaya Wholesale Supplier in ${location.name}, India`;
-  return { title, description: location.intro };
+  return {
+    title,
+    description: location.intro,
+    keywords: [
+      `hijab supplier ${location.name}`,
+      `abaya supplier ${location.name}`,
+      `modest wear wholesale ${location.name}`,
+      ...location.popularCategories,
+    ],
+    alternates: { canonical: `/locations/${slug}` },
+  };
 }
 
 export default async function LocationPage({ params }: { params: Promise<{ slug: string }> }) {

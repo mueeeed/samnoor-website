@@ -13,6 +13,8 @@ import { categories, getCategoryBySlug } from "@/content/categories";
 import { getProductsByCategory, getProductBySlug } from "@/content/products";
 import { buildImageCaption } from "@/lib/image-caption";
 import { ArrowRightIcon, PackageIcon } from "@/components/ui/icons";
+import { BreadcrumbSchema } from "@/components/seo/BreadcrumbSchema";
+import { FaqSchema } from "@/components/seo/FaqSchema";
 
 export async function generateStaticParams() {
   return categories.map((category) => ({ category: category.slug }));
@@ -25,6 +27,8 @@ export async function generateMetadata({ params }: { params: Promise<{ category:
   return {
     title: category.name,
     description: category.description,
+    keywords: category.keywords,
+    alternates: { canonical: `/products/${category.slug}` },
   };
 }
 
@@ -51,7 +55,60 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
 
   return (
     <>
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", path: "/" },
+          { name: "Products", path: "/products" },
+          { name: category.name, path: `/products/${category.slug}` },
+        ]}
+      />
+      {category.faqs && <FaqSchema faqs={category.faqs} />}
       <PageHero kicker="Category" title={category.name} description={category.description} image={category.heroImage} crumb={category.name} />
+
+      {category.subcategories && category.subcategories.length > 0 && (
+        <section className="py-16 sm:py-20">
+          <Container>
+            <div className="mb-10 flex flex-col gap-4">
+              <Kicker>Subcategories</Kicker>
+              <h2 className="font-heading text-2xl font-semibold text-heading sm:text-3xl">
+                {category.subcategories.length} Subcategories in {category.name}
+              </h2>
+              <p className="max-w-2xl text-muted">
+                Every subcategory we produce in {category.name.toLowerCase()}, each with its own color range, MOQ,
+                and detailed spec &mdash; click through for the full write-up.
+              </p>
+            </div>
+            <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+              {category.subcategories.map((subcategory) => (
+                <Link
+                  key={subcategory.slug}
+                  href={`/products/${category.slug}/type/${subcategory.slug}`}
+                  className="group card-premium flex flex-col overflow-hidden"
+                >
+                  <div className="relative aspect-[4/3] w-full overflow-hidden">
+                    <Image
+                      src={subcategory.images[0]?.src}
+                      alt={subcategory.images[0]?.alt ?? subcategory.name}
+                      fill
+                      sizes="(min-width: 1024px) 32vw, 90vw"
+                      className="object-cover transition-transform duration-700 group-hover:scale-110"
+                    />
+                  </div>
+                  <div className="flex flex-1 flex-col gap-2.5 p-5">
+                    <h3 className="font-heading text-base font-semibold text-heading group-hover:text-accent">
+                      {subcategory.name}
+                    </h3>
+                    <p className="text-sm leading-relaxed text-muted">{subcategory.shortDescription}</p>
+                    <div className="mt-auto pt-2">
+                      <ColorSwatches colors={subcategory.colors.slice(0, 6)} size="sm" showLabels={false} />
+                    </div>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </Container>
+        </section>
+      )}
 
       {collections.length > 0 && (
         <section className="py-16 sm:py-20">
@@ -80,51 +137,6 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
                   <div className="relative flex flex-col gap-0.5 p-4 text-cream">
                     <span className="text-[0.65rem] font-medium uppercase tracking-widest text-gold-soft">Collection</span>
                     <span className="font-heading text-sm font-semibold leading-tight">{name}</span>
-                  </div>
-                </Link>
-              ))}
-            </div>
-          </Container>
-        </section>
-      )}
-
-      {category.subcategories && category.subcategories.length > 0 && (
-        <section className="py-16 sm:py-20">
-          <Container>
-            <div className="mb-10 flex flex-col gap-4">
-              <Kicker>Shop by Fabric &amp; Finish</Kicker>
-              <h2 className="font-heading text-2xl font-semibold text-heading sm:text-3xl">
-                {category.subcategories.length} {category.name} Fabrics
-              </h2>
-              <p className="max-w-2xl text-muted">
-                Every fabric and finish we produce in {category.name.toLowerCase()}, each with its own color range,
-                MOQ, and detailed spec &mdash; click through for the full write-up.
-              </p>
-            </div>
-            <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-              {category.subcategories.map((subcategory) => (
-                <Link
-                  key={subcategory.slug}
-                  href={`/products/${category.slug}/type/${subcategory.slug}`}
-                  className="group card-premium flex flex-col overflow-hidden"
-                >
-                  <div className="relative aspect-[4/3] w-full overflow-hidden">
-                    <Image
-                      src={subcategory.images[0]?.src}
-                      alt={subcategory.images[0]?.alt ?? subcategory.name}
-                      fill
-                      sizes="(min-width: 1024px) 32vw, 90vw"
-                      className="object-cover transition-transform duration-700 group-hover:scale-110"
-                    />
-                  </div>
-                  <div className="flex flex-1 flex-col gap-2.5 p-5">
-                    <h3 className="font-heading text-base font-semibold text-heading group-hover:text-accent">
-                      {subcategory.name}
-                    </h3>
-                    <p className="text-sm leading-relaxed text-muted">{subcategory.shortDescription}</p>
-                    <div className="mt-auto pt-2">
-                      <ColorSwatches colors={subcategory.colors.slice(0, 6)} size="sm" showLabels={false} />
-                    </div>
                   </div>
                 </Link>
               ))}

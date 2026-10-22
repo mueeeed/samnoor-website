@@ -10,6 +10,8 @@ import { ContactForm } from "@/components/forms/ContactForm";
 import { getCategoryBySlug } from "@/content/categories";
 import { products, getProductBySlug, getRelatedProducts } from "@/content/products";
 import { CheckIcon, ArrowRightIcon, ShieldIcon, TruckIcon } from "@/components/ui/icons";
+import { BreadcrumbSchema } from "@/components/seo/BreadcrumbSchema";
+import { ProductSchema } from "@/components/seo/ProductSchema";
 
 export async function generateStaticParams() {
   return products.map((product) => ({ category: product.categorySlug, product: product.slug }));
@@ -23,7 +25,21 @@ export async function generateMetadata({
   const { category, product: productSlug } = await params;
   const product = getProductBySlug(category, productSlug);
   if (!product) return {};
-  return { title: product.name, description: product.shortDescription };
+  const categoryData = getCategoryBySlug(category);
+  const keywords = [
+    product.name,
+    ...product.fabrics,
+    categoryData ? `${categoryData.name} wholesale` : undefined,
+    categoryData ? `${categoryData.name} manufacturer` : undefined,
+    `${product.name} wholesale supplier`,
+    `${product.name} manufacturer India`,
+  ].filter((k): k is string => Boolean(k));
+  return {
+    title: product.name,
+    description: product.shortDescription,
+    keywords,
+    alternates: { canonical: `/products/${category}/${productSlug}` },
+  };
 }
 
 export default async function ProductPage({ params }: { params: Promise<{ category: string; product: string }> }) {
@@ -36,6 +52,15 @@ export default async function ProductPage({ params }: { params: Promise<{ catego
 
   return (
     <>
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", path: "/" },
+          { name: "Products", path: "/products" },
+          ...(category ? [{ name: category.name, path: `/products/${category.slug}` }] : []),
+          { name: product.name, path: `/products/${categorySlug}/${product.slug}` },
+        ]}
+      />
+      <ProductSchema product={product} categoryName={category?.name ?? categorySlug} />
       <Container className="pt-6">
         <nav className="flex flex-wrap items-center gap-2 text-xs text-muted">
           <Link href="/" className="hover:text-accent">Home</Link>
@@ -143,7 +168,7 @@ export default async function ProductPage({ params }: { params: Promise<{ catego
             <div className="mt-2 flex flex-col gap-2 rounded-sm border border-line bg-panel-alt p-4">
               <div className="flex items-center gap-2.5 text-sm text-ink">
                 <ShieldIcon width={16} height={16} className="shrink-0 text-accent" />
-                In-line inspected, ISO 9001 &amp; OEKO-TEX certified production
+                In-line inspected production with pre-final and final shipment audits
               </div>
               <div className="flex items-center gap-2.5 text-sm text-ink">
                 <TruckIcon width={16} height={16} className="shrink-0 text-accent" />

@@ -57,7 +57,7 @@ export function ContactForm({ defaultCategory, defaultInterest, sourcePage, clas
     };
 
     try {
-      const res = await fetch("/api/enquiry", {
+      const res = await fetch("/php-api/enquiry.php", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload),

@@ -36,12 +36,15 @@ yarn-error.log*
 # vercel
 .vercel
 
-# local sqlite data
-/data/
+# PHP backend runtime state — lives on the deployed server, not shipped by
+# code deploys. blog-posts.json is tracked (it's the initial seed content);
+# everything else here is created at runtime.
+/php-api/data/enquiries.json
+/php-api/data/newsletter-subscribers.json
+/php-api/data/rate-limit.json
+/php-api/config.php
 
-# blog CMS state and uploads — this is server data that lives on the
-# deployed machine, not something re-shipped by code deploys (see
-# src/lib/blog-store.ts for the reasoning)
+# blog CMS uploads — same reasoning as above
 /public/uploads/
 
 # typescript
@@ -56,3 +59,6 @@ next-env.d.ts
 
 # Raw source images (large, already processed into public/fabrics and other used assets)
 /Assets/
+
+# Session task log — kept local since it records credentials in plain text
+/TASKS.md

@@ -1,0 +1,38 @@
+# Security headers — these used to be set by next.config.ts's headers()
+# function, which isn't available once the site is exported to static
+# files, so they're applied here instead at the Apache level.
+<IfModule mod_headers.c>
+    Header always set X-Frame-Options "DENY"
+    Header always set X-Content-Type-Options "nosniff"
+    Header always set Referrer-Policy "strict-origin-when-cross-origin"
+    Header always set X-DNS-Prefetch-Control "off"
+    Header always set Strict-Transport-Security "max-age=63072000; includeSubDomains; preload"
+    Header always set Permissions-Policy "camera=(), microphone=(), geolocation=(), payment=(), usb=(), interest-cohort=()"
+    Header always set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com; img-src 'self' data: https: blob:; connect-src 'self'; media-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests"
+
+    <FilesMatch "\.(?:html)$">
+        Header always set X-Robots-Tag "noindex, nofollow, noarchive" env=IS_ADMIN
+    </FilesMatch>
+</IfModule>
+
+<IfModule mod_setenvif.c>
+    SetEnvIf Request_URI "^/admin/" IS_ADMIN
+</IfModule>
+
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/css application/javascript application/json image/svg+xml
+</IfModule>
+
+ErrorDocument 404 /404.html
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # /blog/<any-slug>/ is a single static shell (blog/post/) that fetches
+    # the actual post from php-api at runtime — this lets posts created or
+    # edited after this export was built still resolve at a clean URL,
+    # without needing a full site rebuild for every new post.
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^blog/[^/]+/?$ /blog/post/index.html [L]
+</IfModule>

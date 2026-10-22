@@ -1,0 +1,1043 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>SamNoor Abaya Catalogue</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>:root {
+  --noir: #0b3226;
+  --noir-soft: #124a38;
+  --gold: #cdb787;
+  --gold-soft: #e6dab9;
+  --gold-deep: #a68f5f;
+  --cream: #f4efdf;
+  --paper: #faf6ec;
+  --panel-alt: #f1ead8;
+  --heading: #1b1f1a;
+  --ink: #322f28;
+  --muted: #7a7469;
+  --line: #e7ddc8;
+  --accent: #0d8a5f;
+  --display: "Cormorant Garamond", "Palatino Linotype", Georgia, serif;
+  --body: "Jost", "Segoe UI", system-ui, sans-serif;
+}
+
+@page {
+  size: A4;
+  margin: 15mm 13mm 16mm;
+  @top-left { content: "SamNoor · Abaya Wholesale Catalogue 2026–27"; font: 400 7.5pt var(--body); color: #a68f5f; letter-spacing: 0.08em; text-transform: uppercase; }
+  @top-right { content: "samnoor.in"; font: 400 7.5pt var(--body); color: #a68f5f; letter-spacing: 0.08em; }
+  @bottom-right { content: counter(page); font: 500 8pt var(--body); color: #7a7469; }
+  @bottom-left { content: "MOQ 25 pcs per pattern per colour · Sample charges ₹3,000 flat · Indicative prices, ex-factory Mumbai"; font: 300 7pt var(--body); color: #7a7469; }
+}
+@page cover { margin: 0; @top-left { content: none; } @top-right { content: none; } @bottom-right { content: none; } @bottom-left { content: none; } }
+
+* { box-sizing: border-box; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+html, body { margin: 0; background: #fff; color: var(--ink); font: 300 9.4pt/1.5 var(--body); }
+@media screen {
+  body { background: #e9e4d6; }
+  section { background: #fff; max-width: 210mm; margin: 0 auto 8mm; padding: 14mm 13mm; box-shadow: 0 2px 12px rgba(0,0,0,.08); }
+  section.cover { padding: 18mm 16mm; }
+}
+@media screen and (max-width: 640px) {
+  section { padding: 16px; }
+  .cols, .fgrid, .stats, .cgrid, .facts { grid-template-columns: 1fr !important; }
+  .ptable, .mtx { display: block; overflow-x: auto; }
+}
+
+h1, h2, h3, h4 { font-family: var(--display); color: var(--heading); font-weight: 600; margin: 0; line-height: 1.12; }
+b { font-weight: 500; color: var(--heading); }
+
+/* images: never cropped — natural aspect ratio, scaled to fit */
+img { display: block; max-width: 100%; height: auto; width: auto; object-fit: contain; margin: 0 auto; }
+figure { margin: 0; }
+
+/* ------------------------------------------------ cover */
+.cover {
+  page: cover; break-after: page; width: 210mm; height: 297mm; overflow: hidden;
+  background: radial-gradient(ellipse at 50% 0%, #124a38 0%, #0b3226 60%, #072219 100%);
+  color: var(--cream); padding: 18mm 16mm; display: flex; flex-direction: column; align-items: center; text-align: center;
+}
+.cover .logo { width: 82mm; margin-top: 2mm; }
+.cover .ctag { font: 400 8.5pt var(--body); letter-spacing: 0.32em; text-transform: uppercase; color: var(--gold); margin-top: 4mm; }
+.cover h1 { color: var(--cream); font-size: 44pt; font-weight: 500; margin-top: 9mm; letter-spacing: 0.01em; }
+.cover h1 span { display: block; font: 300 11pt var(--body); letter-spacing: 0.26em; text-transform: uppercase; color: var(--gold-soft); margin-top: 4mm; }
+.cover .cyear { margin-top: 5mm; font-size: 9pt; color: var(--gold); letter-spacing: 0.08em; }
+.cover .cimg { margin-top: 9mm; padding: 2.2mm; border: 0.6mm solid var(--gold-deep); background: rgba(205,183,135,.08); }
+.cover .cimg img { max-height: 118mm; max-width: 176mm; }
+.cover .cterms { margin-top: 5mm; display: flex; gap: 4mm; }
+.cover .cterms span { border: 0.3mm solid var(--gold); color: var(--gold-soft); font: 500 8.5pt var(--body); letter-spacing: 0.08em; padding: 1.6mm 4mm; }
+.terms { display: grid; grid-template-columns: 1fr 1fr; gap: 3mm; margin: 0 0 4mm; }
+.terms div { background: var(--noir); color: var(--cream); padding: 3mm 4mm; font: 600 13pt var(--display); }
+.terms b { display: block; font: 500 7pt var(--body); letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold); margin-bottom: 0.8mm; }
+.cover .csub { margin-top: 7mm; font: 400 9pt var(--body); color: var(--gold-soft); letter-spacing: 0.06em; max-width: 160mm; }
+.cover .cfoot { margin-top: auto; display: flex; gap: 10mm; font-size: 8.5pt; color: var(--gold); letter-spacing: 0.08em; border-top: 0.3mm solid rgba(205,183,135,.4); padding-top: 4mm; width: 100%; justify-content: center; }
+.back { justify-content: center; break-after: auto; }
+.back .contact { margin-top: 14mm; display: grid; grid-template-columns: 1fr 1fr; gap: 6mm 12mm; text-align: left; max-width: 160mm; }
+.back .contact div { font-size: 10pt; color: var(--cream); }
+.back .contact b { display: block; color: var(--gold); font-weight: 400; font-size: 7.5pt; letter-spacing: 0.22em; text-transform: uppercase; margin-bottom: 1mm; }
+.back .csub { margin-top: 18mm; font-size: 8pt; opacity: .8; }
+
+/* ------------------------------------------------ generic pages */
+.page { break-before: page; }
+.ph { font-size: 25pt; color: var(--noir); padding-bottom: 2.5mm; border-bottom: 0.4mm solid var(--gold); margin-bottom: 5mm; }
+.sh { font-size: 14pt; color: var(--noir); margin: 6mm 0 2.5mm; }
+.body { margin: 0 0 3mm; text-align: justify; hyphens: auto; }
+.small { font-size: 8.4pt; color: var(--muted); }
+.note { background: var(--panel-alt); border-left: 1.2mm solid var(--gold-deep); padding: 3.5mm 4.5mm; font-size: 9pt; margin-bottom: 4mm; }
+.cols { display: grid; grid-template-columns: 1fr 1fr; gap: 7mm; }
+.minihead { font: 500 7.5pt var(--body); letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold-deep); margin: 2.5mm 0 1.5mm; }
+
+.stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 3mm; margin: 5mm 0 2mm; }
+.stats div { background: var(--noir); color: var(--gold-soft); padding: 4mm; font-size: 8pt; letter-spacing: 0.04em; }
+.stats b { display: block; font: 600 21pt var(--display); color: var(--gold); margin-bottom: 0.5mm; }
+.toc { margin: 0; padding: 0; list-style: none; counter-reset: t; }
+.toc li { display: flex; justify-content: space-between; gap: 6mm; padding: 2mm 0; border-bottom: 0.25mm dotted var(--line); }
+.toc li b { font: 600 12pt var(--display); color: var(--noir); }
+.toc li span { color: var(--muted); font-size: 8.6pt; text-align: right; }
+
+ul.ticks { margin: 0; padding: 0; list-style: none; }
+ul.ticks li { position: relative; padding-left: 5mm; margin: 0 0 1.4mm; }
+ul.ticks li::before { content: ""; position: absolute; left: 0.6mm; top: 1.7mm; width: 1.6mm; height: 1.6mm; background: var(--gold-deep); transform: rotate(45deg); }
+ul.ticks.two { columns: 2; column-gap: 8mm; }
+ol.steps { margin: 0; padding: 0; list-style: none; counter-reset: s; }
+ol.steps li { counter-increment: s; position: relative; padding: 0 0 3.5mm 11mm; }
+ol.steps li::before { content: counter(s); position: absolute; left: 0; top: 0; width: 7mm; height: 7mm; border-radius: 50%; background: var(--noir); color: var(--gold); font: 600 10pt/7mm var(--display); text-align: center; }
+ol.steps li b { display: block; font: 600 11.5pt var(--display); color: var(--noir); }
+
+table { width: 100%; border-collapse: collapse; }
+table.spec th, table.spec td { text-align: left; padding: 1.5mm 2mm; border-bottom: 0.25mm solid var(--line); vertical-align: top; font-size: 8.6pt; }
+table.spec th { font-weight: 500; color: var(--heading); width: 40%; }
+table.spec.c3 th { width: auto; white-space: nowrap; }
+table.spec thead th { background: var(--noir); color: var(--gold-soft); font-weight: 400; letter-spacing: 0.06em; font-size: 7.8pt; text-transform: uppercase; }
+
+/* ------------------------------------------------ fabric guide */
+.fgrid { display: grid; grid-template-columns: 1fr 1fr; gap: 4mm 6mm; }
+.fcard { break-inside: avoid; border: 0.25mm solid var(--line); background: var(--paper); padding: 3mm; display: grid; grid-template-columns: 34mm 1fr; gap: 3.5mm; align-items: start; }
+.fcard figure { background: #fff; padding: 1mm; border: 0.25mm solid var(--line); }
+.fcard img { max-height: 34mm; }
+.fcard h4 { font-size: 13pt; color: var(--noir); }
+.fcard h4 span { display: block; font: 500 7.6pt var(--body); color: var(--accent); letter-spacing: 0.06em; margin-top: 0.5mm; }
+.fcard p { font-size: 7.8pt; line-height: 1.42; margin: 1.5mm 0; color: var(--ink); }
+.tags { display: flex; flex-wrap: wrap; gap: 1mm; }
+.tags span { font-size: 6.8pt; background: var(--gold-soft); color: var(--noir); padding: 0.4mm 1.6mm; border-radius: 3mm; }
+
+.bars { margin: 4mm 0; }
+.bar { display: grid; grid-template-columns: 38mm 1fr 20mm; align-items: center; gap: 3mm; margin-bottom: 1.6mm; font-size: 8.4pt; }
+.bt { position: relative; height: 3.4mm; background: var(--panel-alt); border-radius: 2mm; }
+.bt i { position: absolute; top: 0; bottom: 0; background: linear-gradient(90deg, var(--gold), var(--noir-soft)); border-radius: 2mm; min-width: 2mm; }
+.bv { color: var(--muted); font-size: 7.8pt; text-align: right; }
+
+/* ------------------------------------------------ dividers */
+.divider { break-before: page; break-after: page; text-align: center; padding-top: 4mm; }
+.divider .dnum { font: 600 54pt var(--display); color: var(--gold); line-height: 1; }
+.divider h2 { font-size: 32pt; color: var(--noir); margin-top: 1mm; }
+.divider .dintro { max-width: 150mm; margin: 3mm auto 5mm; color: var(--muted); font-size: 10pt; }
+.divider .hero { border: 0.5mm solid var(--gold); padding: 1.6mm; display: inline-block; }
+.divider .hero img { max-height: 112mm; }
+.divider .prose { text-align: justify; margin-top: 5mm; font-size: 8.8pt; columns: 2; column-gap: 7mm; }
+.divider .prose p { margin: 0 0 2.4mm; }
+
+.collections .cgrid { display: grid; grid-template-columns: 1fr 1fr; gap: 5mm; }
+.collections figure { border: 0.25mm solid var(--line); background: var(--paper); padding: 2.5mm; break-inside: avoid; }
+.collections img { max-height: 80mm; }
+.collections figcaption { margin-top: 2mm; font-size: 8pt; color: var(--muted); text-align: center; }
+.collections figcaption b { display: block; font: 600 13pt var(--display); color: var(--noir); }
+
+/* ------------------------------------------------ type / product blocks */
+.item { break-inside: avoid; padding: 5mm 0 6mm; border-bottom: 0.4mm solid var(--gold-soft); }
+.item:last-child { border-bottom: 0; }
+.item-head .kicker { font: 500 7.4pt var(--body); letter-spacing: 0.22em; text-transform: uppercase; color: var(--gold-deep); }
+.item-head h3 { font-size: 21pt; color: var(--noir); margin-top: 0.6mm; }
+.item-head .lede { margin: 1mm 0 3mm; font-size: 9.6pt; color: var(--muted); font-style: italic; }
+.badges { display: flex; gap: 1.5mm; margin: -1.5mm 0 3mm; }
+.badge { font-size: 6.8pt; letter-spacing: 0.1em; text-transform: uppercase; background: var(--noir); color: var(--gold); padding: 0.6mm 2mm; }
+
+.figs { display: grid; gap: 3mm; margin-bottom: 3.5mm; align-items: center; }
+.figs.n1 { grid-template-columns: 1fr; }
+.figs.n2 { grid-template-columns: 1fr 1fr; }
+.figs.n3 { grid-template-columns: 1fr 1fr 1fr; }
+.figs figure { background: var(--paper); border: 0.25mm solid var(--line); padding: 1.5mm; height: 100%; display: flex; flex-direction: column; justify-content: center; }
+.figs.n1 img { max-height: 86mm; }
+.figs.n2 img { max-height: 80mm; }
+.figs.n3 img { max-height: 62mm; }
+.figs figcaption { font-size: 6.6pt; color: var(--muted); text-align: center; margin-top: 1.2mm; line-height: 1.3; }
+
+.facts { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2mm; margin: 2mm 0 3mm; }
+.facts > div { background: var(--panel-alt); padding: 2mm 2.5mm; font-size: 8.4pt; }
+.facts .wide { grid-column: 1 / -1; }
+.facts b { display: block; font-size: 6.8pt; letter-spacing: 0.18em; text-transform: uppercase; color: var(--gold-deep); font-weight: 500; margin-bottom: 0.6mm; }
+.swatches { display: flex; flex-wrap: wrap; gap: 1.2mm 3mm; }
+.sw { display: inline-flex; align-items: center; gap: 1.2mm; font-size: 7.8pt; }
+.sw i { width: 3.6mm; height: 3.6mm; border-radius: 50%; border: 0.25mm solid rgba(0,0,0,.25); display: inline-block; }
+
+.product .cols { grid-template-columns: 1.15fr 1fr; gap: 6mm; margin-bottom: 3mm; }
+.product .spec th { width: 34%; }
+
+/* price tables */
+.ptable { break-inside: avoid; margin-top: 2mm; border: 0.3mm solid var(--gold-deep); }
+.ptitle { background: var(--noir); color: var(--gold); font: 600 11pt var(--display); padding: 1.8mm 3mm; display: flex; justify-content: space-between; align-items: baseline; }
+.ptitle span { font: 400 7pt var(--body); color: var(--gold-soft); letter-spacing: 0.12em; text-transform: uppercase; }
+.ptable th { background: var(--gold-soft); color: var(--noir); font-weight: 500; font-size: 7.2pt; text-align: left; padding: 1.4mm 2mm; letter-spacing: 0.04em; }
+.ptable td { padding: 1.5mm 2mm; border-top: 0.25mm solid var(--line); font-size: 8.2pt; vertical-align: top; }
+.ptable tr.std td { background: #eef5ef; }
+.ptable td.gsm { font-weight: 500; color: var(--heading); white-space: nowrap; }
+.ptable td.gsm em { display: block; font-style: normal; font-size: 6.4pt; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent); }
+.num { text-align: right !important; white-space: nowrap; }
+
+/* master matrix */
+.mtx { font-size: 7.6pt; }
+.mtx thead th { background: var(--noir); color: var(--gold-soft); font-weight: 400; padding: 1.6mm 1.8mm; text-align: left; font-size: 7pt; letter-spacing: 0.06em; text-transform: uppercase; }
+.mtx thead { display: table-header-group; }
+.mtx td { padding: 1mm 1.8mm; border-top: 0.2mm solid var(--line); vertical-align: top; }
+.mtx tr { break-inside: avoid; }
+.mtx tr.first td { border-top: 0.35mm solid var(--gold-soft); }
+.mtx tr.std td:not(.mname) { background: #eef5ef; }
+.mtx td.mname { font-weight: 500; color: var(--noir); width: 30mm; background: var(--paper); }
+.mtx tr.grp td { background: var(--gold-soft); font: 600 11pt var(--display); color: var(--noir); padding: 1.6mm 2mm; }
+</style></head><body><section class="cover">
+    <img class="logo" src="../Assets/logonew.png" alt="SamNoor">
+    <div class="ctag">Crafting Modesty with Excellence</div>
+    <h1>Abaya Collection<span>Wholesale Catalogue &amp; GSM Price Guide</span></h1>
+    <div class="cyear">Edition 2026 – 27 · Manufactured in Mumbai, India</div>
+    <div class="cterms"><span>MOQ 25 pieces per pattern per colour</span><span>Sample charges ₹3,000 flat per sample</span></div>
+    <figure class="cimg"><img src="../public/categories/abayas-hero.jpg" alt=""></figure>
+    <p class="csub">Zoom · Nida · Korean Nida · Crepe · Linen · Embroidered · Bridal</p>
+    <div class="cfoot"><span>sales@samnoor.in</span><span>+91 98331 60709</span><span>samnoor.in</span></div>
+  </section>
+<section class="page">
+    <h2 class="ph">About SamNoor</h2>
+    <p class="body">SamNoor is a hijab and abaya manufacturer based in Mumbai, India, producing wholesale modest wear for distributors, boutiques, and private label brands in over 40 countries. Everything in this catalogue is cut, stitched, finished, inspected and packed at our own Mumbai facility, and every style can be produced under your label.</p>
+    <div class="stats">
+      <div><b>17+</b>years manufacturing (est. 2009)</div>
+      <div><b>42</b>export countries</div>
+      <div><b>2,50,000</b>units monthly capacity</div>
+      <div><b>1,80,000</b>sq ft facility</div>
+      <div><b>620</b>skilled workforce</div>
+      <div><b>1,200+</b>clients worldwide</div>
+    </div>
+    <div class="terms"><div><b>Minimum order</b>25 pieces per pattern per colour</div><div><b>Sample charges</b>₹3,000 flat per sample</div></div>
+    <h3 class="sh">In this catalogue</h3>
+    <ol class="toc"><li><b>Pricing guide</b><span>How prices, GSM, size and volume tiers work, plus branding costs</span></li><li><b>Fabric &amp; GSM guide</b><span>8 abaya fabrics with weight ranges and properties</span></li><li><b>Base fabric prices &amp; style add-ons</b><span>Build any abaya price from fabric + cut</span></li><li><b>Master GSM price matrix</b><span>Every style × GSM on one sheet</span></li><li><b>1 · Abaya styles</b><span>13 silhouettes, including sports abaya</span></li><li><b>2 · Signature abayas</b><span>8 ready-to-order styles with full spec sheets</span></li><li><b>3 · Bridal abayas</b><span>12 bridal and nikah styles</span></li><li><b>Size chart, care, private label &amp; ordering</b><span>Length chart, packing, process and contacts</span></li></ol>
+    <h3 class="sh">Quality checks on every order</h3>
+    <ul class="ticks two">
+      <li>Fabric batches verified for weight (GSM), composition and colourfastness before cutting</li>
+      <li>In-line inspection during cutting and stitching</li>
+      <li>Pre-final inspection before packing</li>
+      <li>Randomised final audit before release</li>
+      <li>Seam strength, tear resistance and dimensional-stability testing</li>
+      <li>Third-party pre-shipment inspection on request</li>
+    </ul>
+  </section>
+<section class="page">
+    <h2 class="ph">How to read the prices</h2>
+    <div class="terms"><div><b>Minimum order (MOQ)</b>25 pieces per pattern per colour</div><div><b>Sample charges</b>₹3,000 flat per sample</div></div>
+    <div class="note"><b>Indicative pricing.</b> Prices in this catalogue are approximate wholesale ranges for planning and comparison. They are ex-factory Mumbai, per piece, for plain stock colours from the MOQ of 25 pieces per pattern per colour, excluding GST, freight, duties and optional branding. Your final price is confirmed in a written quotation (within one business day) once fabric, GSM, size, colours, quantity and packaging are fixed.</div>
+    <div class="cols">
+      <div>
+        <h3 class="sh">Volume pricing</h3>
+        <table class="spec"><thead><tr><th>Order per style</th><th>Price level</th></tr></thead><tbody>
+          <tr><th>25 (MOQ) – 999 pcs</th><td>List range shown in tables</td></tr>
+          <tr><th>1,000 – 2,999 pcs</th><td>approx. 5 – 7% below list</td></tr>
+          <tr><th>3,000 – 9,999 pcs</th><td>approx. 9 – 11% below list (shown as “3,000+”)</td></tr>
+          <tr><th>10,000+ pcs</th><td>approx. 12 – 15% below list, quoted per programme</td></tr>
+        </tbody></table>
+        <h3 class="sh">Reading the GSM tables</h3>
+        <ul class="ticks">
+          <li><b>GSM</b> (grams per square metre) is fabric weight. Higher GSM means more opacity, a heavier drape and a higher price.</li>
+          <li>The row marked <b>standard</b> is the weight we stock and recommend for that style.</li>
+          <li>Silk is graded in <b>momme (mm)</b>. 1 momme ≈ 4.3 GSM, so 19 mm ≈ 82 GSM.</li>
+          <li>Abaya prices cover sizes 52 – 58. Sizes 60 – 62 add about ₹40 – ₹80 per piece. Two- and three-piece sets are priced per complete set.</li>
+          <li>USD figures are converted at ₹88 = US$1 and follow the exchange rate on the quotation date.</li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="sh">Branding &amp; one-time costs</h3>
+        <table class="spec"><tbody><tr><th>Woven brand label</th><td>₹2 – ₹5 / pc</td></tr><tr><th>Printed care / size label</th><td>₹1 – ₹3 / pc</td></tr><tr><th>Printed hang tag with string</th><td>₹3 – ₹8 / pc</td></tr><tr><th>Individual poly bag with logo</th><td>₹2 – ₹4 / pc</td></tr><tr><th>Branded retail card / sleeve (hijabs)</th><td>₹8 – ₹15 / pc</td></tr><tr><th>Rigid gift box (luxury / bridal)</th><td>₹60 – ₹150 / pc</td></tr><tr><th>Custom Pantone lab-dip</th><td>₹1,500 – ₹3,000 per colour (one-time)</td></tr><tr><th>Print strike-off</th><td>₹2,500 – ₹5,000 per design (one-time)</td></tr><tr><th>Sample charges (any style)</th><td>₹3,000 flat per sample</td></tr></tbody></table>
+        <h3 class="sh">Shipping terms</h3>
+        <ul class="ticks">
+          <li>EXW, FOB, CIF and DDP supported. Most accounts buy <b>FOB Mumbai (Nhava Sheva / JNPT)</b>.</li>
+          <li>Air freight, sea freight (FCL / LCL) or express courier.</li>
+          <li>Exports are zero-rated for GST. Domestic orders are billed with GST at the prevailing apparel slab.</li>
+          <li>Commercial invoice, packing list and certificate of origin are prepared for every shipment.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+<section class="page">
+    <h2 class="ph">Abaya fabric &amp; GSM guide</h2>
+    <div class="fgrid"><div class="fcard">
+        <figure><img src="../public/fabrics/zoom.jpg" alt="Zoom fabric"></figure>
+        <div><h4>Zoom<span>120 – 140 GSM</span></h4>
+        <p>Zoom is a lightweight, breathable alternative to Nida, better suited to warmer climates and everyday wear where a lighter hand-feel matters more than structure. It takes color well too, which is part of why it's such a common choice for value-tier abaya and khimar programs.</p>
+        <div class="tags"><span>Lightweight</span><span>Breathable</span><span>Cost-efficient</span><span>Wide color range</span></div></div>
+      </div><div class="fcard">
+        <figure><img src="../public/fabrics/nida.jpg" alt="Nida fabric"></figure>
+        <div><h4>Nida<span>150 – 185 GSM</span></h4>
+        <p>Nida is the workhorse of our abaya program — a matte, medium-weight polyester weave with enough body to hold its structure without turning stiff. It resists creasing through transit and daily wear, which is exactly why it's our default base fabric for volume wholesale orders.</p>
+        <div class="tags"><span>Matte finish</span><span>Wrinkle-resistant</span><span>Opaque at standard weight</span><span>Holds structured seams</span></div></div>
+      </div><div class="fcard">
+        <figure><img src="../public/fabrics/korean-nida.jpg" alt="Korean Nida fabric"></figure>
+        <div><h4>Korean Nida<span>160 – 210 GSM</span></h4>
+        <p>Korean Nida uses a finer, more tightly spun yarn than standard Nida, which gives it a slightly higher sheen, a smoother hand-feel, and better drape recovery. We recommend it as the upgrade fabric for private label ranges positioned above entry-level pricing.</p>
+        <div class="tags"><span>Smoother hand-feel</span><span>Improved drape</span><span>Subtle sheen</span><span>Excellent color depth</span></div></div>
+      </div><div class="fcard">
+        <figure><img src="../public/fabrics/crepe.jpg" alt="Crepe fabric"></figure>
+        <div><h4>Crepe<span>200 – 240 GSM</span></h4>
+        <p>Crepe is our most versatile occasion fabric, and we use it across khimars and embellished crepe abayas. The slightly textured surface diffuses light attractively, which is part of why it's a preferred base for embroidery and stonework.</p>
+        <div class="tags"><span>Textured matte finish</span><span>Holds embellishment well</span><span>Good structure</span><span>Available satin-back</span></div></div>
+      </div><div class="fcard">
+        <figure><img src="../public/fabrics/linen.jpg" alt="Linen-Cotton fabric"></figure>
+        <div><h4>Linen-Cotton<span>150 – 180 GSM</span></h4>
+        <p>Linen and linen blends show up in our warm-climate and resort-adjacent modest wear lines. We finish our blends specifically to cut down on the extreme creasing pure linen is known for, while keeping its characteristic texture and breathability intact.</p>
+        <div class="tags"><span>Highly breathable</span><span>Textured hand-feel</span><span>Naturally cooling</span><span>Reduced-crease finish</span></div></div>
+      </div><div class="fcard">
+        <figure><img src="../public/fabrics/satin.jpg" alt="Satin fabric"></figure>
+        <div><h4>Satin<span>110 – 130 GSM</span></h4>
+        <p>High-sheen satin base for bridal and evening abayas. Fluid, photograph-ready drape that carries embellishment weight.</p>
+        <div class="tags"><span>High sheen</span><span>Fluid drape</span><span>Bridal &amp; evening</span><span>Holds stonework</span></div></div>
+      </div><div class="fcard">
+        <figure><img src="../public/fabrics/silk.jpg" alt="Mulberry Silk fabric"></figure>
+        <div><h4>Mulberry Silk<span>19 – 22 momme (≈82 – 95 GSM)</span></h4>
+        <p>We reserve mulberry silk for our luxury tier — hand-rolled hem hijabs, premium scarves, and gift-ready ranges. It carries a natural sheen and drape that synthetic fabrics just can't fully replicate, and we inspect every roll for consistency before it gets cut.</p>
+        <div class="tags"><span>Natural sheen</span><span>Superior drape</span><span>Temperature-regulating</span><span>Hypoallergenic</span></div></div>
+      </div><div class="fcard">
+        <figure><img src="../public/fabrics/premium-blends.jpg" alt="Premium Blends fabric"></figure>
+        <div><h4>Premium Blends<span>Custom</span></h4>
+        <p>When a private label partner has specific performance or hand-feel requirements, we develop custom fiber blends together with our mill network — usually combining two or three base fibers to hit a target weight, opacity, and drape that off-the-shelf fabric just can't match.</p>
+        <div class="tags"><span>Developed to specification</span><span>Custom weight and opacity targets</span><span>Minimum development run applies</span></div></div>
+      </div></div>
+  </section>
+<section class="page"><h2 class="ph">Base fabric prices</h2>
+    <p class="body">Start here. These are prices for a plain closed or everyday abaya block in each fabric and GSM. Add the style add-on on the right to estimate any silhouette.</p>
+    <div class="bars"><div class="bar"><span class="bl">Silk (19 – 22 mm)</span><span class="bt"><i style="left:34.166666666666664%;width:5.416666666666667%"></i></span><span class="bv">82 – 95</span></div><div class="bar"><span class="bl">Satin</span><span class="bt"><i style="left:45.83333333333333%;width:8.333333333333332%"></i></span><span class="bv">110 – 130</span></div><div class="bar"><span class="bl">Zoom</span><span class="bt"><i style="left:50%;width:8.333333333333332%"></i></span><span class="bv">120 – 140</span></div><div class="bar"><span class="bl">Nida</span><span class="bt"><i style="left:62.5%;width:14.583333333333334%"></i></span><span class="bv">150 – 185</span></div><div class="bar"><span class="bl">Linen-cotton</span><span class="bt"><i style="left:62.5%;width:12.5%"></i></span><span class="bv">150 – 180</span></div><div class="bar"><span class="bl">Korean Nida</span><span class="bt"><i style="left:66.66666666666666%;width:20.833333333333336%"></i></span><span class="bv">160 – 210</span></div><div class="bar"><span class="bl">Performance knit</span><span class="bt"><i style="left:75%;width:8.333333333333332%"></i></span><span class="bv">180 – 200</span></div><div class="bar"><span class="bl">Crepe</span><span class="bt"><i style="left:83.33333333333334%;width:16.666666666666664%"></i></span><span class="bv">200 – 240</span></div></div>
+    <div class="ptable"><div class="ptitle">Plain abaya by fabric &amp; GSM<span>ex-factory Mumbai · per piece</span></div>
+  <table><thead><tr><th>GSM</th><th>Fabric / build</th><th>Typical use</th><th class="num">At MOQ (INR)</th><th class="num">At MOQ (USD)</th><th class="num">3,000+ pcs (INR)</th></tr></thead><tbody>
+  <tr class=""><td class="gsm">120</td><td>Zoom (polyester)</td><td>Plain closed / everyday block</td>
+      <td class="num">₹450 – ₹560</td><td class="num">$5.11 – $6.36</td><td class="num">₹400 – ₹510</td></tr><tr class="std"><td class="gsm">130<em>standard</em></td><td>Zoom (polyester)</td><td>Plain closed / everyday block</td>
+      <td class="num">₹480 – ₹600</td><td class="num">$5.45 – $6.82</td><td class="num">₹425 – ₹545</td></tr><tr class=""><td class="gsm">140</td><td>Zoom (polyester)</td><td>Plain closed / everyday block</td>
+      <td class="num">₹510 – ₹640</td><td class="num">$5.80 – $7.27</td><td class="num">₹455 – ₹580</td></tr><tr class=""><td class="gsm">150</td><td>Nida (Farasha-type)</td><td>Plain closed / everyday block</td>
+      <td class="num">₹650 – ₹820</td><td class="num">$7.39 – $9.32</td><td class="num">₹580 – ₹745</td></tr><tr class=""><td class="gsm">170</td><td>Nida</td><td>Plain closed / everyday block</td>
+      <td class="num">₹710 – ₹890</td><td class="num">$8.07 – $10.11</td><td class="num">₹630 – ₹810</td></tr><tr class="std"><td class="gsm">185<em>standard</em></td><td>Nida</td><td>Plain closed / everyday block</td>
+      <td class="num">₹760 – ₹950</td><td class="num">$8.64 – $10.80</td><td class="num">₹675 – ₹865</td></tr><tr class=""><td class="gsm">160</td><td>Korean Nida</td><td>Plain closed / everyday block</td>
+      <td class="num">₹880 – ₹1,100</td><td class="num">$10.00 – $12.50</td><td class="num">₹785 – ₹1,000</td></tr><tr class="std"><td class="gsm">180<em>standard</em></td><td>Korean Nida</td><td>Plain closed / everyday block</td>
+      <td class="num">₹950 – ₹1,200</td><td class="num">$10.80 – $13.64</td><td class="num">₹845 – ₹1,090</td></tr><tr class=""><td class="gsm">195</td><td>Korean Nida</td><td>Plain closed / everyday block</td>
+      <td class="num">₹1,020 – ₹1,280</td><td class="num">$11.59 – $14.55</td><td class="num">₹910 – ₹1,160</td></tr><tr class=""><td class="gsm">210</td><td>Korean Nida</td><td>Plain closed / everyday block</td>
+      <td class="num">₹1,090 – ₹1,380</td><td class="num">$12.39 – $15.68</td><td class="num">₹970 – ₹1,260</td></tr><tr class=""><td class="gsm">200</td><td>Premium crepe</td><td>Plain closed / everyday block</td>
+      <td class="num">₹950 – ₹1,200</td><td class="num">$10.80 – $13.64</td><td class="num">₹845 – ₹1,090</td></tr><tr class=""><td class="gsm">210</td><td>Premium crepe</td><td>Plain closed / everyday block</td>
+      <td class="num">₹990 – ₹1,250</td><td class="num">$11.25 – $14.20</td><td class="num">₹880 – ₹1,140</td></tr><tr class="std"><td class="gsm">220<em>standard</em></td><td>Premium crepe</td><td>Plain closed / everyday block</td>
+      <td class="num">₹1,030 – ₹1,300</td><td class="num">$11.70 – $14.77</td><td class="num">₹915 – ₹1,180</td></tr><tr class=""><td class="gsm">240</td><td>Heavy crepe</td><td>Plain closed / everyday block</td>
+      <td class="num">₹1,100 – ₹1,400</td><td class="num">$12.50 – $15.91</td><td class="num">₹980 – ₹1,270</td></tr><tr class=""><td class="gsm">150</td><td>Linen-cotton 70/30</td><td>Plain closed / everyday block</td>
+      <td class="num">₹1,050 – ₹1,350</td><td class="num">$11.93 – $15.34</td><td class="num">₹935 – ₹1,230</td></tr><tr class="std"><td class="gsm">180<em>standard</em></td><td>Linen-cotton 70/30</td><td>Plain closed / everyday block</td>
+      <td class="num">₹1,150 – ₹1,480</td><td class="num">$13.07 – $16.82</td><td class="num">₹1,020 – ₹1,350</td></tr>
+  </tbody></table></div>
+    <div class="ptable"><div class="ptitle">Style &amp; work add-ons<span>added to the base fabric price · per piece</span></div>
+    <table><thead><tr><th>Style / work</th><th>What changes</th><th class="num">Add (INR)</th><th class="num">Add (USD)</th></tr></thead><tbody>
+    <tr><td class="gsm">Closed / Everyday</td><td>Base block</td><td class="num">—</td><td class="num">—</td></tr><tr><td class="gsm">Open (layering)</td><td>No closure</td><td class="num">—</td><td class="num">—</td></tr><tr><td class="gsm">Kimono</td><td>Straight cut, tie belt</td><td class="num">−₹40 – +₹0</td><td class="num">−$0.45 – +$0.00</td></tr><tr><td class="gsm">Front Open (snaps / buttons)</td><td>Full-length closure hardware</td><td class="num">+₹60 – +₹120</td><td class="num">+$0.68 – +$1.36</td></tr><tr><td class="gsm">Batwing</td><td>Dropped dolman sleeve</td><td class="num">+₹80 – +₹150</td><td class="num">+$0.91 – +$1.70</td></tr><tr><td class="gsm">Butterfly</td><td>Wide winged panel, more fabric</td><td class="num">+₹120 – +₹200</td><td class="num">+$1.36 – +$2.27</td></tr><tr><td class="gsm">Kloosh / Umbrella</td><td>Circular cut, ~30% more fabric</td><td class="num">+₹220 – +₹380</td><td class="num">+$2.50 – +$4.32</td></tr><tr><td class="gsm">Coat / Blazer</td><td>Lapel, collar, self-belt</td><td class="num">+₹250 – +₹420</td><td class="num">+$2.84 – +$4.77</td></tr><tr><td class="gsm">Two-Piece set</td><td>Top + skirt, same lot</td><td class="num">+₹250 – +₹400</td><td class="num">+$2.84 – +$4.55</td></tr><tr><td class="gsm">Three-Piece set</td><td>Top + skirt + slip / hijab</td><td class="num">+₹450 – +₹700</td><td class="num">+$5.11 – +$7.95</td></tr><tr><td class="gsm">Machine embroidery</td><td>Placement panels</td><td class="num">+₹300 – +₹650</td><td class="num">+$3.41 – +$7.39</td></tr><tr><td class="gsm">Hand stonework / embroidery</td><td>Bodice, cuffs, hem</td><td class="num">+₹700 – +₹1,800</td><td class="num">+$7.95 – +$20.45</td></tr><tr><td class="gsm">Sizes 60–62</td><td>Extra length &amp; width</td><td class="num">+₹40 – +₹80</td><td class="num">+$0.45 – +$0.91</td></tr>
+    </tbody></table></div>
+    <p class="body small">Example: Korean Nida 180 GSM (₹950 – ₹1,200) + butterfly sleeve (+₹120 – ₹200) ≈ ₹1,070 – ₹1,400 per piece at MOQ.</p>
+  </section>
+<section class="page matrix">
+    <h2 class="ph">Master GSM price matrix — Abayas</h2>
+    <p class="body small">Every style and GSM option on one sheet. Standard weights are highlighted. Prices are INR per piece at MOQ, ex-factory, with the 3,000+ volume level alongside.</p>
+    <table class="mtx"><thead><tr><th>Style</th><th>GSM</th><th>Fabric / build</th><th class="num">At MOQ (INR)</th><th class="num">USD</th><th class="num">3,000+ (INR)</th></tr></thead>
+    <tbody><tr class="grp"><td colspan="6">Abaya styles</td></tr><tr class=" first"><td rowspan="4" class="mname">Closed Abaya</td><td>130</td><td>Zoom (polyester)</td><td class="num">₹480 – ₹600</td><td class="num">$5.45 – $6.82</td><td class="num">₹425 – ₹545</td></tr><tr class="std"><td>185</td><td>Nida</td><td class="num">₹760 – ₹950</td><td class="num">$8.64 – $10.80</td><td class="num">₹675 – ₹865</td></tr><tr class=""><td>180</td><td>Korean Nida</td><td class="num">₹950 – ₹1,200</td><td class="num">$10.80 – $13.64</td><td class="num">₹845 – ₹1,090</td></tr><tr class=""><td>195</td><td>Korean Nida</td><td class="num">₹1,020 – ₹1,280</td><td class="num">$11.59 – $14.55</td><td class="num">₹910 – ₹1,160</td></tr><tr class=" first"><td rowspan="4" class="mname">Open Abaya</td><td>130</td><td>Zoom (polyester)</td><td class="num">₹480 – ₹600</td><td class="num">$5.45 – $6.82</td><td class="num">₹425 – ₹545</td></tr><tr class=""><td>170</td><td>Nida</td><td class="num">₹710 – ₹890</td><td class="num">$8.07 – $10.11</td><td class="num">₹630 – ₹810</td></tr><tr class="std"><td>180</td><td>Korean Nida</td><td class="num">₹950 – ₹1,200</td><td class="num">$10.80 – $13.64</td><td class="num">₹845 – ₹1,090</td></tr><tr class=""><td>200</td><td>Premium crepe</td><td class="num">₹950 – ₹1,200</td><td class="num">$10.80 – $13.64</td><td class="num">₹845 – ₹1,090</td></tr><tr class=" first"><td rowspan="3" class="mname">Butterfly Abaya</td><td>185</td><td>Nida</td><td class="num">₹880 – ₹1,150</td><td class="num">$10.00 – $13.07</td><td class="num">₹785 – ₹1,050</td></tr><tr class=""><td>180</td><td>Korean Nida</td><td class="num">₹1,070 – ₹1,400</td><td class="num">$12.16 – $15.91</td><td class="num">₹950 – ₹1,270</td></tr><tr class="std"><td>195</td><td>Korean Nida</td><td class="num">₹1,140 – ₹1,480</td><td class="num">$12.95 – $16.82</td><td class="num">₹1,010 – ₹1,350</td></tr><tr class=" first"><td rowspan="4" class="mname">Kimono Abaya</td><td>130</td><td>Zoom (polyester)</td><td class="num">₹440 – ₹600</td><td class="num">$5.00 – $6.82</td><td class="num">₹390 – ₹545</td></tr><tr class="std"><td>140</td><td>Zoom (polyester)</td><td class="num">₹470 – ₹640</td><td class="num">$5.34 – $7.27</td><td class="num">₹420 – ₹580</td></tr><tr class=""><td>150</td><td>Nida (Farasha-type)</td><td class="num">₹610 – ₹820</td><td class="num">$6.93 – $9.32</td><td class="num">₹545 – ₹745</td></tr><tr class=""><td>150</td><td>Linen-cotton 70/30</td><td class="num">₹1,010 – ₹1,350</td><td class="num">$11.48 – $15.34</td><td class="num">₹900 – ₹1,230</td></tr><tr class=" first"><td rowspan="3" class="mname">Kloosh / Umbrella Abaya</td><td>185</td><td>Nida</td><td class="num">₹980 – ₹1,330</td><td class="num">$11.14 – $15.11</td><td class="num">₹870 – ₹1,210</td></tr><tr class="std"><td>180</td><td>Korean Nida</td><td class="num">₹1,170 – ₹1,580</td><td class="num">$13.30 – $17.95</td><td class="num">₹1,040 – ₹1,440</td></tr><tr class=""><td>210</td><td>Korean Nida</td><td class="num">₹1,310 – ₹1,760</td><td class="num">$14.89 – $20.00</td><td class="num">₹1,170 – ₹1,600</td></tr><tr class=" first"><td rowspan="3" class="mname">Batwing Abaya</td><td>130</td><td>Zoom (polyester)</td><td class="num">₹560 – ₹750</td><td class="num">$6.36 – $8.52</td><td class="num">₹500 – ₹685</td></tr><tr class="std"><td>185</td><td>Nida</td><td class="num">₹840 – ₹1,100</td><td class="num">$9.55 – $12.50</td><td class="num">₹750 – ₹1,000</td></tr><tr class=""><td>180</td><td>Korean Nida</td><td class="num">₹1,030 – ₹1,350</td><td class="num">$11.70 – $15.34</td><td class="num">₹915 – ₹1,230</td></tr><tr class=" first"><td rowspan="3" class="mname">Coat / Blazer Style Abaya</td><td>210</td><td>Korean Nida</td><td class="num">₹1,340 – ₹1,800</td><td class="num">$15.23 – $20.45</td><td class="num">₹1,190 – ₹1,640</td></tr><tr class="std"><td>220</td><td>Premium crepe</td><td class="num">₹1,280 – ₹1,720</td><td class="num">$14.55 – $19.55</td><td class="num">₹1,140 – ₹1,570</td></tr><tr class=""><td>240</td><td>Heavy crepe</td><td class="num">₹1,350 – ₹1,820</td><td class="num">$15.34 – $20.68</td><td class="num">₹1,200 – ₹1,660</td></tr><tr class=" first"><td rowspan="3" class="mname">Front Open Abaya</td><td>185</td><td>Nida</td><td class="num">₹820 – ₹1,070</td><td class="num">$9.32 – $12.16</td><td class="num">₹730 – ₹975</td></tr><tr class="std"><td>180</td><td>Korean Nida</td><td class="num">₹1,010 – ₹1,320</td><td class="num">$11.48 – $15.00</td><td class="num">₹900 – ₹1,200</td></tr><tr class=""><td>195</td><td>Korean Nida</td><td class="num">₹1,080 – ₹1,400</td><td class="num">$12.27 – $15.91</td><td class="num">₹960 – ₹1,270</td></tr><tr class=" first"><td rowspan="3" class="mname">Two-Piece Abaya</td><td>170</td><td>Nida</td><td class="num">₹960 – ₹1,290</td><td class="num">$10.91 – $14.66</td><td class="num">₹855 – ₹1,170</td></tr><tr class="std"><td>180</td><td>Korean Nida</td><td class="num">₹1,200 – ₹1,600</td><td class="num">$13.64 – $18.18</td><td class="num">₹1,070 – ₹1,460</td></tr><tr class=""><td>220</td><td>Premium crepe</td><td class="num">₹1,280 – ₹1,700</td><td class="num">$14.55 – $19.32</td><td class="num">₹1,140 – ₹1,550</td></tr><tr class=" first"><td rowspan="3" class="mname">Three-Piece Abaya</td><td>170</td><td>Nida</td><td class="num">₹1,160 – ₹1,590</td><td class="num">$13.18 – $18.07</td><td class="num">₹1,030 – ₹1,450</td></tr><tr class="std"><td>180</td><td>Korean Nida</td><td class="num">₹1,400 – ₹1,900</td><td class="num">$15.91 – $21.59</td><td class="num">₹1,250 – ₹1,730</td></tr><tr class=""><td>220</td><td>Premium crepe</td><td class="num">₹1,480 – ₹2,000</td><td class="num">$16.82 – $22.73</td><td class="num">₹1,320 – ₹1,820</td></tr><tr class=" first"><td rowspan="4" class="mname">Embroidered Abaya</td><td>185</td><td>Nida</td><td class="num">₹1,060 – ₹1,600</td><td class="num">$12.05 – $18.18</td><td class="num">₹945 – ₹1,460</td></tr><tr class="std"><td>220</td><td>Premium crepe</td><td class="num">₹1,330 – ₹1,950</td><td class="num">$15.11 – $22.16</td><td class="num">₹1,180 – ₹1,770</td></tr><tr class=""><td>240</td><td>Heavy crepe</td><td class="num">₹1,400 – ₹2,050</td><td class="num">$15.91 – $23.30</td><td class="num">₹1,250 – ₹1,870</td></tr><tr class=""><td>220</td><td>Premium crepe</td><td class="num">₹1,730 – ₹3,100</td><td class="num">$19.66 – $35.23</td><td class="num">₹1,540 – ₹2,820</td></tr><tr class=" first"><td rowspan="3" class="mname">Everyday Abaya</td><td>130</td><td>Zoom (polyester)</td><td class="num">₹480 – ₹600</td><td class="num">$5.45 – $6.82</td><td class="num">₹425 – ₹545</td></tr><tr class="std"><td>185</td><td>Nida</td><td class="num">₹760 – ₹950</td><td class="num">$8.64 – $10.80</td><td class="num">₹675 – ₹865</td></tr><tr class=""><td>180</td><td>Korean Nida</td><td class="num">₹950 – ₹1,200</td><td class="num">$10.80 – $13.64</td><td class="num">₹845 – ₹1,090</td></tr><tr class="std first"><td rowspan="2" class="mname">Sports Abaya</td><td>180</td><td>Performance knit</td><td class="num">₹750 – ₹950</td><td class="num">$8.52 – $10.80</td><td class="num">₹670 – ₹865</td></tr><tr class=""><td>200</td><td>Performance knit</td><td class="num">₹820 – ₹1,050</td><td class="num">$9.32 – $11.93</td><td class="num">₹730 – ₹955</td></tr></tbody><tbody><tr class="grp"><td colspan="6">Signature abayas</td></tr><tr class=" first"><td rowspan="3" class="mname">Layla Nida Abaya</td><td>160</td><td>Korean Nida</td><td class="num">₹940 – ₹1,220</td><td class="num">$10.68 – $13.86</td><td class="num">₹835 – ₹1,110</td></tr><tr class="std"><td>180</td><td>Korean Nida</td><td class="num">₹1,010 – ₹1,320</td><td class="num">$11.48 – $15.00</td><td class="num">₹900 – ₹1,200</td></tr><tr class=""><td>195</td><td>Korean Nida</td><td class="num">₹1,080 – ₹1,400</td><td class="num">$12.27 – $15.91</td><td class="num">₹960 – ₹1,270</td></tr><tr class=" first"><td rowspan="3" class="mname">Zahra Embellished Abaya</td><td>200</td><td>Premium crepe</td><td class="num">₹1,850 – ₹3,200</td><td class="num">$21.02 – $36.36</td><td class="num">₹1,650 – ₹2,910</td></tr><tr class="std"><td>220</td><td>Premium crepe</td><td class="num">₹1,930 – ₹3,300</td><td class="num">$21.93 – $37.50</td><td class="num">₹1,720 – ₹3,000</td></tr><tr class=""><td>240</td><td>Heavy crepe</td><td class="num">₹2,000 – ₹3,400</td><td class="num">$22.73 – $38.64</td><td class="num">₹1,780 – ₹3,090</td></tr><tr class=" first"><td rowspan="3" class="mname">Salma Korean Nida Abaya</td><td>180</td><td>Korean Nida</td><td class="num">₹1,070 – ₹1,400</td><td class="num">$12.16 – $15.91</td><td class="num">₹950 – ₹1,270</td></tr><tr class="std"><td>195</td><td>Korean Nida</td><td class="num">₹1,140 – ₹1,480</td><td class="num">$12.95 – $16.82</td><td class="num">₹1,010 – ₹1,350</td></tr><tr class=""><td>210</td><td>Korean Nida</td><td class="num">₹1,210 – ₹1,580</td><td class="num">$13.75 – $17.95</td><td class="num">₹1,080 – ₹1,440</td></tr><tr class=" first"><td rowspan="3" class="mname">Widad Kimono Abaya</td><td>130</td><td>Zoom (polyester)</td><td class="num">₹440 – ₹600</td><td class="num">$5.00 – $6.82</td><td class="num">₹390 – ₹545</td></tr><tr class="std"><td>140</td><td>Zoom (polyester)</td><td class="num">₹470 – ₹640</td><td class="num">$5.34 – $7.27</td><td class="num">₹420 – ₹580</td></tr><tr class=""><td>150</td><td>Linen-cotton 70/30</td><td class="num">₹1,010 – ₹1,350</td><td class="num">$11.48 – $15.34</td><td class="num">₹900 – ₹1,230</td></tr><tr class=" first"><td rowspan="3" class="mname">Nailah Closed Abaya</td><td>150</td><td>Nida (Farasha-type)</td><td class="num">₹680 – ₹880</td><td class="num">$7.73 – $10.00</td><td class="num">₹605 – ₹800</td></tr><tr class=""><td>170</td><td>Nida</td><td class="num">₹740 – ₹950</td><td class="num">$8.41 – $10.80</td><td class="num">₹660 – ₹865</td></tr><tr class="std"><td>185</td><td>Nida</td><td class="num">₹790 – ₹1,010</td><td class="num">$8.98 – $11.48</td><td class="num">₹705 – ₹920</td></tr><tr class=" first"><td rowspan="2" class="mname">Farida Linen Abaya</td><td>150</td><td>Linen-cotton 70/30</td><td class="num">₹1,050 – ₹1,350</td><td class="num">$11.93 – $15.34</td><td class="num">₹935 – ₹1,230</td></tr><tr class="std"><td>180</td><td>Linen-cotton 70/30</td><td class="num">₹1,150 – ₹1,480</td><td class="num">$13.07 – $16.82</td><td class="num">₹1,020 – ₹1,350</td></tr><tr class=" first"><td rowspan="3" class="mname">Halima Everyday Abaya</td><td>120</td><td>Zoom (polyester)</td><td class="num">₹450 – ₹560</td><td class="num">$5.11 – $6.36</td><td class="num">₹400 – ₹510</td></tr><tr class="std"><td>130</td><td>Zoom (polyester)</td><td class="num">₹480 – ₹600</td><td class="num">$5.45 – $6.82</td><td class="num">₹425 – ₹545</td></tr><tr class=""><td>140</td><td>Zoom (polyester)</td><td class="num">₹510 – ₹640</td><td class="num">$5.80 – $7.27</td><td class="num">₹455 – ₹580</td></tr><tr class=" first"><td rowspan="3" class="mname">Safiya Embroidered Crepe Abaya</td><td>200</td><td>Premium crepe</td><td class="num">₹1,250 – ₹1,850</td><td class="num">$14.20 – $21.02</td><td class="num">₹1,110 – ₹1,680</td></tr><tr class="std"><td>210</td><td>Premium crepe</td><td class="num">₹1,290 – ₹1,900</td><td class="num">$14.66 – $21.59</td><td class="num">₹1,150 – ₹1,730</td></tr><tr class=""><td>240</td><td>Heavy crepe</td><td class="num">₹1,400 – ₹2,050</td><td class="num">$15.91 – $23.30</td><td class="num">₹1,250 – ₹1,870</td></tr></tbody><tbody><tr class="grp"><td colspan="6">Bridal abayas</td></tr><tr class=" first"><td rowspan="3" class="mname">Bridal Embroidered Abaya</td><td>185</td><td>Nida + light machine embroidery</td><td class="num">₹1,200 – ₹1,800</td><td class="num">$13.64 – $20.45</td><td class="num">₹1,070 – ₹1,640</td></tr><tr class="std"><td>220</td><td>Crepe + bridal embroidery</td><td class="num">₹2,200 – ₹4,000</td><td class="num">$25.00 – $45.45</td><td class="num">₹1,960 – ₹3,640</td></tr><tr class=""><td>130</td><td>Heavy satin + bridal embroidery</td><td class="num">₹2,400 – ₹4,300</td><td class="num">$27.27 – $48.86</td><td class="num">₹2,140 – ₹3,910</td></tr><tr class="std first"><td rowspan="2" class="mname">Pearl Bridal Abaya</td><td>220</td><td>Crepe + pearl trim</td><td class="num">₹2,400 – ₹3,600</td><td class="num">$27.27 – $40.91</td><td class="num">₹2,140 – ₹3,280</td></tr><tr class=""><td>130</td><td>Satin + scattered pearl field</td><td class="num">₹3,800 – ₹6,000</td><td class="num">$43.18 – $68.18</td><td class="num">₹3,380 – ₹5,460</td></tr><tr class="std first"><td rowspan="2" class="mname">Stone-Work Bridal Abaya</td><td>220</td><td>Crepe + stone at bodice &amp; cuffs</td><td class="num">₹2,600 – ₹4,200</td><td class="num">$29.55 – $47.73</td><td class="num">₹2,310 – ₹3,820</td></tr><tr class=""><td>240</td><td>Heavy crepe + dense stonework</td><td class="num">₹4,200 – ₹6,500</td><td class="num">$47.73 – $73.86</td><td class="num">₹3,740 – ₹5,920</td></tr><tr class="std first"><td rowspan="2" class="mname">Crystal Bridal Abaya</td><td>220–240</td><td>Crepe + accent crystals</td><td class="num">₹2,800 – ₹4,500</td><td class="num">$31.82 – $51.14</td><td class="num">₹2,490 – ₹4,100</td></tr><tr class=""><td>130</td><td>Heavy satin + crystal bodice</td><td class="num">₹5,000 – ₹8,500</td><td class="num">$56.82 – $96.59</td><td class="num">₹4,450 – ₹7,740</td></tr><tr class="std first"><td rowspan="2" class="mname">Lace Bridal Abaya</td><td>220</td><td>Crepe + lace sleeve inserts</td><td class="num">₹2,200 – ₹3,400</td><td class="num">$25.00 – $38.64</td><td class="num">₹1,960 – ₹3,090</td></tr><tr class=""><td>130</td><td>Satin + full lace overlay</td><td class="num">₹3,200 – ₹5,000</td><td class="num">$36.36 – $56.82</td><td class="num">₹2,850 – ₹4,550</td></tr><tr class="std first"><td rowspan="2" class="mname">Satin Bridal Abaya</td><td>110</td><td>Bridal satin, light embellishment</td><td class="num">₹1,800 – ₹2,800</td><td class="num">$20.45 – $31.82</td><td class="num">₹1,600 – ₹2,550</td></tr><tr class=""><td>130</td><td>Heavy bridal satin</td><td class="num">₹2,100 – ₹3,200</td><td class="num">$23.86 – $36.36</td><td class="num">₹1,870 – ₹2,910</td></tr><tr class="std first"><td rowspan="2" class="mname">Luxury Silk Bridal Abaya</td><td>19 mm (≈82)</td><td>Mulberry silk, hand-finished</td><td class="num">₹6,500 – ₹9,500</td><td class="num">$73.86 – $107.95</td><td class="num">₹5,790 – ₹8,650</td></tr><tr class=""><td>22 mm (≈95)</td><td>Mulberry silk charmeuse</td><td class="num">₹8,000 – ₹12,000</td><td class="num">$90.91 – $136.36</td><td class="num">₹7,120 – ₹10,920</td></tr><tr class="std first"><td rowspan="2" class="mname">Cape-Style Bridal Abaya</td><td>220</td><td>Crepe base + plain cape</td><td class="num">₹2,800 – ₹4,800</td><td class="num">$31.82 – $54.55</td><td class="num">₹2,490 – ₹4,370</td></tr><tr class=""><td>220 + 60</td><td>Crepe base + embellished sheer cape</td><td class="num">₹4,500 – ₹7,000</td><td class="num">$51.14 – $79.55</td><td class="num">₹4,010 – ₹6,370</td></tr><tr class="std first"><td rowspan="2" class="mname">Trail / Gown-Style Bridal Abaya</td><td>130</td><td>Satin gown + back trail</td><td class="num">₹3,500 – ₹6,000</td><td class="num">$39.77 – $68.18</td><td class="num">₹3,120 – ₹5,460</td></tr><tr class=""><td>240</td><td>Heavy crepe + embellished trail</td><td class="num">₹6,000 – ₹9,500</td><td class="num">$68.18 – $107.95</td><td class="num">₹5,340 – ₹8,650</td></tr><tr class="std first"><td rowspan="2" class="mname">White Bridal Abaya</td><td>130</td><td>White satin</td><td class="num">₹2,000 – ₹3,500</td><td class="num">$22.73 – $39.77</td><td class="num">₹1,780 – ₹3,190</td></tr><tr class=""><td>220</td><td>White crepe</td><td class="num">₹2,200 – ₹3,800</td><td class="num">$25.00 – $43.18</td><td class="num">₹1,960 – ₹3,460</td></tr><tr class="std first"><td rowspan="2" class="mname">Champagne Bridal Abaya</td><td>130</td><td>Champagne satin</td><td class="num">₹2,100 – ₹3,600</td><td class="num">$23.86 – $40.91</td><td class="num">₹1,870 – ₹3,280</td></tr><tr class=""><td>220</td><td>Champagne crepe</td><td class="num">₹2,300 – ₹3,900</td><td class="num">$26.14 – $44.32</td><td class="num">₹2,050 – ₹3,550</td></tr><tr class="std first"><td rowspan="2" class="mname">Gold Embellished Bridal Abaya</td><td>220</td><td>Dark crepe + gold thread</td><td class="num">₹3,000 – ₹5,200</td><td class="num">$34.09 – $59.09</td><td class="num">₹2,670 – ₹4,730</td></tr><tr class=""><td>240</td><td>Heavy crepe + gold zari &amp; stone</td><td class="num">₹5,000 – ₹8,000</td><td class="num">$56.82 – $90.91</td><td class="num">₹4,450 – ₹7,280</td></tr></tbody>
+    </table>
+  </section>
+<section class="divider">
+    <div class="dnum">01</div><h2>Abaya Styles</h2>
+    <p class="dintro">Everyday Nida abayas through to hand-embellished occasion pieces, cut and finished at our Mumbai facility to whatever private label spec you send us.</p>
+    <figure class="hero"><img src="../public/categories/abayas-hero.jpg" alt="Black abaya on a mannequin against a neutral backdrop"></figure>
+    <div class="prose">
+      <p>Abaya is the biggest single line running through our factory, and it's also where cut matters just as much as fabric does. An open-front Nida abaya and an embellished crepe occasion piece share almost nothing in terms of pattern block, seam allowance, or finishing standard, even though a buyer might list both under "abayas" on the same purchase order.</p>
+      <p>Our everyday abaya program is built on matte Korean Nida, a fabric with enough body to hold its shape without turning stiff. We finish it with concealed snap closures and reinforced pockets at the side seam, and this is the style our GCC and South Asian accounts come back for order after order. Above that sits our occasion tier: heavier crepe bases that can carry hand-placed stonework and embroidery without the drape distorting, produced in smaller runs starting at 25 pieces per pattern per colour, which tends to suit boutique and bridal-adjacent buyers better than a bulk-volume minimum would.</p>
+      <p>Custom embroidery placement, woven size labels, and custom snap or zip closures are all available across the range for private label orders. Size runs go from 52 to 62 as standard, and we'll do made-to-measure for occasion pieces on request.</p>
+    </div>
+  </section>
+<section class="page"><div class="collections"><div class="minihead">Collections in this range</div><div class="cgrid"><figure><img src="../public/products/abayas/collections/everyday-nida.jpg" alt="Layla open-front abaya on a mannequin"><figcaption><b>Everyday Nida</b>Layla Nida Abaya</figcaption></figure><figure><img src="../public/products/abayas/collections/occasion-embellished.jpg" alt="Zahra embellished abaya with stonework detail"><figcaption><b>Occasion &amp; Embellished</b>Zahra Embellished Abaya</figcaption></figure><figure><img src="../public/products/abayas/collections/premium-korean-nida.jpg" alt="Butterfly-sleeve abaya on a mannequin"><figcaption><b>Premium Korean Nida</b>Salma Korean Nida Abaya</figcaption></figure><figure><img src="../public/products/abayas/collections/layering-resort.jpg" alt="Open kimono abaya on a model"><figcaption><b>Layering &amp; Resort</b>Widad Kimono Abaya</figcaption></figure></div></div></section>
+<section class="item">
+    <div class="item-head"><span class="kicker">Abaya style 01</span><h3>Closed Abaya</h3><p class="lede">Fully closed silhouette with a hidden zip or pull-over construction and no front opening.</p></div>
+    <div class="figs n1 "><figure><img src="../public/products/abayas/type/closed.jpg" alt="Model wearing a closed-silhouette abaya with no front opening"><figcaption>Model wearing a closed-silhouette abaya with no front opening</figcaption></figure></div>
+    <p class="body">Closed abayas are cut as one continuous piece, no front seam to close, using either a concealed back zip or a pull-over head opening depending on how heavy the fabric is. Taking away the front closure also takes away the most common failure point on an abaya, a snap or zip pull that gives out after repeated use, and that's part of why this silhouette shows the lowest return rate across our range according to distributor feedback. It's the volume style most GCC and South Asian accounts keep reordering season after season, usually run on matte Korean Nida for enough body to hold structure without turning stiff. Offered from 25 pieces per pattern per colour, with reinforced side-seam pockets as standard.</p>
+    <div class="facts">
+      <div><b>MOQ</b>25 pieces per pattern per colour</div>
+      <div><b>Sizes</b>52, 54, 56, 58, 60, 62 · free size · made-to-measure</div>
+      <div><b>Lead time</b>22 – 30 days after sample approval</div>
+      <div class="wide"><b>Stock colours</b><div class="swatches"><span class="sw"><i style="background:#1a1a1a"></i>Black</span><span class="sw"><i style="background:#3d3d3d"></i>Charcoal</span><span class="sw"><i style="background:#4a3728"></i>Chocolate</span><span class="sw"><i style="background:#a08d78"></i>Taupe</span><span class="sw"><i style="background:#6b6f52"></i>Olive</span><span class="sw"><i style="background:#202a44"></i>Navy</span></div></div>
+    </div>
+    <div class="ptable"><div class="ptitle">Indicative price by GSM<span>ex-factory Mumbai · per piece</span></div>
+  <table><thead><tr><th>GSM</th><th>Fabric / build</th><th>Typical use</th><th class="num">At MOQ (INR)</th><th class="num">At MOQ (USD)</th><th class="num">3,000+ pcs (INR)</th></tr></thead><tbody>
+  <tr class=""><td class="gsm">130</td><td>Zoom (polyester)</td><td>Pull-over or concealed back zip</td>
+      <td class="num">₹480 – ₹600</td><td class="num">$5.45 – $6.82</td><td class="num">₹425 – ₹545</td></tr><tr class="std"><td class="gsm">185<em>standard</em></td><td>Nida</td><td>Pull-over or concealed back zip</td>
+      <td class="num">₹760 – ₹950</td><td class="num">$8.64 – $10.80</td><td class="num">₹675 – ₹865</td></tr><tr class=""><td class="gsm">180</td><td>Korean Nida</td><td>Pull-over or concealed back zip</td>
+      <td class="num">₹950 – ₹1,200</td><td class="num">$10.80 – $13.64</td><td class="num">₹845 – ₹1,090</td></tr><tr class=""><td class="gsm">195</td><td>Korean Nida</td><td>Pull-over or concealed back zip</td>
+      <td class="num">₹1,020 – ₹1,280</td><td class="num">$11.59 – $14.55</td><td class="num">₹910 – ₹1,160</td></tr>
+  </tbody></table></div>
+  </section>
+<section class="item">
+    <div class="item-head"><span class="kicker">Abaya style 02</span><h3>Open Abaya</h3><p class="lede">Open-front layering abaya worn over an underdress rather than closed at the front.</p></div>
+    <div class="figs n1 "><figure><img src="../public/products/abayas/type/open.jpg" alt="Model wearing an open-front abaya layered over an underdress"><figcaption>Model wearing an open-front abaya layered over an underdress</figcaption></figure></div>
+    <p class="body">Open abayas are a layering piece from the start: cut with a front opening and no closure, meant to be worn over an underdress, trousers, or a coordinating set rather than sealed shut. The wider armhole and looser body give more visible movement than a closed abaya, which is part of why this silhouette tends to photograph better for social media and e-commerce than it does hanging on a rack. Most buyers pair it with a matching underdress SKU to sell as a two-piece look, without actually manufacturing it as a literal two-piece set. Offered from 25 pieces per pattern per colour.</p>
+    <div class="facts">
+      <div><b>MOQ</b>25 pieces per pattern per colour</div>
+      <div><b>Sizes</b>52, 54, 56, 58, 60, 62 · free size · made-to-measure</div>
+      <div><b>Lead time</b>22 – 30 days after sample approval</div>
+      <div class="wide"><b>Stock colours</b><div class="swatches"><span class="sw"><i style="background:#1a1a1a"></i>Black</span><span class="sw"><i style="background:#3d3d3d"></i>Charcoal</span><span class="sw"><i style="background:#b8ada0"></i>Stone</span><span class="sw"><i style="background:#c9a9a6"></i>Ash Rose</span><span class="sw"><i style="background:#6b6f52"></i>Olive</span><span class="sw"><i style="background:#202a44"></i>Navy</span></div></div>
+    </div>
+    <div class="ptable"><div class="ptitle">Indicative price by GSM<span>ex-factory Mumbai · per piece</span></div>
+  <table><thead><tr><th>GSM</th><th>Fabric / build</th><th>Typical use</th><th class="num">At MOQ (INR)</th><th class="num">At MOQ (USD)</th><th class="num">3,000+ pcs (INR)</th></tr></thead><tbody>
+  <tr class=""><td class="gsm">130</td><td>Zoom (polyester)</td><td>Open layering front</td>
+      <td class="num">₹480 – ₹600</td><td class="num">$5.45 – $6.82</td><td class="num">₹425 – ₹545</td></tr><tr class=""><td class="gsm">170</td><td>Nida</td><td>Open layering front</td>
+      <td class="num">₹710 – ₹890</td><td class="num">$8.07 – $10.11</td><td class="num">₹630 – ₹810</td></tr><tr class="std"><td class="gsm">180<em>standard</em></td><td>Korean Nida</td><td>Open layering front</td>
+      <td class="num">₹950 – ₹1,200</td><td class="num">$10.80 – $13.64</td><td class="num">₹845 – ₹1,090</td></tr><tr class=""><td class="gsm">200</td><td>Premium crepe</td><td>Open layering front</td>
+      <td class="num">₹950 – ₹1,200</td><td class="num">$10.80 – $13.64</td><td class="num">₹845 – ₹1,090</td></tr>
+  </tbody></table></div>
+  </section>
+<section class="item">
+    <div class="item-head"><span class="kicker">Abaya style 03</span><h3>Butterfly Abaya</h3><p class="lede">Wide, winged sleeve construction that opens into a dramatic silhouette when arms are raised.</p></div>
+    <div class="figs n2 "><figure><img src="../public/products/abayas/type/butterfly.jpg" alt="Model wearing a butterfly abaya with wide, dramatic sleeve silhouette"><figcaption>Model wearing a butterfly abaya with wide, dramatic sleeve silhouette</figcaption></figure><figure><img src="../public/fabrics/embellish-8751904.jpg" alt="Close-up detail of butterfly abaya sleeve seam construction"><figcaption>Close-up detail of butterfly abaya sleeve seam construction</figcaption></figure></div>
+    <p class="body">Butterfly abayas use an exaggerated dolman sleeve that joins to the body in one continuous panel, so the garment sits fairly fitted at rest and then opens into a wide, wing-like shape the moment the arms go up. It's the style buyers reach for in lookbook and runway-adjacent marketing, since the movement photographs dramatically, even though it's cut from the same fabric base as our standard abayas. The wider panel does use more fabric per unit than a fitted sleeve would, so there's a modest cost increase over our closed and everyday lines. Offered from 25 pieces per pattern per colour.</p>
+    <div class="facts">
+      <div><b>MOQ</b>25 pieces per pattern per colour</div>
+      <div><b>Sizes</b>52, 54, 56, 58, 60, 62 · free size · made-to-measure</div>
+      <div><b>Lead time</b>22 – 30 days after sample approval</div>
+      <div class="wide"><b>Stock colours</b><div class="swatches"><span class="sw"><i style="background:#1a1a1a"></i>Black</span><span class="sw"><i style="background:#202a44"></i>Navy</span><span class="sw"><i style="background:#6d2130"></i>Burgundy</span><span class="sw"><i style="background:#3d3d3d"></i>Charcoal</span><span class="sw"><i style="background:#4a3728"></i>Chocolate</span></div></div>
+    </div>
+    <div class="ptable"><div class="ptitle">Indicative price by GSM<span>ex-factory Mumbai · per piece</span></div>
+  <table><thead><tr><th>GSM</th><th>Fabric / build</th><th>Typical use</th><th class="num">At MOQ (INR)</th><th class="num">At MOQ (USD)</th><th class="num">3,000+ pcs (INR)</th></tr></thead><tbody>
+  <tr class=""><td class="gsm">185</td><td>Nida</td><td>Winged sleeve panel</td>
+      <td class="num">₹880 – ₹1,150</td><td class="num">$10.00 – $13.07</td><td class="num">₹785 – ₹1,050</td></tr><tr class=""><td class="gsm">180</td><td>Korean Nida</td><td>Winged sleeve panel</td>
+      <td class="num">₹1,070 – ₹1,400</td><td class="num">$12.16 – $15.91</td><td class="num">₹950 – ₹1,270</td></tr><tr class="std"><td class="gsm">195<em>standard</em></td><td>Korean Nida</td><td>Winged sleeve panel</td>
+      <td class="num">₹1,140 – ₹1,480</td><td class="num">$12.95 – $16.82</td><td class="num">₹1,010 – ₹1,350</td></tr>
+  </tbody></table></div>
+  </section>
+<section class="item">
+    <div class="item-head"><span class="kicker">Abaya style 04</span><h3>Kimono Abaya</h3><p class="lede">Straight-cut, open-front layering abaya inspired by kimono tailoring, tied or left open.</p></div>
+    <div class="figs n1 "><figure><img src="../public/products/abayas/type/kimono.jpg" alt="Model wearing a kimono-style abaya with a relaxed, tied silhouette"><figcaption>Model wearing a kimono-style abaya with a relaxed, tied silhouette</figcaption></figure></div>
+    <p class="body">Kimono abayas borrow their straight-line body and wide, uncurved sleeve from kimono tailoring rather than a traditional abaya block, which gives a relaxed, resort-adjacent silhouette buyers tend to stock alongside occasion pieces as a lighter layering option. It's usually finished with a self-fabric tie belt instead of a fitted seam, so one size range covers a wider variety of body shapes than our fitted styles do. This is our best-reordering layering style among warm-climate and resort-market buyers who want abaya-adjacent coverage without the full structure. Offered from 25 pieces per pattern per colour; the Widad Kimono Abaya is a good example of this cut on a full product.</p>
+    <div class="facts">
+      <div><b>MOQ</b>25 pieces per pattern per colour</div>
+      <div><b>Sizes</b>52, 54, 56, 58, 60, 62 · free size · made-to-measure</div>
+      <div><b>Lead time</b>22 – 30 days after sample approval</div>
+      <div class="wide"><b>Stock colours</b><div class="swatches"><span class="sw"><i style="background:#1a1a1a"></i>Black</span><span class="sw"><i style="background:#b8ada0"></i>Stone</span><span class="sw"><i style="background:#6b6f52"></i>Olive</span><span class="sw"><i style="background:#a08d78"></i>Taupe</span><span class="sw"><i style="background:#202a44"></i>Navy</span></div></div>
+    </div>
+    <div class="ptable"><div class="ptitle">Indicative price by GSM<span>ex-factory Mumbai · per piece</span></div>
+  <table><thead><tr><th>GSM</th><th>Fabric / build</th><th>Typical use</th><th class="num">At MOQ (INR)</th><th class="num">At MOQ (USD)</th><th class="num">3,000+ pcs (INR)</th></tr></thead><tbody>
+  <tr class=""><td class="gsm">130</td><td>Zoom (polyester)</td><td>Straight cut, self tie-belt</td>
+      <td class="num">₹440 – ₹600</td><td class="num">$5.00 – $6.82</td><td class="num">₹390 – ₹545</td></tr><tr class="std"><td class="gsm">140<em>standard</em></td><td>Zoom (polyester)</td><td>Straight cut, self tie-belt</td>
+      <td class="num">₹470 – ₹640</td><td class="num">$5.34 – $7.27</td><td class="num">₹420 – ₹580</td></tr><tr class=""><td class="gsm">150</td><td>Nida (Farasha-type)</td><td>Straight cut, self tie-belt</td>
+      <td class="num">₹610 – ₹820</td><td class="num">$6.93 – $9.32</td><td class="num">₹545 – ₹745</td></tr><tr class=""><td class="gsm">150</td><td>Linen-cotton 70/30</td><td>Straight cut, self tie-belt</td>
+      <td class="num">₹1,010 – ₹1,350</td><td class="num">$11.48 – $15.34</td><td class="num">₹900 – ₹1,230</td></tr>
+  </tbody></table></div>
+  </section>
+<section class="item">
+    <div class="item-head"><span class="kicker">Abaya style 05</span><h3>Kloosh / Umbrella Abaya</h3><p class="lede">Circular-cut hem that flares from the shoulder for maximum fullness and swing.</p></div>
+    <div class="figs n1 "><figure><img src="../public/products/abayas/type/kloosh-umbrella.jpg" alt="Model wearing an umbrella-cut abaya with a full, circular flared hem"><figcaption>Model wearing an umbrella-cut abaya with a full, circular flared hem</figcaption></figure></div>
+    <p class="body">Kloosh, or umbrella-cut, abayas use a circular pattern rather than straight panels, so the hem flares evenly from the shoulder seam the way an umbrella opens, instead of gathering fullness at the waist. It uses noticeably more fabric per unit than a straight-panel abaya, which is the main reason it sits above our everyday styles, but it's also the cut GCC buyers most associate with a premium, traditional silhouette. The even flare holds its shape through walking and movement better than gathered or pleated fullness, which tends to collapse unevenly after a few washes. Offered from 25 pieces per pattern per colour.</p>
+    <div class="facts">
+      <div><b>MOQ</b>25 pieces per pattern per colour</div>
+      <div><b>Sizes</b>52, 54, 56, 58, 60, 62 · free size · made-to-measure</div>
+      <div><b>Lead time</b>22 – 30 days after sample approval</div>
+      <div class="wide"><b>Stock colours</b><div class="swatches"><span class="sw"><i style="background:#1a1a1a"></i>Black</span><span class="sw"><i style="background:#3d3d3d"></i>Charcoal</span><span class="sw"><i style="background:#202a44"></i>Navy</span><span class="sw"><i style="background:#4a3728"></i>Chocolate</span></div></div>
+    </div>
+    <div class="ptable"><div class="ptitle">Indicative price by GSM<span>ex-factory Mumbai · per piece</span></div>
+  <table><thead><tr><th>GSM</th><th>Fabric / build</th><th>Typical use</th><th class="num">At MOQ (INR)</th><th class="num">At MOQ (USD)</th><th class="num">3,000+ pcs (INR)</th></tr></thead><tbody>
+  <tr class=""><td class="gsm">185</td><td>Nida</td><td>Circular flared hem</td>
+      <td class="num">₹980 – ₹1,330</td><td class="num">$11.14 – $15.11</td><td class="num">₹870 – ₹1,210</td></tr><tr class="std"><td class="gsm">180<em>standard</em></td><td>Korean Nida</td><td>Circular flared hem</td>
+      <td class="num">₹1,170 – ₹1,580</td><td class="num">$13.30 – $17.95</td><td class="num">₹1,040 – ₹1,440</td></tr><tr class=""><td class="gsm">210</td><td>Korean Nida</td><td>Circular flared hem</td>
+      <td class="num">₹1,310 – ₹1,760</td><td class="num">$14.89 – $20.00</td><td class="num">₹1,170 – ₹1,600</td></tr>
+  </tbody></table></div>
+  </section>
+<section class="item">
+    <div class="item-head"><span class="kicker">Abaya style 06</span><h3>Batwing Abaya</h3><p class="lede">Dropped dolman sleeve for a relaxed, oversized upper body and tapered hem.</p></div>
+    <div class="figs n1 "><figure><img src="../public/products/abayas/type/batwing.jpg" alt="Model wearing a batwing-sleeve abaya with a relaxed, tapered silhouette"><figcaption>Model wearing a batwing-sleeve abaya with a relaxed, tapered silhouette</figcaption></figure></div>
+    <p class="body">Batwing abayas drop the sleeve seam low into the body panel, similar in construction to our butterfly cut, but tapering back toward a narrower hem instead of staying wide throughout, which gives a more wearable, everyday silhouette. The dropped shoulder line is more forgiving across a wide size range than a set-in sleeve, which is why buyers targeting a broad size run tend to prefer it over more fitted options. It sits between our closed and butterfly styles on both fabric usage and price. Offered from 25 pieces per pattern per colour.</p>
+    <div class="facts">
+      <div><b>MOQ</b>25 pieces per pattern per colour</div>
+      <div><b>Sizes</b>52, 54, 56, 58, 60, 62 · free size · made-to-measure</div>
+      <div><b>Lead time</b>22 – 30 days after sample approval</div>
+      <div class="wide"><b>Stock colours</b><div class="swatches"><span class="sw"><i style="background:#1a1a1a"></i>Black</span><span class="sw"><i style="background:#3d3d3d"></i>Charcoal</span><span class="sw"><i style="background:#a08d78"></i>Taupe</span><span class="sw"><i style="background:#6b6f52"></i>Olive</span><span class="sw"><i style="background:#202a44"></i>Navy</span></div></div>
+    </div>
+    <div class="ptable"><div class="ptitle">Indicative price by GSM<span>ex-factory Mumbai · per piece</span></div>
+  <table><thead><tr><th>GSM</th><th>Fabric / build</th><th>Typical use</th><th class="num">At MOQ (INR)</th><th class="num">At MOQ (USD)</th><th class="num">3,000+ pcs (INR)</th></tr></thead><tbody>
+  <tr class=""><td class="gsm">130</td><td>Zoom (polyester)</td><td>Dropped dolman sleeve</td>
+      <td class="num">₹560 – ₹750</td><td class="num">$6.36 – $8.52</td><td class="num">₹500 – ₹685</td></tr><tr class="std"><td class="gsm">185<em>standard</em></td><td>Nida</td><td>Dropped dolman sleeve</td>
+      <td class="num">₹840 – ₹1,100</td><td class="num">$9.55 – $12.50</td><td class="num">₹750 – ₹1,000</td></tr><tr class=""><td class="gsm">180</td><td>Korean Nida</td><td>Dropped dolman sleeve</td>
+      <td class="num">₹1,030 – ₹1,350</td><td class="num">$11.70 – $15.34</td><td class="num">₹915 – ₹1,230</td></tr>
+  </tbody></table></div>
+  </section>
+<section class="item">
+    <div class="item-head"><span class="kicker">Abaya style 07</span><h3>Coat / Blazer Style Abaya</h3><p class="lede">Structured lapel and collar construction worn open, styled closer to outerwear than traditional abaya.</p></div>
+    <div class="figs n2 "><figure><img src="../public/products/abayas/type/coat-blazer.jpg" alt="Model wearing a structured blazer-style abaya with a tailored lapel"><figcaption>Model wearing a structured blazer-style abaya with a tailored lapel</figcaption></figure><figure><img src="../public/fabrics/embellish-4935559.jpg" alt="Close-up of blazer-style abaya lapel and collar construction"><figcaption>Close-up of blazer-style abaya lapel and collar construction</figcaption></figure></div>
+    <p class="body">Coat and blazer-style abayas bring a structured lapel, collar, and often a self-belt into the pattern, positioning the piece closer to modest outerwear than a traditional abaya. It's cut on a heavier fabric than our fluid styles so the lapel holds its roll without interfacing, and it's usually worn fully open over daywear rather than closed. This is the fastest-growing style in our range right now among buyers targeting younger, fashion-forward customers who want abaya-adjacent coverage that reads as a going-out layer rather than traditional dress. Offered from 25 pieces per pattern per colour.</p>
+    <div class="facts">
+      <div><b>MOQ</b>25 pieces per pattern per colour</div>
+      <div><b>Sizes</b>52, 54, 56, 58, 60, 62 · free size · made-to-measure</div>
+      <div><b>Lead time</b>22 – 30 days after sample approval</div>
+      <div class="wide"><b>Stock colours</b><div class="swatches"><span class="sw"><i style="background:#1a1a1a"></i>Black</span><span class="sw"><i style="background:#3d3d3d"></i>Charcoal</span><span class="sw"><i style="background:#c19a6b"></i>Camel</span><span class="sw"><i style="background:#b8ada0"></i>Stone</span></div></div>
+    </div>
+    <div class="ptable"><div class="ptitle">Indicative price by GSM<span>ex-factory Mumbai · per piece</span></div>
+  <table><thead><tr><th>GSM</th><th>Fabric / build</th><th>Typical use</th><th class="num">At MOQ (INR)</th><th class="num">At MOQ (USD)</th><th class="num">3,000+ pcs (INR)</th></tr></thead><tbody>
+  <tr class=""><td class="gsm">210</td><td>Korean Nida</td><td>Lapel holds roll without interfacing</td>
+      <td class="num">₹1,340 – ₹1,800</td><td class="num">$15.23 – $20.45</td><td class="num">₹1,190 – ₹1,640</td></tr><tr class="std"><td class="gsm">220<em>standard</em></td><td>Premium crepe</td><td>Lapel holds roll without interfacing</td>
+      <td class="num">₹1,280 – ₹1,720</td><td class="num">$14.55 – $19.55</td><td class="num">₹1,140 – ₹1,570</td></tr><tr class=""><td class="gsm">240</td><td>Heavy crepe</td><td>Lapel holds roll without interfacing</td>
+      <td class="num">₹1,350 – ₹1,820</td><td class="num">$15.34 – $20.68</td><td class="num">₹1,200 – ₹1,660</td></tr>
+  </tbody></table></div>
+  </section>
+<section class="item">
+    <div class="item-head"><span class="kicker">Abaya style 08</span><h3>Front Open Abaya</h3><p class="lede">Functional button or snap-front closure the full length of the garment.</p></div>
+    <div class="figs n1 "><figure><img src="../public/products/abayas/type/front-open.jpg" alt="Model wearing a front-open abaya with a full-length snap closure"><figcaption>Model wearing a front-open abaya with a full-length snap closure</figcaption></figure></div>
+    <p class="body">Front open abayas differ from our general open-silhouette style in one way: they carry a real, functional closure, a full-length row of snaps or buttons, rather than an unclosed layering front. That means the same garment can be worn fully closed, partially open, or as a layering piece, depending on what the customer wants that day. It's mainly why distributors reorder this as one SKU that covers multiple styling occasions instead of stocking separate closed and open lines. Closure hardware comes in tonal or contrast finishes for private label branding. Offered from 25 pieces per pattern per colour.</p>
+    <div class="facts">
+      <div><b>MOQ</b>25 pieces per pattern per colour</div>
+      <div><b>Sizes</b>52, 54, 56, 58, 60, 62 · free size · made-to-measure</div>
+      <div><b>Lead time</b>22 – 30 days after sample approval</div>
+      <div class="wide"><b>Stock colours</b><div class="swatches"><span class="sw"><i style="background:#1a1a1a"></i>Black</span><span class="sw"><i style="background:#202a44"></i>Navy</span><span class="sw"><i style="background:#3d3d3d"></i>Charcoal</span><span class="sw"><i style="background:#4a3728"></i>Chocolate</span></div></div>
+    </div>
+    <div class="ptable"><div class="ptitle">Indicative price by GSM<span>ex-factory Mumbai · per piece</span></div>
+  <table><thead><tr><th>GSM</th><th>Fabric / build</th><th>Typical use</th><th class="num">At MOQ (INR)</th><th class="num">At MOQ (USD)</th><th class="num">3,000+ pcs (INR)</th></tr></thead><tbody>
+  <tr class=""><td class="gsm">185</td><td>Nida</td><td>Full-length snaps / buttons</td>
+      <td class="num">₹820 – ₹1,070</td><td class="num">$9.32 – $12.16</td><td class="num">₹730 – ₹975</td></tr><tr class="std"><td class="gsm">180<em>standard</em></td><td>Korean Nida</td><td>Full-length snaps / buttons</td>
+      <td class="num">₹1,010 – ₹1,320</td><td class="num">$11.48 – $15.00</td><td class="num">₹900 – ₹1,200</td></tr><tr class=""><td class="gsm">195</td><td>Korean Nida</td><td>Full-length snaps / buttons</td>
+      <td class="num">₹1,080 – ₹1,400</td><td class="num">$12.27 – $15.91</td><td class="num">₹960 – ₹1,270</td></tr>
+  </tbody></table></div>
+  </section>
+<section class="item">
+    <div class="item-head"><span class="kicker">Abaya style 09</span><h3>Two-Piece Abaya</h3><p class="lede">Coordinated top and skirt set styled and sold as a single abaya SKU.</p></div>
+    <div class="figs n1 "><figure><img src="../public/products/abayas/type/two-piece.jpg" alt="Model wearing a coordinated two-piece abaya top and skirt set"><figcaption>Model wearing a coordinated two-piece abaya top and skirt set</figcaption></figure></div>
+    <p class="body">Two-piece abaya sets split the garment into a coordinating top and skirt instead of one continuous dress, which gives customers independent sizing across the bust and waist that a one-piece cut just can't offer. Buyers sell it as a single matched SKU rather than separates, with both pieces cut from the same fabric lot so the shade matches exactly. It tends to work well for private label ranges targeting fit-conscious customers who've specifically asked for adjustable proportions. Sold as coordinated sets from 25 sets per pattern per colour.</p>
+    <div class="facts">
+      <div><b>MOQ</b>25 pieces per pattern per colour</div>
+      <div><b>Sizes</b>S – XXL tops, 52 – 62 skirts</div>
+      <div><b>Lead time</b>22 – 30 days after sample approval</div>
+      <div class="wide"><b>Stock colours</b><div class="swatches"><span class="sw"><i style="background:#1a1a1a"></i>Black</span><span class="sw"><i style="background:#3d3d3d"></i>Charcoal</span><span class="sw"><i style="background:#202a44"></i>Navy</span><span class="sw"><i style="background:#a08d78"></i>Taupe</span></div></div>
+    </div>
+    <div class="ptable"><div class="ptitle">Indicative price by GSM<span>ex-factory Mumbai · per piece</span></div>
+  <table><thead><tr><th>GSM</th><th>Fabric / build</th><th>Typical use</th><th class="num">At MOQ (INR)</th><th class="num">At MOQ (USD)</th><th class="num">3,000+ pcs (INR)</th></tr></thead><tbody>
+  <tr class=""><td class="gsm">170</td><td>Nida</td><td>Per set (top + skirt)</td>
+      <td class="num">₹960 – ₹1,290</td><td class="num">$10.91 – $14.66</td><td class="num">₹855 – ₹1,170</td></tr><tr class="std"><td class="gsm">180<em>standard</em></td><td>Korean Nida</td><td>Per set (top + skirt)</td>
+      <td class="num">₹1,200 – ₹1,600</td><td class="num">$13.64 – $18.18</td><td class="num">₹1,070 – ₹1,460</td></tr><tr class=""><td class="gsm">220</td><td>Premium crepe</td><td>Per set (top + skirt)</td>
+      <td class="num">₹1,280 – ₹1,700</td><td class="num">$14.55 – $19.32</td><td class="num">₹1,140 – ₹1,550</td></tr>
+  </tbody></table></div>
+  </section>
+<section class="item">
+    <div class="item-head"><span class="kicker">Abaya style 10</span><h3>Three-Piece Abaya</h3><p class="lede">Top, skirt, and matching inner slip or hijab set sold as one coordinated SKU.</p></div>
+    <div class="figs n1 "><figure><img src="../public/products/abayas/type/three-piece.jpg" alt="Model wearing a matching three-piece abaya, skirt, and hijab set"><figcaption>Model wearing a matching three-piece abaya, skirt, and hijab set</figcaption></figure></div>
+    <p class="body">Three-piece abaya sets add a matching inner slip or coordinating hijab to the two-piece top-and-skirt format, so distributors get a complete, ready-to-wear outfit they can merchandise as one gift-ready SKU instead of assembling separates at retail. This format sells strongest through our Eid and occasion-adjacent wholesale accounts, where a complete matched set justifies a higher basket value than separates would. All three pieces are cut and dyed from the same fabric lot, so the shades stay consistent. Sold as coordinated sets from 25 sets per pattern per colour.</p>
+    <div class="facts">
+      <div><b>MOQ</b>25 pieces per pattern per colour</div>
+      <div><b>Sizes</b>S – XXL tops, 52 – 62 skirts</div>
+      <div><b>Lead time</b>22 – 30 days after sample approval</div>
+      <div class="wide"><b>Stock colours</b><div class="swatches"><span class="sw"><i style="background:#1a1a1a"></i>Black</span><span class="sw"><i style="background:#202a44"></i>Navy</span><span class="sw"><i style="background:#6d2130"></i>Burgundy</span><span class="sw"><i style="background:#3d3d3d"></i>Charcoal</span></div></div>
+    </div>
+    <div class="ptable"><div class="ptitle">Indicative price by GSM<span>ex-factory Mumbai · per piece</span></div>
+  <table><thead><tr><th>GSM</th><th>Fabric / build</th><th>Typical use</th><th class="num">At MOQ (INR)</th><th class="num">At MOQ (USD)</th><th class="num">3,000+ pcs (INR)</th></tr></thead><tbody>
+  <tr class=""><td class="gsm">170</td><td>Nida</td><td>Per set (top + skirt + slip/hijab)</td>
+      <td class="num">₹1,160 – ₹1,590</td><td class="num">$13.18 – $18.07</td><td class="num">₹1,030 – ₹1,450</td></tr><tr class="std"><td class="gsm">180<em>standard</em></td><td>Korean Nida</td><td>Per set (top + skirt + slip/hijab)</td>
+      <td class="num">₹1,400 – ₹1,900</td><td class="num">$15.91 – $21.59</td><td class="num">₹1,250 – ₹1,730</td></tr><tr class=""><td class="gsm">220</td><td>Premium crepe</td><td>Per set (top + skirt + slip/hijab)</td>
+      <td class="num">₹1,480 – ₹2,000</td><td class="num">$16.82 – $22.73</td><td class="num">₹1,320 – ₹1,820</td></tr>
+  </tbody></table></div>
+  </section>
+<section class="item">
+    <div class="item-head"><span class="kicker">Abaya style 11</span><h3>Embroidered Abaya</h3><p class="lede">Hand or machine-placed embroidery on a heavier crepe base for occasion positioning.</p></div>
+    <div class="figs n2 "><figure><img src="../public/products/abayas/type/embroidered.jpg" alt="Model wearing an embroidered abaya with hand-placed stonework detail"><figcaption>Model wearing an embroidered abaya with hand-placed stonework detail</figcaption></figure><figure><img src="../public/fabrics/embellish-12991912.jpg" alt="Close-up of hand-placed embroidery and stonework on abaya fabric"><figcaption>Close-up of hand-placed embroidery and stonework on abaya fabric</figcaption></figure></div>
+    <p class="body">Embroidered abayas run on heavier crepe bases specifically because that weight can hold hand-placed stonework and thread embroidery without the drape distorting around the stitched area, which is the defect buyers most often report from cheaper embroidered competitors. Placement, thread color, and motif density are all fully customizable if you're building a signature occasion line, and we support small-batch runs for boutique and bridal-adjacent accounts. This is our highest-margin, lowest-competition abaya tier, produced in small-batch runs from 25 pieces per pattern per colour.</p>
+    <div class="facts">
+      <div><b>MOQ</b>25 pieces per pattern per colour</div>
+      <div><b>Sizes</b>52, 54, 56, 58, 60, 62 · free size · made-to-measure</div>
+      <div><b>Lead time</b>28 – 45 days after sample approval</div>
+      <div class="wide"><b>Stock colours</b><div class="swatches"><span class="sw"><i style="background:#1a1a1a"></i>Black</span><span class="sw"><i style="background:#202a44"></i>Navy</span><span class="sw"><i style="background:#6d2130"></i>Burgundy</span><span class="sw"><i style="background:#175f4c"></i>Emerald</span><span class="sw"><i style="background:#3d3d3d"></i>Charcoal</span></div></div>
+    </div>
+    <div class="ptable"><div class="ptitle">Indicative price by GSM<span>ex-factory Mumbai · per piece</span></div>
+  <table><thead><tr><th>GSM</th><th>Fabric / build</th><th>Typical use</th><th class="num">At MOQ (INR)</th><th class="num">At MOQ (USD)</th><th class="num">3,000+ pcs (INR)</th></tr></thead><tbody>
+  <tr class=""><td class="gsm">185</td><td>Nida</td><td>Machine embroidery</td>
+      <td class="num">₹1,060 – ₹1,600</td><td class="num">$12.05 – $18.18</td><td class="num">₹945 – ₹1,460</td></tr><tr class="std"><td class="gsm">220<em>standard</em></td><td>Premium crepe</td><td>Machine embroidery</td>
+      <td class="num">₹1,330 – ₹1,950</td><td class="num">$15.11 – $22.16</td><td class="num">₹1,180 – ₹1,770</td></tr><tr class=""><td class="gsm">240</td><td>Heavy crepe</td><td>Machine embroidery, heavier</td>
+      <td class="num">₹1,400 – ₹2,050</td><td class="num">$15.91 – $23.30</td><td class="num">₹1,250 – ₹1,870</td></tr><tr class=""><td class="gsm">220</td><td>Premium crepe</td><td>Hand stonework + embroidery</td>
+      <td class="num">₹1,730 – ₹3,100</td><td class="num">$19.66 – $35.23</td><td class="num">₹1,540 – ₹2,820</td></tr>
+  </tbody></table></div>
+  </section>
+<section class="item">
+    <div class="item-head"><span class="kicker">Abaya style 12</span><h3>Everyday Abaya</h3><p class="lede">No-fuss daily-wear abaya on matte Nida, built for reorder volume over occasion styling.</p></div>
+    <div class="figs n2 "><figure><img src="../public/products/abayas/type/everyday.jpg" alt="Model wearing an everyday matte Nida abaya in a clean, simple silhouette"><figcaption>Model wearing an everyday matte Nida abaya in a clean, simple silhouette</figcaption></figure><figure><img src="../public/fabrics/embellish-12972006.jpg" alt="Close-up of everyday abaya fabric and reinforced pocket seam"><figcaption>Close-up of everyday abaya fabric and reinforced pocket seam</figcaption></figure></div>
+    <p class="body">Everyday abayas strip the category back to what daily-wear customers actually reorder: matte Korean Nida with enough body to hold a clean line, concealed closures that won't snag on a handbag strap, and reinforced side-seam pockets built to survive repeated use. There's no embellishment or dramatic silhouette here, and that's deliberate. This is the SKU distributors reorder every season without needing a design refresh, which makes it the highest-volume, most predictable line in our abaya range, and usually the natural first order for a new private label account. Offered from 25 pieces per pattern per colour.</p>
+    <div class="facts">
+      <div><b>MOQ</b>25 pieces per pattern per colour</div>
+      <div><b>Sizes</b>52, 54, 56, 58, 60, 62 · free size · made-to-measure</div>
+      <div><b>Lead time</b>22 – 30 days after sample approval</div>
+      <div class="wide"><b>Stock colours</b><div class="swatches"><span class="sw"><i style="background:#1a1a1a"></i>Black</span><span class="sw"><i style="background:#3d3d3d"></i>Charcoal</span><span class="sw"><i style="background:#202a44"></i>Navy</span><span class="sw"><i style="background:#4a3728"></i>Chocolate</span><span class="sw"><i style="background:#6b6f52"></i>Olive</span><span class="sw"><i style="background:#b8ada0"></i>Stone</span></div></div>
+    </div>
+    <div class="ptable"><div class="ptitle">Indicative price by GSM<span>ex-factory Mumbai · per piece</span></div>
+  <table><thead><tr><th>GSM</th><th>Fabric / build</th><th>Typical use</th><th class="num">At MOQ (INR)</th><th class="num">At MOQ (USD)</th><th class="num">3,000+ pcs (INR)</th></tr></thead><tbody>
+  <tr class=""><td class="gsm">130</td><td>Zoom (polyester)</td><td>Concealed closures, side pockets</td>
+      <td class="num">₹480 – ₹600</td><td class="num">$5.45 – $6.82</td><td class="num">₹425 – ₹545</td></tr><tr class="std"><td class="gsm">185<em>standard</em></td><td>Nida</td><td>Concealed closures, side pockets</td>
+      <td class="num">₹760 – ₹950</td><td class="num">$8.64 – $10.80</td><td class="num">₹675 – ₹865</td></tr><tr class=""><td class="gsm">180</td><td>Korean Nida</td><td>Concealed closures, side pockets</td>
+      <td class="num">₹950 – ₹1,200</td><td class="num">$10.80 – $13.64</td><td class="num">₹845 – ₹1,090</td></tr>
+  </tbody></table></div>
+  </section>
+<section class="item">
+    <div class="item-head"><span class="kicker">Abaya style 13</span><h3>Sports Abayas</h3><p class="lede">Looser-cut abaya silhouette on technical activewear knit for modest outdoor activity.</p></div>
+    <div class="figs n2 "><figure><img src="../public/products/sports-hijabs/type/sports-abayas.jpg" alt="Model wearing a sports abaya in technical activewear fabric"><figcaption>Model wearing a sports abaya in technical activewear fabric</figcaption></figure><figure><img src="../public/products/sports-hijabs/8744799.jpg" alt="Close-up of technical knit fabric used for sports abayas"><figcaption>Close-up of technical knit fabric used for sports abayas</figcaption></figure></div>
+    <p class="body">Sports abayas apply our technical activewear knit to a looser abaya silhouette, for customers who want full-coverage modest dressing for outdoor activity, walking, or light training without the fitted profile of a sports jilbab or leggings-based set. The wider cut trades some of the compression benefits of our gym hijab line for a more relaxed, everyday-adjacent activewear look. Offered from 25 pieces per pattern per colour.</p>
+    <div class="facts">
+      <div><b>MOQ</b>25 pieces per pattern per colour</div>
+      <div><b>Sizes</b>S – XXL, 52 – 60</div>
+      <div><b>Lead time</b>25 – 32 days after sample approval</div>
+      <div class="wide"><b>Stock colours</b><div class="swatches"><span class="sw"><i style="background:#1a1a1a"></i>Black</span><span class="sw"><i style="background:#3d3d3d"></i>Charcoal</span><span class="sw"><i style="background:#202a44"></i>Navy</span></div></div>
+    </div>
+    <div class="ptable"><div class="ptitle">Indicative price by GSM<span>ex-factory Mumbai · per piece</span></div>
+  <table><thead><tr><th>GSM</th><th>Fabric / build</th><th>Typical use</th><th class="num">At MOQ (INR)</th><th class="num">At MOQ (USD)</th><th class="num">3,000+ pcs (INR)</th></tr></thead><tbody>
+  <tr class="std"><td class="gsm">180<em>standard</em></td><td>Performance knit</td><td>Looser activewear cut</td>
+      <td class="num">₹750 – ₹950</td><td class="num">$8.52 – $10.80</td><td class="num">₹670 – ₹865</td></tr><tr class=""><td class="gsm">200</td><td>Performance knit</td><td>Looser activewear cut</td>
+      <td class="num">₹820 – ₹1,050</td><td class="num">$9.32 – $11.93</td><td class="num">₹730 – ₹955</td></tr>
+  </tbody></table></div>
+  </section>
+<section class="divider">
+    <div class="dnum">02</div><h2>Signature Abayas</h2>
+    <p class="dintro">Eight ready-to-order styles with full specifications, from the value Zoom basic to hand-stoned crepe.</p>
+    <figure class="hero"><img src="../public/products/abayas/collections/premium-korean-nida.jpg" alt="Signature Abayas"></figure>
+    
+  </section>
+<section class="item product">
+    <div class="item-head"><span class="kicker">Style No. SN-A-001 · Everyday Nida</span>
+    <h3>Layla Nida Abaya</h3><p class="lede">Everyday open-front abaya in matte Korean Nida with clean seaming.</p><div class="badges"><span class="badge">Best seller</span><span class="badge">Featured</span><span class="badge">Private label ready</span></div></div>
+    <div class="figs n3 "><figure><img src="../public/products/abayas/collections/everyday-nida.jpg" alt="Layla open-front abaya on a mannequin"><figcaption>Layla open-front abaya on a mannequin</figcaption></figure><figure><img src="../public/products/abayas/5616021.jpg" alt="Nida abaya fabric drape close-up"><figcaption>Nida abaya fabric drape close-up</figcaption></figure><figure><img src="../public/products/abayas/9880858.jpg" alt="Abaya side pocket and seam detail"><figcaption>Abaya side pocket and seam detail</figcaption></figure></div>
+    <p class="body">Built on matte Korean Nida, the Layla is our volume program abaya — a fabric that holds structure without turning stiff. The open-front cut closes with a concealed snap and includes side pockets. It's the most requested base style among our wholesale accounts across the GCC, and comes with a full private label program including custom embroidery placement and woven size labels.</p>
+    <div class="cols">
+      <table class="spec"><tbody><tr><th>Fabric weight</th><td>180 gsm</td></tr><tr><th>Composition</th><td>100% polyester Nida</td></tr><tr><th>Closure</th><td>Concealed snap, 5-point</td></tr><tr><th>Pockets</th><td>Dual side seam pockets</td></tr><tr><th>Care</th><td>Machine wash cold, hang dry, cool iron</td></tr><tr><th>Fabric</th><td>Korean Nida</td></tr><tr><th>Sizes</th><td>52, 54, 56, 58, 60, 62</td></tr><tr><th>MOQ</th><td>25 pieces per pattern per colour</td></tr><tr><th>Sample charge</th><td>₹3,000 flat per sample</td></tr><tr><th>Lead time</th><td>25–30 days after sample approval</td></tr></tbody></table>
+      <div>
+        <div class="minihead">Colours</div><div class="swatches"><span class="sw"><i style="background:#1A1A18"></i>Black</span><span class="sw"><i style="background:#0B4A38"></i>Emerald</span><span class="sw"><i style="background:#2B2B28"></i>Charcoal</span></div>
+        <div class="minihead">Customisation</div><ul class="ticks"><li>Custom embroidery placement</li><li>Woven size labels</li><li>Custom snap or zip closure</li><li>Custom sizing chart</li></ul>
+      </div>
+    </div>
+    <div class="ptable"><div class="ptitle">Indicative price by GSM<span>ex-factory Mumbai · per piece</span></div>
+  <table><thead><tr><th>GSM</th><th>Fabric / build</th><th>Typical use</th><th class="num">At MOQ (INR)</th><th class="num">At MOQ (USD)</th><th class="num">3,000+ pcs (INR)</th></tr></thead><tbody>
+  <tr class=""><td class="gsm">160</td><td>Korean Nida</td><td>Open front, 5-point concealed snap, pockets</td>
+      <td class="num">₹940 – ₹1,220</td><td class="num">$10.68 – $13.86</td><td class="num">₹835 – ₹1,110</td></tr><tr class="std"><td class="gsm">180<em>standard</em></td><td>Korean Nida</td><td>Open front, 5-point concealed snap, pockets</td>
+      <td class="num">₹1,010 – ₹1,320</td><td class="num">$11.48 – $15.00</td><td class="num">₹900 – ₹1,200</td></tr><tr class=""><td class="gsm">195</td><td>Korean Nida</td><td>Open front, 5-point concealed snap, pockets</td>
+      <td class="num">₹1,080 – ₹1,400</td><td class="num">$12.27 – $15.91</td><td class="num">₹960 – ₹1,270</td></tr>
+  </tbody></table></div>
+  </section>
+<section class="item product">
+    <div class="item-head"><span class="kicker">Style No. SN-A-002 · Occasion &amp; Embellished</span>
+    <h3>Zahra Embellished Abaya</h3><p class="lede">Occasion abaya with hand-placed stonework on premium crepe.</p><div class="badges"><span class="badge">New arrival</span><span class="badge">Private label ready</span></div></div>
+    <div class="figs n2 "><figure><img src="../public/products/abayas/collections/occasion-embellished.jpg" alt="Zahra embellished abaya with stonework detail"><figcaption>Zahra embellished abaya with stonework detail</figcaption></figure><figure><img src="../public/products/abayas/32178223.jpg" alt="Close-up of hand-placed stone embroidery"><figcaption>Close-up of hand-placed stone embroidery</figcaption></figure></div>
+    <p class="body">Zahra targets the occasion and bridal-adjacent segment, and it's built on a heavier crepe base specifically so the embellishment weight doesn't distort the drape. Our embroidery unit hand-places every stone and checks the work stone by stone before packing. Small-batch private label runs start at 25 pieces per pattern per colour, which suits boutique and premium retail buyers well.</p>
+    <div class="cols">
+      <table class="spec"><tbody><tr><th>Fabric weight</th><td>220 gsm</td></tr><tr><th>Composition</th><td>100% polyester crepe</td></tr><tr><th>Embellishment</th><td>Hand-placed stonework</td></tr><tr><th>Care</th><td>Dry clean recommended</td></tr><tr><th>Fabric</th><td>Premium Crepe</td></tr><tr><th>Sizes</th><td>Made to size chart, 52, 54, 56, 58</td></tr><tr><th>MOQ</th><td>25 pieces per pattern per colour</td></tr><tr><th>Sample charge</th><td>₹3,000 flat per sample</td></tr><tr><th>Lead time</th><td>35–45 days after sample approval</td></tr></tbody></table>
+      <div>
+        <div class="minihead">Colours</div><div class="swatches"><span class="sw"><i style="background:#1A1A18"></i>Black</span><span class="sw"><i style="background:#A97C50"></i>Bronze</span></div>
+        <div class="minihead">Customisation</div><ul class="ticks"><li>Custom stonework pattern</li><li>Custom fabric color</li><li>Bridal packaging</li><li>Made-to-measure runs</li></ul>
+      </div>
+    </div>
+    <div class="ptable"><div class="ptitle">Indicative price by GSM<span>ex-factory Mumbai · per piece</span></div>
+  <table><thead><tr><th>GSM</th><th>Fabric / build</th><th>Typical use</th><th class="num">At MOQ (INR)</th><th class="num">At MOQ (USD)</th><th class="num">3,000+ pcs (INR)</th></tr></thead><tbody>
+  <tr class=""><td class="gsm">200</td><td>Premium crepe</td><td>Hand-placed stonework</td>
+      <td class="num">₹1,850 – ₹3,200</td><td class="num">$21.02 – $36.36</td><td class="num">₹1,650 – ₹2,910</td></tr><tr class="std"><td class="gsm">220<em>standard</em></td><td>Premium crepe</td><td>Hand-placed stonework</td>
+      <td class="num">₹1,930 – ₹3,300</td><td class="num">$21.93 – $37.50</td><td class="num">₹1,720 – ₹3,000</td></tr><tr class=""><td class="gsm">240</td><td>Heavy crepe</td><td>Hand-placed stonework</td>
+      <td class="num">₹2,000 – ₹3,400</td><td class="num">$22.73 – $38.64</td><td class="num">₹1,780 – ₹3,090</td></tr>
+  </tbody></table></div>
+  </section>
+<section class="item product">
+    <div class="item-head"><span class="kicker">Style No. SN-A-003 · Premium Korean Nida</span>
+    <h3>Salma Korean Nida Abaya</h3><p class="lede">Premium open-front abaya in Korean Nida with a butterfly sleeve.</p><div class="badges"><span class="badge">Best seller</span><span class="badge">Private label ready</span></div></div>
+    <div class="figs n2 "><figure><img src="../public/products/abayas/collections/premium-korean-nida.jpg" alt="Butterfly-sleeve abaya on a mannequin"><figcaption>Butterfly-sleeve abaya on a mannequin</figcaption></figure><figure><img src="../public/products/abayas/34957209.jpg" alt="Korean Nida fabric sheen close-up"><figcaption>Korean Nida fabric sheen close-up</figcaption></figure></div>
+    <p class="body">Salma takes the Layla base pattern and upgrades it to Korean Nida for a subtle sheen and softer drape, then finishes it with a wide butterfly sleeve that reads as more premium both on the hanger and in product photography. When a buyer is ready to introduce a second, higher price-tier abaya alongside a volume entry style, this is what we recommend.</p>
+    <div class="cols">
+      <table class="spec"><tbody><tr><th>Fabric weight</th><td>195 gsm</td></tr><tr><th>Sleeve</th><td>Wide butterfly cut</td></tr><tr><th>Care</th><td>Machine wash cold, hang dry, cool iron</td></tr><tr><th>Fabric</th><td>Korean Nida</td></tr><tr><th>Sizes</th><td>52, 54, 56, 58, 60</td></tr><tr><th>MOQ</th><td>25 pieces per pattern per colour</td></tr><tr><th>Sample charge</th><td>₹3,000 flat per sample</td></tr><tr><th>Lead time</th><td>25–30 days after sample approval</td></tr></tbody></table>
+      <div>
+        <div class="minihead">Colours</div><div class="swatches"><span class="sw"><i style="background:#1A1A18"></i>Black</span><span class="sw"><i style="background:#A97C50"></i>Bronze</span></div>
+        <div class="minihead">Customisation</div><ul class="ticks"><li>Custom sleeve width</li><li>Custom embroidery placement</li><li>Woven size labels</li></ul>
+      </div>
+    </div>
+    <div class="ptable"><div class="ptitle">Indicative price by GSM<span>ex-factory Mumbai · per piece</span></div>
+  <table><thead><tr><th>GSM</th><th>Fabric / build</th><th>Typical use</th><th class="num">At MOQ (INR)</th><th class="num">At MOQ (USD)</th><th class="num">3,000+ pcs (INR)</th></tr></thead><tbody>
+  <tr class=""><td class="gsm">180</td><td>Korean Nida</td><td>Butterfly sleeve</td>
+      <td class="num">₹1,070 – ₹1,400</td><td class="num">$12.16 – $15.91</td><td class="num">₹950 – ₹1,270</td></tr><tr class="std"><td class="gsm">195<em>standard</em></td><td>Korean Nida</td><td>Butterfly sleeve</td>
+      <td class="num">₹1,140 – ₹1,480</td><td class="num">$12.95 – $16.82</td><td class="num">₹1,010 – ₹1,350</td></tr><tr class=""><td class="gsm">210</td><td>Korean Nida</td><td>Butterfly sleeve</td>
+      <td class="num">₹1,210 – ₹1,580</td><td class="num">$13.75 – $17.95</td><td class="num">₹1,080 – ₹1,440</td></tr>
+  </tbody></table></div>
+  </section>
+<section class="item product">
+    <div class="item-head"><span class="kicker">Style No. SN-A-004 · Layering &amp; Resort</span>
+    <h3>Widad Kimono Abaya</h3><p class="lede">Open kimono-style abaya designed to layer over daywear.</p><div class="badges"><span class="badge">New arrival</span><span class="badge">Private label ready</span></div></div>
+    <div class="figs n2 "><figure><img src="../public/products/abayas/collections/layering-resort.jpg" alt="Open kimono abaya on a model"><figcaption>Open kimono abaya on a model</figcaption></figure><figure><img src="../public/products/abayas/32279501.jpg" alt="Lightweight abaya fabric drape"><figcaption>Lightweight abaya fabric drape</figcaption></figure></div>
+    <p class="body">Cut fully open with no closure, Widad is meant to be worn as a layering piece over a base abaya or daywear. The lighter Zoom fabric keeps it breathable enough for warm-climate daily use, and it's become a strong reorder category for buyers whose customers want a modest outer layer without full abaya coverage.</p>
+    <div class="cols">
+      <table class="spec"><tbody><tr><th>Fabric weight</th><td>140 gsm</td></tr><tr><th>Closure</th><td>Open, no closure</td></tr><tr><th>Care</th><td>Machine wash cold, hang dry</td></tr><tr><th>Fabric</th><td>Zoom</td></tr><tr><th>Sizes</th><td>Free size, 52, 54, 56</td></tr><tr><th>MOQ</th><td>25 pieces per pattern per colour</td></tr><tr><th>Sample charge</th><td>₹3,000 flat per sample</td></tr><tr><th>Lead time</th><td>22–28 days after sample approval</td></tr></tbody></table>
+      <div>
+        <div class="minihead">Colours</div><div class="swatches"><span class="sw"><i style="background:#E9DFCF"></i>Sand</span><span class="sw"><i style="background:#6B7256"></i>Olive</span><span class="sw"><i style="background:#2B2B28"></i>Charcoal</span></div>
+        <div class="minihead">Customisation</div><ul class="ticks"><li>Custom length</li><li>Custom pocket placement</li><li>Woven label</li></ul>
+      </div>
+    </div>
+    <div class="ptable"><div class="ptitle">Indicative price by GSM<span>ex-factory Mumbai · per piece</span></div>
+  <table><thead><tr><th>GSM</th><th>Fabric / build</th><th>Typical use</th><th class="num">At MOQ (INR)</th><th class="num">At MOQ (USD)</th><th class="num">3,000+ pcs (INR)</th></tr></thead><tbody>
+  <tr class=""><td class="gsm">130</td><td>Zoom (polyester)</td><td>Kimono cut, open</td>
+      <td class="num">₹440 – ₹600</td><td class="num">$5.00 – $6.82</td><td class="num">₹390 – ₹545</td></tr><tr class="std"><td class="gsm">140<em>standard</em></td><td>Zoom (polyester)</td><td>Kimono cut, open</td>
+      <td class="num">₹470 – ₹640</td><td class="num">$5.34 – $7.27</td><td class="num">₹420 – ₹580</td></tr><tr class=""><td class="gsm">150</td><td>Linen-cotton 70/30</td><td>Kimono cut, open</td>
+      <td class="num">₹1,010 – ₹1,350</td><td class="num">$11.48 – $15.34</td><td class="num">₹900 – ₹1,230</td></tr>
+  </tbody></table></div>
+  </section>
+<section class="item product">
+    <div class="item-head"><span class="kicker">Style No. SN-A-005</span>
+    <h3>Nailah Closed Abaya</h3><p class="lede">Pull-over closed abaya with a fitted yoke and A-line skirt.</p><div class="badges"><span class="badge">Private label ready</span></div></div>
+    <div class="figs n2 "><figure><img src="../public/products/abayas/items/nailah-closed-abaya-1.jpg" alt="Closed abaya on a mannequin"><figcaption>Closed abaya on a mannequin</figcaption></figure><figure><img src="../public/products/abayas/36919797.jpg" alt="Abaya yoke seam detail"><figcaption>Abaya yoke seam detail</figcaption></figure></div>
+    <p class="body">Nailah is our closed-front alternative to the Layla — pulled on over the head, with a fitted shoulder yoke that tapers into a fuller A-line skirt. Removing closure hardware entirely is a deliberate choice here, and some distributors prefer it for cost and durability reasons on high-volume basics programs.</p>
+    <div class="cols">
+      <table class="spec"><tbody><tr><th>Fabric weight</th><td>185 gsm</td></tr><tr><th>Construction</th><td>Pull-over, fitted yoke</td></tr><tr><th>Care</th><td>Machine wash cold, hang dry, cool iron</td></tr><tr><th>Fabric</th><td>Nida</td></tr><tr><th>Sizes</th><td>52, 54, 56, 58, 60, 62</td></tr><tr><th>MOQ</th><td>25 pieces per pattern per colour</td></tr><tr><th>Sample charge</th><td>₹3,000 flat per sample</td></tr><tr><th>Lead time</th><td>22–28 days after sample approval</td></tr></tbody></table>
+      <div>
+        <div class="minihead">Colours</div><div class="swatches"><span class="sw"><i style="background:#1A1A18"></i>Black</span><span class="sw"><i style="background:#2B2B28"></i>Charcoal</span></div>
+        <div class="minihead">Customisation</div><ul class="ticks"><li>Custom yoke seaming</li><li>Woven size labels</li><li>Custom sizing chart</li></ul>
+      </div>
+    </div>
+    <div class="ptable"><div class="ptitle">Indicative price by GSM<span>ex-factory Mumbai · per piece</span></div>
+  <table><thead><tr><th>GSM</th><th>Fabric / build</th><th>Typical use</th><th class="num">At MOQ (INR)</th><th class="num">At MOQ (USD)</th><th class="num">3,000+ pcs (INR)</th></tr></thead><tbody>
+  <tr class=""><td class="gsm">150</td><td>Nida (Farasha-type)</td><td>Pull-over, fitted yoke, A-line</td>
+      <td class="num">₹680 – ₹880</td><td class="num">$7.73 – $10.00</td><td class="num">₹605 – ₹800</td></tr><tr class=""><td class="gsm">170</td><td>Nida</td><td>Pull-over, fitted yoke, A-line</td>
+      <td class="num">₹740 – ₹950</td><td class="num">$8.41 – $10.80</td><td class="num">₹660 – ₹865</td></tr><tr class="std"><td class="gsm">185<em>standard</em></td><td>Nida</td><td>Pull-over, fitted yoke, A-line</td>
+      <td class="num">₹790 – ₹1,010</td><td class="num">$8.98 – $11.48</td><td class="num">₹705 – ₹920</td></tr>
+  </tbody></table></div>
+  </section>
+<section class="item product">
+    <div class="item-head"><span class="kicker">Style No. SN-A-006</span>
+    <h3>Farida Linen Abaya</h3><p class="lede">Resort-weight linen-blend abaya for warm-climate daywear.</p><div class="badges"><span class="badge">Private label ready</span></div></div>
+    <div class="figs n2 "><figure><img src="../public/products/abayas/items/farida-linen-abaya-1.jpg" alt="Linen-blend abaya on a mannequin"><figcaption>Linen-blend abaya on a mannequin</figcaption></figure><figure><img src="../public/products/abayas/9880858.jpg" alt="Linen texture close-up"><figcaption>Linen texture close-up</figcaption></figure></div>
+    <p class="body">Built on a reduced-crease linen-cotton blend, Farida was developed for resort and warm-climate daywear ranges where breathability matters more than the structured hand-feel of Nida. It carries linen's characteristic texture without the extreme creasing that makes pure linen impractical for travel retail.</p>
+    <div class="cols">
+      <table class="spec"><tbody><tr><th>Composition</th><td>70% linen, 30% cotton</td></tr><tr><th>Finish</th><td>Reduced-crease</td></tr><tr><th>Care</th><td>Machine wash cold, iron while damp</td></tr><tr><th>Fabric</th><td>Linen-Cotton Blend</td></tr><tr><th>Sizes</th><td>52, 54, 56, 58</td></tr><tr><th>MOQ</th><td>25 pieces per pattern per colour</td></tr><tr><th>Sample charge</th><td>₹3,000 flat per sample</td></tr><tr><th>Lead time</th><td>25–32 days after sample approval</td></tr></tbody></table>
+      <div>
+        <div class="minihead">Colours</div><div class="swatches"><span class="sw"><i style="background:#E9DFCF"></i>Sand</span><span class="sw"><i style="background:#FAF7F1"></i>Ivory</span></div>
+        <div class="minihead">Customisation</div><ul class="ticks"><li>Custom sizing chart</li><li>Woven size labels</li><li>Custom pocket detail</li></ul>
+      </div>
+    </div>
+    <div class="ptable"><div class="ptitle">Indicative price by GSM<span>ex-factory Mumbai · per piece</span></div>
+  <table><thead><tr><th>GSM</th><th>Fabric / build</th><th>Typical use</th><th class="num">At MOQ (INR)</th><th class="num">At MOQ (USD)</th><th class="num">3,000+ pcs (INR)</th></tr></thead><tbody>
+  <tr class=""><td class="gsm">150</td><td>Linen-cotton 70/30</td><td>Reduced-crease resort weight</td>
+      <td class="num">₹1,050 – ₹1,350</td><td class="num">$11.93 – $15.34</td><td class="num">₹935 – ₹1,230</td></tr><tr class="std"><td class="gsm">180<em>standard</em></td><td>Linen-cotton 70/30</td><td>Reduced-crease resort weight</td>
+      <td class="num">₹1,150 – ₹1,480</td><td class="num">$13.07 – $16.82</td><td class="num">₹1,020 – ₹1,350</td></tr>
+  </tbody></table></div>
+  </section>
+<section class="item product">
+    <div class="item-head"><span class="kicker">Style No. SN-A-007</span>
+    <h3>Halima Everyday Abaya</h3><p class="lede">Value-tier Zoom abaya for high-volume basics programs.</p><div class="badges"><span class="badge">Private label ready</span></div></div>
+    <div class="figs n2 "><figure><img src="../public/products/abayas/items/halima-everyday-abaya-1.jpg" alt="Value-tier abaya on a mannequin"><figcaption>Value-tier abaya on a mannequin</figcaption></figure><figure><img src="../public/products/abayas/32178223.jpg" alt="Zoom fabric close-up"><figcaption>Zoom fabric close-up</figcaption></figure></div>
+    <p class="body">Halima is our most cost-efficient abaya SKU, built on lightweight Zoom fabric for distributors running high-volume basics programs where unit cost decides everything. We cut it simply, with minimal seaming, to keep both fabric use and production time tight.</p>
+    <div class="cols">
+      <table class="spec"><tbody><tr><th>Fabric weight</th><td>130 gsm</td></tr><tr><th>Composition</th><td>100% polyester</td></tr><tr><th>Care</th><td>Machine wash cold, hang dry</td></tr><tr><th>Fabric</th><td>Zoom</td></tr><tr><th>Sizes</th><td>Free size, 52, 54, 56</td></tr><tr><th>MOQ</th><td>25 pieces per pattern per colour</td></tr><tr><th>Sample charge</th><td>₹3,000 flat per sample</td></tr><tr><th>Lead time</th><td>18–24 days after sample approval</td></tr></tbody></table>
+      <div>
+        <div class="minihead">Colours</div><div class="swatches"><span class="sw"><i style="background:#1A1A18"></i>Black</span><span class="sw"><i style="background:#2B2B28"></i>Charcoal</span><span class="sw"><i style="background:#E9DFCF"></i>Sand</span></div>
+        <div class="minihead">Customisation</div><ul class="ticks"><li>Woven or printed label</li><li>Bulk poly bag packaging</li></ul>
+      </div>
+    </div>
+    <div class="ptable"><div class="ptitle">Indicative price by GSM<span>ex-factory Mumbai · per piece</span></div>
+  <table><thead><tr><th>GSM</th><th>Fabric / build</th><th>Typical use</th><th class="num">At MOQ (INR)</th><th class="num">At MOQ (USD)</th><th class="num">3,000+ pcs (INR)</th></tr></thead><tbody>
+  <tr class=""><td class="gsm">120</td><td>Zoom (polyester)</td><td>Value basics programme</td>
+      <td class="num">₹450 – ₹560</td><td class="num">$5.11 – $6.36</td><td class="num">₹400 – ₹510</td></tr><tr class="std"><td class="gsm">130<em>standard</em></td><td>Zoom (polyester)</td><td>Value basics programme</td>
+      <td class="num">₹480 – ₹600</td><td class="num">$5.45 – $6.82</td><td class="num">₹425 – ₹545</td></tr><tr class=""><td class="gsm">140</td><td>Zoom (polyester)</td><td>Value basics programme</td>
+      <td class="num">₹510 – ₹640</td><td class="num">$5.80 – $7.27</td><td class="num">₹455 – ₹580</td></tr>
+  </tbody></table></div>
+  </section>
+<section class="item product">
+    <div class="item-head"><span class="kicker">Style No. SN-A-008</span>
+    <h3>Safiya Embroidered Crepe Abaya</h3><p class="lede">Machine-embroidered crepe abaya for mid-premium occasion ranges.</p><div class="badges"><span class="badge">Private label ready</span></div></div>
+    <div class="figs n2 "><figure><img src="../public/products/abayas/items/safiya-embroidered-crepe-abaya-1.jpg" alt="Embroidered crepe abaya on a mannequin"><figcaption>Embroidered crepe abaya on a mannequin</figcaption></figure><figure><img src="../public/products/abayas/34957209.jpg" alt="Machine embroidery detail close-up"><figcaption>Machine embroidery detail close-up</figcaption></figure></div>
+    <p class="body">Sitting between our everyday Nida program and the fully hand-embellished Zahra, Safiya uses machine embroidery on a crepe base to bring occasion-ready detail at a more accessible MOQ than hand-placed stonework requires. It's a practical entry point into occasion wear for buyers not yet ready for hand-embellished pricing.</p>
+    <div class="cols">
+      <table class="spec"><tbody><tr><th>Fabric weight</th><td>210 gsm</td></tr><tr><th>Embellishment</th><td>Machine embroidery</td></tr><tr><th>Care</th><td>Dry clean recommended</td></tr><tr><th>Fabric</th><td>Crepe</td></tr><tr><th>Sizes</th><td>52, 54, 56, 58</td></tr><tr><th>MOQ</th><td>25 pieces per pattern per colour</td></tr><tr><th>Sample charge</th><td>₹3,000 flat per sample</td></tr><tr><th>Lead time</th><td>28–34 days after sample approval</td></tr></tbody></table>
+      <div>
+        <div class="minihead">Colours</div><div class="swatches"><span class="sw"><i style="background:#1A1A18"></i>Black</span><span class="sw"><i style="background:#0B4A38"></i>Emerald</span></div>
+        <div class="minihead">Customisation</div><ul class="ticks"><li>Custom embroidery pattern</li><li>Custom thread color</li><li>Woven size labels</li></ul>
+      </div>
+    </div>
+    <div class="ptable"><div class="ptitle">Indicative price by GSM<span>ex-factory Mumbai · per piece</span></div>
+  <table><thead><tr><th>GSM</th><th>Fabric / build</th><th>Typical use</th><th class="num">At MOQ (INR)</th><th class="num">At MOQ (USD)</th><th class="num">3,000+ pcs (INR)</th></tr></thead><tbody>
+  <tr class=""><td class="gsm">200</td><td>Premium crepe</td><td>Machine embroidery</td>
+      <td class="num">₹1,250 – ₹1,850</td><td class="num">$14.20 – $21.02</td><td class="num">₹1,110 – ₹1,680</td></tr><tr class="std"><td class="gsm">210<em>standard</em></td><td>Premium crepe</td><td>Machine embroidery</td>
+      <td class="num">₹1,290 – ₹1,900</td><td class="num">$14.66 – $21.59</td><td class="num">₹1,150 – ₹1,730</td></tr><tr class=""><td class="gsm">240</td><td>Heavy crepe</td><td>Machine embroidery</td>
+      <td class="num">₹1,400 – ₹2,050</td><td class="num">$15.91 – $23.30</td><td class="num">₹1,250 – ₹1,870</td></tr>
+  </tbody></table></div>
+  </section>
+<section class="divider">
+    <div class="dnum">03</div><h2>Bridal Abayas</h2>
+    <p class="dintro">Occasion-grade abayas with embroidery, pearl, stone, and crystal embellishment on silk and satin bases, made for wedding, nikah, and bridal party ranges.</p>
+    <figure class="hero"><img src="../public/categories/bridal-abayas-hero.jpg" alt="Embellished bridal abaya with hand-placed stonework draped elegantly"></figure>
+    <div class="prose">
+      <p>Bridal abaya is the most heavily embellished, highest-margin tier in our abaya range, and it's also where fabric weight matters more than anywhere else. Every stone, pearl, or crystal adds real weight to the garment, and a base fabric that can't hold that weight will sag or pucker right where the embellishment sits. That's why we only build this range on heavier crepe, satin, and silk bases, never on the lighter fabrics we'd use for everyday abayas.</p>
+      <p>Buyers generally use this category alongside their standard abaya range, to cover boutique, bridal party, and gifting channels &mdash; lower volume, better margin. Small-batch production is standard, most styles are available from 25 pieces per pattern per colour, and if you're building a signature bridal line, custom embroidery motifs, stone placement, and color-matched threadwork are all on the table for private label.</p>
+    </div>
+  </section>
+<section class="item">
+    <div class="item-head"><span class="kicker">Bridal style 01</span><h3>Bridal Embroidered Abaya</h3><p class="lede">Hand or machine thread embroidery in a custom motif on a heavier crepe or satin base.</p></div>
+    <div class="figs n2 "><figure><img src="../public/products/bridal-abayas/items/embroidered-1.jpg" alt="Model wearing a bridal embroidered abaya with a custom thread motif"><figcaption>Model wearing a bridal embroidered abaya with a custom thread motif</figcaption></figure><figure><img src="../public/fabrics/embellish-12972006.jpg" alt="Close-up of hand embroidery detail on a bridal abaya"><figcaption>Close-up of hand embroidery detail on a bridal abaya</figcaption></figure></div>
+    <p class="body">Bridal embroidered abayas carry a thread-embroidered motif across the bodice, sleeves, or hem — a buyer's own pattern, or one we develop in-house from a reference image. We deliberately use a heavier crepe or satin base here, since it holds the embroidery's tension without puckering around the stitched area, which is the defect most buyers tell us they've run into with lower-cost embroidered competitors. This style tends to get ordered as a fully custom, one-off design for a specific wedding party rather than as a repeat catalog SKU. Produced from 25 pieces per pattern per colour.</p>
+    <div class="facts">
+      <div><b>MOQ</b>25 pieces per pattern per colour</div>
+      <div><b>Sizes</b>52 – 62 · made-to-measure</div>
+      <div><b>Lead time</b>35 – 45 days after sample approval</div>
+      <div class="wide"><b>Stock colours</b><div class="swatches"><span class="sw"><i style="background:#1a1a1a"></i>Black</span><span class="sw"><i style="background:#202a44"></i>Navy</span><span class="sw"><i style="background:#6d2130"></i>Burgundy</span><span class="sw"><i style="background:#c9a635"></i>Gold</span></div></div>
+    </div>
+    <div class="ptable"><div class="ptitle">Indicative price by GSM<span>ex-factory Mumbai · per piece</span></div>
+  <table><thead><tr><th>Base GSM</th><th>Fabric / build</th><th>Typical use</th><th class="num">At MOQ (INR)</th><th class="num">At MOQ (USD)</th><th class="num">3,000+ pcs (INR)</th></tr></thead><tbody>
+  <tr class=""><td class="gsm">185</td><td>Nida + light machine embroidery</td><td>Entry bridal / nikah guest</td>
+      <td class="num">₹1,200 – ₹1,800</td><td class="num">$13.64 – $20.45</td><td class="num">₹1,070 – ₹1,640</td></tr><tr class="std"><td class="gsm">220<em>standard</em></td><td>Crepe + bridal embroidery</td><td>Standard</td>
+      <td class="num">₹2,200 – ₹4,000</td><td class="num">$25.00 – $45.45</td><td class="num">₹1,960 – ₹3,640</td></tr><tr class=""><td class="gsm">130</td><td>Heavy satin + bridal embroidery</td><td>High sheen</td>
+      <td class="num">₹2,400 – ₹4,300</td><td class="num">$27.27 – $48.86</td><td class="num">₹2,140 – ₹3,910</td></tr>
+  </tbody></table></div>
+  </section>
+<section class="item">
+    <div class="item-head"><span class="kicker">Bridal style 02</span><h3>Pearl Bridal Abaya</h3><p class="lede">Hand-sewn pearl trim or scattered pearl field across the bodice and sleeves.</p></div>
+    <div class="figs n1 "><figure><img src="../public/products/bridal-abayas/items/pearl-1.jpg" alt="Model wearing a pearl-embellished bridal abaya"><figcaption>Model wearing a pearl-embellished bridal abaya</figcaption></figure></div>
+    <p class="body">Pearl bridal abayas use hand-sewn faux-pearl beading, either as a trim line along the seams and hems or scattered across the bodice, with each bead secured individually so it doesn't shed with handling. It's our most-ordered bridal abaya finish, mainly because it reads as elevated without the weight or cost of full crystal or stone coverage across the whole garment. Bead density and placement pattern can be fully customized per design. Produced from 25 pieces per pattern per colour.</p>
+    <div class="facts">
+      <div><b>MOQ</b>25 pieces per pattern per colour</div>
+      <div><b>Sizes</b>52 – 62 · made-to-measure</div>
+      <div><b>Lead time</b>35 – 45 days after sample approval</div>
+      <div class="wide"><b>Stock colours</b><div class="swatches"><span class="sw"><i style="background:#f0e9db"></i>Ivory</span><span class="sw"><i style="background:#faf8f5"></i>White</span><span class="sw"><i style="background:#e8d9b5"></i>Champagne</span><span class="sw"><i style="background:#1a1a1a"></i>Black</span></div></div>
+    </div>
+    <div class="ptable"><div class="ptitle">Indicative price by GSM<span>ex-factory Mumbai · per piece</span></div>
+  <table><thead><tr><th>Base GSM</th><th>Fabric / build</th><th>Typical use</th><th class="num">At MOQ (INR)</th><th class="num">At MOQ (USD)</th><th class="num">3,000+ pcs (INR)</th></tr></thead><tbody>
+  <tr class="std"><td class="gsm">220<em>standard</em></td><td>Crepe + pearl trim</td><td>Neckline &amp; cuffs</td>
+      <td class="num">₹2,400 – ₹3,600</td><td class="num">$27.27 – $40.91</td><td class="num">₹2,140 – ₹3,280</td></tr><tr class=""><td class="gsm">130</td><td>Satin + scattered pearl field</td><td>Bodice &amp; sleeves</td>
+      <td class="num">₹3,800 – ₹6,000</td><td class="num">$43.18 – $68.18</td><td class="num">₹3,380 – ₹5,460</td></tr>
+  </tbody></table></div>
+  </section>
+<section class="item">
+    <div class="item-head"><span class="kicker">Bridal style 03</span><h3>Stone-Work Bridal Abaya</h3><p class="lede">Mixed stone, bead, and sequin embellishment concentrated at the bodice and cuffs.</p></div>
+    <div class="figs n2 "><figure><img src="../public/products/bridal-abayas/items/stone-work-1.jpg" alt="Model wearing a bridal abaya with concentrated stone-work at the bodice"><figcaption>Model wearing a bridal abaya with concentrated stone-work at the bodice</figcaption></figure><figure><img src="../public/fabrics/embellish-12972006.jpg" alt="Close-up of mixed stone and bead embellishment on bridal abaya fabric"><figcaption>Close-up of mixed stone and bead embellishment on bridal abaya fabric</figcaption></figure></div>
+    <p class="body">Stone-work bridal abayas combine cut-glass stones, beads, and sequins into one mixed-media design, usually concentrated at the bodice, collar, and cuffs rather than spread evenly across the whole garment, since that's where it catches the most light and attention. Keeping the placement concentrated also keeps the added weight manageable on a full-length garment compared to all-over coverage. Our design team tends to recommend this when a buyer wants a statement front panel without paying to embellish the entire abaya. Produced from 25 pieces per pattern per colour.</p>
+    <div class="facts">
+      <div><b>MOQ</b>25 pieces per pattern per colour</div>
+      <div><b>Sizes</b>52 – 62 · made-to-measure</div>
+      <div><b>Lead time</b>35 – 45 days after sample approval</div>
+      <div class="wide"><b>Stock colours</b><div class="swatches"><span class="sw"><i style="background:#1a1a1a"></i>Black</span><span class="sw"><i style="background:#202a44"></i>Navy</span><span class="sw"><i style="background:#3d3d3d"></i>Charcoal</span><span class="sw"><i style="background:#c9a635"></i>Gold</span></div></div>
+    </div>
+    <div class="ptable"><div class="ptitle">Indicative price by GSM<span>ex-factory Mumbai · per piece</span></div>
+  <table><thead><tr><th>Base GSM</th><th>Fabric / build</th><th>Typical use</th><th class="num">At MOQ (INR)</th><th class="num">At MOQ (USD)</th><th class="num">3,000+ pcs (INR)</th></tr></thead><tbody>
+  <tr class="std"><td class="gsm">220<em>standard</em></td><td>Crepe + stone at bodice &amp; cuffs</td><td>Standard</td>
+      <td class="num">₹2,600 – ₹4,200</td><td class="num">$29.55 – $47.73</td><td class="num">₹2,310 – ₹3,820</td></tr><tr class=""><td class="gsm">240</td><td>Heavy crepe + dense stonework</td><td>Heavy work</td>
+      <td class="num">₹4,200 – ₹6,500</td><td class="num">$47.73 – $73.86</td><td class="num">₹3,740 – ₹5,920</td></tr>
+  </tbody></table></div>
+  </section>
+<section class="item">
+    <div class="item-head"><span class="kicker">Bridal style 04</span><h3>Crystal Bridal Abaya</h3><p class="lede">Faceted crystal embellishment for maximum sparkle under reception and event lighting.</p></div>
+    <div class="figs n2 "><figure><img src="../public/products/bridal-abayas/items/crystal-1.jpg" alt="Model wearing a crystal-embellished bridal abaya catching the light"><figcaption>Model wearing a crystal-embellished bridal abaya catching the light</figcaption></figure><figure><img src="../public/fabrics/embellish-8751904.jpg" alt="Close-up of hand-set faceted crystals on bridal abaya fabric"><figcaption>Close-up of hand-set faceted crystals on bridal abaya fabric</figcaption></figure></div>
+    <p class="body">Crystal bridal abayas use faceted glass or acrylic crystals in a hot-fix or hand-stitched application, chosen specifically for how they catch light under event and reception lighting. Coverage can range from an accent trim at the neckline and cuffs up to a fully crystal-covered bodice, priced accordingly. Given the added weight, we build this style exclusively on our heaviest crepe and satin bases, so it holds its structure without drooping. Produced from 25 pieces per pattern per colour.</p>
+    <div class="facts">
+      <div><b>MOQ</b>25 pieces per pattern per colour</div>
+      <div><b>Sizes</b>52 – 62 · made-to-measure</div>
+      <div><b>Lead time</b>35 – 45 days after sample approval</div>
+      <div class="wide"><b>Stock colours</b><div class="swatches"><span class="sw"><i style="background:#1a1a1a"></i>Black</span><span class="sw"><i style="background:#f0e9db"></i>Ivory</span><span class="sw"><i style="background:#faf8f5"></i>White</span><span class="sw"><i style="background:#c7c7c7"></i>Silver</span></div></div>
+    </div>
+    <div class="ptable"><div class="ptitle">Indicative price by GSM<span>ex-factory Mumbai · per piece</span></div>
+  <table><thead><tr><th>Base GSM</th><th>Fabric / build</th><th>Typical use</th><th class="num">At MOQ (INR)</th><th class="num">At MOQ (USD)</th><th class="num">3,000+ pcs (INR)</th></tr></thead><tbody>
+  <tr class="std"><td class="gsm">220–240<em>standard</em></td><td>Crepe + accent crystals</td><td>Accent trim</td>
+      <td class="num">₹2,800 – ₹4,500</td><td class="num">$31.82 – $51.14</td><td class="num">₹2,490 – ₹4,100</td></tr><tr class=""><td class="gsm">130</td><td>Heavy satin + crystal bodice</td><td>Fully covered bodice</td>
+      <td class="num">₹5,000 – ₹8,500</td><td class="num">$56.82 – $96.59</td><td class="num">₹4,450 – ₹7,740</td></tr>
+  </tbody></table></div>
+  </section>
+<section class="item">
+    <div class="item-head"><span class="kicker">Bridal style 05</span><h3>Lace Bridal Abaya</h3><p class="lede">Lace overlay panels or lace sleeve inserts for a softer, layered bridal finish.</p></div>
+    <div class="figs n2 "><figure><img src="../public/products/bridal-abayas/items/lace-1.jpg" alt="Model wearing a bridal abaya with lace overlay sleeve inserts"><figcaption>Model wearing a bridal abaya with lace overlay sleeve inserts</figcaption></figure><figure><img src="../public/fabrics/embellish-8751904.jpg" alt="Close-up of lace overlay panel on a bridal abaya"><figcaption>Close-up of lace overlay panel on a bridal abaya</figcaption></figure></div>
+    <p class="body">Lace bridal abayas use sheer lace overlay panels or lace sleeve inserts against a solid base fabric, giving a softer, more layered finish than our fully embellished crystal or stone styles. We pre-wash the lace and finish it flat against the base to prevent a shrinkage mismatch, which otherwise shows up as visible puckering along the seam line. Most bridal party buyers order this for the wider wedding party and save something more heavily embellished for the bride. Produced from 25 pieces per pattern per colour.</p>
+    <div class="facts">
+      <div><b>MOQ</b>25 pieces per pattern per colour</div>
+      <div><b>Sizes</b>52 – 62 · made-to-measure</div>
+      <div><b>Lead time</b>35 – 45 days after sample approval</div>
+      <div class="wide"><b>Stock colours</b><div class="swatches"><span class="sw"><i style="background:#f0e9db"></i>Ivory</span><span class="sw"><i style="background:#faf8f5"></i>White</span><span class="sw"><i style="background:#e8d9b5"></i>Champagne</span><span class="sw"><i style="background:#1a1a1a"></i>Black</span></div></div>
+    </div>
+    <div class="ptable"><div class="ptitle">Indicative price by GSM<span>ex-factory Mumbai · per piece</span></div>
+  <table><thead><tr><th>Base GSM</th><th>Fabric / build</th><th>Typical use</th><th class="num">At MOQ (INR)</th><th class="num">At MOQ (USD)</th><th class="num">3,000+ pcs (INR)</th></tr></thead><tbody>
+  <tr class="std"><td class="gsm">220<em>standard</em></td><td>Crepe + lace sleeve inserts</td><td>Lace panels</td>
+      <td class="num">₹2,200 – ₹3,400</td><td class="num">$25.00 – $38.64</td><td class="num">₹1,960 – ₹3,090</td></tr><tr class=""><td class="gsm">130</td><td>Satin + full lace overlay</td><td>Full overlay</td>
+      <td class="num">₹3,200 – ₹5,000</td><td class="num">$36.36 – $56.82</td><td class="num">₹2,850 – ₹4,550</td></tr>
+  </tbody></table></div>
+  </section>
+<section class="item">
+    <div class="item-head"><span class="kicker">Bridal style 06</span><h3>Satin Bridal Abaya</h3><p class="lede">High-sheen satin base for a fluid, photograph-ready drape under embellishment weight.</p></div>
+    <div class="figs n2 "><figure><img src="../public/products/bridal-abayas/items/satin-1.jpg" alt="Model wearing a satin bridal abaya with a fluid, photograph-ready drape"><figcaption>Model wearing a satin bridal abaya with a fluid, photograph-ready drape</figcaption></figure><figure><img src="../public/fabrics/satin.jpg" alt="Close-up of glossy satin fabric used as a bridal abaya base"><figcaption>Close-up of glossy satin fabric used as a bridal abaya base</figcaption></figure></div>
+    <p class="body">Satin bridal abayas use our high-sheen satin weave as a base, specifically because its weighted drape holds embellishment in place through a full ceremony and reception without shifting. The glossy finish reflects light well under both daylight and flash, and that matters more for bridal wear than almost any other category we make. Offered plain or as a base for any of our pearl, stone, or crystal finishes. Produced from 25 pieces per pattern per colour.</p>
+    <div class="facts">
+      <div><b>MOQ</b>25 pieces per pattern per colour</div>
+      <div><b>Sizes</b>52 – 62 · made-to-measure</div>
+      <div><b>Lead time</b>35 – 45 days after sample approval</div>
+      <div class="wide"><b>Stock colours</b><div class="swatches"><span class="sw"><i style="background:#1a1a1a"></i>Black</span><span class="sw"><i style="background:#f0e9db"></i>Ivory</span><span class="sw"><i style="background:#e8d9b5"></i>Champagne</span><span class="sw"><i style="background:#722f37"></i>Wine</span></div></div>
+    </div>
+    <div class="ptable"><div class="ptitle">Indicative price by GSM<span>ex-factory Mumbai · per piece</span></div>
+  <table><thead><tr><th>Base GSM</th><th>Fabric / build</th><th>Typical use</th><th class="num">At MOQ (INR)</th><th class="num">At MOQ (USD)</th><th class="num">3,000+ pcs (INR)</th></tr></thead><tbody>
+  <tr class="std"><td class="gsm">110<em>standard</em></td><td>Bridal satin, light embellishment</td><td>Standard</td>
+      <td class="num">₹1,800 – ₹2,800</td><td class="num">$20.45 – $31.82</td><td class="num">₹1,600 – ₹2,550</td></tr><tr class=""><td class="gsm">130</td><td>Heavy bridal satin</td><td>Weighted drape</td>
+      <td class="num">₹2,100 – ₹3,200</td><td class="num">$23.86 – $36.36</td><td class="num">₹1,870 – ₹2,910</td></tr>
+  </tbody></table></div>
+  </section>
+<section class="item">
+    <div class="item-head"><span class="kicker">Bridal style 07</span><h3>Luxury Silk Bridal Abaya</h3><p class="lede">Genuine mulberry silk base for the highest bridal abaya tier, hand-finished throughout.</p></div>
+    <div class="figs n2 "><figure><img src="../public/products/bridal-abayas/items/silk-1.jpg" alt="Model wearing a luxury silk bridal abaya with a hand-finished hem"><figcaption>Model wearing a luxury silk bridal abaya with a hand-finished hem</figcaption></figure><figure><img src="../public/fabrics/silk.jpg" alt="Close-up of silk bridal abaya fabric showing its natural sheen"><figcaption>Close-up of silk bridal abaya fabric showing its natural sheen</figcaption></figure></div>
+    <p class="body">Luxury silk bridal abayas run on genuine mulberry silk instead of a satin substitute, and get hand-finished at the hem and seams by a specialist team rather than machine-processed the way our standard lines are. This is our top bridal abaya tier, built for boutique and department-store-adjacent placement rather than volume distribution. The natural fiber's sheen and weight give it a drape and movement that photographs distinctly from satin or crepe alternatives. Produced from 25 pieces per pattern per colour.</p>
+    <div class="facts">
+      <div><b>MOQ</b>25 pieces per pattern per colour</div>
+      <div><b>Sizes</b>52 – 62 · made-to-measure</div>
+      <div><b>Lead time</b>35 – 45 days after sample approval</div>
+      <div class="wide"><b>Stock colours</b><div class="swatches"><span class="sw"><i style="background:#f0e9db"></i>Ivory</span><span class="sw"><i style="background:#e8d9b5"></i>Champagne</span><span class="sw"><i style="background:#1a1a1a"></i>Black</span><span class="sw"><i style="background:#f2c4c4"></i>Blush</span></div></div>
+    </div>
+    <div class="ptable"><div class="ptitle">Indicative price by GSM<span>ex-factory Mumbai · per piece</span></div>
+  <table><thead><tr><th>Base GSM</th><th>Fabric / build</th><th>Typical use</th><th class="num">At MOQ (INR)</th><th class="num">At MOQ (USD)</th><th class="num">3,000+ pcs (INR)</th></tr></thead><tbody>
+  <tr class="std"><td class="gsm">19 mm (≈82)<em>standard</em></td><td>Mulberry silk, hand-finished</td><td>Standard luxury</td>
+      <td class="num">₹6,500 – ₹9,500</td><td class="num">$73.86 – $107.95</td><td class="num">₹5,790 – ₹8,650</td></tr><tr class=""><td class="gsm">22 mm (≈95)</td><td>Mulberry silk charmeuse</td><td>Top tier</td>
+      <td class="num">₹8,000 – ₹12,000</td><td class="num">$90.91 – $136.36</td><td class="num">₹7,120 – ₹10,920</td></tr>
+  </tbody></table></div>
+  </section>
+<section class="item">
+    <div class="item-head"><span class="kicker">Bridal style 08</span><h3>Cape-Style Bridal Abaya</h3><p class="lede">Detachable or built-in cape layer over a fitted or flowing base abaya.</p></div>
+    <div class="figs n2 "><figure><img src="../public/products/abayas/29188546.jpg" alt="Model wearing a cape-style bridal abaya with a detachable shoulder layer"><figcaption>Model wearing a cape-style bridal abaya with a detachable shoulder layer</figcaption></figure><figure><img src="../public/fabrics/embellish-4935559.jpg" alt="Close-up of cape-style bridal abaya construction and attachment point"><figcaption>Close-up of cape-style bridal abaya construction and attachment point</figcaption></figure></div>
+    <p class="body">Cape-style bridal abayas add a detachable or built-in cape layer over the shoulders — a construction we borrowed from bridal gown design and adapted to abaya proportions. The cape comes off for the reception after being worn through the ceremony, so one garment covers two distinct looks across a single event. Our boutique accounts tell us this is the strongest differentiator against standard embellished abayas, since here the silhouette itself is the statement, not just the embellishment. Produced from 25 pieces per pattern per colour.</p>
+    <div class="facts">
+      <div><b>MOQ</b>25 pieces per pattern per colour</div>
+      <div><b>Sizes</b>52 – 62 · made-to-measure</div>
+      <div><b>Lead time</b>35 – 45 days after sample approval</div>
+      <div class="wide"><b>Stock colours</b><div class="swatches"><span class="sw"><i style="background:#1a1a1a"></i>Black</span><span class="sw"><i style="background:#202a44"></i>Navy</span><span class="sw"><i style="background:#3d3d3d"></i>Charcoal</span><span class="sw"><i style="background:#6d2130"></i>Burgundy</span></div></div>
+    </div>
+    <div class="ptable"><div class="ptitle">Indicative price by GSM<span>ex-factory Mumbai · per piece</span></div>
+  <table><thead><tr><th>Base GSM</th><th>Fabric / build</th><th>Typical use</th><th class="num">At MOQ (INR)</th><th class="num">At MOQ (USD)</th><th class="num">3,000+ pcs (INR)</th></tr></thead><tbody>
+  <tr class="std"><td class="gsm">220<em>standard</em></td><td>Crepe base + plain cape</td><td>Standard</td>
+      <td class="num">₹2,800 – ₹4,800</td><td class="num">$31.82 – $54.55</td><td class="num">₹2,490 – ₹4,370</td></tr><tr class=""><td class="gsm">220 + 60</td><td>Crepe base + embellished sheer cape</td><td>Embellished cape</td>
+      <td class="num">₹4,500 – ₹7,000</td><td class="num">$51.14 – $79.55</td><td class="num">₹4,010 – ₹6,370</td></tr>
+  </tbody></table></div>
+  </section>
+<section class="item">
+    <div class="item-head"><span class="kicker">Bridal style 09</span><h3>Trail / Gown-Style Bridal Abaya</h3><p class="lede">Extended back trail on a gown-adjacent silhouette for maximum bridal drama.</p></div>
+    <div class="figs n2 "><figure><img src="../public/products/abayas/32279501.jpg" alt="Model wearing a gown-style bridal abaya with an extended back trail"><figcaption>Model wearing a gown-style bridal abaya with an extended back trail</figcaption></figure><figure><img src="../public/fabrics/embellish-4935559.jpg" alt="Close-up of trail-style bridal abaya hem and fabric fall"><figcaption>Close-up of trail-style bridal abaya hem and fabric fall</figcaption></figure></div>
+    <p class="body">Trail and gown-style bridal abayas extend the back hem into a trailing panel, borrowing the silhouette of a bridal gown train while keeping full modest coverage through the body and sleeves. It's our most fabric-intensive bridal style, and given the specialized cutting and finishing the extended hem requires, it's usually ordered as a single custom piece for the bride rather than across a wedding party. It pairs naturally with a veil-style bridal hijab for a complete matched look. Produced from 25 pieces per pattern per colour.</p>
+    <div class="facts">
+      <div><b>MOQ</b>25 pieces per pattern per colour</div>
+      <div><b>Sizes</b>52 – 62 · made-to-measure</div>
+      <div><b>Lead time</b>35 – 45 days after sample approval</div>
+      <div class="wide"><b>Stock colours</b><div class="swatches"><span class="sw"><i style="background:#f0e9db"></i>Ivory</span><span class="sw"><i style="background:#faf8f5"></i>White</span><span class="sw"><i style="background:#e8d9b5"></i>Champagne</span><span class="sw"><i style="background:#1a1a1a"></i>Black</span></div></div>
+    </div>
+    <div class="ptable"><div class="ptitle">Indicative price by GSM<span>ex-factory Mumbai · per piece</span></div>
+  <table><thead><tr><th>Base GSM</th><th>Fabric / build</th><th>Typical use</th><th class="num">At MOQ (INR)</th><th class="num">At MOQ (USD)</th><th class="num">3,000+ pcs (INR)</th></tr></thead><tbody>
+  <tr class="std"><td class="gsm">130<em>standard</em></td><td>Satin gown + back trail</td><td>Standard</td>
+      <td class="num">₹3,500 – ₹6,000</td><td class="num">$39.77 – $68.18</td><td class="num">₹3,120 – ₹5,460</td></tr><tr class=""><td class="gsm">240</td><td>Heavy crepe + embellished trail</td><td>Heavy work</td>
+      <td class="num">₹6,000 – ₹9,500</td><td class="num">$68.18 – $107.95</td><td class="num">₹5,340 – ₹8,650</td></tr>
+  </tbody></table></div>
+  </section>
+<section class="item">
+    <div class="item-head"><span class="kicker">Bridal style 10</span><h3>White Bridal Abaya</h3><p class="lede">Pure white base fabric positioned for Western-influenced and civil ceremony bridal wear.</p></div>
+    <div class="figs n2 "><figure><img src="../public/products/abayas/29188546.jpg" alt="Model wearing a pure white bridal abaya"><figcaption>Model wearing a pure white bridal abaya</figcaption></figure><figure><img src="../public/fabrics/satin.jpg" alt="Close-up of pure white bridal abaya fabric and finish"><figcaption>Close-up of pure white bridal abaya fabric and finish</figcaption></figure></div>
+    <p class="body">White bridal abayas run on a pure white base rather than our warmer ivory or champagne tones, aimed at buyers whose customers want a Western-bridal-adjacent white look for a civil ceremony or reception, rather than the traditional ivory associated with regional bridal wear. Getting a true, consistent white at scale takes tighter dye-lot control than our standard color range does, since white shows any batch-to-batch shade variation far more visibly than darker colors do. Available plain or as a base for any embellishment finish in this category. Produced from 25 pieces per pattern per colour.</p>
+    <div class="facts">
+      <div><b>MOQ</b>25 pieces per pattern per colour</div>
+      <div><b>Sizes</b>52 – 62 · made-to-measure</div>
+      <div><b>Lead time</b>35 – 45 days after sample approval</div>
+      <div class="wide"><b>Stock colours</b><div class="swatches"><span class="sw"><i style="background:#faf8f5"></i>White</span><span class="sw"><i style="background:#f0e9db"></i>Ivory</span><span class="sw"><i style="background:#f2efe6"></i>Off-White</span><span class="sw"><i style="background:#f3ece2"></i>Pearl White</span></div></div>
+    </div>
+    <div class="ptable"><div class="ptitle">Indicative price by GSM<span>ex-factory Mumbai · per piece</span></div>
+  <table><thead><tr><th>Base GSM</th><th>Fabric / build</th><th>Typical use</th><th class="num">At MOQ (INR)</th><th class="num">At MOQ (USD)</th><th class="num">3,000+ pcs (INR)</th></tr></thead><tbody>
+  <tr class="std"><td class="gsm">130<em>standard</em></td><td>White satin</td><td>Standard</td>
+      <td class="num">₹2,000 – ₹3,500</td><td class="num">$22.73 – $39.77</td><td class="num">₹1,780 – ₹3,190</td></tr><tr class=""><td class="gsm">220</td><td>White crepe</td><td>Matte finish</td>
+      <td class="num">₹2,200 – ₹3,800</td><td class="num">$25.00 – $43.18</td><td class="num">₹1,960 – ₹3,460</td></tr>
+  </tbody></table></div>
+  </section>
+<section class="item">
+    <div class="item-head"><span class="kicker">Bridal style 11</span><h3>Champagne Bridal Abaya</h3><p class="lede">Warm champagne base tone, the most-requested neutral for regional bridal and nikah wear.</p></div>
+    <div class="figs n2 "><figure><img src="../public/products/abayas/34957209.jpg" alt="Model wearing a champagne-toned bridal abaya"><figcaption>Model wearing a champagne-toned bridal abaya</figcaption></figure><figure><img src="../public/fabrics/silk.jpg" alt="Close-up of champagne bridal abaya fabric showing its warm tone"><figcaption>Close-up of champagne bridal abaya fabric showing its warm tone</figcaption></figure></div>
+    <p class="body">Champagne bridal abayas run on a warm, muted gold-beige base — consistently the most-requested neutral across our regional bridal accounts, since it photographs warmer than white and softer than gold under most venue lighting. It's also a versatile base for embellishment: pearl, gold-thread, and crystal accents all read cleanly against it without competing for attention the way they can against pure white. We check shade consistency across a production run against a fixed Pantone reference rather than eyeballing it, since small variations show up easily in this tone family. Produced from 25 pieces per pattern per colour.</p>
+    <div class="facts">
+      <div><b>MOQ</b>25 pieces per pattern per colour</div>
+      <div><b>Sizes</b>52 – 62 · made-to-measure</div>
+      <div><b>Lead time</b>35 – 45 days after sample approval</div>
+      <div class="wide"><b>Stock colours</b><div class="swatches"><span class="sw"><i style="background:#e8d9b5"></i>Champagne</span><span class="sw"><i style="background:#e0c4ae"></i>Rose Champagne</span><span class="sw"><i style="background:#dcc48f"></i>Gold Champagne</span><span class="sw"><i style="background:#e6c9c0"></i>Blush Champagne</span></div></div>
+    </div>
+    <div class="ptable"><div class="ptitle">Indicative price by GSM<span>ex-factory Mumbai · per piece</span></div>
+  <table><thead><tr><th>Base GSM</th><th>Fabric / build</th><th>Typical use</th><th class="num">At MOQ (INR)</th><th class="num">At MOQ (USD)</th><th class="num">3,000+ pcs (INR)</th></tr></thead><tbody>
+  <tr class="std"><td class="gsm">130<em>standard</em></td><td>Champagne satin</td><td>Standard</td>
+      <td class="num">₹2,100 – ₹3,600</td><td class="num">$23.86 – $40.91</td><td class="num">₹1,870 – ₹3,280</td></tr><tr class=""><td class="gsm">220</td><td>Champagne crepe</td><td>Matte finish</td>
+      <td class="num">₹2,300 – ₹3,900</td><td class="num">$26.14 – $44.32</td><td class="num">₹2,050 – ₹3,550</td></tr>
+  </tbody></table></div>
+  </section>
+<section class="item">
+    <div class="item-head"><span class="kicker">Bridal style 12</span><h3>Gold Embellished Bridal Abaya</h3><p class="lede">Gold-thread embroidery or gold-tone stonework on a dark base for maximum contrast.</p></div>
+    <div class="figs n2 "><figure><img src="../public/products/abayas/5616021.jpg" alt="Model wearing a gold-embellished bridal abaya on a dark base"><figcaption>Model wearing a gold-embellished bridal abaya on a dark base</figcaption></figure><figure><img src="../public/fabrics/embellish-12991912.jpg" alt="Close-up of gold-thread embroidery and stonework on bridal abaya fabric"><figcaption>Close-up of gold-thread embroidery and stonework on bridal abaya fabric</figcaption></figure></div>
+    <p class="body">Gold embellished bridal abayas pair gold-thread embroidery or gold-tone stonework against a dark base fabric — usually black, navy, or charcoal — for maximum contrast between the embellishment and the garment, rather than the tonal, monochrome look you get from pearl-on-ivory styles. Buyers serving Gulf regional markets request this one most, since gold embellishment on a dark abaya is a well-established bridal and formal-occasion convention there. We check the gold-thread color against a fixed reference to avoid the greenish cast cheaper metallic thread can develop after washing. Produced from 25 pieces per pattern per colour.</p>
+    <div class="facts">
+      <div><b>MOQ</b>25 pieces per pattern per colour</div>
+      <div><b>Sizes</b>52 – 62 · made-to-measure</div>
+      <div><b>Lead time</b>35 – 45 days after sample approval</div>
+      <div class="wide"><b>Stock colours</b><div class="swatches"><span class="sw"><i style="background:#1a1a1a"></i>Black</span><span class="sw"><i style="background:#202a44"></i>Navy</span><span class="sw"><i style="background:#3d3d3d"></i>Charcoal</span></div></div>
+    </div>
+    <div class="ptable"><div class="ptitle">Indicative price by GSM<span>ex-factory Mumbai · per piece</span></div>
+  <table><thead><tr><th>Base GSM</th><th>Fabric / build</th><th>Typical use</th><th class="num">At MOQ (INR)</th><th class="num">At MOQ (USD)</th><th class="num">3,000+ pcs (INR)</th></tr></thead><tbody>
+  <tr class="std"><td class="gsm">220<em>standard</em></td><td>Dark crepe + gold thread</td><td>Standard</td>
+      <td class="num">₹3,000 – ₹5,200</td><td class="num">$34.09 – $59.09</td><td class="num">₹2,670 – ₹4,730</td></tr><tr class=""><td class="gsm">240</td><td>Heavy crepe + gold zari &amp; stone</td><td>Heavy work</td>
+      <td class="num">₹5,000 – ₹8,000</td><td class="num">$56.82 – $90.91</td><td class="num">₹4,450 – ₹7,280</td></tr>
+  </tbody></table></div>
+  </section>
+<section class="page"><h2 class="ph">Size chart, care &amp; packing</h2>
+    <div class="cols"><div>
+    <h3 class="sh">Abaya length chart</h3>
+    <p class="body small">Abaya sizes are the garment length in inches, measured from shoulder to hem.</p>
+    <table class="spec c3"><thead><tr><th>Size</th><th>Length</th><th>Wearer height (flat shoes)</th></tr></thead><tbody>
+      <tr><th>52</th><td>132 cm</td><td>150 – 155 cm (4'11" – 5'1")</td></tr>
+      <tr><th>54</th><td>137 cm</td><td>155 – 160 cm (5'1" – 5'3")</td></tr>
+      <tr><th>56</th><td>142 cm</td><td>160 – 165 cm (5'3" – 5'5")</td></tr>
+      <tr><th>58</th><td>147 cm</td><td>165 – 170 cm (5'5" – 5'7")</td></tr>
+      <tr><th>60</th><td>152 cm</td><td>170 – 175 cm (5'7" – 5'9")</td></tr>
+      <tr><th>62</th><td>157 cm</td><td>175 cm + (5'9" +)</td></tr>
+      <tr><th>Free size</th><td>142 – 147 cm</td><td>Kimono, layering and Zoom basics</td></tr>
+    </tbody></table>
+    <p class="body small">Standard width fits UK 8 – 18 / EU 36 – 46. Plus widths and made-to-measure are available for occasion and bridal pieces.</p>
+    <h3 class="sh">Care by fabric</h3>
+    <table class="spec"><tbody>
+      <tr><th>Zoom, Nida, Korean Nida</th><td>Machine wash cold, hang dry, cool iron</td></tr>
+      <tr><th>Linen-cotton</th><td>Machine wash cold, iron while damp</td></tr>
+      <tr><th>Crepe, embroidered</th><td>Dry clean recommended</td></tr>
+      <tr><th>Satin, silk, bridal</th><td>Dry clean only</td></tr>
+    </tbody></table></div><div>
+    <h3 class="sh">Standard export packing</h3>
+    <ul class="ticks">
+      <li>Each abaya folded with tissue and individually poly-bagged</li>
+      <li>Size-run assortment per colour, e.g. 52 / 54 / 56 / 58 / 60 in a 1 : 2 : 3 : 2 : 1 ratio</li>
+      <li>5-ply export cartons, about 40 – 60 Nida abayas per carton</li>
+      <li>Hanger packing and garment covers on request</li>
+      <li>Bridal and embellished pieces in rigid boxes or zipped garment bags</li>
+    </ul>
+    <h3 class="sh">Construction standards</h3>
+    <ul class="ticks">
+      <li>Concealed snap closures (5-point) or hidden zips</li>
+      <li>Reinforced side-seam pockets on everyday styles</li>
+      <li>Overlocked and taped seams, blind-stitched hems</li>
+      <li>Custom snap, zip and button hardware for private label</li>
+    </ul></div></div></section>
+<section class="page">
+    <h2 class="ph">Private label &amp; ordering</h2>
+    <div class="cols">
+      <div>
+        <h3 class="sh">Private label / OEM / ODM</h3>
+        <ul class="ticks">
+          <li>Custom woven or printed labels, care and size labels</li>
+          <li>Hang tags, poly bags, retail cards and rigid gift boxes</li>
+          <li>Custom Pantone colours on existing fabric bases (lab-dip charges apply)</li>
+          <li>Custom fabric development (new weights, blends or finishes) from about 1,000 – 3,000 metres</li>
+          <li>OEM manufactures to your specification. ODM adds design development from a sketch, reference image or sample garment.</li>
+          <li>No tech pack needed to start. Our team builds it with you during sampling.</li>
+        </ul>
+        <h3 class="sh">Order terms</h3><table class="spec"><tbody>
+    <tr><th>MOQ (all abaya styles)</th><td>25 pieces per pattern per colour</td></tr>
+    <tr><th>Sample charges</th><td>₹3,000 flat per sample</td></tr></tbody></table>
+      </div>
+      <div>
+        <h3 class="sh">From enquiry to shipment</h3>
+        <ol class="steps"><li><b>Enquiry</b>Send target styles, quantities, colours and market through samnoor.in, email or WhatsApp.</li><li><b>Quotation</b>Written quotation within one business day, with MOQ, price, lead time and sampling policy.</li><li><b>Sampling</b>Pre-production sample or lab-dip in 7 – 12 business days. Sample charges: ₹3,000 flat per sample.</li><li><b>Approval & PO</b>Sample sign-off, purchase order and deposit confirm your production slot.</li><li><b>Production</b>18 – 30 days for standard styles. 30 – 45 days for custom fabric, embellishment or a first private-label setup.</li><li><b>QC & dispatch</b>In-line, pre-final and final audits, then export documents and shipment on your Incoterm.</li></ol>
+      </div>
+    </div>
+  </section>
+<section class="cover back">
+    <img class="logo" src="../Assets/logonew.png" alt="SamNoor">
+    <div class="ctag">SamNoor Textiles &amp; Garments Pvt. Ltd.</div>
+    <div class="contact">
+      <div><b>Sales</b>sales@samnoor.in</div>
+      <div><b>Export</b>export@samnoor.in</div>
+      <div><b>Phone / WhatsApp</b>+91 98331 60709</div>
+      <div><b>Web</b>samnoor.in</div>
+      <div><b>Factory</b>Road No. 3, Shivaji Nagar, Govandi, Mumbai 400043, Maharashtra, India</div>
+      <div><b>Hours</b>Monday – Saturday, 10:00 AM – 7:00 PM (IST)</div>
+    </div>
+    <p class="csub">Prices in this catalogue are indicative and are confirmed by written quotation. Colours may vary slightly from print. © 2026 SamNoor.</p>
+  </section></body></html>

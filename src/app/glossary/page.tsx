@@ -8,6 +8,8 @@ import { placeholder } from "@/lib/placeholder-image";
 export const metadata: Metadata = {
   title: "Glossary — Hijab & Abaya Wholesale Trade Terms",
   description: "Plain-language definitions of the trade, logistics, fabric, and product terms used across hijab and abaya wholesale manufacturing — MOQ, Incoterms, GSM, OEKO-TEX, and more.",
+  keywords: ["wholesale trade glossary", "MOQ meaning", "Incoterms explained", "hijab manufacturing terms", "abaya trade terms"],
+  alternates: { canonical: "/glossary" },
 };
 
 export default function GlossaryIndexPage() {

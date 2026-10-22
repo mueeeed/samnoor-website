@@ -11,6 +11,15 @@ import { CheckIcon, ArrowRightIcon, PackageIcon, SparkleIcon, ShieldIcon } from 
 export const metadata: Metadata = {
   title: "Private Label Abaya & Hijab Manufacturer (OEM/ODM)",
   description: "Full private label, OEM, and ODM manufacturing — custom labels, packaging, fabric development, and design support.",
+  keywords: [
+    "private label hijab manufacturer",
+    "private label abaya manufacturer",
+    "OEM abaya manufacturer",
+    "ODM modest wear manufacturer",
+    "custom hijab manufacturing",
+    "white label hijab supplier",
+  ],
+  alternates: { canonical: "/private-label" },
 };
 
 const PROGRAMS = [

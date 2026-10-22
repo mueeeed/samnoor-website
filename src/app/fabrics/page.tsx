@@ -12,6 +12,14 @@ import { CheckIcon, ArrowRightIcon } from "@/components/ui/icons";
 export const metadata: Metadata = {
   title: "Hijab & Abaya Fabric Types — Nida, Chiffon, Silk & More",
   description: "The full fabric library behind our hijabs and abayas — Nida fabric for abaya, chiffon, jersey, georgette, and mulberry silk, with the right hijab fabric type for every price tier.",
+  keywords: [
+    "hijab fabric types",
+    "abaya fabric Nida",
+    "chiffon fabric supplier",
+    "hijab fabric supplier India",
+    "Korean Nida fabric wholesale",
+  ],
+  alternates: { canonical: "/fabrics" },
 };
 
 export default function FabricsPage() {

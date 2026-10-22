@@ -56,7 +56,7 @@ export function BlogPostForm({ mode, postId, initial }: Props) {
     try {
       const formData = new FormData();
       formData.append("file", file);
-      const res = await fetch("/api/admin/upload", { method: "POST", body: formData });
+      const res = await fetch("/php-api/admin/upload.php", { method: "POST", body: formData });
       const data = await res.json();
       if (!res.ok) throw new Error(data.error || "Upload failed.");
       setCoverImageSrc(data.url);
@@ -97,7 +97,7 @@ export function BlogPostForm({ mode, postId, initial }: Props) {
     };
 
     try {
-      const url = mode === "create" ? "/api/admin/posts" : `/api/admin/posts/${postId}`;
+      const url = mode === "create" ? "/php-api/admin/posts.php" : `/php-api/admin/posts.php?id=${postId}`;
       const method = mode === "create" ? "POST" : "PUT";
       const res = await fetch(url, {
         method,

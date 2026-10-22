@@ -13,6 +13,13 @@ import { ArrowRightIcon } from "@/components/ui/icons";
 export const metadata: Metadata = {
   title: "Hijab & Abaya Wholesale Catalog",
   description: "Browse SamNoor's wholesale catalog — hijabs, abayas, khimars, jilbabs, and modest wear manufactured in Mumbai for distributors and private label buyers.",
+  keywords: [
+    "hijab wholesale catalog",
+    "abaya wholesale catalog",
+    "modest wear manufacturer catalog",
+    ...categories.map((c) => c.name),
+  ],
+  alternates: { canonical: "/products" },
 };
 
 export default function ProductsPage() {

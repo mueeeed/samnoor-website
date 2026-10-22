@@ -8,7 +8,7 @@ export const products: Product[] = [
     name: "Aria Chiffon Hijab",
     shortDescription: "Signature matte chiffon hijab with a weighted hem for consistent drape.",
     description:
-      "The Aria is our best-selling chiffon hijab, developed over three fabric revisions to land a matte finish that photographs well under studio and daylight conditions alike. A weighted rolled hem keeps the drape consistent through a full day of wear, and the fabric is opaque at 75 grams per square meter, so no underscarf is required in most climates. Available in 42 solid shades from our standard color library, with custom Pantone matching available at 500 pieces per color for private label orders.",
+      "Our best-selling chiffon hijab, the Aria went through three fabric revisions before we landed on a matte finish that photographs well under both studio and daylight conditions. A weighted rolled hem keeps the drape consistent through a full day of wear, and at 75 grams per square meter the fabric is opaque enough that most climates don't need an underscarf underneath. It comes in 42 solid shades from our standard color library, with custom Pantone matching available at 500 pieces per color for private label orders.",
     images: [
       placeholder("prod-aria-1", "Aria chiffon hijab draped on a mannequin, front view"),
       placeholder("prod-aria-2", "Aria chiffon hijab fabric close-up showing matte texture"),
@@ -43,7 +43,7 @@ export const products: Product[] = [
     name: "Nadia Jersey Hijab",
     shortDescription: "Stretch jersey hijab for a no-pin, wrap-and-go finish.",
     description:
-      "Nadia is a four-way stretch jersey hijab built for customers who want a wrap-and-go finish without pins. The cotton-modal blend holds its shape through wear while remaining breathable for warm climates. This style is a strong entry point for private label ranges targeting everyday and athleisure positioning, and is offered in both solid and heathered finishes.",
+      "For customers who want to wrap it and go without reaching for a pin, Nadia is built on a four-way stretch jersey that does the work instead. The cotton-modal blend holds its shape through wear while staying breathable in warm climates. It's a strong entry point for private label ranges targeting everyday and athleisure positioning, and comes in both solid and heathered finishes.",
     images: [
       placeholder("prod-nadia-1", "Nadia jersey hijab wrapped on a model"),
       placeholder("prod-nadia-2", "Jersey hijab fabric stretch detail"),
@@ -73,7 +73,7 @@ export const products: Product[] = [
     name: "Layla Nida Abaya",
     shortDescription: "Everyday open-front abaya in matte Korean Nida with clean seaming.",
     description:
-      "The Layla is our volume program abaya, built on matte Korean Nida for a fabric that holds structure without stiffness. The open-front cut is finished with a concealed snap closure and side pockets. This silhouette is the most requested base style among our wholesale accounts across the GCC and is offered with a full private label program including custom embroidery placement and woven size labels.",
+      "Built on matte Korean Nida, the Layla is our volume program abaya — a fabric that holds structure without turning stiff. The open-front cut closes with a concealed snap and includes side pockets. It's the most requested base style among our wholesale accounts across the GCC, and comes with a full private label program including custom embroidery placement and woven size labels.",
     images: [
       placeholder("prod-layla-1", "Layla open-front abaya on a mannequin"),
       placeholder("prod-layla-2", "Nida abaya fabric drape close-up"),
@@ -106,7 +106,7 @@ export const products: Product[] = [
     name: "Zahra Embellished Abaya",
     shortDescription: "Occasion abaya with hand-placed stonework on premium crepe.",
     description:
-      "Zahra is developed for the occasion and bridal-adjacent segment, built on a heavier crepe base that holds embellishment weight without distorting drape. Stonework is hand-placed by our embroidery unit and quality-checked stone by stone before packing. This style supports small-batch private label runs starting at 50 units per design, suited to boutique and premium retail buyers.",
+      "Zahra targets the occasion and bridal-adjacent segment, and it's built on a heavier crepe base specifically so the embellishment weight doesn't distort the drape. Our embroidery unit hand-places every stone and checks the work stone by stone before packing. Small-batch private label runs start at 50 units per design, which suits boutique and premium retail buyers well.",
     images: [
       placeholder("prod-zahra-1", "Zahra embellished abaya with stonework detail"),
       placeholder("prod-zahra-2", "Close-up of hand-placed stone embroidery"),
@@ -135,7 +135,7 @@ export const products: Product[] = [
     name: "Sana Two-Piece Prayer Dress",
     shortDescription: "Lightweight two-piece salah set with elasticated waist and cuffs.",
     description:
-      "Sana pairs a loose-cut top with an elasticated-waist skirt in a lightweight crepe that packs small for travel. The set is designed for ease of movement during prayer, with elasticated cuffs and a soft waistband that sits comfortably without pinching. This is one of our highest-repeat wholesale styles, particularly for Ramadan seasonal ordering cycles.",
+      "A loose-cut top pairs with an elasticated-waist skirt in a lightweight crepe that packs down small for travel — that's the whole idea behind Sana. Elasticated cuffs and a soft waistband mean it moves easily through a full prayer cycle without pinching. It's one of our highest-repeat wholesale styles, especially through Ramadan seasonal ordering cycles.",
     images: [
       placeholder("prod-sana-1", "Two-piece prayer dress set laid flat"),
       placeholder("prod-sana-2", "Woman wearing a two-piece prayer dress"),
@@ -165,7 +165,7 @@ export const products: Product[] = [
     name: "Mira Three-Tier Khimar",
     shortDescription: "Structured three-tier khimar in satin-back crepe.",
     description:
-      "Mira is cut in three graduated tiers for a structured silhouette that holds its shape without additional stiffening. The satin-back crepe gives a subtle sheen at the collar while remaining matte through the body. Popular with boutique buyers building modest outerwear ranges alongside abaya collections.",
+      "Three graduated tiers give Mira a structured silhouette that holds its shape without any additional stiffening. The satin-back crepe adds a subtle sheen at the collar while staying matte through the body. Boutique buyers building modest outerwear ranges alongside abaya collections tend to reach for this one.",
     images: [
       placeholder("prod-mira-1", "Three-tier khimar on a mannequin"),
       placeholder("prod-mira-2", "Khimar collar and tier stitching detail"),
@@ -192,7 +192,7 @@ export const products: Product[] = [
     name: "Amira Instant Hijab",
     shortDescription: "Pull-on instant hijab with attached underscarf, no pins required.",
     description:
-      "Amira solves for speed without sacrificing finish. The attached underscarf cap sits securely under the outer chiffon layer, and the pre-shaped drape means customers get a styled look in under a minute. This is a strong entry-level SKU for private label ranges targeting first-time hijab wearers and gifting occasions.",
+      "Speed without sacrificing finish is the whole point of Amira. The attached underscarf cap sits securely under the outer chiffon layer, and the pre-shaped drape gets customers a styled look in under a minute. It's a strong entry-level SKU for private label ranges targeting first-time hijab wearers and gifting occasions.",
     images: [
       placeholder("prod-amira-1", "Instant hijab with attached underscarf on a model"),
       placeholder("prod-amira-2", "Instant hijab pull-on construction detail"),
@@ -221,7 +221,7 @@ export const products: Product[] = [
     name: "Zayn Sports Hijab",
     shortDescription: "Moisture-wicking performance hijab with four-way stretch.",
     description:
-      "Zayn is built on a technical knit developed for moisture management and stretch recovery through repeated wear and washing. Flatlock seams prevent chafing during activity, and the fabric is tested for quick-dry performance, making this our reference style for activewear and swim-adjacent private label programs.",
+      "Built on a technical knit developed for moisture management and stretch recovery, Zayn holds up through repeated wear and washing. Flatlock seams prevent chafing during activity, and we test the fabric for quick-dry performance — it's become our reference style for activewear and swim-adjacent private label programs.",
     images: [
       placeholder("prod-zayn-1", "Sports hijab on an athletic model"),
       placeholder("prod-zayn-2", "Technical fabric texture close-up"),
@@ -251,7 +251,7 @@ export const products: Product[] = [
     name: "Noor Silk Luxury Hijab",
     shortDescription: "Hand-rolled mulberry silk hijab with gift packaging.",
     description:
-      "Noor represents our premium retail tier: 100% mulberry silk with a hand-rolled hem finished by our specialist stitching team, individually inspected and packaged in a branded gift box. This style is positioned for boutique and department store placement, and supports fully custom packaging for private label luxury ranges.",
+      "Noor sits at our premium retail tier: 100% mulberry silk, a hand-rolled hem finished by our specialist stitching team, and individual inspection before it goes into a branded gift box. We built it for boutique and department store placement, with fully custom packaging available for private label luxury ranges.",
     images: [
       placeholder("prod-noor-1", "Silk luxury hijab draped elegantly on a model"),
       placeholder("prod-noor-2", "Hand-rolled silk hem detail"),
@@ -282,7 +282,7 @@ export const products: Product[] = [
     name: "Hana Jilbab Set",
     shortDescription: "Two-piece jilbab in matte crepe with reinforced seams.",
     description:
-      "Hana is a two-piece jilbab set designed for daily coverage and durability, with reinforced double-stitched seams at stress points. The matte crepe fabric resists wrinkling through travel and long wear, making it a dependable volume style for distributors serving conservative markets.",
+      "Daily coverage and durability are what Hana is built for — a two-piece jilbab set with reinforced double-stitched seams at every stress point. The matte crepe resists wrinkling through travel and long wear, which makes it a dependable volume style for distributors serving conservative markets.",
     images: [
       placeholder("prod-hana-1", "Two-piece jilbab set on a mannequin"),
       placeholder("prod-hana-2", "Reinforced seam stitching detail"),
@@ -309,7 +309,7 @@ export const products: Product[] = [
     name: "Rania Cotton Inner Cap",
     shortDescription: "Breathable cotton underscarf cap with non-slip grip band.",
     description:
-      "Rania is our reference underscarf, built on breathable combed cotton with a non-slip grip band at the hairline to keep outer hijab layers in place through a full day of wear. Sold in bulk multi-packs for distributors and available in an extended neutral color range for retail resale.",
+      "Rania is our reference underscarf: breathable combed cotton with a non-slip grip band at the hairline that keeps outer hijab layers in place through a full day of wear. We sell it in bulk multi-packs for distributors, in an extended neutral color range for retail resale.",
     images: [placeholder("prod-rania-1", "Cotton inner caps arranged by color"), placeholder("prod-rania-2", "Inner cap grip band detail")],
     fabrics: ["Combed Cotton"],
     colors: [
@@ -334,7 +334,7 @@ export const products: Product[] = [
     name: "Yara Double-Layer Niqab",
     shortDescription: "Breathable double-layer niqab with reinforced ties for daily wear.",
     description:
-      "Yara pairs two layers of lightweight chiffon for coverage without added heat retention, finished with reinforced stitching at the tie points that carry the most stress through daily wear and removal. Ties are cut long enough to accommodate multiple head sizes without a separate size run, simplifying inventory for distributors.",
+      "Two layers of lightweight chiffon give Yara full coverage without the added heat retention you'd expect, and we reinforce the stitching at the tie points that carry the most stress through daily wear and removal. The ties are cut long enough to fit multiple head sizes without a separate size run, which keeps inventory simpler for distributors.",
     images: [
       placeholder("prod-yara-1", "Folded double-layer chiffon niqab detail"),
       placeholder("prod-yara-2", "Niqab fabric drape close-up"),
@@ -361,7 +361,7 @@ export const products: Product[] = [
     name: "Yasmin Silk-Blend Scarf",
     shortDescription: "Printed silk-blend scarf sized for hijab, shawl, or accessory styling.",
     description:
-      "Yasmin is cut generously enough to style as a hijab, shawl, or neck scarf, giving retail buyers one SKU that serves multiple use cases. The silk-viscose blend takes fine print detail well, and our in-house print studio can turn a new pattern from concept to strike-off sample in under two weeks.",
+      "Cut generously enough to style as a hijab, shawl, or neck scarf, Yasmin gives retail buyers one SKU that covers multiple use cases. The silk-viscose blend takes fine print detail well, and our in-house print studio can turn a new pattern into a strike-off sample in under two weeks.",
     images: [
       placeholder("prod-yasmin-1", "Folded printed scarves stacked by color"),
       placeholder("prod-yasmin-2", "Woman wearing a printed silk scarf"),
@@ -392,7 +392,7 @@ export const products: Product[] = [
     name: "Alia Georgette Hijab",
     shortDescription: "Crinkle-texture georgette hijab for volume and visible movement.",
     description:
-      "Alia is cut from crinkle-textured georgette, giving noticeable movement and body without added weight. The finish photographs well on video, which has made it a preferred style among buyers building content-driven e-commerce ranges. Available in a rotating seasonal color set alongside our perennial neutrals.",
+      "Crinkle-textured georgette gives Alia noticeable movement and body without adding weight. It photographs especially well on video, which is why buyers building content-driven e-commerce ranges tend to prefer it. It comes in a rotating seasonal color set alongside our perennial neutrals.",
     images: [placeholder("prod-alia-1", "Georgette hijab draped on a mannequin"), placeholder("prod-alia-2", "Georgette crinkle texture close-up")],
     fabrics: ["Georgette"],
     colors: [
@@ -418,7 +418,7 @@ export const products: Product[] = [
     name: "Farah Silk Hijab",
     shortDescription: "Mid-tier mulberry silk hijab with a machine-rolled hem.",
     description:
-      "Farah sits between our core chiffon range and the fully hand-finished Noor luxury line, offering genuine mulberry silk with a machine-rolled hem to keep unit cost more accessible. It's the style we recommend to buyers testing whether a silk SKU earns its place in their range before committing to hand-finished volume.",
+      "Sitting between our core chiffon range and the fully hand-finished Noor luxury line, Farah offers genuine mulberry silk with a machine-rolled hem that keeps unit cost more accessible. We recommend it to buyers testing whether a silk SKU earns its place in their range before committing to hand-finished volume.",
     images: [placeholder("prod-farah-1", "Silk hijab draped on a model"), placeholder("prod-farah-2", "Silk fabric sheen close-up")],
     fabrics: ["Mulberry Silk"],
     colors: [
@@ -442,7 +442,7 @@ export const products: Product[] = [
     name: "Dania Cotton Voile Hijab",
     shortDescription: "Breathable cotton voile hijab for hot-climate daily wear.",
     description:
-      "Dania is woven from a fine cotton voile, prioritizing breathability over the sheen of our synthetic core range. It's the style we point warm-climate buyers toward when customers report chiffon feels too warm for extended daily wear, and it takes natural and low-impact dye processes well for buyers with a sustainability-forward range.",
+      "Woven from a fine cotton voile, Dania trades the sheen of our synthetic core range for breathability. When customers tell us chiffon feels too warm for extended daily wear, this is the style we point warm-climate buyers toward, and it takes natural and low-impact dye processes well for a sustainability-forward range.",
     images: [placeholder("prod-dania-1", "Cotton voile hijab folded flat"), placeholder("prod-dania-2", "Cotton voile weave close-up")],
     fabrics: ["Cotton Voile"],
     colors: [
@@ -462,12 +462,41 @@ export const products: Product[] = [
     ],
   },
   {
+    slug: "salwa-animal-print-hijab",
+    categorySlug: "hijabs",
+    name: "Salwa Animal Print Hijab",
+    shortDescription: "Leopard and animal-print chiffon hijab for fashion-forward statement ranges.",
+    description:
+      "Salwa uses the same chiffon base as Reema, printed in leopard and other animal-print patterns instead of florals or abstract washes. We'd recommend leading a fashion-forward or trend-driven range with this one alongside a solid core — buyers consistently reorder animal print faster than seasonal florals once it's in the mix.",
+    images: [
+      placeholder("prod-salwa-1", "Leopard print chiffon hijab draped on a model"),
+      placeholder("prod-salwa-2", "Animal print chiffon detail close-up"),
+    ],
+    fabrics: ["Premium Chiffon"],
+    colors: [
+      { name: "Leopard", hex: "#8B6B3D" },
+      { name: "Tiger Stripe", hex: "#4A3222" },
+      { name: "Zebra", hex: "#2B2B28" },
+    ],
+    sizes: ["70x180 cm", "75x190 cm"],
+    moq: "300 pieces per print",
+    leadTime: "20–28 days after sample approval",
+    customizationOptions: ["Custom animal-print pattern scale", "Strike-off sample review", "Custom colorway per print"],
+    privateLabelAvailable: true,
+    specifications: [
+      { label: "Fabric weight", value: "75 gsm" },
+      { label: "Print method", value: "In-house digital print" },
+      { label: "Care", value: "Machine wash cold, hang dry" },
+    ],
+    newArrival: true,
+  },
+  {
     slug: "reema-printed-chiffon-hijab",
     categorySlug: "hijabs",
     name: "Reema Printed Chiffon Hijab",
     shortDescription: "Digitally printed chiffon hijab with in-house pattern development.",
     description:
-      "Reema runs on the same chiffon base as our best-selling Aria, printed through our in-house digital studio rather than solid-dyed. Buyers can submit their own pattern or work with our design team to develop one, with strike-off samples typically ready in under two weeks.",
+      "Same chiffon base as our best-selling Aria, but run through our in-house digital print studio instead of solid-dyed — that's Reema. Buyers can submit their own pattern or work with our design team to develop one, and strike-off samples are typically ready in under two weeks.",
     images: [placeholder("prod-reema-1", "Printed chiffon hijab flat lay"), placeholder("prod-reema-2", "Chiffon print detail close-up")],
     fabrics: ["Premium Chiffon"],
     colors: [
@@ -491,7 +520,7 @@ export const products: Product[] = [
     name: "Sumaya Crepe Hijab",
     shortDescription: "Textured crepe hijab with a heavier drape for cooler climates.",
     description:
-      "Sumaya uses a lighter-weight crepe than our khimar and abaya crepe lines, cut specifically for hijab drape and hand-feel. The textured surface holds a wrap style through a full day without needing repositioning, which distributors in cooler climates report as their top reorder reason.",
+      "Sumaya uses a lighter-weight crepe than our khimar and abaya lines, cut specifically for hijab drape and hand-feel. The textured surface holds a wrap style through a full day without needing repositioning — distributors in cooler climates tell us that's their top reason for reordering it.",
     images: [placeholder("prod-sumaya-1", "Crepe hijab wrapped on a model"), placeholder("prod-sumaya-2", "Crepe texture close-up")],
     fabrics: ["Crepe"],
     colors: [
@@ -515,7 +544,7 @@ export const products: Product[] = [
     name: "Iman Modal Hijab",
     shortDescription: "Soft modal-blend hijab with a matte, low-sheen finish.",
     description:
-      "Iman is woven from a modal-cotton blend for a softer hand-feel than our polyester core range, with a matte finish that suits buyers positioning against a natural-fiber narrative. It holds color depth well across both light and dark shades in the same dye batch.",
+      "Woven from a modal-cotton blend, Iman has a softer hand-feel than our polyester core range and a matte finish suited to buyers building a natural-fiber narrative. It holds color depth well across both light and dark shades in the same dye batch.",
     images: [placeholder("prod-iman-1", "Modal hijab draped on a mannequin"), placeholder("prod-iman-2", "Modal fabric hand-feel close-up")],
     fabrics: ["Modal-Cotton Blend"],
     colors: [
@@ -542,7 +571,7 @@ export const products: Product[] = [
     name: "Salma Korean Nida Abaya",
     shortDescription: "Premium open-front abaya in Korean Nida with a butterfly sleeve.",
     description:
-      "Salma upgrades the Layla base pattern to Korean Nida for a subtle sheen and softer drape, finished with a wide butterfly sleeve that reads as more premium on the hanger and in product photography. It's the style we recommend when a buyer is ready to introduce a second, higher price-tier abaya alongside a volume entry style.",
+      "Salma takes the Layla base pattern and upgrades it to Korean Nida for a subtle sheen and softer drape, then finishes it with a wide butterfly sleeve that reads as more premium both on the hanger and in product photography. When a buyer is ready to introduce a second, higher price-tier abaya alongside a volume entry style, this is what we recommend.",
     images: [placeholder("prod-salma-1", "Butterfly-sleeve abaya on a mannequin"), placeholder("prod-salma-2", "Korean Nida fabric sheen close-up")],
     fabrics: ["Korean Nida"],
     colors: [
@@ -567,7 +596,7 @@ export const products: Product[] = [
     name: "Widad Kimono Abaya",
     shortDescription: "Open kimono-style abaya designed to layer over daywear.",
     description:
-      "Widad is cut fully open with no closure, designed to be worn as a layering piece over a base abaya or daywear. The lighter Zoom fabric keeps it breathable enough for warm-climate daily use, and it's become a strong reorder category for buyers whose customers want a modest outer layer without full abaya coverage.",
+      "Cut fully open with no closure, Widad is meant to be worn as a layering piece over a base abaya or daywear. The lighter Zoom fabric keeps it breathable enough for warm-climate daily use, and it's become a strong reorder category for buyers whose customers want a modest outer layer without full abaya coverage.",
     images: [placeholder("prod-widad-1", "Open kimono abaya on a model"), placeholder("prod-widad-2", "Lightweight abaya fabric drape")],
     fabrics: ["Zoom"],
     colors: [
@@ -593,7 +622,7 @@ export const products: Product[] = [
     name: "Nailah Closed Abaya",
     shortDescription: "Pull-over closed abaya with a fitted yoke and A-line skirt.",
     description:
-      "Nailah is our closed-front alternative to the Layla, pulled on over the head with a fitted shoulder yoke that tapers into a fuller A-line skirt. This construction removes closure hardware entirely, which some distributors prefer for cost and durability reasons on high-volume basics programs.",
+      "Nailah is our closed-front alternative to the Layla — pulled on over the head, with a fitted shoulder yoke that tapers into a fuller A-line skirt. Removing closure hardware entirely is a deliberate choice here, and some distributors prefer it for cost and durability reasons on high-volume basics programs.",
     images: [placeholder("prod-nailah-1", "Closed abaya on a mannequin"), placeholder("prod-nailah-2", "Abaya yoke seam detail")],
     fabrics: ["Nida"],
     colors: [
@@ -617,7 +646,7 @@ export const products: Product[] = [
     name: "Farida Linen Abaya",
     shortDescription: "Resort-weight linen-blend abaya for warm-climate daywear.",
     description:
-      "Farida is built on a reduced-crease linen-cotton blend, developed for resort and warm-climate daywear ranges where breathability matters more than the structured hand-feel of Nida. It carries the linen's characteristic texture without the extreme creasing that makes pure linen impractical for travel retail.",
+      "Built on a reduced-crease linen-cotton blend, Farida was developed for resort and warm-climate daywear ranges where breathability matters more than the structured hand-feel of Nida. It carries linen's characteristic texture without the extreme creasing that makes pure linen impractical for travel retail.",
     images: [placeholder("prod-farida-1", "Linen-blend abaya on a mannequin"), placeholder("prod-farida-2", "Linen texture close-up")],
     fabrics: ["Linen-Cotton Blend"],
     colors: [
@@ -641,7 +670,7 @@ export const products: Product[] = [
     name: "Halima Everyday Abaya",
     shortDescription: "Value-tier Zoom abaya for high-volume basics programs.",
     description:
-      "Halima is our most cost-efficient abaya SKU, built on lightweight Zoom fabric for distributors running high-volume basics programs where unit cost is the deciding factor. It's cut simply, with minimal seaming, to keep both fabric use and production time tight.",
+      "Halima is our most cost-efficient abaya SKU, built on lightweight Zoom fabric for distributors running high-volume basics programs where unit cost decides everything. We cut it simply, with minimal seaming, to keep both fabric use and production time tight.",
     images: [placeholder("prod-halima-1", "Value-tier abaya on a mannequin"), placeholder("prod-halima-2", "Zoom fabric close-up")],
     fabrics: ["Zoom"],
     colors: [
@@ -666,7 +695,7 @@ export const products: Product[] = [
     name: "Safiya Embroidered Crepe Abaya",
     shortDescription: "Machine-embroidered crepe abaya for mid-premium occasion ranges.",
     description:
-      "Safiya sits between our everyday Nida program and the fully hand-embellished Zahra, using machine embroidery on a crepe base to bring occasion-ready detail at a more accessible MOQ than hand-placed stonework requires. It's a practical entry point into occasion wear for buyers not yet ready for 50-unit hand-embellished minimums.",
+      "Sitting between our everyday Nida program and the fully hand-embellished Zahra, Safiya uses machine embroidery on a crepe base to bring occasion-ready detail at a more accessible MOQ than hand-placed stonework requires. It's a practical entry point into occasion wear for buyers not yet ready for 50-unit hand-embellished minimums.",
     images: [placeholder("prod-safiya-1", "Embroidered crepe abaya on a mannequin"), placeholder("prod-safiya-2", "Machine embroidery detail close-up")],
     fabrics: ["Crepe"],
     colors: [
@@ -692,7 +721,7 @@ export const products: Product[] = [
     name: "Maryam One-Piece Prayer Dress",
     shortDescription: "Single-piece prayer garment with attached head covering.",
     description:
-      "Maryam combines the body and head covering into a single piece, eliminating the need to coordinate a separate top and headscarf during prayer. The attached covering is cut with enough ease to sit comfortably during prostration, and the single-piece construction simplifies packing for travel retail.",
+      "Maryam combines the body and head covering into a single piece, so there's no separate top and headscarf to coordinate during prayer. The attached covering is cut with enough ease to sit comfortably during prostration, and the single-piece construction packs down easily for travel retail.",
     images: [placeholder("prod-maryam-1", "One-piece prayer dress on a mannequin"), placeholder("prod-maryam-2", "Prayer dress fabric flat lay")],
     fabrics: ["Lightweight Crepe"],
     colors: [
@@ -716,7 +745,7 @@ export const products: Product[] = [
     name: "Khadija Cotton Prayer Set",
     shortDescription: "Breathable cotton two-piece prayer set for warm-climate use.",
     description:
-      "Khadija uses combed cotton in place of our standard crepe, prioritizing breathability for buyers in hot-climate markets or customers who pray for extended periods. It's a slower-drying fabric than crepe, so we recommend pairing it with a crepe option in the same range for climate flexibility.",
+      "Khadija swaps our standard crepe for combed cotton, prioritizing breathability for buyers in hot-climate markets or customers who pray for extended periods. Cotton dries slower than crepe, though, so we'd suggest pairing it with a crepe option in the same range for climate flexibility.",
     images: [placeholder("prod-khadija-1", "Cotton prayer set folded flat"), placeholder("prod-khadija-2", "Cotton prayer set fabric texture")],
     fabrics: ["Combed Cotton"],
     colors: [
@@ -739,7 +768,7 @@ export const products: Product[] = [
     name: "Ruqayyah Travel Prayer Set",
     shortDescription: "Compact-fold prayer set with a matching travel pouch.",
     description:
-      "Ruqayyah is designed around a compact fold pattern and ships with a matching zippered travel pouch, positioned for the gifting and travel-accessory segment of the prayer wear category. It's a strong add-on SKU for buyers building a bundled gift set around Ramadan or Hajj/Umrah seasonal ordering cycles.",
+      "Ruqayyah is built around a compact fold pattern and ships with a matching zippered travel pouch, aimed at the gifting and travel-accessory segment of the prayer wear category. It works well as an add-on SKU for buyers building a bundled gift set around Ramadan or Hajj/Umrah seasonal ordering cycles.",
     images: [placeholder("prod-ruqayyah-1", "Travel prayer set with pouch"), placeholder("prod-ruqayyah-2", "Prayer set folded compactly")],
     fabrics: ["Lightweight Crepe"],
     colors: [
@@ -764,7 +793,7 @@ export const products: Product[] = [
     name: "Zaynab Embroidered Prayer Set",
     shortDescription: "Two-piece prayer set with delicate trim embroidery at the collar.",
     description:
-      "Zaynab adds a light embroidered trim at the collar and cuffs to our standard two-piece prayer set construction, positioned as a step-up gifting SKU without moving into full occasion-wear pricing. The embroidery is machine-applied and quality-checked for consistent placement across the run.",
+      "Zaynab takes our standard two-piece prayer set construction and adds a light embroidered trim at the collar and cuffs, which gives buyers a step-up gifting SKU without moving into full occasion-wear pricing. The embroidery is machine-applied, and we check it for consistent placement across the run.",
     images: [placeholder("prod-zaynab-1", "Embroidered prayer set on a mannequin"), placeholder("prod-zaynab-2", "Collar embroidery trim detail")],
     fabrics: ["Lightweight Crepe"],
     colors: [
@@ -788,7 +817,7 @@ export const products: Product[] = [
     name: "Asiya Jersey Prayer Dress",
     shortDescription: "Stretch jersey one-piece prayer dress for comfort during long wear.",
     description:
-      "Asiya uses a soft jersey knit rather than woven crepe, giving stretch and recovery for customers who find woven prayer garments restrictive during extended standing and prostration. It's a newer addition to the category and has tested well with younger customer segments in our distributor feedback.",
+      "Asiya uses a soft jersey knit rather than woven crepe, which gives stretch and recovery for customers who find woven prayer garments restrictive during extended standing and prostration. It's a newer addition to the category, and distributor feedback says it's tested well with younger customer segments.",
     images: [placeholder("prod-asiya-1", "Jersey prayer dress on a model"), placeholder("prod-asiya-2", "Jersey knit stretch detail")],
     fabrics: ["Cotton-Modal Jersey"],
     colors: [
@@ -812,7 +841,7 @@ export const products: Product[] = [
     name: "Bilqis Embellished Prayer Set",
     shortDescription: "Premium prayer set with subtle lace trim for gifting ranges.",
     description:
-      "Bilqis is our premium prayer set SKU, finished with a fine lace trim at the neckline and cuffs and packaged in branded gift box for boutique and gifting-focused retail. It's positioned above Zaynab in the range for buyers who want a clear good-better-best ladder within the prayer wear category.",
+      "Bilqis is our premium prayer set SKU, finished with a fine lace trim at the neckline and cuffs and packaged in a branded gift box for boutique and gifting-focused retail. We position it above Zaynab in the range, for buyers who want a clear good-better-best ladder within the prayer wear category.",
     images: [placeholder("prod-bilqis-1", "Premium prayer set with lace trim"), placeholder("prod-bilqis-2", "Lace trim detail close-up")],
     fabrics: ["Lightweight Crepe"],
     colors: [
@@ -838,7 +867,7 @@ export const products: Product[] = [
     name: "Sundus Two-Tier Khimar",
     shortDescription: "Balanced two-tier khimar in standard crepe for everyday wear.",
     description:
-      "Sundus is our most balanced khimar cut, offering enough structure to look intentional without the fuller fabric volume of the three-tier Mira. It's the style we recommend leading with when a buyer is introducing khimar as a new category rather than expanding an existing one.",
+      "Sundus is our most balanced khimar cut — enough structure to look intentional, without the fuller fabric volume of the three-tier Mira. When a buyer is introducing khimar as a new category rather than expanding an existing one, this is what we recommend leading with.",
     images: [placeholder("prod-sundus-1", "Two-tier khimar on a mannequin"), placeholder("prod-sundus-2", "Khimar tier detail close-up")],
     fabrics: ["Crepe"],
     colors: [
@@ -863,7 +892,7 @@ export const products: Product[] = [
     name: "Farhana One-Tier Khimar",
     shortDescription: "Long shawl-style one-tier khimar for value-tier ranges.",
     description:
-      "Farhana sits closer to a long shawl than a structured khimar, using less fabric per unit to keep cost efficient for value-tier ranges. It's a practical entry point for distributors who want to test khimar demand before committing to the fuller two- or three-tier styles.",
+      "Closer to a long shawl than a structured khimar, Farhana uses less fabric per unit to keep cost efficient for value-tier ranges. It's a practical entry point for distributors who want to test khimar demand before committing to the fuller two- or three-tier styles.",
     images: [placeholder("prod-farhana-1", "One-tier khimar on a mannequin"), placeholder("prod-farhana-2", "Khimar fabric drape detail")],
     fabrics: ["Zoom"],
     colors: [
@@ -887,7 +916,7 @@ export const products: Product[] = [
     name: "Latifa Georgette Khimar",
     shortDescription: "Lightweight georgette khimar with soft, flowing movement.",
     description:
-      "Latifa trades the structured fold of our crepe khimars for the softer, more fluid movement of georgette, suited to buyers whose customers prefer a less rigid silhouette. The fabric's inherent texture still holds a defined tier line without additional stiffening.",
+      "Latifa trades the structured fold of our crepe khimars for the softer, fluid movement of georgette, which suits buyers whose customers prefer a less rigid silhouette. The fabric's texture still holds a defined tier line without any additional stiffening.",
     images: [placeholder("prod-latifa-1", "Georgette khimar on a mannequin"), placeholder("prod-latifa-2", "Georgette khimar movement detail")],
     fabrics: ["Georgette"],
     colors: [
@@ -911,7 +940,7 @@ export const products: Product[] = [
     name: "Amani Embellished Khimar",
     shortDescription: "Occasion khimar with embroidered trim along the collar tier.",
     description:
-      "Amani brings occasion-ready detail to the khimar category with a machine-embroidered trim along the top tier's collar edge, positioned for boutique buyers building a coordinated occasion range alongside embellished abayas.",
+      "Amani brings occasion-ready detail to the khimar category with a machine-embroidered trim along the top tier's collar edge — a good fit for boutique buyers building a coordinated occasion range alongside embellished abayas.",
     images: [placeholder("prod-amani-1", "Embellished khimar on a mannequin"), placeholder("prod-amani-2", "Khimar embroidery trim detail")],
     fabrics: ["Satin-Back Crepe"],
     colors: [
@@ -936,7 +965,7 @@ export const products: Product[] = [
     name: "Basma Jersey Khimar",
     shortDescription: "Stretch jersey khimar for a casual, no-pin wearing experience.",
     description:
-      "Basma is cut from stretch jersey rather than a woven fabric, pulling on without pins for customers who want the khimar silhouette with the ease of a casual jersey hijab. It's a newer style tracking well with younger, casual-wear-focused customer segments.",
+      "Cut from stretch jersey rather than a woven fabric, Basma pulls on without pins for customers who want the khimar silhouette with the ease of a casual jersey hijab. It's a newer style, and it's tracking well with younger, casual-wear-focused customer segments.",
     images: [placeholder("prod-basma-1", "Jersey khimar on a model"), placeholder("prod-basma-2", "Jersey khimar stretch detail")],
     fabrics: ["Cotton-Modal Jersey"],
     colors: [
@@ -960,7 +989,7 @@ export const products: Product[] = [
     name: "Naila Premium Khimar",
     shortDescription: "Three-tier khimar in Korean Nida for a premium retail tier.",
     description:
-      "Naila upgrades our three-tier construction to Korean Nida for buyers positioning khimar at a premium retail price point, giving the fold structure of Mira with a softer hand-feel and subtle sheen. Sold alongside Mira as a good-better option within the same silhouette.",
+      "Naila upgrades our three-tier construction to Korean Nida for buyers positioning khimar at a premium retail price point — the fold structure of Mira, but with a softer hand-feel and subtle sheen. We sell it alongside Mira as a good-better option within the same silhouette.",
     images: [placeholder("prod-naila-1", "Premium khimar on a mannequin"), placeholder("prod-naila-2", "Korean Nida khimar sheen detail")],
     fabrics: ["Korean Nida"],
     colors: [
@@ -986,7 +1015,7 @@ export const products: Product[] = [
     name: "Shifa Two-Piece Instant Hijab",
     shortDescription: "Detachable two-piece instant hijab with interchangeable outer layers.",
     description:
-      "Shifa separates the underscarf cap from the outer layer entirely, sold as a coordinating set so customers (and retailers) can mix and match outer colors against a smaller set of cap colors. It reduces the SKU count a retailer needs to stock a full color range.",
+      "Shifa separates the underscarf cap from the outer layer entirely and sells as a coordinating set, so customers — and retailers — can mix and match outer colors against a smaller set of cap colors. That also cuts down the SKU count a retailer needs to stock a full color range.",
     images: [placeholder("prod-shifa-1", "Two-piece instant hijab set"), placeholder("prod-shifa-2", "Instant hijab cap and outer layer detail")],
     fabrics: ["Premium Chiffon", "Cotton Jersey (underscarf)"],
     colors: [
@@ -1010,7 +1039,7 @@ export const products: Product[] = [
     name: "Rukan Jersey Instant Hijab",
     shortDescription: "Pull-on instant hijab in stretch jersey for a casual finish.",
     description:
-      "Rukan replaces Amira's chiffon shell with stretch jersey for a softer, more casual instant hijab suited to everyday and athleisure-adjacent ranges. The attached cap construction is unchanged, keeping the same fast, pin-free wearing experience.",
+      "Rukan replaces Amira's chiffon shell with stretch jersey, for a softer, more casual instant hijab suited to everyday and athleisure-adjacent ranges. The attached cap construction stays the same, so the fast, pin-free wearing experience carries over too.",
     images: [placeholder("prod-rukan-1", "Jersey instant hijab on a model"), placeholder("prod-rukan-2", "Instant hijab jersey texture")],
     fabrics: ["Cotton-Modal Jersey"],
     colors: [
@@ -1034,7 +1063,7 @@ export const products: Product[] = [
     name: "Wafa Georgette Instant Hijab",
     shortDescription: "Instant hijab in textured georgette for a more premium finish.",
     description:
-      "Wafa steps up from our chiffon-based instant hijab range into georgette, giving a more premium, textured finish while keeping the fast, pin-free construction that defines the category. It's positioned as a step-up SKU for retailers building a good-better-best instant hijab range.",
+      "Wafa steps up from our chiffon-based instant hijab range into georgette, for a more premium, textured finish while keeping the fast, pin-free construction that defines the category. We position it as a step-up SKU for retailers building a good-better-best instant hijab range.",
     images: [placeholder("prod-wafa-1", "Georgette instant hijab on a model"), placeholder("prod-wafa-2", "Instant hijab georgette texture")],
     fabrics: ["Georgette"],
     colors: [
@@ -1058,7 +1087,7 @@ export const products: Product[] = [
     name: "Elif Printed Instant Hijab",
     shortDescription: "Printed pattern instant hijab for younger, fashion-forward ranges.",
     description:
-      "Elif brings our in-house print studio into the instant hijab category, aimed at younger customer segments and fashion-forward retail ranges that want pattern variety beyond solid colorways. Print runs are developed the same way as our printed scarf program, with fast strike-off turnaround.",
+      "Elif brings our in-house print studio into the instant hijab category, aimed at younger customer segments and fashion-forward retail ranges that want pattern variety beyond solid colorways. We develop print runs the same way as our printed scarf program, with a fast strike-off turnaround.",
     images: [placeholder("prod-elif-1", "Printed instant hijab on a model"), placeholder("prod-elif-2", "Instant hijab print detail")],
     fabrics: ["Premium Chiffon"],
     colors: [{ name: "Seasonal Print Range", hex: "#A97C50" }],
@@ -1080,7 +1109,7 @@ export const products: Product[] = [
     name: "Meryem Modal Instant Hijab",
     shortDescription: "Soft modal-blend instant hijab with a matte natural-fiber finish.",
     description:
-      "Meryem uses our modal-cotton blend in place of chiffon for buyers positioning a natural-fiber narrative even within the fast-fashion instant hijab category. It holds shape well through the attached-cap construction without needing the shell fabric to carry structure alone.",
+      "Meryem swaps in our modal-cotton blend for chiffon, for buyers who want a natural-fiber narrative even within the fast-fashion instant hijab category. It holds shape well through the attached-cap construction, so the shell fabric isn't carrying the structure on its own.",
     images: [placeholder("prod-meryem-1", "Modal instant hijab on a model"), placeholder("prod-meryem-2", "Instant hijab modal fabric detail")],
     fabrics: ["Modal-Cotton Blend"],
     colors: [
@@ -1104,7 +1133,7 @@ export const products: Product[] = [
     name: "Aaliyah Satin-Finish Instant Hijab",
     shortDescription: "Satin-finish instant hijab for occasion and gifting ranges.",
     description:
-      "Aaliyah uses a satin-finish chiffon shell to bring a dressier option into the instant hijab category, suited to occasion wear and gifting ranges where customers want the speed of an instant hijab without a purely casual look.",
+      "A satin-finish chiffon shell brings a dressier option into the instant hijab category with Aaliyah, suited to occasion wear and gifting ranges where customers want the speed of an instant hijab without a purely casual look.",
     images: [placeholder("prod-aaliyah-1", "Satin-finish instant hijab on a model"), placeholder("prod-aaliyah-2", "Satin sheen detail close-up")],
     fabrics: ["Premium Chiffon"],
     colors: [
@@ -1130,7 +1159,7 @@ export const products: Product[] = [
     name: "Rayyan Swim Hijab",
     shortDescription: "Chlorine-resistant swim hijab with a snug, secure fit.",
     description:
-      "Rayyan extends our sports hijab program into swimwear, built on a chlorine- and salt-resistant technical knit with a snug fit designed to stay in place in water. It pairs with our modest swimwear-adjacent development program for buyers building a full aquatics range.",
+      "Rayyan extends our sports hijab program into swimwear, built on a chlorine- and salt-resistant technical knit with a snug fit designed to stay put in water. For buyers building a full aquatics range, it pairs naturally with our modest swimwear-adjacent development program.",
     images: [placeholder("prod-rayyan-1", "Swim hijab on an athletic model"), placeholder("prod-rayyan-2", "Swim hijab fabric close-up")],
     fabrics: ["Technical Performance Knit"],
     colors: [
@@ -1155,7 +1184,7 @@ export const products: Product[] = [
     name: "Sakina Running Hijab",
     shortDescription: "Lightweight running hijab with mesh ventilation panels.",
     description:
-      "Sakina adds mesh ventilation panels at the temples and nape to our sports hijab construction, developed specifically for running and high-output cardio activity where heat buildup is the primary complaint with standard sports hijabs.",
+      "Sakina adds mesh ventilation panels at the temples and nape to our sports hijab construction, developed for running and high-output cardio activity — heat buildup is the top complaint we hear about standard sports hijabs, and this is our answer to it.",
     images: [placeholder("prod-sakina-1", "Running hijab on an athletic model"), placeholder("prod-sakina-2", "Mesh ventilation panel detail")],
     fabrics: ["Technical Performance Knit"],
     colors: [
@@ -1179,7 +1208,7 @@ export const products: Product[] = [
     name: "Yumna Yoga Hijab",
     shortDescription: "Ultra-lightweight stretch hijab designed for low-impact studio activity.",
     description:
-      "Yumna is built on a lighter-weight version of our technical knit, tuned for low-impact studio activity like yoga and pilates where full compression isn't needed but stretch and a secure, no-slip fit still matter through movement.",
+      "Built on a lighter-weight version of our technical knit, Yumna is tuned for low-impact studio activity like yoga and pilates, where full compression isn't needed but stretch and a secure, no-slip fit still matter through movement.",
     images: [placeholder("prod-yumna-1", "Yoga hijab on a model"), placeholder("prod-yumna-2", "Lightweight technical knit close-up")],
     fabrics: ["Technical Performance Knit"],
     colors: [
@@ -1203,7 +1232,7 @@ export const products: Product[] = [
     name: "Batul Compression Sports Hijab",
     shortDescription: "Firmer-compression sports hijab for high-intensity training.",
     description:
-      "Batul uses a firmer compression knit than our standard Zayn sports hijab, developed for high-intensity training where a snugger fit reduces movement and slippage. It's the style our distributors in competitive athletic-wear channels reorder most consistently.",
+      "Batul uses a firmer compression knit than our standard Zayn sports hijab, developed for high-intensity training where a snugger fit cuts down on movement and slippage. Our distributors in competitive athletic-wear channels reorder this one more consistently than almost anything else in the range.",
     images: [placeholder("prod-batul-1", "Compression sports hijab on an athletic model"), placeholder("prod-batul-2", "Compression knit fabric detail")],
     fabrics: ["Technical Performance Knit"],
     colors: [
@@ -1227,7 +1256,7 @@ export const products: Product[] = [
     name: "Iklas Junior Sports Hijab",
     shortDescription: "Sized-down sports hijab for youth and junior athletic ranges.",
     description:
-      "Iklas brings our sports hijab construction to a junior size range, addressing a gap distributors have flagged for school sports and youth athletics programs. Fabric and construction match our adult Zayn style, scaled to a smaller fit.",
+      "Iklas brings our sports hijab construction down to a junior size range, filling a gap distributors have flagged for school sports and youth athletics programs. Fabric and construction match our adult Zayn style — just scaled to a smaller fit.",
     images: [placeholder("prod-iklas-1", "Junior sports hijab on a young model"), placeholder("prod-iklas-2", "Junior sports hijab detail")],
     fabrics: ["Technical Performance Knit"],
     colors: [
@@ -1251,7 +1280,7 @@ export const products: Product[] = [
     name: "Zara Printed Sports Hijab",
     shortDescription: "Printed-pattern sports hijab for fashion-forward activewear ranges.",
     description:
-      "Zara brings printed pattern options into the sports hijab category on the same technical knit base as Zayn, aimed at activewear brands that want visual differentiation beyond solid colorways in a competitive category.",
+      "Zara brings printed pattern options into the sports hijab category on the same technical knit base as Zayn, for activewear brands that want visual differentiation beyond solid colorways in a crowded category.",
     images: [placeholder("prod-zara-1", "Printed sports hijab on an athletic model"), placeholder("prod-zara-2", "Sports hijab print detail")],
     fabrics: ["Technical Performance Knit"],
     colors: [{ name: "Seasonal Print Range", hex: "#1A1A18" }],
@@ -1274,7 +1303,7 @@ export const products: Product[] = [
     name: "Johara Embellished Silk Hijab",
     shortDescription: "Mulberry silk hijab with hand-applied crystal trim at the edge.",
     description:
-      "Johara pairs our mulberry silk base with a fine hand-applied crystal trim along one edge, positioned for bridal and formal occasion retail. Each piece is inspected crystal by crystal before packaging, consistent with our approach to embellished abaya quality control.",
+      "Johara pairs our mulberry silk base with a fine hand-applied crystal trim along one edge, aimed at bridal and formal occasion retail. We inspect each piece crystal by crystal before packaging, the same way we handle quality control on our embellished abayas.",
     images: [placeholder("prod-johara-1", "Embellished silk hijab draped elegantly"), placeholder("prod-johara-2", "Crystal trim detail close-up")],
     fabrics: ["Mulberry Silk"],
     colors: [
@@ -1299,7 +1328,7 @@ export const products: Product[] = [
     name: "Almas Satin Luxury Hijab",
     shortDescription: "High-sheen silk-satin hijab for formal and evening occasions.",
     description:
-      "Almas is woven with a higher-sheen satin finish than our standard silk range, developed specifically for evening and formal occasion retail where a more reflective drape is the selling point. It's a strong complement to our Zahra and Safiya embellished abaya lines for coordinated occasion sets.",
+      "Almas is woven with a higher-sheen satin finish than our standard silk range, developed for evening and formal occasion retail where a more reflective drape is the whole selling point. It complements our Zahra and Safiya embellished abaya lines well for coordinated occasion sets.",
     images: [placeholder("prod-almas-1", "Satin luxury hijab on a model"), placeholder("prod-almas-2", "Satin sheen close-up")],
     fabrics: ["Silk Satin"],
     colors: [
@@ -1323,7 +1352,7 @@ export const products: Product[] = [
     name: "Yakoot Printed Silk Hijab",
     shortDescription: "Digitally printed silk hijab with a custom-developed pattern.",
     description:
-      "Yakoot brings our in-house print studio to genuine mulberry silk, giving private label buyers a fully custom-patterned luxury hijab rather than a solid color. Development runs slightly longer than our standard printed chiffon program given the fabric's dye behavior.",
+      "Yakoot brings our in-house print studio to genuine mulberry silk, so private label buyers get a fully custom-patterned luxury hijab instead of a solid color. Development takes a bit longer than our standard printed chiffon program, since silk behaves differently under dye.",
     images: [placeholder("prod-yakoot-1", "Printed silk hijab flat lay"), placeholder("prod-yakoot-2", "Silk print detail close-up")],
     fabrics: ["Mulberry Silk"],
     colors: [{ name: "Seasonal Print Range", hex: "#A97C50" }],
@@ -1345,7 +1374,7 @@ export const products: Product[] = [
     name: "Zumurrud Cashmere-Blend Hijab",
     shortDescription: "Silk-cashmere blend hijab for cooler-climate luxury ranges.",
     description:
-      "Zumurrud blends a small percentage of cashmere into our silk base, adding warmth and a softer hand-feel suited to cooler-climate luxury ranges. It's a seasonal complement to our lighter pure-silk styles for buyers serving European and North American winter collections.",
+      "Zumurrud blends a small percentage of cashmere into our silk base for added warmth and a softer hand-feel, suited to cooler-climate luxury ranges. Buyers serving European and North American winter collections tend to stock it as a seasonal complement to our lighter pure-silk styles.",
     images: [placeholder("prod-zumurrud-1", "Cashmere-blend hijab draped on a model"), placeholder("prod-zumurrud-2", "Cashmere-silk blend hand-feel detail")],
     fabrics: ["Silk-Cashmere Blend"],
     colors: [
@@ -1369,7 +1398,7 @@ export const products: Product[] = [
     name: "Lulu Pearl-Trim Silk Hijab",
     shortDescription: "Silk hijab finished with a delicate pearl-bead edge trim.",
     description:
-      "Lulu finishes our mulberry silk base with a fine pearl-bead trim along the edge, a softer, more understated embellishment than Johara's crystal trim, aimed at bridal and gifting ranges wanting subtlety over sparkle.",
+      "Lulu finishes our mulberry silk base with a fine pearl-bead trim along the edge — softer and more understated than Johara's crystal trim, and aimed at bridal and gifting ranges that want subtlety over sparkle.",
     images: [placeholder("prod-lulu-1", "Pearl-trim silk hijab draped elegantly"), placeholder("prod-lulu-2", "Pearl bead trim detail close-up")],
     fabrics: ["Mulberry Silk"],
     colors: [
@@ -1392,7 +1421,7 @@ export const products: Product[] = [
     name: "Marjan Ombré Silk Hijab",
     shortDescription: "Hand-dip-dyed ombré silk hijab for a distinctive gradient finish.",
     description:
-      "Marjan uses a hand-dip-dye process to create a gradient ombré effect across the silk panel, a distinctive finish that's difficult to replicate with standard dye-lot processes and positions the style as a genuine differentiator for boutique private label ranges.",
+      "Marjan uses a hand-dip-dye process to create a gradient ombré effect across the silk panel. It's a distinctive finish that's genuinely hard to replicate with standard dye-lot processes, which makes it a real differentiator for boutique private label ranges.",
     images: [placeholder("prod-marjan-1", "Ombre silk hijab draped on a model"), placeholder("prod-marjan-2", "Ombre gradient dye detail")],
     fabrics: ["Mulberry Silk"],
     colors: [
@@ -1418,7 +1447,7 @@ export const products: Product[] = [
     name: "Suhaila One-Piece Jilbab",
     shortDescription: "Wide-cut one-piece jilbab replacing the two-piece structure entirely.",
     description:
-      "Suhaila consolidates the loose, generous jilbab cut into a single piece rather than Hana's separate top-and-skirt structure, simplifying sizing and reducing the number of components a distributor needs to inventory per unit sold.",
+      "Suhaila consolidates the loose, generous jilbab cut into a single piece rather than Hana's separate top-and-skirt structure. Sizing gets simpler, and there are fewer components for a distributor to inventory per unit sold.",
     images: [placeholder("prod-suhaila-1", "One-piece jilbab on a mannequin"), placeholder("prod-suhaila-2", "Jilbab fabric drape detail")],
     fabrics: ["Nida"],
     colors: [
@@ -1442,7 +1471,7 @@ export const products: Product[] = [
     name: "Widyan Cotton Jilbab Set",
     shortDescription: "Breathable cotton two-piece jilbab for warm-climate coverage.",
     description:
-      "Widyan swaps Hana's matte crepe for combed cotton, prioritizing breathability for warm-climate markets where a full-coverage jilbab in synthetic fabric becomes uncomfortable through extended daily wear.",
+      "Widyan swaps Hana's matte crepe for combed cotton, since a full-coverage jilbab in synthetic fabric gets uncomfortable fast in warm-climate markets through extended daily wear.",
     images: [placeholder("prod-widyan-1", "Cotton jilbab set on a mannequin"), placeholder("prod-widyan-2", "Cotton jilbab fabric texture")],
     fabrics: ["Combed Cotton"],
     colors: [
@@ -1465,7 +1494,7 @@ export const products: Product[] = [
     name: "Thuraya Embellished Jilbab",
     shortDescription: "Occasion jilbab set with embroidered trim at the cuffs and hem.",
     description:
-      "Thuraya brings occasion-ready detail to the jilbab category with embroidered trim at the cuffs and hem, positioned for buyers who want a jilbab option within a coordinated occasion range alongside embellished abayas and khimars.",
+      "Thuraya brings occasion-ready detail to the jilbab category with embroidered trim at the cuffs and hem, for buyers who want a jilbab option within a coordinated occasion range alongside embellished abayas and khimars.",
     images: [placeholder("prod-thuraya-1", "Embellished jilbab set on a mannequin"), placeholder("prod-thuraya-2", "Jilbab hem embroidery detail")],
     fabrics: ["Crepe"],
     colors: [
@@ -1489,7 +1518,7 @@ export const products: Product[] = [
     name: "Qamar Linen-Blend Jilbab",
     shortDescription: "Resort-weight linen-blend jilbab for warm-climate travel retail.",
     description:
-      "Qamar uses the same reduced-crease linen-cotton blend as our Farida abaya, cut into the looser jilbab silhouette for warm-climate and resort-adjacent travel retail ranges.",
+      "Qamar uses the same reduced-crease linen-cotton blend as our Farida abaya, just cut into the looser jilbab silhouette for warm-climate and resort-adjacent travel retail ranges.",
     images: [placeholder("prod-qamar-1", "Linen jilbab on a mannequin"), placeholder("prod-qamar-2", "Linen jilbab texture detail")],
     fabrics: ["Linen-Cotton Blend"],
     colors: [
@@ -1513,7 +1542,7 @@ export const products: Product[] = [
     name: "Najma Value Jilbab Set",
     shortDescription: "Value-tier jilbab set in Zoom fabric for high-volume distribution.",
     description:
-      "Najma is our most cost-efficient jilbab SKU, built on lightweight Zoom fabric for distributors prioritizing unit cost on high-volume orders, with construction simplified to keep both fabric use and production time tight.",
+      "Najma is our most cost-efficient jilbab SKU, built on lightweight Zoom fabric for distributors prioritizing unit cost on high-volume orders. We keep the construction simple, which keeps both fabric use and production time tight.",
     images: [placeholder("prod-najma-1", "Value-tier jilbab set on a mannequin"), placeholder("prod-najma-2", "Zoom fabric jilbab detail")],
     fabrics: ["Zoom"],
     colors: [
@@ -1537,7 +1566,7 @@ export const products: Product[] = [
     name: "Roshan Korean Nida Jilbab",
     shortDescription: "Premium jilbab set in Korean Nida for a step-up retail tier.",
     description:
-      "Roshan upgrades our two-piece jilbab construction to Korean Nida for buyers who want a premium jilbab option alongside the value-tier Najma and everyday Hana, completing a clear good-better-best ladder within the category.",
+      "Roshan upgrades our two-piece jilbab construction to Korean Nida, giving buyers a premium jilbab option alongside the value-tier Najma and everyday Hana — a clear good-better-best ladder within the category.",
     images: [placeholder("prod-roshan-1", "Premium jilbab set on a mannequin"), placeholder("prod-roshan-2", "Korean Nida jilbab sheen detail")],
     fabrics: ["Korean Nida"],
     colors: [
@@ -1564,7 +1593,7 @@ export const products: Product[] = [
     name: "Husna Tube Inner Cap",
     shortDescription: "Seamless tube-style inner cap for a smooth, minimal profile.",
     description:
-      "Husna uses a seamless tube construction rather than Rania's fitted cap shape, giving a smoother profile under thinner outer hijab fabrics where a seamed cap edge can show through. It's a strong complement SKU sold alongside our chiffon hijab range.",
+      "Husna uses a seamless tube construction rather than Rania's fitted cap shape, which gives a smoother profile under thinner outer hijab fabrics where a seamed cap edge would otherwise show through. We sell it as a strong complement SKU alongside our chiffon hijab range.",
     images: [placeholder("prod-husna-1", "Tube inner caps arranged by color"), placeholder("prod-husna-2", "Seamless inner cap construction detail")],
     fabrics: ["Combed Cotton"],
     colors: [
@@ -1588,7 +1617,7 @@ export const products: Product[] = [
     name: "Afra Bonnet-Style Inner Cap",
     shortDescription: "Bonnet-style inner cap with a neck extension for full coverage.",
     description:
-      "Afra extends coverage down through the neck with a bonnet-style cut, suited to customers who prefer additional neck coverage under a lighter outer hijab layer. It's offered in an extended neutral color range matching our core inner cap program.",
+      "Afra extends coverage down through the neck with a bonnet-style cut, for customers who prefer additional neck coverage under a lighter outer hijab layer. We offer it in an extended neutral color range that matches our core inner cap program.",
     images: [placeholder("prod-afra-1", "Bonnet-style inner cap on a model"), placeholder("prod-afra-2", "Inner cap neck coverage detail")],
     fabrics: ["Combed Cotton"],
     colors: [
@@ -1612,7 +1641,7 @@ export const products: Product[] = [
     name: "Bushra Stretch Jersey Inner Cap",
     shortDescription: "Extra-stretch jersey inner cap for a snug, all-day fit.",
     description:
-      "Bushra uses a higher-stretch jersey blend than our standard cotton cap, giving a snugger, more secure fit for customers who find standard caps shift through a full day of wear.",
+      "Bushra uses a higher-stretch jersey blend than our standard cotton cap, for a snugger, more secure fit if a customer finds standard caps shift through a full day of wear.",
     images: [placeholder("prod-bushra-1", "Stretch jersey inner cap detail"), placeholder("prod-bushra-2", "Inner cap fit close-up")],
     fabrics: ["Cotton-Modal Jersey"],
     colors: [
@@ -1637,7 +1666,7 @@ export const products: Product[] = [
     name: "Dalia Crossover Inner Cap",
     shortDescription: "Crossover-front inner cap that doubles as a standalone underscarf.",
     description:
-      "Dalia adds a crossover front panel, allowing it to function as a standalone light underscarf as well as a base layer under an outer hijab — giving distributors a dual-purpose SKU that serves two use cases from one product line.",
+      "A crossover front panel lets Dalia work as a standalone light underscarf as well as a base layer under an outer hijab, which gives distributors a dual-purpose SKU covering two use cases from one product line.",
     images: [placeholder("prod-dalia-1", "Crossover inner cap on a model"), placeholder("prod-dalia-2", "Crossover front panel detail")],
     fabrics: ["Combed Cotton"],
     colors: [
@@ -1662,7 +1691,7 @@ export const products: Product[] = [
     name: "Insiya Bamboo-Blend Inner Cap",
     shortDescription: "Bamboo-cotton blend inner cap for extra softness and moisture control.",
     description:
-      "Insiya blends bamboo fiber into our standard cotton cap for a softer hand-feel and better natural moisture-wicking, positioned as a premium option for buyers whose customers report sensitivity to standard cotton blends.",
+      "Insiya blends bamboo fiber into our standard cotton cap for a softer hand-feel and better natural moisture-wicking. We position it as a premium option for buyers whose customers report sensitivity to standard cotton blends.",
     images: [placeholder("prod-insiya-1", "Bamboo-blend inner cap detail"), placeholder("prod-insiya-2", "Bamboo cotton fabric close-up")],
     fabrics: ["Bamboo-Cotton Blend"],
     colors: [
@@ -1686,7 +1715,7 @@ export const products: Product[] = [
     name: "Kawthar Turban-Style Inner Cap",
     shortDescription: "Pre-gathered turban-style cap for a styled base under thinner hijabs.",
     description:
-      "Kawthar is pre-gathered into a turban-style shape rather than a flat cap, giving a styled base layer that adds subtle volume under thinner chiffon or silk outer layers without needing separate styling.",
+      "Kawthar is pre-gathered into a turban-style shape rather than a flat cap, so it gives a styled base layer with subtle volume under thinner chiffon or silk outer layers, no separate styling needed.",
     images: [placeholder("prod-kawthar-1", "Turban-style inner cap on a model"), placeholder("prod-kawthar-2", "Turban cap construction detail")],
     fabrics: ["Cotton-Modal Jersey"],
     colors: [
@@ -1712,7 +1741,7 @@ export const products: Product[] = [
     name: "Sabiha Single-Layer Niqab",
     shortDescription: "Lightweight single-layer niqab for maximum breathability.",
     description:
-      "Sabiha uses a single layer of chiffon rather than Yara's double-layer construction, prioritizing breathability for hot-climate markets or customers who find double-layer coverage too warm for extended daily wear.",
+      "A single layer of chiffon, rather than Yara's double-layer construction, is what sets Sabiha apart — it's the more breathable choice for hot-climate markets or customers who find double-layer coverage too warm for extended daily wear.",
     images: [placeholder("prod-sabiha-1", "Single-layer niqab detail"), placeholder("prod-sabiha-2", "Niqab fabric close-up")],
     fabrics: ["Premium Chiffon"],
     colors: [
@@ -1736,7 +1765,7 @@ export const products: Product[] = [
     name: "Ghina Adjustable-Fit Niqab",
     shortDescription: "Niqab with an adjustable elastic strap for a customized fit.",
     description:
-      "Ghina replaces fixed ties with an adjustable elastic strap system, letting customers fine-tune fit rather than relying on tie length alone. Distributors report this reduces size-related returns compared to fixed-tie styles.",
+      "Ghina replaces fixed ties with an adjustable elastic strap system, so customers can fine-tune fit rather than relying on tie length alone. Distributors tell us it cuts down on size-related returns compared to fixed-tie styles.",
     images: [placeholder("prod-ghina-1", "Adjustable niqab detail"), placeholder("prod-ghina-2", "Elastic strap adjustment detail")],
     fabrics: ["Premium Chiffon"],
     colors: [
@@ -1760,7 +1789,7 @@ export const products: Product[] = [
     name: "Rand Crepe Niqab",
     shortDescription: "Textured crepe niqab with a more opaque, matte finish.",
     description:
-      "Rand uses lightweight crepe instead of chiffon for a more opaque, matte finish, suited to customers who prefer less visible fabric sheen. It pairs naturally with our crepe hijab and khimar lines for a coordinated matte-finish range.",
+      "Rand uses lightweight crepe instead of chiffon, for a more opaque, matte finish that suits customers who prefer less visible fabric sheen. It pairs naturally with our crepe hijab and khimar lines if you're building a coordinated matte-finish range.",
     images: [placeholder("prod-rand-1", "Crepe niqab detail"), placeholder("prod-rand-2", "Niqab crepe texture close-up")],
     fabrics: ["Crepe"],
     colors: [
@@ -1784,7 +1813,7 @@ export const products: Product[] = [
     name: "Lamis Triple-Layer Niqab",
     shortDescription: "Maximum-coverage triple-layer niqab for full opacity.",
     description:
-      "Lamis adds a third layer to our standard double-layer construction for customers prioritizing maximum opacity above breathability. It's a lower-volume specialty SKU we keep in the range specifically for this segment of demand.",
+      "Lamis adds a third layer to our standard double-layer construction, for customers who prioritize maximum opacity above breathability. It's a lower-volume specialty SKU, but we keep it in the range specifically for this segment of demand.",
     images: [placeholder("prod-lamis-1", "Triple-layer niqab detail"), placeholder("prod-lamis-2", "Niqab layering construction close-up")],
     fabrics: ["Premium Chiffon"],
     colors: [
@@ -1807,7 +1836,7 @@ export const products: Product[] = [
     name: "Nisreen Embroidered-Edge Niqab",
     shortDescription: "Niqab with a fine embroidered edge for a subtle decorative detail.",
     description:
-      "Nisreen adds a fine embroidered edge trim along the top band, a subtle decorative detail for buyers who want a step-up niqab SKU without moving into a fully embellished occasion category.",
+      "A fine embroidered edge trim along the top band gives Nisreen a subtle decorative detail, for buyers who want a step-up niqab SKU without moving into a fully embellished occasion category.",
     images: [placeholder("prod-nisreen-1", "Embroidered-edge niqab detail"), placeholder("prod-nisreen-2", "Niqab edge embroidery close-up")],
     fabrics: ["Premium Chiffon"],
     colors: [
@@ -1831,7 +1860,7 @@ export const products: Product[] = [
     name: "Yusra Value Niqab",
     shortDescription: "Value-tier double-layer niqab for high-volume distribution.",
     description:
-      "Yusra keeps Yara's double-layer construction but simplifies stitching detail to reduce unit cost for distributors ordering at high volume where price sensitivity outweighs finishing detail.",
+      "Yusra keeps Yara's double-layer construction but simplifies the stitching detail to bring the unit cost down, for distributors ordering at high volume where price sensitivity matters more than finishing detail.",
     images: [placeholder("prod-yusra-1", "Value-tier niqab detail"), placeholder("prod-yusra-2", "Niqab fabric close-up")],
     fabrics: ["Premium Chiffon"],
     colors: [
@@ -1857,7 +1886,7 @@ export const products: Product[] = [
     name: "Samar Cotton Scarf",
     shortDescription: "Breathable cotton scarf for casual daily styling.",
     description:
-      "Samar is woven from lightweight cotton rather than our silk-viscose Yasmin blend, positioned for casual daily-wear retail at a more accessible price point while still offering the multi-use hijab, shawl, or neck scarf styling.",
+      "Woven from lightweight cotton rather than our silk-viscose Yasmin blend, Samar hits a more accessible price point for casual daily-wear retail while still offering the same multi-use hijab, shawl, or neck scarf styling.",
     images: [placeholder("prod-samar-1", "Cotton scarves stacked by color"), placeholder("prod-samar-2", "Cotton scarf texture close-up")],
     fabrics: ["Cotton Voile"],
     colors: [
@@ -1880,7 +1909,7 @@ export const products: Product[] = [
     name: "Lina Fringed-Edge Scarf",
     shortDescription: "Silk-blend scarf finished with a hand-knotted fringe edge.",
     description:
-      "Lina finishes our silk-viscose scarf base with a hand-knotted fringe edge rather than Yasmin's clean hem, giving a more textured, boho-adjacent styling option for retail ranges wanting visual variety in their scarf wall.",
+      "Lina finishes our silk-viscose scarf base with a hand-knotted fringe edge rather than Yasmin's clean hem, for a more textured, boho-adjacent styling option if a retail range wants visual variety in the scarf wall.",
     images: [placeholder("prod-lina-1", "Fringed scarf flat lay"), placeholder("prod-lina-2", "Hand-knotted fringe detail")],
     fabrics: ["Silk", "Viscose"],
     colors: [
@@ -1904,7 +1933,7 @@ export const products: Product[] = [
     name: "Nawal Wool-Blend Scarf",
     shortDescription: "Warm wool-blend scarf for cooler-climate seasonal ranges.",
     description:
-      "Nawal blends fine wool into our scarf base for a warmer, seasonal-weight option, aimed at buyers in cooler-climate markets stocking a winter accessory range alongside our lighter chiffon and silk scarves.",
+      "Nawal blends fine wool into our scarf base for a warmer, seasonal-weight option, for buyers in cooler-climate markets stocking a winter accessory range alongside our lighter chiffon and silk scarves.",
     images: [placeholder("prod-nawal-1", "Wool-blend scarf folded flat"), placeholder("prod-nawal-2", "Wool blend texture close-up")],
     fabrics: ["Wool", "Viscose"],
     colors: [
@@ -1929,7 +1958,7 @@ export const products: Product[] = [
     name: "Rasha Satin-Finish Scarf",
     shortDescription: "High-sheen satin scarf for evening and occasion styling.",
     description:
-      "Rasha uses a satin finish for a more reflective drape than our standard scarf range, positioned for evening and occasion styling rather than daily casual wear, and pairs well with our satin luxury hijab line for coordinated retail displays.",
+      "Rasha uses a satin finish for a more reflective drape than our standard scarf range, built for evening and occasion styling rather than daily casual wear. It pairs well with our satin luxury hijab line for coordinated retail displays.",
     images: [placeholder("prod-rasha-1", "Satin scarf draped elegantly"), placeholder("prod-rasha-2", "Satin scarf sheen close-up")],
     fabrics: ["Silk Satin"],
     colors: [
@@ -1953,7 +1982,7 @@ export const products: Product[] = [
     name: "Dima Printed Viscose Scarf",
     shortDescription: "Soft viscose scarf with a custom-printed pattern.",
     description:
-      "Dima uses our viscose base fabric printed through the in-house studio, offering a softer, more breathable printed scarf option than the silk-viscose Yasmin blend, at a more accessible price point for daily-wear retail.",
+      "Dima uses our viscose base fabric printed through the in-house studio, which gives a softer, more breathable printed scarf than the silk-viscose Yasmin blend, at a more accessible price point for daily-wear retail.",
     images: [placeholder("prod-dima-1", "Printed viscose scarf flat lay"), placeholder("prod-dima-2", "Viscose print detail close-up")],
     fabrics: ["Viscose"],
     colors: [{ name: "Seasonal Print Range", hex: "#8A9A82" }],
@@ -1974,7 +2003,7 @@ export const products: Product[] = [
     name: "Celine Oversized Shawl-Scarf",
     shortDescription: "Extra-large shawl-scarf for layered, statement styling.",
     description:
-      "Celine is cut larger than our standard scarf range specifically for shawl and layering styling, giving retail buyers a statement-piece SKU that photographs distinctly from the rest of a standard scarf wall.",
+      "Cut larger than our standard scarf range specifically for shawl and layering styling, Celine gives retail buyers a statement-piece SKU that photographs distinctly from the rest of a standard scarf wall.",
     images: [placeholder("prod-celine-1", "Oversized shawl-scarf styled on a model"), placeholder("prod-celine-2", "Shawl fabric drape detail")],
     fabrics: ["Silk", "Viscose"],
     colors: [

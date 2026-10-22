@@ -10,6 +10,13 @@ import { GlobeIcon } from "@/components/ui/icons";
 export const metadata: Metadata = {
   title: "Locations We Serve — Hijab & Abaya Wholesale Supply Worldwide",
   description: `SamNoor supplies wholesale hijabs and abayas to buyers across ${siteConfig.stats.countriesServed}+ countries, plus domestic distribution across India. Find shipping and lead time details for your market.`,
+  keywords: [
+    "hijab wholesale supplier worldwide",
+    "abaya wholesale export countries",
+    "modest wear distributor by country",
+    "hijab supplier near me",
+  ],
+  alternates: { canonical: "/locations" },
 };
 
 export default function LocationsIndexPage() {

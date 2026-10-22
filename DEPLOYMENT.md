@@ -1,85 +1,122 @@
-# Deploying SamNoor to Hostinger
+# Deploying SamNoor to Hostinger (Business Web Hosting)
 
-## What changed from the earlier static export
+## Why this looks different from a typical Next.js deploy
 
-The blog is now a live CMS: you write and publish posts from `/admin/blog`
-on the site itself, and posts are saved to a JSON file on the server
-(`data/blog-posts.json`), not baked into the code at build time. That
-requires an actual running Node.js process — a plain static file host
-(the earlier "drag-and-drop to Netlify" setup) can't do this. `next.config.ts`
-no longer uses `output: "export"`.
+The hosting plan behind `samnoor.in` is **Business Web Hosting** — shared
+PHP/static hosting with no Node.js runtime available. Next.js normally needs
+a live Node process for anything dynamic (API routes, a database-backed
+CMS), so this site is built two ways instead:
 
-## What you need on Hostinger
+- **Frontend**: a fully static export (`next.config.ts` sets
+  `output: "export"`) — plain HTML/CSS/JS, exactly what shared hosting
+  serves natively.
+- **Backend**: the admin blog CMS, the wholesale enquiry form, and the
+  newsletter signup are implemented in **PHP** under `php-api/`, since
+  Business Web Hosting does run PHP. The frontend calls these endpoints
+  with `fetch()` at runtime, the same way it used to call Next API routes.
 
-A plan with **Node.js application hosting** — this is available on
-Hostinger's Business and Cloud hosting plans (and any VPS), managed from
-hPanel under **Setup Node.js App**. A basic shared/PHP-only plan cannot run
-this site as a live CMS.
+Blog content specifically is fetched live from PHP rather than baked into
+the static HTML, so publishing or editing a post from `/admin/blog` shows
+up immediately — no rebuild needed for that. Everything else (product
+pages, category pages, static content) is fixed at build time; changing
+that content does require rebuilding and re-uploading.
 
 ## One-time setup
 
-1. **Upload the project** to your Hostinger Node.js app directory (via Git,
-   SFTP, or Hostinger's file manager) — everything except `node_modules`,
-   `.next`, `data/`, and `public/uploads/` (all already gitignored).
+### 1. Build the static site locally
 
-2. **Install dependencies and build**, either via hPanel's Node.js app
-   screen or SSH:
-   ```bash
-   npm install
-   npm run build
-   ```
+```bash
+npm install
+npm run build
+```
 
-3. **Generate your admin password hash** — never put a plaintext password
-   anywhere:
-   ```bash
-   npm run hash-password -- "choose-a-strong-password-here"
-   ```
-   Copy the full `scrypt:...:...` output.
+This produces an `out/` folder — that's the entire frontend.
 
-4. **Generate a session secret**:
-   ```bash
-   node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"
-   ```
+### 2. Fill in php-api/config.php
 
-5. **Set environment variables** in hPanel's Node.js app screen (Environment
-   Variables section) — see `.env.example` for the full list:
-   - `ADMIN_USERNAME` — your admin login name
-   - `ADMIN_PASSWORD_HASH` — the value from step 3
-   - `SESSION_SECRET` — the value from step 4
+Copy `php-api/config.example.php` to `php-api/config.php` if you don't
+already have one (it's gitignored on purpose — it will hold a real
+password hash). Leave `ADMIN_PASSWORD_HASH` empty for now; you'll generate
+it after the first upload (step 5).
 
-6. **Set the startup file/command** to `npm run start` (this runs `next
-   start`, the production server — do not use `next dev` in production).
+Make sure `NOTIFY_EMAIL` (plus `MAIL_FROM_EMAIL` / `MAIL_FROM_NAME`) is set
+— that's the inbox new enquiries are emailed to. Without it, enquiries
+still show up in the admin panel but no email is sent. `MAIL_FROM_EMAIL`
+must be a mailbox that actually exists in Hostinger's Emails panel.
 
-7. **Point your domain's SSL** at the app (Hostinger issues free SSL
-   automatically for most plans). The site sends a `Strict-Transport-
-   Security` header and sets cookies as `secure` in production, so it must
-   be served over HTTPS — otherwise logins to `/admin` will fail silently
-   in the browser.
+### 3. Upload everything to public_html
+
+Using Hostinger's File Manager or an SFTP client, upload to your domain's
+`public_html`:
+
+- Everything inside `out/` (its contents go directly into `public_html`,
+  not into an `out` subfolder)
+- The whole `php-api/` folder, as a sibling of the site files (so it ends
+  up at `public_html/php-api/`)
+
+Do **not** upload `node_modules`, `.next`, `src/`, or any other project
+source — none of it is needed on the server; only `out/`'s contents and
+`php-api/`.
+
+### 4. Set folder permissions
+
+`php-api/data/` needs to be writable by PHP (this is where blog posts,
+enquiries, and newsletter signups are stored as JSON files). In File
+Manager, right-click `php-api/data` → Permissions → set to `755` (or `775`
+if 755 doesn't allow writes on your account — check with Hostinger support
+if uploads/saves fail with a permissions error).
+
+### 5. Generate your admin password
+
+Visit `https://samnoor.in/php-api/tools/hash-password.php` in your browser,
+enter a strong password, and copy the hash it prints. Paste it into
+`php-api/config.php` as `ADMIN_PASSWORD_HASH` (edit the file directly in
+File Manager), then **delete the `php-api/tools/` folder** from the server
+— it's a one-time tool and shouldn't stay publicly reachable.
+
+### 6. Test
+
+- Visit `https://samnoor.in/admin/login`, sign in, confirm you can see and
+  create blog posts.
+- Submit the wholesale enquiry form on the site and confirm it appears
+  under `/admin/enquiries`.
+- Visit a blog post at `/blog/<slug>/` and confirm it loads (this route is
+  served by a single static shell that fetches content from PHP at
+  runtime — see `public/.htaccess` for how the URL rewrite works).
 
 ## Using the CMS
 
-Visit `https://yourdomain.com/admin/login`, sign in with the credentials
-you configured, and manage posts under **Blog Posts**. Uploaded cover
-images are re-encoded and saved to `public/uploads/blog/`; post data lives
-in `data/blog-posts.json`. **Never delete either of these directories on a
-redeploy** — that's where all admin edits live, independent of the code.
+Manage posts and view enquiries at `/admin/blog` and `/admin/enquiries`.
+Uploaded cover images are re-encoded (via PHP's GD extension) and saved to
+`public_html/uploads/blog/`; all CMS data lives as JSON under
+`php-api/data/`. **Never delete `php-api/data/` or `uploads/` on a
+redeploy** — that's where every admin edit and every wholesale lead lives,
+independent of the site's code. Back both up periodically, the same as
+you'd back up a database.
 
 ## Redeploying after a code change
 
-Pulling new code and rebuilding (`npm install && npm run build`, then
-restarting the app) is safe — it never touches `data/` or
-`public/uploads/`. Back up both directories periodically regardless, the
-same as you would a database.
+1. `npm run build` locally.
+2. Re-upload the contents of `out/` to `public_html`, overwriting the old
+   files.
+3. Do **not** touch `php-api/data/`, `php-api/config.php`, or
+   `uploads/` during this — only the static frontend files change.
 
-## Keeping it secure over time
+If you changed anything under `php-api/`, re-upload just the changed PHP
+files (never overwrite `config.php` with a version that has an empty
+password hash).
 
-- Run `npm audit` occasionally and update dependencies — this project was
-  built against a patched Next.js after a critical RCE advisory
-  (GHSA-p293-qw3h-jr36) affecting earlier 16.x releases; don't downgrade
-  Next.js below the version pinned in `package-lock.json` without checking
-  the advisory is still fixed.
-- Rotate `SESSION_SECRET` if you ever suspect it leaked — this immediately
-  invalidates every existing admin session.
-- The admin login is rate-limited (5 attempts / 10 minutes / IP) and
-  `/admin` + `/api` are excluded from search indexing and caching, but
-  there's no substitute for a strong, unique password.
+## Security notes
+
+- `php-api/config.php` holds your admin credentials and is never committed
+  to git (see `.gitignore`) — treat it like a password file.
+- `php-api/data/.htaccess` blocks direct web access to the JSON data files
+  (enquiries, subscriber emails, blog drafts) — don't remove it.
+- Every admin endpoint under `php-api/admin/` independently checks the PHP
+  session before doing anything, so even if someone finds the URL directly
+  they can't read or change data without logging in first.
+- The admin login is rate-limited (5 attempts / 10 minutes / IP), and
+  `/admin` and `/php-api` are excluded from search indexing via
+  `robots.txt` and response headers.
+- There's no substitute for a strong, unique admin password — set one at
+  step 5 above.

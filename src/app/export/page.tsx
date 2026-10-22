@@ -13,6 +13,14 @@ import { GlobeIcon, TruckIcon, ArrowRightIcon } from "@/components/ui/icons";
 export const metadata: Metadata = {
   title: "Export Markets",
   description: "SamNoor is a hijab and abaya exporter shipping from Mumbai to 42 countries across six regions, with air, sea, and express freight and full Incoterm support.",
+  keywords: [
+    "hijab exporter India",
+    "abaya exporter India",
+    "modest wear export Mumbai",
+    "Incoterms hijab shipping",
+    "wholesale abaya shipping worldwide",
+  ],
+  alternates: { canonical: "/export" },
 };
 
 const INCOTERMS = [

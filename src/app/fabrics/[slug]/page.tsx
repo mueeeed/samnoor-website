@@ -19,6 +19,13 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return {
     title: `${fabric.name} Fabric for Hijab & Abaya Manufacturing`,
     description: fabric.description,
+    keywords: [
+      fabric.name,
+      `${fabric.name} fabric supplier`,
+      `${fabric.name} manufacturer India`,
+      ...fabric.bestFor,
+    ],
+    alternates: { canonical: `/fabrics/${slug}` },
   };
 }
 

@@ -3,21 +3,18 @@ import Link from "next/link";
 import { Container } from "@/components/ui/Container";
 import { siteConfig } from "@/lib/site-config";
 import { categories } from "@/content/categories";
-import { certifications } from "@/content/certifications";
 import { NewsletterForm } from "@/components/forms/NewsletterForm";
-import { InstagramIcon, FacebookIcon, LinkedInIcon, MailIcon, PhoneIcon, MapPinIcon, ShieldIcon } from "@/components/ui/icons";
+import { InstagramIcon, FacebookIcon, MailIcon, PhoneIcon, MapPinIcon } from "@/components/ui/icons";
 
 const SOCIAL_LINKS = [
   { href: siteConfig.social.instagram, label: "Instagram", Icon: InstagramIcon },
   { href: siteConfig.social.facebook, label: "Facebook", Icon: FacebookIcon },
-  { href: siteConfig.social.linkedin, label: "LinkedIn", Icon: LinkedInIcon },
 ];
 
 const COMPANY_LINKS = [
   { href: "/about", label: "About SamNoor" },
   { href: "/manufacturing", label: "Manufacturing" },
   { href: "/private-label", label: "Private Label & OEM" },
-  { href: "/certifications", label: "Certifications" },
   { href: "/export", label: "Export Markets" },
   { href: "/locations", label: "Locations We Serve" },
   { href: "/fabrics", label: "Fabric Library" },
@@ -102,17 +99,6 @@ export function Footer() {
           </p>
         </div>
       </Container>
-
-      <div className="relative z-10 border-t border-gold/15">
-        <Container className="flex flex-wrap items-center justify-center gap-x-8 gap-y-3 py-6">
-          {certifications.map((cert) => (
-            <span key={cert.name} className="flex items-center gap-2 text-xs tracking-wide text-cream/55">
-              <ShieldIcon width={14} height={14} className="text-gold/70" />
-              {cert.name}
-            </span>
-          ))}
-        </Container>
-      </div>
 
       <div className="relative z-10 border-t border-gold/15">
         <Container className="flex flex-col items-center justify-between gap-3 py-6 text-xs text-cream/60 sm:flex-row">

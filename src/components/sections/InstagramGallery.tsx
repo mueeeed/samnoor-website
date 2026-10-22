@@ -20,7 +20,7 @@ export function InstagramGallery() {
       <Container>
         <div className="mb-12 flex flex-col items-center gap-4 text-center sm:mb-14">
           <Kicker align="center">Follow Along</Kicker>
-          <h2 className="font-heading text-3xl font-semibold text-heading sm:text-4xl">@samnoor on Instagram</h2>
+          <h2 className="font-heading text-3xl font-semibold text-heading sm:text-4xl">@samnoor.in on Instagram</h2>
           <a
             href={siteConfig.social.instagram}
             target="_blank"
