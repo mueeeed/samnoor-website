@@ -2100,7 +2100,7 @@ export const categories: Category[] = [
         description:
           "Cape-style bridal abayas add a detachable or built-in cape layer over the shoulders — a construction we borrowed from bridal gown design and adapted to abaya proportions. The cape comes off for the reception after being worn through the ceremony, so one garment covers two distinct looks across a single event. Our boutique accounts tell us this is the strongest differentiator against standard embellished abayas, since here the silhouette itself is the statement, not just the embellishment. Produced from 50 units per design.",
         images: [
-          placeholder("subcat-bridal-abaya-cape-style-1", "Model wearing a cape-style bridal abaya with a detachable shoulder layer"),
+          placeholder("subcat-bridal-abaya-cape-style-1", "Model wearing a blush pink bridal abaya with a floral-embroidered sheer cape"),
           placeholder("subcat-bridal-abaya-cape-style-2", "Close-up of cape-style bridal abaya construction and attachment point"),
         ],
         colors: [
@@ -2117,7 +2117,7 @@ export const categories: Category[] = [
         description:
           "Trail and gown-style bridal abayas extend the back hem into a trailing panel, borrowing the silhouette of a bridal gown train while keeping full modest coverage through the body and sleeves. It's our most fabric-intensive bridal style, and given the specialized cutting and finishing the extended hem requires, it's usually ordered as a single custom piece for the bride rather than across a wedding party. It pairs naturally with a veil-style bridal hijab for a complete matched look. Produced from 50 units per design.",
         images: [
-          placeholder("subcat-bridal-abaya-trail-gown-style-1", "Model wearing a gown-style bridal abaya with an extended back trail"),
+          placeholder("subcat-bridal-abaya-trail-gown-style-1", "Model wearing a red gown-style bridal abaya with a long embellished back trail"),
           placeholder("subcat-bridal-abaya-trail-gown-style-2", "Close-up of trail-style bridal abaya hem and fabric fall"),
         ],
         colors: [
@@ -2134,7 +2134,7 @@ export const categories: Category[] = [
         description:
           "White bridal abayas run on a pure white base rather than our warmer ivory or champagne tones, aimed at buyers whose customers want a Western-bridal-adjacent white look for a civil ceremony or reception, rather than the traditional ivory associated with regional bridal wear. Getting a true, consistent white at scale takes tighter dye-lot control than our standard color range does, since white shows any batch-to-batch shade variation far more visibly than darker colors do. Available plain or as a base for any embellishment finish in this category. Produced from 50 units per design.",
         images: [
-          placeholder("subcat-bridal-abaya-white-1", "Model wearing a pure white bridal abaya"),
+          placeholder("subcat-bridal-abaya-white-1", "Model wearing a pure white bridal abaya with a cape overlay and matching hijab"),
           placeholder("subcat-bridal-abaya-white-2", "Close-up of pure white bridal abaya fabric and finish"),
         ],
         colors: [
@@ -2151,7 +2151,7 @@ export const categories: Category[] = [
         description:
           "Champagne bridal abayas run on a warm, muted gold-beige base — consistently the most-requested neutral across our regional bridal accounts, since it photographs warmer than white and softer than gold under most venue lighting. It's also a versatile base for embellishment: pearl, gold-thread, and crystal accents all read cleanly against it without competing for attention the way they can against pure white. We check shade consistency across a production run against a fixed Pantone reference rather than eyeballing it, since small variations show up easily in this tone family. Produced from 50 units per design.",
         images: [
-          placeholder("subcat-bridal-abaya-champagne-1", "Model wearing a champagne-toned bridal abaya"),
+          placeholder("subcat-bridal-abaya-champagne-1", "Model seated in a champagne satin and organza bridal abaya"),
           placeholder("subcat-bridal-abaya-champagne-2", "Close-up of champagne bridal abaya fabric showing its warm tone"),
         ],
         colors: [
@@ -2168,7 +2168,7 @@ export const categories: Category[] = [
         description:
           "Gold embellished bridal abayas pair gold-thread embroidery or gold-tone stonework against a dark base fabric — usually black, navy, or charcoal — for maximum contrast between the embellishment and the garment, rather than the tonal, monochrome look you get from pearl-on-ivory styles. Buyers serving Gulf regional markets request this one most, since gold embellishment on a dark abaya is a well-established bridal and formal-occasion convention there. We check the gold-thread color against a fixed reference to avoid the greenish cast cheaper metallic thread can develop after washing. Produced from 50 units per design.",
         images: [
-          placeholder("subcat-bridal-abaya-gold-embellished-1", "Model wearing a gold-embellished bridal abaya on a dark base"),
+          placeholder("subcat-bridal-abaya-gold-embellished-1", "Model wearing a black bridal abaya with gold floral embroidery on the bodice and sleeves"),
           placeholder("subcat-bridal-abaya-gold-embellished-2", "Close-up of gold-thread embroidery and stonework on bridal abaya fabric"),
         ],
         colors: [
@@ -2401,7 +2401,7 @@ export const categories: Category[] = [
         description:
           "Wholesale hijab bundles put together a multi-color, multi-fabric assortment across our chiffon, jersey, and modal lines, weighted toward whatever shades and fabrics our sales data shows move fastest for new accounts. It takes the guesswork out of picking an opening color range from scratch, and it's still fully adjustable before production runs. Bundles are produced to order, never drawn from existing stock. Configured from 1,000 pieces total per bundle.",
         images: [
-          placeholder("subcat-wholesale-hijab-bundles-1", "Assortment of hijab styles representing a wholesale bundle"),
+          placeholder("subcat-wholesale-hijab-bundles-1", "Bundle of rolled jersey hijabs in assorted colors tied with a ribbon"),
           placeholder("subcat-wholesale-hijab-bundles-2", "Fabric swatch cards showing the bundle's color range"),
         ],
         colors: [
@@ -2420,7 +2420,7 @@ export const categories: Category[] = [
         description:
           "Wholesale abaya bundles put together a coordinated mix across our closed, open, and everyday silhouettes in our core neutral color range, giving distributors a balanced opening assortment instead of over-committing to a single cut before seeing what their market actually prefers. Quantities per style lean toward our historically strongest reorder rates. Configured from 500 pieces total per bundle.",
         images: [
-          placeholder("subcat-wholesale-abaya-bundles-1", "Assortment of abaya silhouettes representing a wholesale bundle"),
+          placeholder("subcat-wholesale-abaya-bundles-1", "Row of open abayas in a neutral color range hung for a wholesale bundle"),
           placeholder("subcat-wholesale-abaya-bundles-2", "Warehouse cartons packed for a wholesale abaya bundle shipment"),
         ],
         colors: [
@@ -2437,7 +2437,7 @@ export const categories: Category[] = [
         description:
           "Wholesale cap bundles package our cotton, jersey, and tube inner cap constructions together across an extended neutral color range, matching how most distributors actually stock this category: as a consumable accessory sold alongside every hijab, khimar, and niqab a customer buys, not a single hero SKU. Given how low the per-unit cost is and how often the category reorders, this is configured from 2,000 pieces total per bundle.",
         images: [
-          placeholder("subcat-wholesale-cap-bundles-1", "Rows of inner caps representing a wholesale bundle assortment"),
+          placeholder("subcat-wholesale-cap-bundles-1", "Assortment of tie-back inner caps in neutral colors laid out for a wholesale bundle"),
           placeholder("subcat-wholesale-cap-bundles-2", "Model wearing an inner cap from a wholesale bundle assortment"),
         ],
         colors: [
@@ -2454,7 +2454,7 @@ export const categories: Category[] = [
         description:
           "Wholesale instant hijab bundles put together a multi-color assortment across our chiffon and jersey pull-on constructions, for retailers targeting gifting and first-time hijab wearers, where a foolproof, no-styling-required product matters more than fabric variety. Bundles are produced to order in our current best-selling colorways. Configured from 1,000 pieces total per bundle.",
         images: [
-          placeholder("subcat-wholesale-instant-hijab-bundles-1", "Assortment of instant hijab styles representing a wholesale bundle"),
+          placeholder("subcat-wholesale-instant-hijab-bundles-1", "Stack of instant hijabs in assorted colors folded for a wholesale bundle"),
           placeholder("subcat-wholesale-instant-hijab-bundles-2", "Warehouse cartons packed for a wholesale instant hijab shipment"),
         ],
         colors: [
@@ -2593,7 +2593,7 @@ export const categories: Category[] = [
         description:
           "This is our base floor-length skirt, cut straight through the hip with enough ease in the fabric to fall softly rather than cling. Most of the other silhouettes in this category start from this pattern, so it's usually the first SKU we suggest to buyers who are new to the skirt range. Waistband finish varies by fabric base: elastic, drawstring, or a fitted zip-fly. Offered from 300 pieces per color.",
         images: [
-          placeholder("subcat-skirts-maxi-1", "Model wearing a floor-length maxi skirt with a hijab"),
+          placeholder("subcat-skirts-maxi-1", "Model wearing a navy floor-length maxi skirt with a cream blouse and hijab"),
           placeholder("subcat-skirts-maxi-2", "Model wearing a straight-cut maxi skirt in an urban setting"),
         ],
         colors: [
@@ -2610,7 +2610,7 @@ export const categories: Category[] = [
         description:
           "The pleats here run the full length from waist to hem and are heat-set, not just pressed in, so they hold their shape through machine washing instead of needing an iron after every wear. That gives more structured, defined movement than a flat maxi cut. It's a natural step up from our plain maxi skirt for buyers who want extra visual interest without moving to a higher price point. Offered from 300 pieces per color.",
         images: [
-          placeholder("subcat-skirts-pleated-1", "Model wearing a pleated black maxi skirt with a printed hijab"),
+          placeholder("subcat-skirts-pleated-1", "Model wearing a pale yellow knife-pleated maxi skirt with a cream blouse"),
           placeholder("subcat-skirts-pleated-2", "Model wearing a pleated skirt with a wide sun hat over a hijab"),
         ],
         colors: [
@@ -2626,7 +2626,7 @@ export const categories: Category[] = [
         description:
           "A-line skirts flare gently from the waist, landing somewhere between our fitted straight-cut and our fuller flared styles — a classic, flattering shape that works across most markets. Because the flare is built into the pattern rather than gathered at the waistband, it hangs evenly instead of bunching. When a buyer isn't sure which silhouette will sell best, this is usually what we suggest first. Offered from 300 pieces per color.",
         images: [
-          placeholder("subcat-skirts-a-line-1", "Model wearing an A-line skirt with a white top and hijab"),
+          placeholder("subcat-skirts-a-line-1", "Model wearing a burgundy A-line skirt with a cream knit top"),
           placeholder("subcat-skirts-a-line-2", "Model wearing a pleated A-line skirt with a sun hat"),
         ],
         colors: [
@@ -2642,7 +2642,7 @@ export const categories: Category[] = [
         description:
           "Flared skirts take the circular cut fuller than our A-line style, so there's noticeably more swing and movement when walking. That extra fabric per unit does push the cost up slightly. Even so, it's the cut our buyers in warm-climate markets reorder the most — a breezier fit tends to outsell a fitted one there. Offered from 300 pieces per color.",
         images: [
-          placeholder("subcat-skirts-flared-1", "Model wearing a straight-cut skirt with a belt and hijab"),
+          placeholder("subcat-skirts-flared-1", "Model wearing a white full-circle flared skirt with a cream blouse and hijab"),
           placeholder("subcat-skirts-flared-2", "Model wearing a satin pleated skirt with visible movement"),
         ],
         colors: [
@@ -2658,7 +2658,7 @@ export const categories: Category[] = [
         description:
           "Straight-cut skirts run a fitted column from waist to hem with no flare, and we build a rear vent or kick pleat into the hem so the fitted cut still allows a normal walking stride. It's our most tailored option, positioned above the casual maxi and A-line cuts and closer to office and formal-adjacent wear. Offered from 250 pieces per color.",
         images: [
-          placeholder("subcat-skirts-straight-cut-1", "Model wearing a fitted straight-cut skirt with a belt and hijab"),
+          placeholder("subcat-skirts-straight-cut-1", "Model wearing a black straight-cut midi skirt with a back slit"),
           placeholder("subcat-skirts-straight-cut-2", "Model wearing a straight maxi skirt with a hijab on steps"),
         ],
         colors: [
@@ -2674,7 +2674,7 @@ export const categories: Category[] = [
         description:
           "This takes our maxi silhouette and builds it in a structured denim base instead of our usual fluid wovens and knits, so it holds up better for daily, casual wear. The heavier fabric also keeps a straighter line at the hem than our lighter maxi skirts do. Buyers building youth or casual-focused ranges tend to reorder this one the most. Offered from 300 pieces per color, in standard indigo and black washes.",
         images: [
-          placeholder("subcat-skirts-denim-maxi-1", "Model wearing a pleated skirt styled casually with a sun hat"),
+          placeholder("subcat-skirts-denim-maxi-1", "Model wearing a mid-wash denim maxi skirt with a navy top and hijab"),
           placeholder("subcat-skirts-denim-maxi-2", "Model wearing a black pleated maxi skirt with a printed hijab"),
         ],
         colors: [
@@ -2690,7 +2690,7 @@ export const categories: Category[] = [
         description:
           "Our satin skirts use the same high-sheen weave as the rest of the satin line, giving a fluid, weighted drape that suits occasion and evening styling more than everyday casual wear. It pairs naturally with our satin and silk tunics and hijabs if you want a coordinated occasion set. One practical note: the glossy surface shows creasing more than matte fabrics do, so for retail accounts that request it, we ship these on a hanger instead of folded. Offered from 250 pieces per color.",
         images: [
-          placeholder("subcat-skirts-satin-1", "Model wearing a satin-look pleated maxi skirt"),
+          placeholder("subcat-skirts-satin-1", "Model wearing a champagne satin skirt with a fluted hem"),
           placeholder("subcat-skirts-satin-2", "Model wearing an A-line skirt in a glossy satin fabric"),
         ],
         colors: [
@@ -2706,7 +2706,7 @@ export const categories: Category[] = [
         description:
           "These use a stretch knit base instead of a woven fabric, which makes for a softer, easier-care skirt than our structured cotton and satin styles. The stretch also means a single size range covers a wider variety of body shapes. If you're building a coordinated casual line, this is the fabric to pair with our jersey hijabs and tunics. Offered from 300 pieces per color.",
         images: [
-          placeholder("subcat-skirts-jersey-1", "Model wearing a soft flared skirt styled casually"),
+          placeholder("subcat-skirts-jersey-1", "Model wearing a sky blue jersey skirt with a twisted waist"),
           placeholder("subcat-skirts-jersey-2", "Model wearing a pleated skirt with a relaxed, casual fit"),
         ],
         colors: [
@@ -2722,7 +2722,7 @@ export const categories: Category[] = [
         description:
           "Cotton skirts hold a crisper structure than our jersey line while staying cooler than synthetic blends in hot, humid climates — a breathable woven base does both jobs well. Most buyers pick cotton specifically for our A-line and straight-cut silhouettes, since it presses and holds a crease far better than a stretch knit does. Offered from 300 pieces per color.",
         images: [
-          placeholder("subcat-skirts-cotton-1", "Model wearing a floral maxi skirt with a hijab outdoors"),
+          placeholder("subcat-skirts-cotton-1", "Model wearing a burgundy pleated cotton skirt with pockets"),
           placeholder("subcat-skirts-cotton-2", "Model wearing a satin-finish skirt in a natural setting"),
         ],
         colors: [
@@ -2738,7 +2738,7 @@ export const categories: Category[] = [
         description:
           "Tiered skirts stack several gathered fabric tiers from waist to hem for a romantic, boho-adjacent silhouette with more visible volume than our other flared cuts. Each tier has to be cut and gathered separately before assembly, which is why this style costs more to construct than a single-panel maxi skirt. It works well as a seasonal or occasion-leaning addition alongside a mostly solid-color skirt range. Offered from 250 pieces per color.",
         images: [
-          placeholder("subcat-skirts-tiered-1", "Model wearing a pleated skirt styled with a wide sun hat"),
+          placeholder("subcat-skirts-tiered-1", "Model wearing a red gingham tiered maxi skirt"),
           placeholder("subcat-skirts-tiered-2", "Model wearing a maxi skirt with visible tiered movement"),
         ],
         colors: [
@@ -3466,6 +3466,158 @@ export const categories: Category[] = [
           { name: "Navy", hex: "#202a44" },
           { name: "Black", hex: "#1a1a1a" },
           { name: "Charcoal", hex: "#3d3d3d" },
+        ],
+      },
+    ],
+  },
+  {
+    slug: "formal-wear",
+    name: "Modest Formal Wear",
+    shortName: "Formal Wear",
+    description:
+      "Tailored blouses, structured skirts, blazer-style abayas, and coordinated sets built for office, corporate, and formal daytime dressing with full modest coverage.",
+    content: `
+      <p>Modest formal wear is our workwear and professional-dress line &mdash; the pieces a customer reaches for on a Monday morning, at a client meeting, or at a formal daytime event rather than an evening celebration. Where our occasion wear range leans into gowns and embellishment, this category is about clean tailoring: sharper shoulders, structured waistbands, crisp collars and cuffs, and fabrics like crepe, suiting-weight nida, and heavier satin that hold a pressed line through a full working day.</p>
+      <p>Every style is cut for full coverage as standard &mdash; long sleeves, high necklines, and hemlines at or below the calf &mdash; so buyers can merchandise it alongside mainstream office wear without customers needing to layer or alter. Most buyers order this range as coordinated separates so blouses, skirts, and outer layers can be mixed across a single colour story. Production starts from 100 pieces per design, and private label options include custom buttons, lining, and woven neck labels.</p>
+    `,
+    heroImage: placeholder("cat-formal-wear-hero", "Model in a cream pintucked formal blouse and hijab beside a rail of tailored blouses"),
+    cardImage: placeholder("cat-formal-wear-card", "Rail of tailored modest blouses in a neutral color range with a model in a cream blouse"),
+    keywords: [
+      "modest formal wear manufacturer",
+      "modest office wear wholesale",
+      "modest workwear supplier India",
+      "hijab-friendly formal blouse manufacturer",
+    ],
+    subcategories: [
+      {
+        slug: "formal-blouses",
+        name: "Formal Blouses",
+        shortDescription: "Long-sleeved, high-neck tailored blouses with button plackets and structured cuffs.",
+        description:
+          "Our formal blouses are cut longer than a standard shirt, finishing at or below the hip, so they sit cleanly over a skirt or trousers without riding up. Each style has a high round or band collar, a full button placket, and gathered or buttoned cuffs that stay in place, with pintuck, pleat, or lace-panel detailing on the front rather than heavier embellishment. Fabrics are linen-look cotton blends, crepe, and lightweight satin. Produced from 150 pieces per design.",
+        images: [
+          placeholder("subcat-formal-wear-blouses-1", "Model wearing a cream long-sleeved blouse with pintucked lace panels and a hijab"),
+          placeholder("subcat-formal-wear-blouses-2", "Close-up of linen-look blouse fabric texture"),
+        ],
+        colors: [
+          { name: "Ivory", hex: "#f2ead8" },
+          { name: "Dusty Rose", hex: "#c98f8f" },
+          { name: "Sage", hex: "#9caf88" },
+          { name: "Navy", hex: "#202a44" },
+        ],
+      },
+      {
+        slug: "tailored-skirts",
+        name: "Tailored Straight-Cut Skirts",
+        shortDescription: "Structured, fully lined straight and pencil-cut skirts for office wear.",
+        description:
+          "Tailored straight-cut skirts are built on a fitted waistband with a lined, structured body, finishing at mid-calf or longer with a modest back or side slit for ease of movement. We cut them in a medium-weight crepe or suiting fabric that holds a clean line and doesn't cling, which matters more on a fitted silhouette than on a fuller one. Lengths and slit placement can be adjusted per buyer. Produced from 150 pieces per design.",
+        images: [
+          placeholder("subcat-formal-wear-tailored-skirts-1", "Model wearing a black straight-cut midi skirt with a cream blouse"),
+          placeholder("subcat-formal-wear-tailored-skirts-2", "Close-up of crepe suiting fabric texture"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Charcoal", hex: "#3d3d3d" },
+          { name: "Navy", hex: "#202a44" },
+          { name: "Camel", hex: "#b08a5a" },
+        ],
+      },
+      {
+        slug: "skirt-sets",
+        name: "Blouse & Skirt Sets",
+        shortDescription: "Coordinated blouse and skirt pairings developed and sold as one formal look.",
+        description:
+          "Blouse and skirt sets pair one of our formal blouses with an A-line or pleated skirt in a coordinated or tonal colourway, developed together so the proportions and fabric weights work as a single outfit. Buyers can take them as a fixed set SKU or split them into separates on the shop floor. It's the easiest way into this category for retailers who want a complete look without building one from separate lines. Produced from 100 sets per design.",
+        images: [
+          placeholder("subcat-formal-wear-skirt-sets-1", "Model wearing a burgundy A-line skirt with a cream knit top and handbag"),
+          placeholder("subcat-formal-wear-skirt-sets-2", "Model wearing a pale yellow pleated skirt with a cream blouse"),
+        ],
+        colors: [
+          { name: "Burgundy", hex: "#6d2130" },
+          { name: "Butter", hex: "#f1dd9b" },
+          { name: "Ivory", hex: "#f2ead8" },
+        ],
+      },
+      {
+        slug: "blazer-abayas",
+        name: "Blazer-Style Abayas",
+        shortDescription: "Open-front abayas with tailored lapels and structured shoulders, worn like a long coat.",
+        description:
+          "Blazer-style abayas borrow their construction from tailored outerwear &mdash; notched or shawl lapels, lightly structured shoulders, and a straight, open-front body &mdash; so they read as professional dress rather than a traditional abaya silhouette. They're designed to layer over a matching inner dress or a blouse and skirt, and are our most-requested style from buyers serving corporate customers. Produced from 100 pieces per design.",
+        images: [
+          placeholder("subcat-formal-wear-blazer-abayas-1", "Model wearing a black coat-style blazer abaya over a beige inner dress"),
+          placeholder("subcat-formal-wear-blazer-abayas-2", "Model wearing a black front-open abaya over a beige inner layer"),
+        ],
+        colors: [
+          { name: "Navy", hex: "#202a44" },
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Charcoal", hex: "#3d3d3d" },
+          { name: "Camel", hex: "#b08a5a" },
+        ],
+      },
+      {
+        slug: "two-piece",
+        name: "Formal Two-Piece Sets",
+        shortDescription: "Matching tunic-and-skirt sets in a single suiting fabric for a polished, coordinated look.",
+        description:
+          "Formal two-piece sets combine a long, straight tunic top with a matching full-length skirt, cut from the same bolt so colour and texture match exactly. They give the coverage of an abaya with the flexibility of separates, and work well for customers who want something more structured than a single-layer dress for office and formal daytime wear. Produced from 100 sets per design.",
+        images: [
+          placeholder("subcat-formal-wear-two-piece-1", "Model wearing a chocolate brown two-piece tunic and skirt set with hijab"),
+          placeholder("subcat-formal-wear-two-piece-2", "Model wearing a brown layered three-piece formal set with hijab"),
+        ],
+        colors: [
+          { name: "Chocolate", hex: "#4a2c22" },
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Taupe", hex: "#8b7d6b" },
+        ],
+      },
+      {
+        slug: "closed-abayas",
+        name: "Tailored Closed Abayas",
+        shortDescription: "Minimal, closed-front abayas with a clean tailored line for everyday professional wear.",
+        description:
+          "Our tailored closed abayas strip back detailing to a clean, closed-front silhouette with set-in sleeves and a slightly shaped waist, so they look neat and professional on their own without a layer underneath. We cut them in premium nida and crepe, which resist creasing through a full working day. This is the volume style in the range, and the one most buyers re-order season after season. Produced from 150 pieces per design.",
+        images: [
+          placeholder("subcat-formal-wear-closed-abayas-1", "Model wearing a black closed-front tailored abaya with hijab"),
+          placeholder("subcat-formal-wear-closed-abayas-2", "Close-up of matte nida fabric texture"),
+        ],
+        colors: [
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Navy", hex: "#202a44" },
+          { name: "Charcoal", hex: "#3d3d3d" },
+        ],
+      },
+      {
+        slug: "satin-separates",
+        name: "Satin Formal Separates",
+        shortDescription: "Heavyweight satin skirts and blouses for formal daytime events and evening functions.",
+        description:
+          "Satin formal separates sit at the dressier end of this category &mdash; a fluted or bias-cut satin skirt paired with a crepe or satin blouse for award ceremonies, formal lunches, and corporate events. We use a heavier, lined satin here so the fabric drapes rather than clings and hides seam lines cleanly. They bridge the gap between office wear and our Modest Occasion Wear gowns. Produced from 100 pieces per design.",
+        images: [
+          placeholder("subcat-formal-wear-satin-1", "Model wearing a champagne satin skirt with a cream blouse"),
+          placeholder("subcat-formal-wear-satin-2", "Close-up of satin fabric sheen"),
+        ],
+        colors: [
+          { name: "Champagne", hex: "#e8d9b5" },
+          { name: "Emerald", hex: "#175f4c" },
+          { name: "Black", hex: "#1a1a1a" },
+        ],
+      },
+      {
+        slug: "embellished",
+        name: "Embellished Formal Abayas",
+        shortDescription: "Open abayas with restrained lace or embroidery panels for formal events.",
+        description:
+          "Embellished formal abayas add lace, appliqué, or tonal embroidery to the sleeves and front panels while keeping the silhouette clean and the colour palette muted, so they stay appropriate for formal daytime and corporate occasions rather than reading as party or bridal wear. The embellishment is placed on the outer layer only, with a plain inner dress underneath. Produced from 75 pieces per design.",
+        images: [
+          placeholder("subcat-formal-wear-embellished-1", "Model wearing a taupe open abaya with lace embroidery over a matching dress"),
+          placeholder("subcat-formal-wear-embellished-2", "Close-up of tonal embroidery detail on abaya fabric"),
+        ],
+        colors: [
+          { name: "Taupe", hex: "#8b7d6b" },
+          { name: "Black", hex: "#1a1a1a" },
+          { name: "Dusty Rose", hex: "#c98f8f" },
         ],
       },
     ],

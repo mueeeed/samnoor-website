@@ -461,6 +461,36 @@ const THEME_PHOTOS: Record<string, string> = {
   "new-sub-bridal-abaya-satin": "/products/bridal-abayas/items/satin-1.jpg",
   "new-sub-bridal-abaya-stone-work": "/products/bridal-abayas/items/stone-work-1.jpg",
   "new-sub-bridal-abaya-crystal": "/products/bridal-abayas/items/crystal-1.jpg",
+  "new-sub-bridal-abaya-cape-style": "/products/bridal-abayas/items/cape-style-1.jpg",
+  "new-sub-bridal-abaya-trail-gown-style": "/products/bridal-abayas/items/trail-gown-style-1.jpg",
+  "new-sub-bridal-abaya-white": "/products/bridal-abayas/items/white-1.jpg",
+  "new-sub-bridal-abaya-champagne": "/products/bridal-abayas/items/champagne-1.jpg",
+  "new-sub-bridal-abaya-gold-embellished": "/products/bridal-abayas/items/gold-embellished-1.jpg",
+
+  // Modest Skirts cover photos, supplied directly — one per subcategory,
+  // replacing the shared stock skirt pool as each subcategory's lead image.
+  "new-sub-skirts-maxi": "/products/skirts/type/maxi.jpg",
+  "new-sub-skirts-pleated": "/products/skirts/type/pleated.jpg",
+  "new-sub-skirts-a-line": "/products/skirts/type/a-line.jpg",
+  "new-sub-skirts-flared": "/products/skirts/type/flared.jpg",
+  "new-sub-skirts-straight-cut": "/products/skirts/type/straight-cut.jpg",
+  "new-sub-skirts-denim-maxi": "/products/skirts/type/denim-maxi.jpg",
+  "new-sub-skirts-satin": "/products/skirts/type/satin.jpg",
+  "new-sub-skirts-jersey": "/products/skirts/type/jersey.jpg",
+  "new-sub-skirts-cotton": "/products/skirts/type/cotton.jpg",
+  "new-sub-skirts-tiered": "/products/skirts/type/tiered.jpg",
+
+  // Wholesale bundle cover photos, supplied directly.
+  "new-sub-wholesale-hijab-bundles": "/products/wholesale-collections/type/hijab-bundles.jpg",
+  "new-sub-wholesale-abaya-bundles": "/products/wholesale-collections/type/abaya-bundles.jpg",
+  "new-sub-wholesale-cap-bundles": "/products/wholesale-collections/type/cap-bundles.jpg",
+  "new-sub-wholesale-instant-hijab-bundles": "/products/wholesale-collections/type/instant-hijab-bundles.jpg",
+
+  // Modest Formal Wear — hero is the formal-blouse studio shot originally
+  // commissioned for the retired Tops & Tunics category; the blouse
+  // subcategory uses a portrait crop of the same model.
+  "new-cat-formal-wear-hero": "/categories/modest-formal-wear-hero.jpg",
+  "new-sub-formal-wear-formal-blouses": "/products/formal-wear/type/formal-blouses.jpg",
 
   // Genuine mannequin/dress-form product photography — no live model of
   // any age. Used everywhere a kids-related subcategory would otherwise
@@ -884,15 +914,15 @@ const SEED_THEME_MAP: Record<string, keyof typeof THEME_PHOTOS> = {
   "subcat-bridal-abaya-satin-2": "fabric-satin-sheen",
   "subcat-bridal-abaya-silk-1": "new-sub-bridal-abaya-silk",
   "subcat-bridal-abaya-silk-2": "fabric-silk-sheen",
-  "subcat-bridal-abaya-cape-style-1": "photo-abayas-29188546",
+  "subcat-bridal-abaya-cape-style-1": "new-sub-bridal-abaya-cape-style",
   "subcat-bridal-abaya-cape-style-2": "embellishment-pearl-bead-detail",
-  "subcat-bridal-abaya-trail-gown-style-1": "photo-abayas-32279501",
+  "subcat-bridal-abaya-trail-gown-style-1": "new-sub-bridal-abaya-trail-gown-style",
   "subcat-bridal-abaya-trail-gown-style-2": "embellishment-pearl-bead-detail",
-  "subcat-bridal-abaya-white-1": "photo-abayas-29188546",
+  "subcat-bridal-abaya-white-1": "new-sub-bridal-abaya-white",
   "subcat-bridal-abaya-white-2": "fabric-satin-sheen",
-  "subcat-bridal-abaya-champagne-1": "photo-abayas-34957209",
+  "subcat-bridal-abaya-champagne-1": "new-sub-bridal-abaya-champagne",
   "subcat-bridal-abaya-champagne-2": "fabric-silk-sheen",
-  "subcat-bridal-abaya-gold-embellished-1": "photo-abayas-5616021",
+  "subcat-bridal-abaya-gold-embellished-1": "new-sub-bridal-abaya-gold-embellished",
   "subcat-bridal-abaya-gold-embellished-2": "embellishment-lace-bead-detail",
 
   // Jilbab subcategories — drawn from the existing 14-photo jilbabs pool,
@@ -1025,13 +1055,13 @@ const SEED_THEME_MAP: Record<string, keyof typeof THEME_PHOTOS> = {
   // shipping theme photos for the purely logistical concepts.
   "cat-wholesale-collections-hero": "new-cat-wholesale-collections-hero",
   "cat-wholesale-collections-card": "new-cat-wholesale-collections-hero",
-  "subcat-wholesale-hijab-bundles-1": "photo-hijabs-35897648",
+  "subcat-wholesale-hijab-bundles-1": "new-sub-wholesale-hijab-bundles",
   "subcat-wholesale-hijab-bundles-2": "fabric-premium-blends-stack",
-  "subcat-wholesale-abaya-bundles-1": "photo-abayas-32279501",
+  "subcat-wholesale-abaya-bundles-1": "new-sub-wholesale-abaya-bundles",
   "subcat-wholesale-abaya-bundles-2": "location-hero-4487363",
-  "subcat-wholesale-cap-bundles-1": "innercap-rows",
+  "subcat-wholesale-cap-bundles-1": "new-sub-wholesale-cap-bundles",
   "subcat-wholesale-cap-bundles-2": "innercap-model",
-  "subcat-wholesale-instant-hijab-bundles-1": "photo-instant-hijabs-5125189",
+  "subcat-wholesale-instant-hijab-bundles-1": "new-sub-wholesale-instant-hijab-bundles",
   "subcat-wholesale-instant-hijab-bundles-2": "location-hero-4481327",
   "subcat-wholesale-bridal-1": "photo-luxury-hijabs-8007354",
   "subcat-wholesale-bridal-2": "photo-abayas-31049717",
@@ -1046,31 +1076,29 @@ const SEED_THEME_MAP: Record<string, keyof typeof THEME_PHOTOS> = {
   "subcat-wholesale-clearance-1": "location-hero-93106",
   "subcat-wholesale-clearance-2": "location-hero-8555366",
 
-  // Modest Skirts — a new category with 7 freshly sourced, visually
-  // verified photos (a genuine denim-maxi-skirt-plus-hijab photo could not
-  // be found after several searches, so Denim Maxi Skirts reuses this same
-  // general skirt pool rather than an unrelated or misleading photo).
+  // Modest Skirts — each subcategory leads with its own supplied cover
+  // photo; the second image still comes from the 7-photo stock skirt pool.
   "cat-skirts-hero": "new-cat-skirts-hero",
   "cat-skirts-card": "new-cat-skirts-hero",
-  "subcat-skirts-maxi-1": "photo-skirts-18239440",
+  "subcat-skirts-maxi-1": "new-sub-skirts-maxi",
   "subcat-skirts-maxi-2": "photo-skirts-30334295",
-  "subcat-skirts-pleated-1": "photo-skirts-17439099",
+  "subcat-skirts-pleated-1": "new-sub-skirts-pleated",
   "subcat-skirts-pleated-2": "photo-skirts-7401087",
-  "subcat-skirts-a-line-1": "photo-skirts-8350626",
+  "subcat-skirts-a-line-1": "new-sub-skirts-a-line",
   "subcat-skirts-a-line-2": "photo-skirts-39221177",
-  "subcat-skirts-flared-1": "photo-skirts-30334295",
+  "subcat-skirts-flared-1": "new-sub-skirts-flared",
   "subcat-skirts-flared-2": "photo-skirts-4074600",
-  "subcat-skirts-straight-cut-1": "photo-skirts-7401087",
+  "subcat-skirts-straight-cut-1": "new-sub-skirts-straight-cut",
   "subcat-skirts-straight-cut-2": "photo-skirts-18239440",
-  "subcat-skirts-denim-maxi-1": "photo-skirts-39221177",
+  "subcat-skirts-denim-maxi-1": "new-sub-skirts-denim-maxi",
   "subcat-skirts-denim-maxi-2": "photo-skirts-17439099",
-  "subcat-skirts-satin-1": "photo-skirts-4074600",
+  "subcat-skirts-satin-1": "new-sub-skirts-satin",
   "subcat-skirts-satin-2": "photo-skirts-8350626",
-  "subcat-skirts-jersey-1": "photo-skirts-30334295",
+  "subcat-skirts-jersey-1": "new-sub-skirts-jersey",
   "subcat-skirts-jersey-2": "photo-skirts-39221177",
-  "subcat-skirts-cotton-1": "photo-skirts-7401087",
+  "subcat-skirts-cotton-1": "new-sub-skirts-cotton",
   "subcat-skirts-cotton-2": "photo-skirts-4074600",
-  "subcat-skirts-tiered-1": "photo-skirts-39221177",
+  "subcat-skirts-tiered-1": "new-sub-skirts-tiered",
   "subcat-skirts-tiered-2": "photo-skirts-18239440",
 
   // Kaftans — a new category with 9 freshly sourced, visually verified
@@ -1181,6 +1209,28 @@ const SEED_THEME_MAP: Record<string, keyof typeof THEME_PHOTOS> = {
   "subcat-occasion-festive-2": "photo-occasion-34719231",
   "subcat-occasion-formal-1": "photo-occasion-16797844",
   "subcat-occasion-formal-2": "photo-occasion-35076078",
+
+  // Modest Formal Wear — no dedicated photo set yet, so subcategories draw
+  // on the closest-matching tailored skirt, blazer and closed abaya shots
+  // from the Skirts and Abayas categories, paired with fabric close-ups.
+  "cat-formal-wear-hero": "new-cat-formal-wear-hero",
+  "cat-formal-wear-card": "new-cat-formal-wear-hero",
+  "subcat-formal-wear-blouses-1": "new-sub-formal-wear-formal-blouses",
+  "subcat-formal-wear-blouses-2": "fabric-linen-texture",
+  "subcat-formal-wear-tailored-skirts-1": "new-sub-skirts-straight-cut",
+  "subcat-formal-wear-tailored-skirts-2": "fabric-crepe-texture",
+  "subcat-formal-wear-skirt-sets-1": "new-sub-skirts-a-line",
+  "subcat-formal-wear-skirt-sets-2": "new-sub-skirts-pleated",
+  "subcat-formal-wear-blazer-abayas-1": "new-sub-abayas-coat-blazer",
+  "subcat-formal-wear-blazer-abayas-2": "new-sub-abayas-front-open",
+  "subcat-formal-wear-two-piece-1": "new-sub-abayas-two-piece",
+  "subcat-formal-wear-two-piece-2": "new-sub-abayas-three-piece",
+  "subcat-formal-wear-closed-abayas-1": "new-sub-abayas-closed",
+  "subcat-formal-wear-closed-abayas-2": "fabric-nida-matte",
+  "subcat-formal-wear-satin-1": "new-sub-skirts-satin",
+  "subcat-formal-wear-satin-2": "fabric-satin-sheen",
+  "subcat-formal-wear-embellished-1": "new-collection-abayas-occasion-embellished",
+  "subcat-formal-wear-embellished-2": "embroidery-closeup",
 
   // Kids Modest Wear — mannequin/dress-form shots were the original policy
   // here (no live models), later overridden by the site owner to allow
